@@ -1,0 +1,3208 @@
+begrüßen	begrüßen	400366	1	VA0	VA1			
+begrüßen	begrüßen	400366	2	VA0	VA1			
+begrüßen	begrüßen	400366	3	VA0	VA1	VA2		
+verschlechtern	verschlechtern	401078	1	VA0	VA1			
+verschlechtern	verschlechtern	401078	2	VA0	VA1	VA2_OPT		
+bestrafen	bestrafen	400400	1	VA0	VA1	VA2_OPT	VA3_OPT	
+bestrafen	bestrafen	400400	2	VA0	VA1	VA2_OPT		
+bieten	bieten	400414	1	VA0	VA1	VA2_OPT		
+bieten	bieten für	400414	2	VA0	VA1_OPT	VA2	VA3	
+bieten	bieten	400414	3	VA0	VA1			
+bieten	bieten	400414	4	VA0	VA1	VA2		
+bieten	bieten	400414	5	VA0	VA1	VA2_OPT		
+bieten	bieten	400414	6	VA0	VA1	VA2_OPT		
+bieten	bieten	400414	7	VA0	VA1			
+bekommen I	bekommen  I	400372	1	VA0	VA1	VA2		
+buchstabieren	buchstabieren	400428	1	VA0	VA1_OPT			
+buchstabieren	buchstabieren	400428	2	VA0	VA1_OPT			
+buchstabieren	buchstabieren  <als>	400428	3	VA0	VA1	VA2_XOR VA3		
+versprechen, es	es verspricht	401087	1	VA0				
+bestimmen	bestimmen	400399	1	VA0	VA1			
+bestimmen	bestimmen	400399	2	VA0	VA1			
+bestimmen	bestimmen	400399	3	VA0	VA1			
+bestimmen	bestimmen	400399	4	VA0	VA1			
+bestimmen	bestimmen über	400399	5	VA0	VA1_XOR VA2			
+bestimmen	bestimmen für	400399	6	VA0	VA1	VA2		
+bestimmen	bestimmen für	400399	7	VA0	VA1	VA2		
+bestimmen	bestimmen zu	400399	8	VA0	VA1	VA2		
+bestimmen	bestimmen  <zu>/<als>	400399	9	VA0	VA1	VA2_XOR VA3		
+bestimmen	bestimmen	400399	10	VA0	VA1_OPT			
+versuchen	versuchen	401093	1	VA0	VA1			
+versuchen	versuchen	401093	2	VA0	VA1			
+versuchen	versuchen <von>	401093	3	VA0	VA1_XOR VA2			
+fühlen	fühlen	400616	1	VA0	VA1			
+fühlen	fühlen	400616	2	VA0	VA1	VA2_OPT		
+fühlen	fühlen	400616	3	VA0	VA1			
+fühlen	fühlen mit	400616	4	VA0	VA1			
+fühlen	fühlen nach	400616	5	VA0	VA1			
+kürzen	kürzen	401508	1	VA0	VA1	VA2_OPT		
+kürzen	kürzen	401508	2	VA0	VA1	VA2_OPT		
+bilden	bilden	402001	1	VA0	VA1			
+bilden	bilden	402001	2	VA0	VA1_OPT			
+bilden	bilden	402001	3	VA0	VA1			
+bilden	bilden	402001	4	VA0	VA1			
+bilden	bilden	402001	5	VA0	VA1			
+bilden	bilden	402001	6	VA0	VA1	VA2_OPT		
+bilden	bilden mit	402001	7	VA0	VA1	VA2		
+wünschen	wünschen	401246	1	VA0	VA1	VA2		
+wünschen	wünschen	401246	2	VA0	VA1			
+wünschen	wünschen	401246	3	VA0	VA1			
+prüfen	prüfen	400819	1	VA0	VA1			
+prüfen	prüfen	400819	2	VA0	VA1			
+prüfen	prüfen auf (hin)	400819	3	VA0	VA1	VA2		
+prüfen	prüfen	400819	4	VA0	VA1_OPT	VA2_OPT		
+prüfen	prüfen	400819	5	VA0	VA1			
+rauchen	rauchen	400825	1	VA0	VA1_OPT			
+rauchen	rauchen	400825	2	VA0				
+rauchen	rauchen	400825	3	VA0				
+rauchen	rauchen	400825	4	VA0	VA1			
+regieren	regieren	400831	1	VA0	VA1_OPT_XOR VA2_OPT	VA3_OPT		
+regieren	regieren	400831	2	VA0	VA1			
+regieren	regieren	400831	3	VA0	VA1			
+regieren	regieren	400831	4	VA0	VA1			
+unterscheiden	unterscheiden	400992	1	VA0	VA1			
+unterscheiden	unterscheiden <zwischen>	400992	2	VA0	VA1_XOR VA2			
+unterscheiden	unterscheiden von	400992	3	VA0	VA1	VA2	VA3_OPT	
+unterscheiden	unterscheiden von	400992	4	VA0	VA1	VA2		
+unterscheiden	unterscheiden in	400992	5	VA0	VA1_OPT	VA2		
+unterscheiden	unterscheiden nach	400992	6	VA0	VA1_OPT	VA2		
+umtauschen	umtauschen	400986	1	VA0	VA1	VA2_OPT		
+umtauschen	umtauschen	400986	2	VA0	VA1	VA2_OPT		
+umtauschen	umtauschen	400986	3	VA0	VA1	VA2_OPT		
+überqueren	überqueren	400979	1	VA0	VA1			
+überqueren	überqueren	400979	2	VA0	VA1			
+messen	messen	400789	1	VA0	VA1	VA2_OPT		
+messen	messen an	400789	2	VA0	VA1	VA2		
+messen	messen	400789	3	VA0	VA1	VA2		
+messen	messen	400789	4	VA0	VA1_XOR VA2			
+messen	messen	400789	5	VA0	VA1			
+trainieren	trainieren	400951	1	VA0	VA1_OPT			
+trainieren	trainieren	400951	2	VA0	VA1			
+trainieren	trainieren auf	400951	3	VA0	VA1	VA2		
+trainieren	trainieren	400951	4	VA0	VA1	VA2_OPT		
+trainieren	trainieren	400951	5	VA0	VA1	VA2_OPT		
+trainieren	trainieren	400951	6	VA0	VA1	VA2_OPT	VA3_OPT	
+teilen	teilen	400945	1	VA0	VA1	VA2_OPT	VA3_OPT	
+teilen	teilen durch	400945	2	VA0	VA1	VA2		
+teilen	teilen unter/zwischen	400945	3	VA0	VA1	VA2		
+teilen	teilen mit	400945	4	VA0	VA1_OPT	VA2		
+teilen	teilen	400945	5	VA0	VA1	VA2_OPT		
+teilen	teilen	400945	6	VA0	VA1	VA2_OPT		
+anfangen, es	es fängt an	400212	1	VA0_OPT	VA1			
+fahren I	fahren	400574	1	VA0	VA1_OPT			
+fahren I	fahren	400574	2	VA0				
+fahren I	fahren	400574	3	VA0	VA1			
+fahren I	fahren	400574	4	VA0	VA1_XOR VA2			
+fahren I	fahren	400574	5	VA0	VA1			
+fahren I	fahren	400574	6	VA0	VA1			
+fahren I	fahren	400574	7	VA0	VA1_OPT			
+fahren I	fahren	400574	8	VA0	VA1	VA2_OPT		
+fahren I	fahren	400574	9	VA0	VA1_OPT	VA2		
+heizen	heizen	400560	1	VA0	VA1_OPT	VA2_OPT	VA3_OPT	
+heizen	heizen	400560	2	VA0	VA1			
+heizen	heizen	400560	3	VA0	VA1	VA2_OPT		
+heizen	heizen	400560	4	VA0	VA1_OPT	VA2_OPT		
+abgeben	abgeben	400206	1	VA0	VA1	VA2_OPT		
+abgeben	abgeben	400206	2	VA0	VA1	VA2_OPT		
+abgeben	abgeben	400206	3	VA0	VA1			
+abgeben	abgeben	400206	4	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+abgeben	abgeben	400206	5	VA0	VA1	VA2_OPT		
+abgeben	abgeben	400206	6	VA0	VA1	VA2_OPT		
+abgeben	abgeben	400206	7	VA0	VA1	VA2_OPT		
+abgeben	abgeben	400206	8	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+abgeben	abgeben	400206	9	VA0	VA1	VA2_OPT	VA3_OPT	
+abgeben	abgeben	400206	10	VA0	VA1			
+handeln	handeln mit	400548	1	VA0	VA1			
+handeln	handeln	400548	2	VA0	VA1_OPT			
+handeln	handeln	400548	3	VA0	VA1	VA2_OPT	VA3_OPT	
+handeln	handeln als	400548	4	VA0	VA1	VA2		
+handeln	handeln mit	400548	5	VA0	VA1			
+handeln	handeln über/von	400548	6	VA0	VA1			
+handeln	handeln von	400548	7	VA0	VA1			
+handeln	handeln	400548	8	VA0	VA1_OPT	VA2_OPT		
+handeln	handeln an	400548	9	VA0	VA1	VA2		
+handeln	handeln als	400548	10	VA0	VA1			
+vorziehen	vorziehen	401124	1	VA0	VA1	VA2_OPT		
+vorziehen	vorziehen	401124	2	VA0	VA1			
+vorziehen	vorziehen	401124	3	VA0	VA1	VA2_OPT		
+vorziehen	vorziehen	401124	4	VA0	VA1	VA2_OPT		
+vorziehen	vorziehen	401124	5	VA0	VA1	VA2_OPT		
+handeln, sich es	es  handelt sich um	400549	1	VA0				
+helfen	helfen	400561	1	VA0	VA1_OPT	VA2_OPT		
+helfen	helfen	400561	2	VA0	VA1	VA2	VA3_OPT	
+helfen	helfen gegen	400561	3	VA0	VA1_OPT	VA2		
+helfen	helfen	400561	4	VA0	VA1	VA2		
+helfen	helfen aus/über	400561	5	VA0	VA1	VA2		
+helfen	helfen	400561	6	VA0	VA1_OPT	VA2		
+backen	backen	400207	1	VA0	VA1			
+backen	backen	400207	2	VA0	VA1_OPT			
+backen	backen	400207	3	VA0	VA1	VA2		
+backen	backen	400207	4	VA0	VA1			
+ändern	ändern	400213	1	VA0	VA1			
+ändern	ändern	400213	2	VA0	VA1			
+ändern	ändern	400213	3	VA0	VA1			
+ändern	ändern an	400213	4	VA0	VA1	VA2		
+ändern	ändern	400213	5	VA0	VA1	VA2_OPT		
+fahren II	fahren II	400575	1	VA0	VA1	VA2_OPT		
+fahren II	fahren II	400575	2	VA0	VA1			
+fahren II	fahren II	400575	3	VA0	VA1			
+fahren II	fahren II	400575	4	VA0	VA1	VA2_OPT		
+tanzen	tanzen	400944	1	VA0				
+tanzen	tanzen	400944	2	VA0	VA1			
+tanzen	tanzen	400944	3	VA0	VA1_OPT			
+tanzen	tanzen	400944	4	VA0	VA1_OPT			
+tragen	tragen	400950	1	VA0	VA1			
+tragen	tragen	400950	2	VA0	VA1	VA2_OPT		
+tragen	tragen	400950	3	VA0	VA1	VA2_OPT		
+tragen	tragen	400950	4	VA0	VA1			
+tragen	tragen	400950	5	VA0	VA1			
+tragen	tragen	400950	6	VA0	VA1			
+tragen	tragen	400950	7	VA0	VA1_OPT			
+tragen	tragen	400950	8	VA0	VA1_OPT			
+tragen	tragen	400950	9	VA0	VA1	VA2		
+tragen	tragen	400950	10	VA0	VA1	VA2		
+tragen	tragen	400950	11	VA0	VA1	VA2		
+tragen	tragen	400950	12	VA0	VA1	VA2		
+tragen	tragen	400950	13	VA0	VA1_OPT			
+merken, sich	sich [D] merken	400788	1	VA0	VA1			
+übernehmen	übernehmen	400978	1	VA0	VA1			
+übernehmen	übernehmen	400978	2	VA0	VA1			
+übernehmen	übernehmen	400978	3	VA0	VA1			
+übernehmen	übernehmen	400978	4	VA0	VA1			
+übernehmen	übernehmen in	400978	5	VA0	VA1	VA2		
+übernehmen	übernehmen	400978	6	VA0	VA1	VA2_OPT	VA3_OPT	
+übernehmen	übernehmen	400978	7	VA0	VA1	VA2_OPT		
+übernehmen	übernehmen	400978	8	VA0	VA1	VA2_OPT		
+umziehen I	umziehen	400987	1	VA0	VA1_OPT			
+unterscheiden, sich	sich [A] unterscheiden von	400993	1	VA0	VA1	VA2_OPT		
+unterscheiden, sich	sich [A] unterscheiden nach	400993	2	VA0	VA1			
+unterscheiden, sich	sich [A] unterscheiden von	400993	3	VA0	VA1	VA2		
+lieben	lieben	400763	1	VA0	VA1			
+lieben	lieben	400763	2	VA0	VA1			
+lieben	lieben	400763	3	VA0	VA1			
+lieben	lieben	400763	4	VA0	VA1_OPT			
+lügen	lügen	400777	1	VA0				
+lügen	lügen	400777	2	VA0	VA1			
+regeln	regeln	400830	1	VA0	VA1	VA2_OPT		
+regeln	regeln	400830	2	VA0	VA1			
+regeln	regeln mit	400830	3	VA0	VA1	VA2		
+raten	raten	400824	1	VA0	VA1_OPT			
+raten	raten	400824	2	VA0	VA1	VA2_OPT		
+raten	raten zu	400824	3	VA0	VA1_OPT	VA2		
+raten	raten	400824	4	VA0	VA1			
+raten	raten	400824	5	VA0	VA1	VA2_OPT		
+protestieren	protestieren	400818	1	VA0	VA1_OPT	VA2_OPT		
+zeichnen	zeichnen	401253	1	VA0	VA1_OPT	VA2_OPT		
+zeichnen	zeichnen	401253	2	VA0	VA1	VA2	VA3_OPT	
+zeichnen	zeichnen	401253	3	VA0	VA1	VA2_XOR VA3		
+zeichnen	zeichnen	401253	4	VA0	VA1	VA2		
+zeichnen	zeichnen	401253	5	VA0	VA1			
+zeichnen	zeichnen  <mit>/<als>	401253	6	VA0	VA1_OPT	VA2_XOR VA3		
+zeichnen	zeichnen	401253	7	VA0	VA1	VA2_OPT		
+zeichnen	zeichnen	401253	8	VA0	VA1	VA2_OPT		
+zeichnen	zeichnen	401253	9	VA0	VA1	VA2		
+zeichnen	zeichnen	401253	10	VA0	VA1_XOR VA2			
+zeichnen	zeichnen	401253	11	VA0	VA1	VA2		
+fühlen, sich	sich [A] fühlen	400617	1	VA0	VA1			
+befolgen	befolgen	402014	1	VA0	VA1			
+verreisen	verreisen	401092	1	VA0	VA1_OPT	VA2_OPT		
+bestellen	bestellen  <an>	400398	1	VA0	VA1	VA2_XOR VA3	VA4_OPT	
+bestellen	bestellen	400398	2	VA0	VA1	VA2_OPT	VA3_OPT	
+bestellen	bestellen	400398	3	VA0	VA1	VA2	VA3	
+bestellen	bestellen	400398	4	VA0	VA1			
+bestellen	bestellen zu	400398	5	VA0	VA1	VA2		
+versprechen, sich	sich [A] versprechen	401086	1	VA0				
+versprechen, sich	sich [D] versprechen	401086	2	VA0	VA1	VA2_OPT		
+bürsten	bürsten	400429	1	VA0	VA1	VA2		
+bürsten	bürsten	400429	2	VA0	VA1	VA2_OPT		
+bürsten	bürsten	400429	3	VA0	VA1	VA2_OPT		
+bürsten	bürsten  <zu>	400429	4	VA0	VA1	VA2_XOR VA3		
+bitten	bitten um	400415	1	VA0	VA1_OPT	VA2		
+bitten	bitten zu	400415	2	VA0	VA1_OPT	VA2		
+bitten	bitten	400415	3	VA0	VA1	VA2		
+bitten	bitten für	400415	4	VA0	VA1			
+bekommen II	bekommen  II	400373	1	VA0	VA1			
+bekommen II	bekommen  II	400373	2	VA0	VA1			
+bekommen II	bekommen  II	400373	3	VA0	VA1	VA2_OPT		
+bekommen II	bekommen  II	400373	4	VA0	VA1	VA2_OPT		
+bekommen II	bekommen  II	400373	5	VA0	VA1	VA2		
+bekommen II	bekommen  II	400373	6	VA0	VA1	VA2_OPT		
+bekommen II	bekommen  II	400373	7	VA0	VA1			
+bekommen II	bekommen  II	400373	8	VA0	VA1			
+bekommen II	bekommen  II	400373	9	VA0	VA1			
+bekommen II	bekommen  II	400373	10	VA0	VA1			
+bekommen II	bekommen  II	400373	11	VA0	VA1			
+bekommen II	bekommen  II	400373	12	VA0	VA1			
+bekommen II	bekommen  II an/zu	400373	13	VA0	VA1	VA2		
+bekommen II	bekommen  II	400373	14	VA0	VA1	VA2_OPT		
+bekommen II	bekommen  II	400373	15	VA0	VA1	VA2		
+bekommen II	bekommen  II	400373	16	VA0	VA1	VA2		
+bekommen II	bekommen  II	400373	17	VA0	VA1	VA2		
+bekommen II	bekommen  II für	400373	18	VA0	VA1	VA2		
+verschlechtern, sich	sich verschlechtern	401079	1	VA0				
+verschlechtern, sich	sich verschlechtern	401079	2	VA0	VA1_OPT			
+verschlechtern, sich	sich [A] verschlechtern	401079	3	VA0	VA1_OPT	VA2_OPT		
+behalten	behalten	400367	1	VA0	VA1			
+behalten	behalten	400367	2	VA0	VA1			
+behalten	behalten	400367	3	VA0	VA1			
+behalten	behalten	400367	4	VA0	VA1			
+behalten	behalten	400367	5	VA0	VA1	VA2_OPT		
+behalten	behalten als	400367	6	VA0	VA1	VA2		
+besuchen	besuchen	400401	1	VA0	VA1			
+besuchen	besuchen	400401	2	VA0	VA1	VA2_OPT		
+besuchen	besuchen	400401	3	VA0	VA1			
+besuchen	besuchen	400401	4	VA0	VA1			
+besuchen	besuchen	400401	5	VA0	VA1			
+bekannt geben	bekannt geben	400371	1	VA0	VA1	VA2_OPT		
+blühen	blühen	400417	1	VA0				
+blühen	blühen	400417	2	VA0				
+blühen	blühen	400417	3	VA0	VA1			
+betragen	betragen	400403	1	VA0	VA1			
+begründen	begründen	400365	1	VA0	VA1	VA2_OPT		
+begründen	begründen	400365	2	VA0	VA1			
+begründen	begründen	400365	3	VA0	VA1			
+begründen	begründen	400365	4	VA0	VA1			
+begründen	begründen auf	400365	5	VA0	VA1	VA2		
+verstehen	verstehen	401090	1	VA0	VA1			
+verstehen	verstehen	401090	2	VA0	VA1			
+verstehen	verstehen	401090	3	VA0	VA1			
+verstehen	verstehen von	401090	4	VA0	VA1	VA2		
+verstehen	verstehen	401090	5	VA0	VA1			
+verstehen	verstehen unter	401090	6	VA0	VA1	VA2		
+verstehen	verstehen	401090	7	VA0	VA1	VA2		
+verstehen	verstehen als	401090	8	VA0	VA1	VA2		
+versichern	versichern	401084	1	VA0	VA1	VA2_OPT		
+versichern	versichern	401084	2	VA0	VA1	VA2		
+versichern	versichern	401084	3	VA0	VA1	VA2_OPT		
+versichern	versichern	401084	4	VA0	VA1	VA2		
+versichern	versichern	401084	5	VA0	VA1	VA2_OPT		
+frühstücken	frühstücken	400615	1	VA0				
+frühstücken	frühstücken <mit>	400615	2	VA0	VA1_XOR VA2			
+bilden, sich	sich [Akk] bilden	402002	1	VA0	VA1_OPT			
+bilden, sich	sich bilden	402002	2	VA0	VA1_OPT			
+differenzieren	differenzieren	402016	1	VA0	VA1_OPT	VA2_OPT		
+differenzieren	differenzieren in	402016	2	VA0	VA1_OPT	VA2		
+differenzieren	differenzieren  <zwischen/unter>	402016	3	VA0	VA1_XOR VA2			
+zählen	zählen	401251	1	VA0	VA1			
+zählen	zählen	401251	2	VA0	VA1	VA2		
+zählen	zählen	401251	3	VA0	VA1_OPT			
+zählen	zählen	401251	4	VA0	VA1			
+zählen	zählen	401251	5	VA0	VA1			
+zählen	zählen auf	401251	6	VA0	VA1			
+zählen	zählen unter/zu	401251	7	VA0	VA1	VA2		
+zählen	zählen zu	401251	8	VA0	VA1			
+zählen	zählen	401251	9	VA0	VA1_OPT			
+zählen	zählen als	401251	10	VA0	VA1	VA2		
+zählen	zählen als	401251	11	VA0	VA1			
+wünschen, sich	sich [D] wünschen	401245	1	VA0	VA1	VA2_OPT	VA3_OPT	
+wünschen, sich	sich [D] wünschen	401245	2	VA0	VA1			
+regnen, es	es regnet	400832	1					
+regnen, es	es regnet	400832	2	VA0				
+regnen, es	es regnet	400832	3	VA0				
+regnen, es	es regnet	400832	4	VA0				
+ziehen I	ziehen I	401286	1	VA0	VA1			
+ziehen I	ziehen I	401286	2	VA0	VA1			
+ziehen I	ziehen I	401286	3	VA0	VA1			
+reagieren	reagieren	400826	1	VA0	VA1_OPT	VA2_OPT		
+reagieren	reagieren mit	400826	2	VA0	VA1			
+reagieren	reagieren	400826	3	VA0	VA1_OPT	VA2_OPT		
+lesen	lesen	400761	1	VA0	VA1			
+lesen	lesen	400761	2	VA0	VA1_OPT			
+lesen	lesen	400761	3	VA0	VA1			
+lesen	lesen	400761	4	VA0	VA1			
+lesen	lesen     <über>	400761	5	VA0	VA1_XOR VA2	VA3_OPT		
+lesen	lesen	400761	6	VA0	VA1	VA2		
+lesen	lesen	400761	7	VA0	VA1	VA2_OPT		
+lesen	lesen	400761	8	VA0	VA1	VA2_XOR VA3		
+lesen	lesen als	400761	9	VA0	VA1	VA2		
+lesen	lesen über/von	400761	10	VA0	VA1			
+überzeugen	überzeugen	400985	1	VA0	VA1	VA2_OPT	VA3_OPT	
+überzeugen	überzeugen zu	400985	2	VA0	VA1	VA2		
+überzeugen	überzeugen	400985	3	VA0	VA1_OPT	VA2_OPT		
+unterschreiben	unterschreiben	400991	1	VA0	VA1_OPT	VA2_OPT		
+unterschreiben	unterschreiben	400991	2	VA0	VA1			
+unterschreiben	unterschreiben	400991	3	VA0	VA1	VA2		
+teilen, (sich)	(sich [D]) teilen  mit	400946	1	VA0	VA1	VA2		
+transportieren	transportieren	400952	1	VA0	VA1	VA2_OPT	VA3_OPT	
+transportieren	transportieren	400952	2	VA0	VA1	VA2_OPT		
+transportieren	transportieren	400952	3	VA0	VA1	VA2_OPT		
+herstellen	herstellen	400563	1	VA0	VA1	VA2_OPT	VA3_OPT	
+herstellen	herstellen	400563	2	VA0	VA1			
+herstellen	herstellen	400563	3	VA0	VA1			
+fehlen	fehlen	400577	1	VA0	VA1			
+fehlen	fehlen	400577	2	VA0	VA1			
+fehlen	fehlen	400577	3	VA0	VA1_OPT			
+fehlen	fehlen	400577	4	VA0	VA1_OPT	VA2_OPT		
+fehlen	fehlen zu	400577	5	VA0	VA1_OPT	VA2		
+fehlen	fehlen	400577	6	VA0				
+amüsieren, sich	sich [A] amüsieren	400211	1	VA0	VA1_OPT			
+amüsieren, sich	sich [A] amüsieren mit	400211	2	VA0	VA1			
+amüsieren, sich	sich [A] amüsieren über	400211	3	VA0	VA1			
+vorschlagen	vorschlagen	401127	1	VA0	VA1	VA2_OPT		
+vorschlagen	vorschlagen für	401127	2	VA0	VA1	VA2		
+vorschlagen	vorschlagen als	401127	3	VA0	VA1	VA2_OPT	VA3	
+wachsen	wachsen	401133	1	VA0	VA1			
+wachsen	wachsen	401133	2	VA0	VA1_OPT			
+wachsen	wachsen	401133	3	VA0	VA1_XOR VA2			
+wachsen	wachsen	401133	4	VA0				
+wachsen	wachsen aus	401133	5	VA0	VA1			
+wachsen	wachsen zu	401133	6	VA0	VA1			
+wachsen	wachsen an	401133	7	VA0	VA1	VA2		
+wachsen	wachsen	401133	8	VA0	VA1_OPT			
+wachsen	wachsen	401133	9	VA0	VA1			
+fallen	fallen	400576	1	VA0	VA1			
+fallen	fallen	400576	2	VA0	VA1_OPT			
+fallen	fallen	400576	3	VA0				
+fallen	fallen	400576	4	VA0				
+fallen	fallen an	400576	5	VA0	VA1			
+fallen	fallen auf	400576	6	VA0	VA1			
+fallen	fallen durch	400576	7	VA0	VA1			
+fallen	fallen in	400576	8	VA0	VA1			
+fallen	fallen in	400576	9	VA0	VA1			
+fallen	fallen in/unter	400576	10	VA0	VA1			
+fallen	fallen unter	400576	11	VA0	VA1			
+fallen	fallen	400576	12	VA0	VA1_OPT	VA2_OPT		
+fallen	fallen	400576	13	VA0	VA1			
+fallen	fallen	400576	14	VA0	VA1			
+fallen	fallen	400576	15	VA0	VA1_OPT			
+fallen	fallen	400576	16	VA0	VA1_OPT			
+fallen	fallen	400576	17	VA0	VA1_OPT			
+fallen	fallen	400576	18	VA0	VA1_OPT	VA2_OPT		
+fallen	fallen	400576	19	VA0	VA1	VA2		
+achten	achten auf	400210	1	VA0	VA1			
+achten	achten	400210	2	VA0	VA1			
+achten	achten	400210	3	VA0	VA1			
+achten	achten auf	400210	4	VA0	VA1			
+achten	achten auf	400210	5	VA0	VA1			
+achten	achten auf	400210	6	VA0	VA1	VA2_OPT		
+abmelden	abmelden von	400204	1	VA0	VA1	VA2		
+abmelden	abmelden von	400204	2	VA0	VA1	VA2		
+abmelden	abmelden	400204	3	VA0	VA1	VA2_OPT		
+abmelden	abmelden	400204	4	VA0	VA1	VA2_OPT		
+herrschen	herrschen	400562	1	VA0	VA1			
+herrschen	herrschen	400562	2	VA0	VA1_OPT	VA2_OPT		
+träumen	träumen	400953	1	VA0	VA1_OPT			
+träumen	träumen von	400953	2	VA0	VA1			
+träumen	träumen von	400953	3	VA0	VA1			
+träumen	träumen	400953	4	VA0				
+träumen	träumen	400953	5	VA0	VA1			
+teilnehmen	teilnehmen an/bei	400947	1	VA0	VA1			
+teilnehmen	teilnehmen an	400947	2	VA0	VA1			
+teilnehmen	teilnehmen an	400947	3	VA0	VA1			
+teilnehmen	teilnehmen an	400947	4	VA0	VA1			
+unterrichten	unterrichten	400990	1	VA0	VA1_OPT			
+unterrichten	unterrichten	400990	2	VA0	VA1	VA2_OPT		
+unterrichten	unterrichten	400990	3	VA0	VA1	VA2_OPT		
+umsteigen	umsteigen	400984	1	VA0	VA1_OPT	VA2_OPT		
+umsteigen	umsteigen	400984	2	VA0	VA1_OPT			
+machen	machen	400774	1	VA0	VA1			
+machen	machen	400774	2	VA0	VA1			
+machen	machen	400774	3	VA0	VA1	VA2		
+machen	machen	400774	4	VA0	VA1			
+machen	machen	400774	5	VA0	VA1			
+machen	machen	400774	6	VA0	VA1			
+machen	machen	400774	7	VA0	VA1			
+machen	machen	400774	8	VA0	VA1			
+machen	machen	400774	9	VA0	VA1			
+machen	machen	400774	10	VA0	VA1			
+machen	machen	400774	11	VA0	VA1			
+machen	machen	400774	12	VA0	VA1			
+machen	machen aus	400774	13	VA0	VA1	VA2		
+machen	machen zu	400774	14	VA0	VA1	VA2		
+machen	machen auf	400774	15	VA0	VA1			
+machen	machen in	400774	16	VA0	VA1			
+machen	machen in	400774	17	VA0	VA1			
+machen	machen	400774	18	VA0	VA1			
+machen	machen	400774	19	VA0	VA1			
+machen	machen	400774	20	VA0	VA1			
+lernen	lernen	400760	1	VA0	VA1			
+lernen	lernen aus	400760	2	VA0	VA1_OPT	VA2		
+lernen	lernen von	400760	3	VA0	VA1_OPT	VA2		
+lernen	lernen	400760	4	VA0	VA1	VA2		
+zerstören	zerstören	401287	1	VA0	VA1			
+zerstören	zerstören	401287	2	VA0	VA1	VA2_OPT		
+realisieren	realisieren	400827	1	VA0	VA1			
+realisieren	realisieren	400827	2	VA0	VA1			
+realisieren	realisieren	400827	3	VA0	VA1			
+reinigen	reinigen	400833	1	VA0	VA1	VA2_OPT	VA3_OPT	
+wundern	wundern	401244	1	VA0	VA1			
+ableiten	ableiten	401536	1	VA0	VA1	VA2_OPT		
+ableiten	ableiten aus/von	401536	2	VA0	VA1	VA2		
+ableiten	ableiten von/aus	401536	3	VA0	VA1	VA2		
+differenzieren, sich	sich [Akk] differenzieren nach	402017	1	VA0	VA1			
+differenzieren, sich	sich [Akk] differenzieren	402017	2	VA0	VA1_OPT			
+differenzieren, sich	sich [Akk] differenzieren	402017	3	VA0	VA1_OPT	VA2_OPT		
+frisieren	frisieren	400614	1	VA0	VA1			
+frisieren	frisieren	400614	2	VA0	VA1			
+frisieren	frisieren	400614	3	VA0	VA1			
+frisieren	frisieren	400614	4	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+frisieren	frisieren <zu>	400614	5	VA0	VA1	VA2_XOR VA3		
+versprechen	versprechen	401085	1	VA0	VA1	VA2_OPT		
+versprechen	versprechen	401085	2	VA0	VA1			
+verstehen, sich	sich [A] verstehen mit	401091	1	VA0	VA1	VA2		
+verstehen, sich	sich [A] verstehen auf	401091	2	VA0	VA1			
+verstehen, sich	sich [A] verstehen zu	401091	3	VA0	VA1			
+verstehen, sich	sich verstehen	401091	4	VA0	VA1			
+beten	beten	400402	1	VA0	VA1_OPT			
+beten	beten	400402	2	VA0	VA1			
+beten	beten für/um	400402	3	VA0	VA1	VA2_OPT		
+behindern	behindern	400370	1	VA0	VA1	VA2_OPT	VA3_OPT	
+behindern	behindern	400370	2	VA0	VA1	VA2_OPT		
+bleiben	bleiben	400416	1	VA0	VA1_OPT_XOR VA2_OPT	VA3_OPT		
+bleiben	bleiben	400416	2	VA0	VA1_OPT			
+bleiben	bleiben	400416	3	VA0	VA1			
+bleiben	bleiben	400416	4	VA0	VA1			
+bleiben	bleiben	400416	5	VA0	VA1			
+bleiben	bleiben	400416	6	VA0				
+bleiben	bleiben	400416	7	VA0	VA1_OPT			
+bleiben	bleiben bei	400416	8	VA0	VA1			
+bleiben	bleiben in	400416	9	VA0	VA1			
+bleiben	bleiben	400416	10	VA0	VA1_OPT			
+bleiben	bleiben	400416	11	VA0	VA1			
+bleiben	bleiben	400416	12	VA0	VA1			
+bleiben	bleiben	400416	13	VA0	VA1			
+bauen	bauen	400348	1	VA0	VA1	VA2_OPT		
+bauen	bauen auf	400348	2	VA0	VA1	VA2		
+bauen	bauen	400348	3	VA0	VA1	VA2_OPT		
+bauen	bauen	400348	4	VA0	VA1	VA2_OPT		
+bauen	bauen	400348	5	VA0	VA1	VA2_OPT		
+bauen	bauen	400348	6	VA0	VA1	VA2_OPT		
+bauen	bauen	400348	7	VA0	VA1_OPT	VA2		
+bauen	bauen auf	400348	8	VA0	VA1			
+bezahlen	bezahlen	400412	1	VA0	VA1	VA2_OPT		
+bezahlen	bezahlen für	400412	2	VA0	VA1_OPT	VA2	VA3_OPT	
+bezahlen	bezahlen mit	400412	3	VA0	VA1	VA2		
+beleidigen	beleidigen	400374	1	VA0	VA1	VA2_OPT	VA3_OPT	
+beleidigen	beleidigen	400374	2	VA0	VA1	VA2_OPT		
+betrügen	betrügen	400406	1	VA0	VA1			
+betrügen	betrügen um	400406	2	VA0	VA1	VA2		
+betrügen	betrügen	400406	3	VA0	VA1	VA2_OPT		
+verteilen	verteilen	401095	1	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+verteilen	verteilen auf/über	401095	2	VA0	VA1	VA2		
+verteilen	verteilen	401095	3	VA0	VA1	VA2_OPT		
+verteilen	verteilen	401095	4	VA0	VA1	VA2_OPT		
+verteilen	verteilen	401095	5	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+verschreiben	verschreiben	401081	1	VA0	VA1	VA2_OPT		
+verschreiben	verschreiben	401081	2	VA0	VA1			
+verschreiben	verschreiben	401081	3	VA0	VA1	VA2		
+verschreiben	verschreiben	401081	4	VA0	VA1	VA2		
+verschreiben	verschreiben	401081	5	VA0	VA1	VA2		
+freuen	freuen	400610	1	VA0	VA1			
+befassen	befassen	402007	1	VA0	VA1	VA2		
+ziehen II	ziehen II	401297	1	VA0				
+ziehen II	ziehen II	401297	2	VA0	VA1			
+ziehen II	ziehen II an	401297	3	VA0	VA1			
+ziehen II	ziehen II an	401297	4	VA0	VA1			
+ziehen II	ziehen II	401297	5	VA0	VA1	VA2_OPT		
+ziehen II	ziehen II	401297	6	VA0	VA1	VA2		
+ziehen II	ziehen II	401297	7	VA0	VA1	VA2_OPT		
+ziehen II	ziehen II	401297	8	VA0	VA1	VA2		
+ziehen II	ziehen II	401297	9	VA0	VA1	VA2		
+ziehen II	ziehen II	401297	10	VA0	VA1	VA2_OPT		
+ziehen II	ziehen II aus	401297	11	VA0	VA1	VA2		
+ziehen II	ziehen II	401297	12	VA0	VA1	VA2_OPT		
+ziehen II	ziehen II	401297	13	VA0	VA1	VA2_OPT		
+ziehen II	ziehen II <in>	401297	14	VA0	VA1	VA2_XOR VA3		
+ziehen II	ziehen II	401297	15	VA0	VA1	VA2		
+ziehen II	ziehen II	401297	16	VA0	VA1_OPT			
+ziehen II	ziehen II	401297	17	VA0	VA1_OPT			
+retten	retten	400837	1	VA0	VA1	VA2_OPT	VA3_OPT	
+retten	retten	400837	2	VA0	VA1	VA2		
+retten	retten	400837	3	VA0	VA1	VA2		
+zeigen	zeigen	401283	1	VA0	VA1	VA2_OPT		
+zeigen	zeigen	401283	2	VA0	VA1	VA2_OPT		
+zeigen	zeigen	401283	3	VA0	VA1	VA2_OPT		
+zeigen	zeigen	401283	4	VA0	VA1			
+zeigen	zeigen	401283	5	VA0	VA1			
+zeigen	zeigen	401283	6	VA0	VA1			
+zeigen	zeigen	401283	7	VA0	VA1			
+zeigen	zeigen	401283	8	VA0	VA1	VA2_OPT		
+zeigen	zeigen	401283	9	VA0	VA1			
+zeigen	zeigen	401283	10	VA0	VA1	VA2_OPT		
+überraschen	überraschen	400980	1	VA0	VA1			
+überraschen	überraschen	400980	2	VA0	VA1			
+überraschen	überraschen	400980	3	VA0	VA1_OPT	VA2		
+überraschen	überraschen	400980	4	VA0	VA1	VA2_OPT	VA3_OPT	
+überraschen	überraschen	400980	5	VA0	VA1	VA2_OPT		
+überraschen	überraschen als	400980	6	VA0	VA1_OPT	VA2		
+unterstützen	unterstützen	400994	1	VA0	VA1			
+unterstützen	unterstützen	400994	2	VA0	VA1	VA2_OPT	VA3_OPT	
+unterstützen	unterstützen	400994	3	VA0	VA1			
+unterstützen	unterstützen	400994	4	VA0	VA1	VA2_OPT		
+liefern	liefern	400764	1	VA0	VA1	VA2_OPT_XOR VA3_OPT	VA4_OPT	
+liefern	liefern	400764	2	VA0	VA1	VA2		
+liefern	liefern	400764	3	VA0	VA1	VA2_OPT		
+liefern	liefern	400764	4	VA0	VA1	VA2_OPT		
+liefern	liefern	400764	5	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+lösen	lösen	400770	1	VA0	VA1	VA2_OPT		
+lösen	lösen	400770	2	VA0	VA1			
+lösen	lösen	400770	3	VA0	VA1			
+lösen	lösen	400770	4	VA0	VA1			
+lösen	lösen	400770	5	VA0	VA1			
+lösen	lösen aus/von	400770	6	VA0	VA1	VA2		
+lösen	lösen aus	400770	7	VA0	VA1	VA2		
+lösen	lösen in	400770	8	VA0	VA1	VA2		
+lösen	lösen	400770	9	VA0	VA1			
+lösen	lösen	400770	10	VA0	VA1	VA2	VA3_OPT	
+tanken	tanken	400943	1	VA0	VA1_OPT			
+tanken	tanken	400943	2	VA0	VA1			
+tanken	tanken	400943	3	VA0	VA1_OPT			
+tanken	tanken	400943	4	VA0	VA1_OPT			
+tanken	tanken	400943	5	VA0	VA1	VA2_OPT		
+treiben I	treiben I	400957	1	VA0	VA1			
+treiben I	treiben I	400957	2	VA0	VA1			
+vorstellen	vorstellen	401122	1	VA0	VA1	VA2_OPT		
+vorstellen	vorstellen	401122	2	VA0	VA1	VA2_OPT		
+vorstellen	vorstellen	401122	3	VA0	VA1	VA2_OPT		
+vorstellen	vorstellen	401122	4	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+vorstellen	vorstellen	401122	5	VA0	VA1			
+vorstellen	vorstellen als	401122	6	VA0	VA1	VA2		
+erscheinen	erscheinen	400566	1	VA0	VA1_OPT	VA2		
+erscheinen	erscheinen	400566	2	VA0	VA1	VA2		
+erscheinen	erscheinen	400566	3	VA0	VA1_OPT			
+erscheinen	erscheinen	400566	4	VA0	VA1			
+erscheinen	erscheinen	400566	5	VA0	VA1			
+erscheinen	erscheinen	400566	6	VA0	VA1_OPT			
+anfangen	anfangen <mit>	400214	1	VA0	VA1_XOR VA2			
+anfangen	anfangen	400214	2	VA0	VA1			
+anfangen	anfangen	400214	3	VA0	VA1_OPT			
+anfangen	anfangen mit	400214	4	VA0	VA1_OPT	VA2		
+anfangen	anfangen mit	400214	5	VA0	VA1			
+anfangen	anfangen von	400214	6	VA0	VA1			
+anfangen	anfangen	400214	7	VA0	VA1	VA2		
+anfangen	anfangen	400214	8	VA0	VA1			
+anfangen	anfangen als	400214	9	VA0	VA1			
+anfangen	anfangen	400214	10	VA0	VA1			
+essen	essen	400572	1	VA0	VA1_OPT			
+essen	essen	400572	2	VA0	VA1	VA2		
+baden	baden	400215	1	VA0	VA1_OPT			
+baden	baden	400215	2	VA0	VA1_OPT			
+baden	baden	400215	3	VA0	VA1			
+baden	baden in	400215	4	VA0	VA1	VA2		
+baden	baden in	400215	5	VA0	VA1			
+existieren	existieren	400573	1	VA0	VA1_OPT	VA2_OPT		
+existieren	existieren	400573	2	VA0				
+existieren	existieren von	400573	3	VA0	VA1			
+existieren	existieren	400573	4	VA0	VA1_OPT			
+erschrecken I	erschrecken I	400567	1	VA0	VA1_OPT			
+vorstellen, sich	sich [D] vorstellen	401123	1	VA0	VA1			
+vorstellen, sich	sich [D] vorstellen unter	401123	2	VA0	VA1	VA2		
+vorstellen, sich	sich [D] vorstellen	401123	3	VA0	VA1	VA2		
+suchen	suchen <nach>	400942	1	VA0	VA1_XOR VA2			
+suchen	suchen  <nach>	400942	2	VA0	VA1_XOR VA2	VA3_OPT		
+suchen	suchen	400942	3	VA0	VA1	VA2_OPT		
+suchen	suchen	400942	4	VA0	VA1			
+suchen	suchen  <nach>	400942	5	VA0	VA1_XOR VA2			
+suchen	suchen	400942	6	VA0	VA1			
+lösen, sich	sich [A] lösen von	400771	1	VA0	VA1			
+lösen, sich	sich  lösen	400771	2	VA0				
+lösen, sich	sich lösen	400771	3	VA0				
+lösen, sich	sich lösen	400771	4	VA0				
+lösen, sich	sich [A] lösen aus	400771	5	VA0	VA1			
+lösen, sich	sich lösen in	400771	6	VA0	VA1			
+lösen, sich	sich [A] lösen	400771	7	VA0	VA1_OPT			
+lösen, sich	sich lösen	400771	8	VA0	VA1_OPT			
+lösen, sich	sich [A] lösen aus/von	400771	9	VA0	VA1			
+lösen, sich	sich lösen	400771	10	VA0	VA1_OPT			
+liegen	liegen an	400765	1	VA0	VA1			
+liegen	liegen	400765	2	VA0	VA1			
+liegen	liegen	400765	3	VA0	VA1	VA2		
+liegen	liegen	400765	4	VA0	VA1	VA2		
+liegen	liegen	400765	5	VA0	VA1	VA2		
+liegen	liegen	400765	6	VA0	VA1			
+liegen	liegen auf	400765	7	VA0	VA1			
+liegen	liegen bei	400765	8	VA0	VA1			
+liegen	liegen bei	400765	9	VA0	VA1			
+liegen	liegen in	400765	10	VA0	VA1			
+liegen	liegen in	400765	11	VA0	VA1			
+liegen	liegen	400765	12	VA0	VA1			
+liegen	liegen	400765	13	VA0	VA1			
+liegen	liegen	400765	14	VA0	VA1			
+liegen	liegen	400765	15	VA0	VA1			
+liegen	liegen	400765	16	VA0	VA1_XOR VA2			
+liegen	liegen	400765	17	VA0	VA1_XOR VA2			
+liegen	liegen an	400765	18	VA0	VA1	VA2		
+untersuchen	untersuchen	400995	1	VA0	VA1			
+untersuchen	untersuchen	400995	2	VA0	VA1			
+untersuchen	untersuchen nach	400995	3	VA0	VA1	VA2		
+untersuchen	untersuchen	400995	4	VA0	VA1	VA2_OPT		
+überreden	überreden	400981	1	VA0	VA1	VA2_OPT		
+rasieren	rasieren	400822	1	VA0	VA1	VA2_OPT	VA3_OPT	
+rasieren	rasieren	400822	2	VA0	VA1	VA2	VA3	
+rasieren	rasieren	400822	3	VA0	VA1	VA2_OPT	VA3_OPT	
+rasieren	rasieren	400822	4	VA0	VA1			
+reservieren	reservieren	400836	1	VA0	VA1	VA2_OPT_XOR VA3_OPT	VA4_OPT	
+reservieren	reservieren für	400836	2	VA0	VA1	VA2		
+fordern	fordern	400605	1	VA0	VA1	VA2_OPT		
+fordern	fordern	400605	2	VA0	VA1	VA2_OPT		
+fordern	fordern	400605	3	VA0	VA1			
+fordern	fordern	400605	4	VA0	VA1			
+fordern	fordern	400605	5	VA0	VA1	VA2_OPT		
+fordern	fordern	400605	6	VA0	VA1	VA2_OPT		
+fordern	fordern	400605	7	VA0	VA1	VA2_OPT		
+fordern	fordern	400605	8	VA0	VA1_XOR VA2	VA3_OPT	VA4_OPT	
+abfahren	abfahren	400163	1	VA0	VA1_OPT			
+abfahren	abfahren	400163	2	VA0	VA1			
+abfahren	abfahren	400163	3	VA0	VA1	VA2_OPT		
+abfahren	abfahren auf	400163	4	VA0	VA1			
+freuen, sich	sich [A] freuen auf	400611	1	VA0	VA1			
+freuen, sich	sich [A] freuen	400611	2	VA0	VA1_OPT			
+freuen, sich	sich [A] freuen  <an>	400611	3	VA0	VA1_XOR VA2			
+wohnen	wohnen	401241	1	VA0	VA1			
+wohnen	wohnen	401241	2	VA0	VA1	VA2		
+bewegen I	bewegen I zu	400407	1	VA0	VA1	VA2		
+beziehen, sich	sich [A] beziehen auf	400413	1	VA0	VA1	VA2_OPT		
+beziehen, sich	sich [A] beziehen auf	400413	2	VA0	VA1			
+beziehen, sich	sich [A] beziehen auf	400413	3	VA0	VA1			
+bemerken	bemerken	400375	1	VA0	VA1	VA2_OPT		
+bemerken	bemerken	400375	2	VA0	VA1	VA2_OPT		
+beachten	beachtet	400349	1	VA0	VA1			
+beachten	beachtet	400349	2	VA0	VA1	VA2_OPT		
+beachten	beachtet	400349	3	VA0	VA1			
+betrinken, sich	sich [A] betrinken	400405	1	VA0				
+benutzen	benutzen	400377	1	VA0	VA1	VA2_OPT		
+benutzen	benutzen	400377	2	VA0	VA1	VA2		
+benutzen	benutzen	400377	3	VA0	VA1	VA2		
+benutzen	benutzen als	400377	4	VA0	VA1	VA2		
+verlieben, sich	sich [A] verlieben	401069	1	VA0	VA1_OPT			
+verlieben, sich	sich [A] verlieben in	401069	2	VA0	VA1			
+bewerben, sich	sich [A] bewerben	400411	1	VA0	VA1_OPT	VA2_OPT		
+bewerben, sich	sich [A] bewerben für	400411	2	VA0	VA1			
+bewerben, sich	sich [A] bewerben um	400411	3	VA0	VA1			
+bewerben, sich	sich [A] bewerben um	400411	4	VA0	VA1	VA2_OPT		
+bewerben, sich	sich [A] bewerben als	400411	5	VA0	VA1_OPT	VA2		
+bewerben, sich	sich [A] bewerben	400411	6	VA0	VA1			
+vertreten	vertreten	401096	1	VA0	VA1	VA2_OPT		
+vertreten	vertreten	401096	2	VA0	VA1	VA2_OPT		
+vertreten	vertreten	401096	3	VA0	VA1	VA2_OPT		
+vertreten	vertreten	401096	4	VA0	VA1			
+vertreten	vertreten	401096	5	VA0	VA1	VA2		
+vertreten	vertreten	401096	6	VA0	VA1			
+beschäftigen	beschäftigen	400388	1	VA0	VA1			
+beschäftigen	beschäftigen	400388	2	VA0	VA1			
+beschäftigen	beschäftigen	400388	3	VA0	VA1			
+beschäftigen	beschäftigen	400388	4	VA0	VA1	VA2_OPT		
+wundern, sich	sich [A] wundern	401243	1	VA0	VA1			
+fragen	fragen	400607	1	VA0	VA1_OPT	VA2_OPT		
+fragen	fragen nach	400607	2	VA0	VA1_OPT	VA2		
+fragen	fragen um	400607	3	VA0	VA1_OPT	VA2		
+fragen	fragen nach	400607	4	VA0	VA1			
+fragen	fragen nach	400607	5	VA0	VA1	VA2_OPT		
+frieren, es	frieren, es	400613	1					
+basieren I	basieren auf	402004	1	VA0	VA1			
+putzen	putzen	400820	1	VA0	VA1_OPT			
+putzen	putzen	400820	2	VA0	VA1	VA2_OPT		
+putzen	putzen	400820	3	VA0	VA1			
+putzen	putzen	400820	4	VA0	VA1_OPT			
+putzen	putzen	400820	5	VA0	VA1	VA2		
+putzen	putzen	400820	6	VA0	VA1	VA2_OPT		
+putzen	putzen	400820	7	VA0	VA1_OPT			
+reisen	reisen	400834	1	VA0	VA1_OPT			
+reisen	reisen	400834	2	VA0	VA1	VA2_OPT		
+reisen	reisen	400834	3	VA0	VA1			
+organisieren	organisieren	400808	1	VA0	VA1	VA2_OPT		
+organisieren	organisieren	400808	2	VA0	VA1			
+organisieren	organisieren	400808	3	VA0	VA1			
+organisieren	organisieren	400808	4	VA0	VA1			
+organisieren	organisieren als/wie	400808	5	VA0	VA1	VA2		
+verabschieden, sich	sich [A] verabschieden	400997	1	VA0	VA1_OPT			
+verabschieden, sich	sich [A] verabschieden	400997	2	VA0				
+verabschieden, sich	sich [A] verabschieden aus/von	400997	3	VA0	VA1			
+verabschieden, sich	sich [A] verabschieden von	400997	4	VA0	VA1			
+verabschieden, sich	sich [A] verabschieden	400997	5	VA0	VA1			
+verabschieden, sich	sich verabschieden	400997	6	VA0	VA1_OPT			
+überweisen	überweisen <an/zu>	400983	1	VA0	VA1	VA2_XOR VA3		
+überweisen	überweisen	400983	2	VA0	VA1_OPT_XOR VA2_OPT	VA3_OPT	VA4	
+überweisen	überweisen  <an>	400983	3	VA0	VA1	VA2_XOR VA3		
+lohnen, (sich)	(sich) lohnen	400767	1	VA0	VA1_OPT			
+treffen	treffen	400954	1	VA0	VA1_OPT	VA2_OPT		
+treffen	treffen	400954	2	VA0	VA1	VA2_OPT		
+treffen	treffen	400954	3	VA0	VA1	VA2_OPT	VA3_OPT	
+treffen	treffen	400954	4	VA0	VA1			
+treffen	treffen	400954	5	VA0	VA1			
+treffen	treffen	400954	6	VA0	VA1	VA2		
+treffen	treffen	400954	7	VA0	VA1	VA2_OPT		
+treffen	treffen	400954	8	VA0	VA1	VA2_OPT		
+nachschlagen	nachschlagen	400798	1	VA0	VA1_OPT	VA2_OPT	VA3_OPT	
+studieren	studieren	400940	1	VA0	VA1_OPT			
+studieren	studieren	400940	2	VA0	VA1			
+studieren	studieren	400940	3	VA0	VA1			
+studieren	studieren an/an Hand von	400940	4	VA0	VA1	VA2		
+trocknen  I	trocknen I	400968	1	VA0	VA1_OPT			
+hupen	hupen	400571	1	VA0				
+danken	danken	400217	1	VA0	VA1	VA2		
+danken	danken	400217	2	VA0	VA1	VA2		
+danken	danken	400217	3	VA0	VA1	VA2	VA3	
+erreichen	erreichen	400565	1	VA0	VA1			
+erreichen	erreichen	400565	2	VA0	VA1	VA2_OPT	VA3_OPT	
+erreichen	erreichen	400565	3	VA0	VA1	VA2_OPT		
+erreichen	erreichen	400565	4	VA0	VA1_XOR VA2			
+erreichen	erreichen	400565	5	VA0	VA1			
+erreichen	erreichen	400565	6	VA0	VA1			
+erreichen	erreichen	400565	7	VA0	VA1	VA2_OPT		
+hindern	hindern an	400564	1	VA0	VA1	VA2	VA3_OPT	
+hindern	hindern an	400564	2	VA0	VA1	VA2		
+hindern	hindern an	400564	3	VA0	VA1	VA2		
+hindern	hindern bei/in	400564	4	VA0	VA1_OPT	VA2		
+erzählen	erzählen  <aus/über/von>	400570	1	VA0	VA1_XOR VA2	VA3_OPT		
+erzählen	erzählen	400570	2	VA0	VA1	VA2		
+erzählen	erzählen	400570	3	VA0	VA1	VA2_OPT		
+erzählen	erzählen  <von>	400570	4	VA0	VA1_XOR VA2			
+erzählen	erzählen  <von>	400570	5	VA0	VA1_XOR VA2	VA3_OPT		
+beginnen	beginnen <mit>	400216	1	VA0	VA1_XOR VA2			
+beginnen	beginnen mit	400216	2	VA0	VA1_OPT	VA2		
+beginnen	beginnen	400216	3	VA0	VA1			
+beginnen	beginnen	400216	4	VA0	VA1_OPT			
+beginnen	beginnen	400216	5	VA0	VA1	VA2	VA3	
+beginnen	beginnen von	400216	6	VA0	VA1			
+beginnen	beginnen bei	400216	7	VA0	VA1	VA2_OPT		
+beginnen	beginnen mit	400216	8	VA0	VA1			
+beginnen	beginnen	400216	9	VA0	VA1			
+beginnen	beginnen als	400216	10	VA0	VA1			
+beginnen	beginnen	400216	11	VA0	VA1			
+vorbereiten	vorbereiten	401108	1	VA0	VA1			
+vorbereiten	vorbereiten auf/für	401108	2	VA0	VA1	VA2		
+vorbereiten	vorbereiten	401108	3	VA0	VA1			
+vorbereiten	vorbereiten auf	401108	4	VA0	VA1	VA2		
+wählen	wählen	401134	1	VA0	VA1			
+wählen	wählen	401134	2	VA0	VA1_OPT			
+wählen	wählen unter	401134	3	VA0	VA1	VA2		
+wählen	wählen zwischen	401134	4	VA0	VA1			
+wählen	wählen <zu>/<als>	401134	5	VA0	VA1	VA2_XOR VA3		
+wählen	wählen	401134	6	VA0	VA1	VA2		
+wählen	wählen als	401134	7	VA0	VA1	VA2		
+trocknen II	trocknen II	400969	1	VA0	VA1	VA2_OPT		
+trocknen II	trocknen II	400969	2	VA0	VA1			
+trocknen II	trocknen II	400969	3	VA0	VA1	VA2_OPT		
+abheben, sich	sich  [A]  abheben von	401487	1	VA0	VA1			
+stürzen	stürzen	400941	1	VA0				
+stürzen	stürzen in	400941	2	VA0	VA1			
+stürzen	stürzen	400941	3	VA0	VA1_OPT			
+stürzen	stürzen	400941	4	VA0	VA1			
+stürzen	stürzen	400941	5	VA0	VA1			
+stürzen	stürzen	400941	6	VA0	VA1_OPT			
+nähen	nähen	400799	1	VA0	VA1			
+nähen	nähen	400799	2	VA0	VA1	VA2_OPT		
+nähen	nähen	400799	3	VA0	VA1			
+nähen	nähen	400799	4	VA0	VA1	VA2		
+treffen, sich	sich [A] treffen mit	400955	1	VA0	VA1	VA2_OPT	VA3_OPT	VA4_OPT
+treffen, sich	sich [A] treffen mit in	400955	2	VA0	VA1	VA2		
+loben	loben	400766	1	VA0	VA1			
+loben	loben	400766	2	VA0	VA1	VA2_OPT		
+übersetzen	übersetzen	400982	1	VA0	VA1_OPT	VA2_OPT	VA3_OPT	
+übersetzen	übersetzen in	400982	2	VA0	VA1	VA2		
+übersetzen	übersetzen	400982	3	VA0	VA1	VA2_OPT		
+übersetzen	übersetzen als	400982	4	VA0	VA1	VA2		
+verabreden, sich	sich [A] verabreden	400996	1	VA0	VA1_OPT	VA2_OPT	VA3_OPT	
+packen	packen	400809	1	VA0	VA1_OPT			
+packen	packen	400809	2	VA0	VA1			
+packen	packen	400809	3	VA0	VA1			
+packen	packen	400809	4	VA0	VA1			
+packen	packen	400809	5	VA0	VA1			
+packen	packen in	400809	6	VA0	VA1	VA2		
+packen	packen in	400809	7	VA0	VA1	VA2		
+packen	packen	400809	8	VA0	VA1	VA2		
+packen	packen	400809	9	VA0	VA1	VA2		
+packen	packen	400809	10	VA0	VA1	VA2_OPT	VA3_OPT	
+reparieren	reparieren	400835	1	VA0	VA1			
+reparieren	reparieren	400835	2	VA0	VA1			
+reparieren	reparieren	400835	3	VA0	VA1			
+Rad fahren	Rad fahren	400821	1	VA0				
+Rad fahren	Rad fahren	400821	2	VA0				
+basieren II	basieren auf	402005	1	VA0	VA1	VA2		
+frieren	frieren	400612	1	VA0	VA1_OPT			
+fotografieren	fotografieren	400606	1	VA0	VA1_OPT			
+wollen	wollen	401242	1	VA0	VA1			
+wollen	wollen	401242	2	VA0	VA1			
+wollen	wollen	401242	3	VA0				
+wollen	wollen	401242	4	VA0	VA1			
+wollen	wollen	401242	5	VA0	VA1			
+wollen	wollen	401242	6	VA0	VA1			
+beschäftigen, sich	sich [A] beschäftigen mit	400389	1	VA0	VA1			
+beschäftigen, sich	sich [A] beschäftigen mit	400389	2	VA0	VA1			
+beschäftigen, sich	sich [A] beschäftigen mit	400389	3	VA0	VA1			
+beschäftigen, sich	sich [A] beschäftigen mit	400389	4	VA0	VA1			
+verursachen	verursachen	401097	1	VA0	VA1			
+verursachen	verursachen	401097	2	VA0	VA1	VA2_OPT		
+verletzen, sich	sich [A] verletzen an	401068	1	VA0	VA1			
+verletzen, sich	sich [A] verletzen	401068	2	VA0	VA1_OPT			
+bemühen, sich	sich [A] bemühen um	400376	1	VA0	VA1			
+bemühen, sich	sich [A] bemühen um	400376	2	VA0	VA1			
+bemühen, sich	sich [A] bemühen um	400376	3	VA0	VA1			
+bemühen, sich	sich [A] bemühen um	400376	4	VA0	VA1			
+bemühen, sich	sich [A] bemühen	400376	5	VA0	VA1			
+beweisen	beweisen	400410	1	VA0	VA1	VA2_OPT		
+beweisen	beweisen	400410	2	VA0	VA1			
+beweisen	beweisen	400410	3	VA0	VA1	VA2_OPT		
+ehren	ehren	400463	1	VA0	VA1	VA2_OPT	VA3_OPT	
+ehren	ehren	400463	2	VA0	VA1			
+ehren	ehren	400463	3	VA0	VA1			
+ehren	ehren	400463	4	VA0	VA1			
+anstrengen	anstrengen	400305	1	VA0	VA1_OPT			
+anstrengen	anstrengen	400305	2	VA0	VA1			
+anstrengen	anstrengen	400305	3	VA0	VA1	VA2_OPT	VA3_OPT	
+ärgern, sich	sich  [A]   ärgern	400311	1	VA0	VA1_OPT			
+einzahlen	einzahlen	400477	1	VA0	VA1_OPT_XOR VA2_OPT	VA3_OPT		
+aussehen, es	es sieht aus	400339	1	VA0_OPT	VA1			
+aussehen, es	es sieht aus nach	400339	2	VA0				
+aussehen, es	es sieht aus mit	400339	3	VA0	VA1			
+entschuldigen	entschuldigen	400488	1	VA0	VA1			
+entschuldigen	entschuldigen	400488	2	VA0	VA1			
+entschuldigen	entschuldigen	400488	3	VA0	VA1	VA2_OPT		
+entschuldigen	entschuldigen mit	400488	4	VA0	VA1	VA2		
+wiederholen	wiederholen	401225	1	VA0	VA1			
+wiederholen	wiederholen	401225	2	VA0	VA1			
+wiederholen	wiederholen	401225	3	VA0	VA1			
+wiederholen	wiederholen	401225	4	VA0	VA1			
+wiederholen	wiederholen	401225	5	VA0	VA1			
+wiederholen	wiederholen	401225	6	VA0	VA1			
+sein	sein	400885	1	VA0				
+sein	sein	400885	2	VA0	VA1			
+sein	sein für/gegen	400885	3	VA0	VA1			
+sein	sein von	400885	4	VA0	VA1			
+sein	sein	400885	5	VA0	VA1			
+sein	sein	400885	6	VA0	VA1	VA2		
+sein	sein	400885	7	VA0	VA1			
+sein	sein	400885	8	VA0	VA1			
+sein	sein	400885	9	VA0	VA1			
+sein	sein aus	400885	10	VA0	VA1			
+sein	sein bei	400885	11	VA0	VA1			
+sein	sein an/bei	400885	12	VA0	VA1			
+sein	sein	400885	13	VA0	VA1			
+sein	sein	400885	14	VA0	VA1			
+sein	sein	400885	15	VA0	VA1			
+sein	sein	400885	16	VA0	VA1			
+sein	sein nach	400885	17	VA0	VA1			
+sein	sein	400885	18	VA0	VA1			
+sein	sein	400885	19	VA0	VA1			
+gebrauchen	gebrauchen	400649	1	VA0	VA1	VA2_OPT		
+gebrauchen	gebrauchen	400649	2	VA0	VA1	VA2_OPT		
+gebrauchen	gebrauchen als/wie	400649	3	VA0	VA1	VA2_XOR VA3		
+setzen, sich	sich [A] setzen	400891	1	VA0	VA1_OPT	VA2_OPT		
+setzen, sich	sich [A] setzen	400891	2	VA0				
+setzen, sich	sich [A] setzen	400891	3	VA0	VA1			
+wirken	wirken	401231	1	VA0				
+wirken	wirken gegen	401231	2	VA0	VA1			
+wirken	wirken auf	401231	3	VA0	VA1	VA2		
+wirken	wirken für/gegen	401231	4	VA0	VA1	VA2_OPT		
+wirken	wirken	401231	5	VA0	VA1_OPT	VA2		
+wirken	wirken	401231	6	VA0	VA1			
+wirken	wirken als	401231	7	VA0	VA1			
+schalten	schalten auf	400846	1	VA0	VA1_OPT	VA2		
+schalten	schalten	400846	2	VA0				
+schalten	schalten	400846	3	VA0	VA1	VA2		
+schalten	schalten auf	400846	4	VA0	VA1			
+schalten	schalten auf	400846	5	VA0	VA1			
+schalten	schalten	400846	6	VA0	VA1			
+schalten	schalten zwischen	400846	7	VA0	VA1			
+konzentrieren, sich	sich [A] konzentrieren auf	400715	1	VA0	VA1			
+konzentrieren, sich	sich [A]  konzentrieren	400715	2	VA0				
+konzentrieren, sich	sich [A]  konzentrieren auf	400715	3	VA0	VA1			
+konzentrieren, sich	sich [A]  konzentrieren	400715	4	VA0	VA1			
+gliedern	gliedern	402116	1	VA0	VA1	VA2	VA3	
+gliedern	gliedern	402116	2	VA0	VA1	VA2_OPT		
+lassen	lassen	400729	1	VA0	VA1			
+lassen	lassen	400729	2	VA0	VA1	VA2		
+lassen	lassen	400729	3	VA0	VA1	VA2		
+lassen	lassen	400729	4	VA0	VA1	VA2		
+lassen	lassen	400729	5	VA0	VA1	VA2	VA3	
+lassen	lassen	400729	6	VA0	VA1	VA2		
+lassen	lassen	400729	7	VA0	VA1	VA2		
+lassen	lassen von	400729	8	VA0	VA1			
+stellen, sich	sich [A] stellen	400932	1	VA0	VA1			
+stellen, sich	sich [A] stellen	400932	2	VA0	VA1			
+stellen, sich	sich [A] stellen	400932	3	VA0	VA1_OPT			
+stellen, sich	sich [A] stellen	400932	4	VA0	VA1_OPT	VA2_OPT		
+stellen, sich	sich [A] stellen	400932	5	VA0	VA1			
+stellen, sich	sich [A] stellen	400932	6	VA0	VA1			
+stellen, sich	sich  stellen	400932	7	VA0	VA1			
+stellen, sich	sich [A] stellen	400932	8	VA0	VA1			
+stecken	stecken	400926	1	VA0	VA1	VA2		
+stecken	stecken	400926	2	VA0	VA1			
+stecken	stecken	400926	3	VA0	VA1			
+stecken	stecken in	400926	4	VA0	VA1	VA2		
+stecken	stecken zu	400926	5	VA0	VA1	VA2		
+stecken	stecken	400926	6	VA0	VA1	VA2		
+stecken	stecken hinter	400926	7	VA0	VA1			
+stecken	stecken in	400926	8	VA0	VA1			
+stecken	stecken in	400926	9	VA0	VA1			
+stecken	stecken in	400926	10	VA0	VA1			
+stecken	stecken	400926	11	VA0	VA1			
+aufräumen	aufräumen	400265	1	VA0	VA1_OPT			
+aufräumen	aufräumen	400265	2	VA0	VA1			
+aufräumen	aufräumen	400265	3	VA0	VA1_OPT			
+aufräumen	aufräumen mit	400265	4	VA0	VA1	VA2_OPT		
+erfüllen	erfüllen	400503	1	VA0	VA1			
+erfüllen	erfüllen	400503	2	VA0	VA1			
+erfüllen	erfüllen	400503	3	VA0	VA1			
+erfüllen	erfüllen	400503	4	VA0	VA1			
+erfüllen	erfüllen	400503	5	VA0	VA1			
+erfüllen	erfüllen	400503	6	VA0	VA1			
+erfüllen	erfüllen	400503	7	VA0	VA1	VA2		
+erfüllen	erfüllen mit	400503	8	VA0	VA1	VA2		
+erfüllen	erfüllen mit	400503	9	VA0	VA1	VA2		
+waschen	waschen	401190	1	VA0	VA1	VA2_OPT		
+waschen	waschen	401190	2	VA0	VA1_OPT	VA2_OPT		
+waschen	waschen	401190	3	VA0	VA1	VA2		
+waschen	waschen	401190	4	VA0	VA1	VA2	VA3_OPT	
+waschen	waschen	401190	5	VA0	VA1			
+erfinden	erfinden	400502	1	VA0	VA1			
+erfinden	erfinden	400502	2	VA0	VA1			
+sterben	sterben	400933	1	VA0	VA1_OPT	VA2_OPT		
+sterben	sterben	400933	2	VA0				
+sterben	sterben aus/vor	400933	3	VA0	VA1			
+sterben	sterben für	400933	4	VA0	VA1			
+zusammenfassen	zusammenfassen	401422	1	VA0	VA1	VA2_OPT		
+zusammenfassen	zusammenfassen mit	401422	2	VA0	VA1	VA2	VA3_OPT	
+zusammenfassen	zusammenfassen	401422	3	VA0	VA1	VA2		
+zusammenfassen	zusammenfassen	401422	4	VA0	VA1	VA2_OPT		
+landen	landen	400728	1	VA0	VA1_OPT			
+landen	landen	400728	2	VA0	VA1			
+abhängen II	abhängen II	401436	1	VA0	VA1	VA2_OPT		
+abhängen II	abhängen II	401436	2	VA0	VA1	VA2_OPT		
+abhängen II	abhängen II	401436	3	VA0	VA1			
+kennen	kennen	400700	1	VA0	VA1			
+kennen	kennen	400700	2	VA0	VA1			
+kennen	kennen	400700	3	VA0	VA1			
+kennen	kennen	400700	4	VA0	VA1			
+kennen	kennen als	400700	5	VA0	VA1	VA2		
+gliedern, sich	sich gliedern	402117	1	VA0	VA1	VA2		
+können	können	400714	1	VA0	VA1			
+können	können	400714	2	VA0	VA1			
+können	können	400714	3	VA0	VA1			
+schauen	schauen	400847	1	VA0	VA1			
+schauen	schauen	400847	2	VA0	VA1			
+schauen	schauen auf	400847	3	VA0	VA1			
+schauen	schauen nach	400847	4	VA0	VA1			
+schauen	schauen nach	400847	5	VA0	VA1			
+schauen	schauen nach	400847	6	VA0	VA1			
+schauen	schauen	400847	7	VA0	VA1			
+schauen	schauen	400847	8	VA0	VA1			
+schauen	schauen	400847	9	VA0	VA1			
+schauen	schauen	400847	10	VA0	VA1			
+schauen	schauen	400847	11	VA0	VA1			
+schauen	schauen	400847	12	VA0	VA1			
+setzen	setzen	400890	1	VA0	VA1	VA2		
+setzen	setzen	400890	2	VA0	VA1	VA2_OPT		
+setzen	setzen	400890	3	VA0	VA1	VA2		
+setzen	setzen	400890	4	VA0	VA1	VA2		
+setzen	setzen	400890	5	VA0	VA1	VA2_OPT		
+setzen	setzen	400890	6	VA0	VA1	VA2_OPT		
+setzen	setzen	400890	7	VA0	VA1	VA2_OPT		
+setzen	setzen auf	400890	8	VA0	VA1			
+setzen	setzen über	400890	9	VA0	VA1			
+geben, es	es gibt	400648	1	VA0	VA1_OPT	VA2_OPT		
+geben, es	es gibt	400648	2	VA0	VA1_OPT	VA2_OPT		
+geben, es	es gibt	400648	3	VA0	VA1	VA2		
+geben, es	es gibt	400648	4	VA0				
+geben, es	es gibt für	400648	5	VA0	VA1			
+geben, es	es gibt für/pro	400648	6	VA0	VA1	VA2_OPT		
+geben, es	es gibt für	400648	7	VA0	VA1			
+geben, es	es gibt	400648	8	VA0	VA1			
+geben, es	es gibt	400648	9	VA0_OPT	VA1			
+winken	winken	401230	1	VA0	VA1_OPT	VA2_OPT		
+winken	winken	401230	2	VA0	VA1			
+winken	winken	401230	3	VA0	VA1	VA2		
+winken	winken    <nach>	401230	4	VA0	VA1_XOR VA2	VA3_OPT		
+winken	winken	401230	5	VA0	VA1_OPT	VA2		
+winken	winken	401230	6	VA0	VA1_OPT	VA2_OPT		
+winken	winken mit	401230	7	VA0	VA1			
+hoffen	hoffen	400674	1	VA0	VA1			
+hoffen	hoffen auf	400674	2	VA0	VA1			
+geschehen	geschehen	400660	1	VA0				
+geschehen	geschehen	400660	2	VA0	VA1			
+geschehen	geschehen aus	400660	3	VA0	VA1			
+geschehen	geschehen mit	400660	4	VA0	VA1			
+geschehen	geschehen	400660	5	VA0	VA1			
+geschehen	geschehen	400660	6	VA0	VA1	VA2		
+verkaufen	verkaufen	401032	1	VA0	VA1	VA2_OPT_XOR VA3_OPT	VA4_OPT	
+verkaufen	verkaufen als	401032	2	VA0	VA1	VA2_OPT	VA3	
+aussehen	aussehen	400338	1	VA0	VA1			
+aussehen	aussehen	400338	2	VA0	VA1			
+aussehen	aussehen nach	400338	3	VA0	VA1			
+ärgern	ärgern	400310	1	VA0	VA1			
+ärgern	ärgern	400310	2	VA0	VA1	VA2_OPT		
+einwandern	einwandern	400476	1	VA0	VA1_OPT			
+einwandern	einwandern	400476	2	VA0	VA1			
+duschen, (sich)	(sich [A]) duschen	400462	1	VA0	VA1_OPT			
+anstrengen, sich	sich  [A] anstrengen	400304	1	VA0				
+anstrengen, sich	sich  [A]  anstrengen	400304	2	VA0	VA1			
+anstrengen, sich	sich  [A]  anstrengen  mit	400304	3	VA0	VA1			
+einsteigen	einsteigen	400474	1	VA0	VA1_OPT	VA2_OPT		
+einsteigen	einsteigen auf	400474	2	VA0	VA1			
+einsteigen	einsteigen in	400474	3	VA0	VA1			
+einsteigen	einsteigen	400474	4	VA0	VA1_OPT	VA2_OPT		
+einsteigen	einsteigen	400474	5	VA0	VA1_OPT			
+atmen	atmen	400312	1	VA0	VA1_OPT	VA2_OPT		
+atmen	atmen	400312	2	VA0				
+atmen	atmen	400312	3	VA0				
+atmen	atmen	400312	4	VA0	VA1			
+atmen	atmen	400312	5	VA0	VA1			
+antworten	antworten	400306	1	VA0	VA1_OPT	VA2_OPT	VA3_OPT	
+antworten	antworten mit	400306	2	VA0	VA1_OPT	VA2_OPT	VA3	
+antworten	antworten mit	400306	3	VA0	VA1_OPT	VA2		
+antworten	antworten	400306	4	VA0	VA1			
+verhaften	verhaften	401018	1	VA0	VA1			
+verhindern	verhindern	401030	1	VA0	VA1	VA2_OPT		
+verhindern	verhindern	401030	2	VA0	VA1			
+resultieren	resultieren aus	401965	1	VA0	VA1			
+resultieren	resultieren in	401965	2	VA0	VA1			
+münden	münden	401959	1	VA0	VA1_XOR VA2			
+münden	münden in	401959	2	VA0	VA1			
+hinsetzen, sich	sich [A] hinsetzen	400676	1	VA0	VA1_OPT			
+sein, es	es ist	400886	1	VA0_OPT	VA1			
+sein, es	es ist	400886	2	VA0_OPT	VA1			
+wiegen	wiegen	401226	1	VA0	VA1	VA2_OPT		
+wiegen	wiegen	401226	2	VA0	VA1	VA2_OPT		
+wiegen	wiegen	401226	3	VA0	VA1			
+wiegen	wiegen	401226	4	VA0	VA1			
+schwimmen	schwimmen	400879	1	VA0	VA1			
+schwimmen	schwimmen	400879	2	VA0	VA1_OPT			
+schwimmen	schwimmen	400879	3	VA0				
+schwimmen	schwimmen  <über>	400879	4	VA0	VA1_XOR VA2			
+schwimmen	schwimmen in	400879	5	VA0	VA1			
+schwimmen	schwimmen	400879	6	VA0	VA1_OPT			
+schwimmen	schwimmen	400879	7	VA0	VA1			
+schwimmen	schwimmen	400879	8	VA0	VA1			
+schwimmen	schwimmen	400879	9	VA0	VA1_OPT	VA2		
+kämmen	kämmen	400689	1	VA0	VA1	VA2_OPT		
+kämmen	kämmen <zu>	400689	2	VA0	VA1	VA2_XOR VA3		
+kämmen	kämmen	400689	3	VA0	VA1	VA2_OPT		
+kämmen	kämmen	400689	4	VA0	VA1	VA2		
+kämmen	kämmen	400689	5	VA0	VA1	VA2	VA3_OPT	
+schaffen	schaffen	400845	1	VA0	VA1			
+schaffen	schaffen	400845	2	VA0	VA1			
+schaffen	schaffen	400845	3	VA0	VA1			
+schaffen	schaffen	400845	4	VA0	VA1			
+schaffen	schaffen	400845	5	VA0	VA1	VA2		
+kennen lernen/kennenlernen	kennen lernen	400702	1	VA0	VA1			
+kennen lernen/kennenlernen	kennen lernen	400702	2	VA0	VA1			
+kennen lernen/kennenlernen	kennen lernen in	400702	3	VA0	VA1	VA2		
+kennen lernen/kennenlernen	kennen lernen als	400702	4	VA0	VA1	VA2		
+zurückfahren	zurückfahren	401408	1	VA0	VA1_OPT			
+zurückfahren	zurückfahren	401408	2	VA0	VA1_OPT			
+zurückfahren	zurückfahren	401408	3	VA0	VA1_OPT			
+korrigieren	korrigieren	400716	1	VA0	VA1			
+korrigieren	korrigieren	400716	2	VA0	VA1			
+korrigieren	korrigieren	400716	3	VA0	VA1			
+korrigieren	korrigieren	400716	4	VA0	VA1_OPT			
+korrigieren	korrigieren	400716	5	VA0	VA1	VA2_OPT		
+stellen	stellen auf	400931	1	VA0	VA1	VA2		
+stellen	stellen	400931	2	VA0	VA1	VA2		
+stellen	stellen	400931	3	VA0	VA1	VA2		
+stellen	stellen	400931	4	VA0	VA1			
+stellen	stellen unter	400931	5	VA0	VA1	VA2		
+stellen	stellen vor	400931	6	VA0	VA1	VA2		
+stellen	stellen	400931	7	VA0	VA1	VA2_OPT		
+stellen	stellen	400931	8	VA0	VA1	VA2		
+stellen	stellen	400931	9	VA0	VA1	VA2		
+stellen	stellen	400931	10	VA0	VA1	VA2_OPT		
+stellen	stellen	400931	11	VA0	VA1	VA2		
+stellen	stellen	400931	12	VA0	VA1	VA2		
+ereignen, sich	sich ereignen	400500	1	VA0	VA1	VA2		
+erholen, sich	sich [A] erholen	400514	1	VA0	VA1_OPT			
+erholen, sich	sich [A] erholen	400514	2	VA0	VA1_OPT			
+erholen, sich	sich erholen	400514	3	VA0	VA1_OPT	VA2_OPT		
+gehen	gehen	400528	1	VA0				
+gehen	gehen	400528	2	VA0				
+gehen	gehen auf/in/zu	400528	3	VA0	VA1			
+gehen	gehen	400528	4	VA0	VA1			
+gehen	gehen	400528	5	VA0	VA1			
+gehen	gehen	400528	6	VA0	VA1			
+gehen	gehen	400528	7	VA0	VA1			
+gehen	gehen	400528	8	VA0	VA1			
+gehen	gehen	400528	9	VA0	VA1			
+gehen	gehen	400528	10	VA0	VA1			
+gehen	gehen	400528	11	VA0	VA1			
+gehen	gehen	400528	12	VA0	VA1_OPT			
+gehen	gehen	400528	13	VA0	VA1_OPT			
+gehen	gehen	400528	14	VA0	VA1_OPT			
+gehen	gehen	400528	15	VA0	VA1	VA2		
+gehen	gehen	400528	16	VA0	VA1_OPT	VA2		
+gehen	gehen	400528	17	VA0				
+gehen	gehen	400528	18	VA0				
+gehen	gehen	400528	19	VA0				
+gehen	gehen	400528	20	VA0				
+gehen	gehen über	400528	21	VA0	VA1_OPT	VA2		
+gehen	gehen an	400528	22	VA0	VA1			
+gehen	gehen an	400528	23	VA0	VA1			
+gehen	gehen an	400528	24	VA0	VA1			
+gehen	gehen an	400528	25	VA0	VA1			
+gehen	gehen an	400528	26	VA0	VA1			
+gehen	gehen auf	400528	27	VA0	VA1			
+gehen	gehen gegen	400528	28	VA0	VA1			
+gehen	gehen in	400528	29	VA0	VA1			
+gehen	gehen mit	400528	30	VA0	VA1			
+gehen	gehen nach	400528	31	VA0	VA1			
+gehen	gehen über	400528	32	VA0	VA1			
+gehen	gehen über	400528	33	VA0	VA1			
+gehen	gehen um	400528	34	VA0	VA1			
+gehen	gehen	400528	35	VA0	VA1			
+gehen	gehen	400528	36	VA0	VA1			
+gehen	gehen	400528	37	VA0	VA1			
+gehen	gehen	400528	38	VA0	VA1			
+gehen	gehen	400528	39	VA0	VA1			
+gehen	gehen	400528	40	VA0	VA1			
+gehen	gehen	400528	41	VA0	VA1			
+gehen	gehen	400528	42	VA0	VA1			
+gehen	gehen	400528	43	VA0	VA1			
+gehen	gehen	400528	44	VA0	VA1			
+gehen	gehen	400528	45	VA0	VA1			
+gehen	gehen	400528	46	VA0	VA1			
+gehen	gehen	400528	47	VA0	VA1			
+gehen	gehen	400528	48	VA0	VA1			
+gehen	gehen	400528	49	VA0	VA1			
+gehen	gehen als	400528	50	VA0	VA1			
+anschauen, (sich)	(sich [D])  anschauen	400299	1	VA0	VA1			
+warten	warten	401186	1	VA0	VA1			
+warten	warten auf	401186	2	VA0	VA1	VA2_OPT	VA3_OPT	
+warten	warten auf	401186	3	VA0	VA1			
+warten	warten mit	401186	4	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+warten	warten auf	401186	5	VA0	VA1	VA2		
+anschaffen, (sich)	(sich [D])  anschaffen	400298	1	VA0	VA1			
+erfahren	erfahren	400501	1	VA0	VA1	VA2_OPT		
+erfahren	erfahren	400501	2	VA0	VA1			
+erfahren	erfahren	400501	3	VA0	VA1			
+erfahren	erfahren	400501	4	VA0	VA1	VA2_OPT		
+erfahren	erfahren als	400501	5	VA0	VA1	VA2		
+erfahren	erfahren von	400501	6	VA0	VA1	VA2_OPT		
+abwarten	abwarten	400267	1	VA0	VA1_XOR VA2			
+abwarten	abwarten	400267	2	VA0				
+abwarten	abwarten	400267	3	VA0	VA1			
+steigen	steigen	400930	1	VA0	VA1			
+steigen	steigen	400930	2	VA0	VA1_OPT			
+steigen	steigen	400930	3	VA0				
+steigen	steigen	400930	4	VA0	VA1			
+steigen	steigen	400930	5	VA0	VA1			
+steigen	steigen	400930	6	VA0	VA1			
+steigen	steigen	400930	7	VA0	VA1			
+steigen	steigen	400930	8	VA0	VA1_OPT			
+stattfinden	stattfinden	400924	1	VA0	VA1	VA2		
+stattfinden	stattfinden	400924	2	VA0				
+zwingen	zwingen zu	401435	1	VA0	VA1	VA2	VA3_OPT	
+zwingen	zwingen zu	401435	2	VA0	VA1_OPT	VA2		
+zwingen	zwingen	401435	3	VA0	VA1	VA2		
+zwingen	zwingen	401435	4	VA0	VA1	VA2	VA3_OPT	
+zwingen	zwingen in/zu	401435	5	VA0	VA1	VA2		
+kosten	kosten	400717	1	VA0	VA1_OPT	VA2		
+kosten	kosten	400717	2	VA0	VA1_OPT	VA2		
+kosten	kosten	400717	3	VA0	VA1_XOR VA2	VA3		
+kosten	kosten  <von>	400717	4	VA0	VA1_XOR VA2			
+klagen	klagen über	400703	1	VA0	VA1			
+klagen	klagen um	400703	2	VA0	VA1			
+klagen	klagen	400703	3	VA0	VA1_OPT	VA2_OPT		
+klagen	klagen	400703	4	VA0	VA1	VA2		
+schaden	schaden	400844	1	VA0	VA1			
+schaden	schaden	400844	2	VA0	VA1	VA2_OPT		
+informieren	informieren	400688	1	VA0	VA1	VA2		
+informieren	informieren von	400688	2	VA0	VA1	VA2		
+informieren	informieren über	400688	3	VA0	VA1	VA2		
+informieren	informieren über	400688	4	VA0	VA1			
+schweigen	schweigen	400878	1	VA0				
+schweigen	schweigen	400878	2	VA0	VA1_OPT			
+schweigen	schweigen	400878	3	VA0				
+schweigen	schweigen	400878	4	VA0				
+schweigen	schweigen auf	400878	5	VA0	VA1			
+schweigen	schweigen von	400878	6	VA0	VA1			
+schweigen	schweigen zu	400878	7	VA0	VA1			
+senden I	senden I	400887	1	VA0	VA1	VA2	VA3	
+senden I	senden I	400887	2	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+senden I	senden I	400887	3	VA0	VA1	VA2_OPT		
+hinfahren	hinfahren	400677	1	VA0	VA1_OPT			
+folgern	folgern	401958	1	VA0	VA1	VA2_OPT		
+anziehen	anziehen	400307	1	VA0	VA1			
+anziehen	anziehen	400307	2	VA0	VA1	VA2_OPT		
+anziehen	anziehen	400307	3	VA0				
+anziehen	anziehen	400307	4	VA0	VA1			
+anziehen	anziehen	400307	5	VA0	VA1			
+anziehen	anziehen	400307	6	VA0	VA1			
+anziehen	anziehen	400307	7	VA0	VA1			
+anziehen	anziehen	400307	8	VA0	VA1_OPT			
+anziehen	anziehen	400307	9	VA0	VA1_OPT			
+anziehen	anziehen	400307	10	VA0	VA1_OPT			
+duschen	duschen	400461	1	VA0	VA1			
+einstellen	einstellen	400475	1	VA0	VA1	VA2_OPT		
+einstellen	einstellen	400475	2	VA0	VA1			
+einstellen	einstellen	400475	3	VA0	VA1			
+einstellen	einstellen	400475	4	VA0	VA1			
+einstellen	einstellen	400475	5	VA0	VA1			
+einstellen	einstellen	400475	6	VA0	VA1	VA2_OPT		
+einstellen	einstellen	400475	7	VA0	VA1	VA2		
+auffordern	auffordern zu	400313	1	VA0	VA1	VA2		
+auffordern	auffordern	400313	2	VA0	VA1	VA2_OPT		
+verhalten, sich	sich [A] verhalten	401021	1	VA0	VA1_OPT	VA2		
+verhalten, sich	sich verhalten zu	401021	2	VA0	VA1	VA2		
+verhalten, sich	sich verhalten	401021	3	VA0	VA1			
+verhalten, sich	sich verhalten	401021	4	VA0	VA1			
+aufhören, es	aufhören, es	400317	1	VA0_OPT	VA1			
+vergessen	vergessen	401009	1	VA0	VA1			
+vergessen	vergessen	401009	2	VA0	VA1			
+vergessen	vergessen	401009	3	VA0	VA1	VA2_OPT		
+einschalten	einschalten	400471	1	VA0	VA1			
+einschalten	einschalten	400471	2	VA0	VA1	VA2_OPT		
+einschalten	einschalten	400471	3	VA0	VA1	VA2_OPT		
+an sein	an sein	400303	1	VA0				
+sitzen	sitzen	400897	1	VA0				
+sitzen	sitzen	400897	2	VA0	VA1			
+sitzen	sitzen	400897	3	VA0	VA1			
+sitzen	sitzen an/über	400897	4	VA0	VA1			
+sitzen	sitzen	400897	5	VA0	VA1			
+sitzen	sitzen	400897	6	VA0	VA1			
+sitzen	sitzen	400897	7	VA0	VA1			
+sitzen	sitzen	400897	8	VA0	VA1_OPT			
+sitzen	sitzen	400897	9	VA0	VA1	VA2		
+sitzen	sitzen	400897	10	VA0	VA1_XOR VA2			
+abbiegen	abbiegen	400129	1	VA0	VA1_OPT	VA2_OPT		
+abbiegen	abbiegen	400129	2	VA0	VA1_OPT	VA2_OPT		
+widersprechen	widersprechen	401223	1	VA0	VA1			
+widersprechen	widersprechen	401223	2	VA0	VA1_OPT			
+widersprechen	widersprechen	401223	3	VA0	VA1			
+holen	holen	400673	1	VA0	VA1			
+holen	holen	400673	2	VA0	VA1	VA2		
+holen	holen	400673	3	VA0	VA1	VA2_OPT		
+holen	holen	400673	4	VA0	VA1			
+holen	holen aus	400673	5	VA0	VA1	VA2		
+holen	holen	400673	6	VA0	VA1	VA2_OPT		
+glauben	glauben	400667	1	VA0	VA1			
+glauben	glauben	400667	2	VA0	VA1_OPT	VA2		
+glauben	glauben an	400667	3	VA0	VA1			
+glauben	glauben	400667	4	VA0	VA1	VA2		
+glauben	glauben	400667	5	VA0	VA1			
+glauben	glauben an	400667	6	VA0	VA1			
+glauben	glauben an	400667	7	VA0	VA1			
+rufen	rufen	400840	1	VA0				
+rufen	rufen	400840	2	VA0	VA1	VA2_OPT		
+rufen	rufen	400840	3	VA0				
+rufen	rufen	400840	4	VA0	VA1			
+rufen	rufen bei/mit	400840	5	VA0	VA1	VA2		
+rufen	rufen zu	400840	6	VA0	VA1_OPT	VA2		
+rufen	rufen	400840	7	VA0	VA1	VA2		
+rufen	rufen	400840	8	VA0	VA1	VA2		
+rufen	rufen	400840	9	VA0	VA1	VA2_OPT		
+rufen	rufen	400840	10	VA0	VA1	VA2		
+rufen	rufen um	400840	11	VA0	VA1			
+rufen	rufen nach	400840	12	VA0	VA1			
+rufen	rufen nach	400840	13	VA0	VA1			
+zu sein	zu sein	401431	1	VA0				
+zu sein	zu sein	401431	2	VA0				
+zu sein	zu sein	401431	3	VA0	VA1			
+klingeln	klingeln	400707	1	VA0				
+klingeln	klingeln	400707	2	VA0	VA1_OPT			
+klingeln	klingeln nach	400707	3	VA0	VA1_XOR VA2			
+klingeln	klingeln zu	400707	4	VA0	VA1			
+klingeln	klingeln	400707	5	VA0	VA1_OPT			
+kommen, es	es kommt zu	400713	1	VA0				
+kommen, es	es kommt	400713	2	VA0				
+stimmen	stimmen	400934	1	VA0				
+stimmen	stimmen  <für/gegen>	400934	2	VA0	VA1_XOR VA2			
+stimmen	stimmen	400934	3	VA0	VA1	VA2_OPT		
+stimmen	stimmen	400934	4	VA0	VA1	VA2		
+stimmen	stimmen zu	400934	5	VA0	VA1			
+stimmen	stimmen	400934	6	VA0	VA1_OPT			
+erfüllen, sich	sich erfüllen	400505	1	VA0				
+erfüllen, sich	sich erfüllen in	400505	2	VA0	VA1			
+ändern, sich	sich [A]  ändern	400288	1	VA0				
+ändern, sich	sich ändern	400288	2	VA0				
+ändern, sich	sich ändern an	400288	3	VA0	VA1			
+ändern, sich	sich ändern	400288	4	VA0	VA1_OPT			
+wechseln I	wechseln	401196	1	VA0	VA1			
+wechseln II	wechseln	401197	1	VA0	VA1			
+wechseln II	wechseln	401197	2	VA0	VA1	VA2_OPT		
+wechseln II	wechseln	401197	3	VA0	VA1	VA2_OPT		
+wechseln II	wechseln	401197	4	VA0				
+wechseln II	wechseln	401197	5	VA0				
+wechseln II	wechseln	401197	6	VA0	VA1			
+wechseln II	wechseln mit	401197	7	VA0	VA1	VA2		
+wechseln II	wechseln mit	401197	8	VA0	VA1			
+wechseln II	wechseln zwischen	401197	9	VA0	VA1			
+wechseln II	wechseln zwischen	401197	10	VA0	VA1			
+anfassen	anfassen	400289	1	VA0	VA1	VA2_OPT		
+anfassen	anfassen	400289	2	VA0				
+anfassen	anfassen	400289	3	VA0	VA1			
+anfassen	anfassen	400289	4	VA0	VA1	VA2		
+anfassen	anfassen	400289	5	VA0	VA1	VA2_OPT		
+erklären	erklären	400538	1	VA0	VA1			
+erklären	erklären	400538	2	VA0	VA1	VA2_OPT		
+erklären	erklären	400538	3	VA0	VA1	VA2_OPT	VA3_OPT	
+erklären	erklären mit	400538	4	VA0	VA1	VA2		
+erklären	erklären zu	400538	5	VA0	VA1	VA2		
+erklären	erklären <für>/<als>	400538	6	VA0	VA1	VA2_XOR VA3		
+stoppen	stoppen	400935	1	VA0	VA1			
+stoppen	stoppen	400935	2	VA0				
+stoppen	stoppen	400935	3	VA0	VA1			
+stoppen	stoppen	400935	4	VA0	VA1			
+stoppen	stoppen	400935	5	VA0	VA1			
+stoppen	stoppen	400935	6	VA0	VA1_XOR VA2			
+stoppen	stoppen	400935	7	VA0	VA1_OPT			
+springen	springen	400921	1	VA0				
+springen	springen	400921	2	VA0	VA1			
+springen	springen auf	400921	3	VA0	VA1			
+springen	springen	400921	4	VA0	VA1			
+springen	springen	400921	5	VA0				
+springen	springen	400921	6	VA0				
+springen	springen auf	400921	7	VA0	VA1			
+springen	springen aus/von	400921	8	VA0	VA1			
+springen	springen	400921	9	VA0	VA1			
+springen	springen	400921	10	VA0	VA1			
+springen	springen	400921	11	VA0	VA1			
+springen	springen	400921	12	VA0	VA1			
+springen	springen	400921	13	VA0	VA1			
+kochen	kochen	400712	1	VA0				
+kochen	kochen	400712	2	VA0	VA1			
+kochen	kochen	400712	3	VA0	VA1_OPT			
+kochen	kochen	400712	4	VA0	VA1			
+kochen	kochen	400712	5	VA0	VA1			
+kochen	kochen zu	400712	6	VA0	VA1	VA2		
+kochen	kochen	400712	7	VA0	VA1	VA2_OPT		
+kochen	kochen	400712	8	VA0	VA1			
+kochen	kochen	400712	9	VA0	VA1			
+erkundigen, sich	sich [A] erkundigen	402111	1	VA0	VA1	VA2_OPT		
+zusammenkommen	zusammenkommen mit	401424	1	VA0	VA1	VA2_OPT	VA3_OPT	
+zusammenkommen	zusammenkommen	401424	2	VA0				
+zusammenkommen	zusammenkommen	401424	3	VA0				
+zusammenkommen	zusammenkommen mit	401424	4	VA0	VA1			
+zusammenkommen	zusammenkommen mit	401424	5	VA0	VA1	VA2_OPT		
+zusammenkommen	zusammenkommen	401424	6	VA0	VA1			
+sagen	sagen	400841	1	VA0	VA1			
+sagen	sagen	400841	2	VA0	VA1	VA2		
+sagen	sagen	400841	3	VA0	VA1	VA2_OPT		
+sagen	sagen	400841	4	VA0	VA1			
+sagen	sagen	400841	5	VA0	VA1	VA2		
+sagen	sagen	400841	6	VA0	VA1	VA2		
+sagen	sagen	400841	7	VA0	VA1	VA2		
+sagen	sagen	400841	8	VA0	VA1	VA2_OPT	VA3_OPT	
+sagen	sagen über/von/zu	400841	9	VA0	VA1	VA2		
+sagen	sagen zu	400841	10	VA0	VA1	VA2		
+sagen	sagen	400841	11	VA0	VA1	VA2		
+sagen	sagen	400841	12	VA0	VA1	VA2_OPT		
+gewöhnen, sich	sich [A] gewöhnen an	400666	1	VA0	VA1			
+gewöhnen, sich	sich gewöhnen an	400666	2	VA0	VA1			
+husten	husten	400672	1	VA0				
+husten	husten	400672	2	VA0	VA1	VA2_OPT		
+husten	husten	400672	3	VA0	VA1			
+sinken	sinken	400896	1	VA0				
+sinken	sinken	400896	2	VA0	VA1			
+sinken	sinken	400896	3	VA0	VA1_OPT			
+sinken	sinken	400896	4	VA0				
+sinken	sinken in	400896	5	VA0	VA1			
+sinken	sinken	400896	6	VA0	VA1_OPT			
+sinken	sinken	400896	7	VA0	VA1	VA2		
+eignen, sich	sich [A] eignen für	400464	1	VA0	VA1			
+eignen, sich	sich [A] eignen <zu>/<als>	400464	2	VA0	VA1_XOR VA2			
+ansehen	ansehen	400302	1	VA0	VA1			
+ansehen	ansehen	400302	2	VA0	VA1	VA2		
+ansehen	ansehen   <für> / <als>	400302	3	VA0	VA1	VA2_XOR VA3		
+verdienen	verdienen	401008	1	VA0	VA1			
+verdienen	verdienen	401008	2	VA0	VA1	VA2_OPT		
+verdienen	verdienen	401008	3	VA0	VA1_OPT	VA2		
+verdienen	verdienen an	401008	4	VA0	VA1	VA2_OPT		
+verdienen	verdienen	401008	5	VA0	VA1			
+verdienen	verdienen	401008	6	VA0	VA1			
+aufhören	aufhören	400316	1	VA0	VA1_OPT			
+aufhören	aufhören	400316	2	VA0	VA1_OPT			
+aufhören	aufhören	400316	3	VA0	VA1_OPT			
+aufhören	aufhören	400316	4	VA0	VA1_OPT	VA2_OPT		
+aufhören	aufhören mit	400316	5	VA0	VA1			
+aufhören	aufhören	400316	6	VA0	VA1			
+einrichten	einrichten	400470	1	VA0	VA1			
+einrichten	einrichten	400470	2	VA0	VA1	VA2_OPT		
+einrichten	einrichten	400470	3	VA0	VA1	VA2_OPT		
+einrichten	einrichten	400470	4	VA0	VA1			
+einrichten	einrichten auf/nach	400470	5	VA0	VA1	VA2		
+drucken	drucken	400458	1	VA0	VA1			
+drucken	drucken	400458	2	VA0	VA1			
+drucken	drucken	400458	3	VA0	VA1	VA2_OPT		
+drucken	drucken	400458	4	VA0	VA1	VA2		
+verlangen	verlangen <nach>	401036	1	VA0	VA1_XOR VA2			
+verlangen	verlangen	401036	2	VA0	VA1	VA2_OPT		
+verlangen	verlangen <nach>	401036	3	VA0	VA1_XOR VA2			
+verlangen	verlangen <nach>	401036	4	VA0	VA1_XOR VA2			
+verlangen	verlangen	401036	5	VA0	VA1	VA2_OPT		
+verlangen	verlangen	401036	6	VA0	VA1_XOR VA2	VA3_OPT	VA4_OPT	
+verlangen	verlangen nach	401036	7	VA0	VA1			
+anschauen	anschauen	400300	1	VA0	VA1			
+einfallen	einfallen	400466	1	VA0	VA1			
+einfallen	einfallen	400466	2	VA0	VA1	VA2_OPT		
+einfallen	einfallen	400466	3	VA0				
+einfallen	einfallen	400466	4	VA0				
+einfallen	einfallen	400466	5	VA0	VA1_OPT			
+einfallen	einfallen	400466	6	VA0	VA1			
+einfallen	einfallen	400466	7	VA0	VA1	VA2		
+einschlafen	einschlafen	400472	1	VA0				
+einschlafen	einschlafen	400472	2	VA0				
+einschlafen	einschlafen	400472	3	VA0				
+einschlafen	einschlafen	400472	4	VA0	VA1_OPT			
+aufgeben	aufgeben	400314	1	VA0				
+aufgeben	aufgeben	400314	2	VA0	VA1			
+aufgeben	aufgeben	400314	3	VA0	VA1			
+aufgeben	aufgeben	400314	4	VA0	VA1			
+aufgeben	aufgeben	400314	5	VA0	VA1	VA2_OPT		
+entwickeln, sich	sich [A] entwickeln	400499	1	VA0	VA1_OPT			
+entwickeln, sich	sich [A] entwickeln	400499	2	VA0				
+entwickeln, sich	sich [A] entwickeln aus	400499	3	VA0	VA1			
+entwickeln, sich	sich [A] entwickeln zu	400499	4	VA0	VA1_OPT	VA2		
+entwickeln, sich	sich [A] entwickeln	400499	5	VA0	VA1			
+gelingen	gelingen	400658	1	VA0	VA1_OPT	VA2_OPT		
+gelingen	gelingen	400658	2	VA0	VA1			
+gelingen	gelingen mit	400658	3	VA0	VA1_OPT	VA2		
+schwitzen	schwitzen	400880	1	VA0	VA1_OPT			
+schwitzen	schwitzen	400880	2	VA0				
+schwitzen	schwitzen	400880	3	VA0	VA1	VA2		
+schwitzen	schwitzen über	400880	4	VA0	VA1			
+werfen	werfen	401220	1	VA0	VA1	VA2_OPT		
+werfen	werfen mit	401220	2	VA0	VA1	VA2_OPT		
+werfen	werfen	401220	3	VA0	VA1_XOR VA2			
+werfen	werfen in	401220	4	VA0	VA1	VA2		
+werfen	werfen	401220	5	VA0	VA1	VA2		
+werfen	werfen	401220	6	VA0	VA1	VA2		
+werfen	werfen	401220	7	VA0	VA1	VA2_OPT		
+werfen	werfen	401220	8	VA0	VA1	VA2_OPT		
+werfen	werfen	401220	9	VA0	VA1	VA2	VA3_OPT	
+werfen	werfen	401220	10	VA0	VA1_OPT			
+werfen	werfen	401220	11	VA0	VA1			
+wissen	wissen	401234	1	VA0	VA1			
+wissen	wissen	401234	2	VA0	VA1			
+wissen	wissen um/ob	401234	3	VA0	VA1			
+wissen	wissen von	401234	4	VA0	VA1			
+sichern	sichern	400894	1	VA0	VA1	VA2_OPT	VA3_OPT	
+sichern	sichern	400894	2	VA0	VA1			
+sichern	sichern	400894	3	VA0	VA1			
+sichern	sichern	400894	4	VA0	VA1	VA2		
+sichern	sichern	400894	5	VA0	VA1	VA2_OPT		
+wehtun	wehtun	401208	1	VA0				
+wehtun	wehtun	401208	2	VA0	VA1	VA2_OPT	VA3_OPT	
+wehtun	wehtun	401208	3	VA0	VA1_OPT	VA2_OPT		
+wehtun	wehtun	401208	4	VA0	VA1	VA2_OPT		
+wehtun	wehtun	401208	5	VA0	VA1_OPT			
+grüßen	grüßen	400670	1	VA0	VA1_OPT			
+grüßen	grüßen von	400670	2	VA0	VA1	VA2		
+grüßen	grüßen	400670	3	VA0	VA1	VA2_OPT		
+grüßen	grüßen	400670	4	VA0	VA1_OPT	VA2	VA3	
+sauber machen	sauber machen	400843	1	VA0	VA1_OPT			
+sauber machen	sauber machen	400843	2	VA0	VA1	VA2_OPT		
+sauber machen	sauber machen	400843	3	VA0	VA1_OPT			
+zweifeln	zweifeln an	401432	1	VA0	VA1			
+leihen, (sich)	(sich [D]) leihen	400738	1	VA0	VA1	VA2_OPT	VA3_OPT	
+klopfen, es	es klopft	400710	1	VA0_OPT				
+klappen	klappen	400704	1	VA0	VA1			
+klappen	klappen	400704	2	VA0				
+klappen	klappen	400704	3	VA0	VA1	VA2		
+klappen	klappen	400704	4	VA0	VA1			
+streiken	streiken	400937	1	VA0	VA1_OPT			
+streiken	streiken	400937	2	VA0				
+streiken	streiken	400937	3	VA0	VA1_OPT			
+starten	starten	400923	1	VA0	VA1_OPT			
+starten	starten	400923	2	VA0	VA1	VA2_OPT		
+starten	starten gegen	400923	3	VA0	VA1			
+starten	starten über	400923	4	VA0	VA1			
+starten	starten	400923	5	VA0	VA1_OPT	VA2		
+starten	starten	400923	6	VA0	VA1			
+starten	starten	400923	7	VA0	VA1			
+starten	starten	400923	8	VA0	VA1_OPT			
+starten	starten	400923	9	VA0	VA1	VA2		
+erhöhen	erhöhen	400512	1	VA0	VA1	VA2_OPT		
+erhöhen	erhöhen	400512	2	VA0	VA1			
+erhöhen	erhöhen	400512	3	VA0	VA1	VA2_OPT		
+erhöhen	erhöhen	400512	4	VA0	VA1	VA2_OPT		
+erhöhen	erhöhen	400512	5	VA0	VA1_OPT			
+erhalten	erhalten	400506	1	VA0	VA1	VA2_OPT		
+erhalten	erhalten	400506	2	VA0	VA1	VA2_OPT		
+erhalten	erhalten	400506	3	VA0	VA1			
+erhalten	erhalten	400506	4	VA0	VA1			
+erhalten	erhalten	400506	5	VA0	VA1			
+erhalten	erhalten	400506	6	VA0	VA1			
+erhalten	erhalten	400506	7	VA0	VA1			
+erhalten	erhalten aus	400506	8	VA0	VA1	VA2		
+erhalten	erhalten	400506	9	VA0	VA1	VA2_OPT		
+erhalten	erhalten	400506	10	VA0	VA1	VA2		
+erhalten	erhalten	400506	11	VA0	VA1	VA2_OPT		
+erhalten	erhalten	400506	12	VA0	VA1	VA2_OPT		
+erhalten	erhalten	400506	13	VA0	VA1	VA2	VA3	
+erhalten	erhalten für	400506	14	VA0	VA1	VA2		
+erhöhen, sich	sich erhöhen	400513	1	VA0	VA1_OPT			
+erhöhen, sich	sich erhöhen	400513	2	VA0				
+spülen	spülen	400922	1	VA0	VA1_OPT	VA2_OPT		
+spülen	spülen	400922	2	VA0	VA1_OPT			
+spülen	spülen	400922	3	VA0	VA1	VA2		
+spülen	spülen	400922	4	VA0	VA1	VA2		
+spülen	spülen	400922	5	VA0	VA1	VA2_OPT		
+spülen	spülen	400922	6	VA0	VA1	VA2	VA3_OPT	
+stören	stören	400936	1	VA0	VA1			
+stören	stören	400936	2	VA0	VA1_OPT	VA2_OPT	VA3_OPT	
+stören	stören	400936	3	VA0	VA1			
+stören	stören an	400936	4	VA0	VA1_OPT	VA2		
+stören	stören	400936	5	VA0	VA1_OPT	VA2_OPT		
+stören	stören	400936	6	VA0	VA1	VA2_OPT		
+stören	stören	400936	7	VA0	VA1_OPT			
+kleben	kleben	400705	1	VA0	VA1	VA2		
+kleben	kleben	400705	2	VA0	VA1_OPT			
+kleben	kleben	400705	3	VA0				
+kleben	kleben	400705	4	VA0	VA1			
+kleben	kleben an	400705	5	VA0	VA1			
+kleben	kleben an	400705	6	VA0	VA1			
+kleben	kleben	400705	7	VA0	VA1_OPT			
+kleben	kleben	400705	8	VA0	VA1			
+kleben	kleben	400705	9	VA0	VA1			
+fußen	fußen auf	402112	1	VA0	VA1			
+fußen	fußen in	402112	2	VA0	VA1			
+fußen	fußen	402112	3	VA0	VA1			
+klettern	klettern	400711	1	VA0	VA1_OPT			
+klettern	klettern	400711	2	VA0	VA1			
+klettern	klettern	400711	3	VA0	VA1			
+klettern	klettern	400711	4	VA0	VA1			
+klettern	klettern	400711	5	VA0	VA1_OPT			
+leisten	leisten	400739	1	VA0	VA1			
+leisten	leisten	400739	2	VA0	VA1			
+leisten	leisten	400739	3	VA0	VA1			
+sammeln	sammeln	400842	1	VA0	VA1			
+sammeln	sammeln	400842	2	VA0	VA1			
+sammeln	sammeln	400842	3	VA0	VA1_OPT	VA2_OPT_XOR VA3_OPT		
+sammeln	sammeln	400842	4	VA0	VA1	VA2_OPT		
+sammeln	sammeln	400842	5	VA0	VA1	VA2_OPT		
+gehören, sich	sich gehören	400671	1	VA0				
+singen	singen	400895	1	VA0				
+singen	singen	400895	2	VA0				
+singen	singen	400895	3	VA0				
+singen	singen	400895	4	VA0	VA1			
+singen	singen über/von	400895	5	VA0	VA1			
+singen	singen	400895	6	VA0	VA1_OPT			
+singen	singen	400895	7	VA0	VA1			
+sehen	sehen	400881	1	VA0	VA1			
+sehen	sehen	400881	2	VA0	VA1			
+sehen	sehen	400881	3	VA0	VA1			
+sehen	sehen	400881	4	VA0	VA1	VA2		
+sehen	sehen	400881	5	VA0	VA1	VA2_XOR VA3		
+sehen	sehen nach	400881	6	VA0	VA1			
+sehen	sehen	400881	7	VA0	VA1			
+sehen	sehen in	400881	8	VA0	VA1	VA2		
+sehen	sehen als	400881	9	VA0	VA1	VA2		
+sehen	sehen als	400881	10	VA0	VA1	VA2		
+sehen	sehen	400881	11	VA0	VA1	VA2		
+sehen	sehen auf	400881	12	VA0	VA1			
+sehen	sehen	400881	13	VA0	VA1			
+sehen	sehen	400881	14	VA0	VA1			
+sehen	sehen	400881	15	VA0	VA1			
+sehen	sehen	400881	16	VA0	VA1			
+sehen	sehen	400881	17	VA0	VA1			
+gelten	gelten	400659	1	VA0	VA1_OPT_XOR VA2_OPT	VA3		
+gelten	gelten	400659	2	VA0	VA1_OPT	VA2_OPT		
+gelten	gelten	400659	3	VA0	VA1			
+gelten	gelten	400659	4	VA0	VA1_OPT	VA2		
+entwickeln	entwickeln	400498	1	VA0	VA1			
+entwickeln	entwickeln	400498	2	VA0	VA1			
+entwickeln	entwickeln	400498	3	VA0	VA1			
+entwickeln	entwickeln	400498	4	VA0	VA1			
+entwickeln	entwickeln	400498	5	VA0	VA1	VA2_OPT		
+entwickeln	entwickeln aus	400498	6	VA0	VA1	VA2		
+entwickeln	entwickeln zu	400498	7	VA0	VA1	VA2		
+entwickeln	entwickeln zu	400498	8	VA0	VA1	VA2		
+einsetzen	einsetzen	400473	1	VA0	VA1	VA2_OPT		
+einsetzen	einsetzen	400473	2	VA0	VA1			
+einsetzen	einsetzen gegen	400473	3	VA0	VA1	VA2		
+einsetzen	einsetzen in	400473	4	VA0	VA1	VA2		
+einsetzen	einsetzen	400473	5	VA0	VA1	VA2_OPT		
+einsetzen	einsetzen als	400473	6	VA0	VA1	VA2		
+einsetzen	einsetzen	400473	7	VA0	VA1			
+einsetzen	einsetzen	400473	8	VA0	VA1_OPT			
+aufheben	aufheben	400315	1	VA0	VA1	VA2_OPT		
+aufheben	aufheben	400315	2	VA0	VA1	VA2_OPT		
+aufheben	aufheben	400315	3	VA0	VA1			
+aufheben	aufheben	400315	4	VA0	VA1			
+aufheben	aufheben	400315	5	VA0	VA1			
+aufheben	aufheben zu	400315	6	VA0	VA1	VA2		
+ansehen, (sich)	(sich [D] )  ansehen	400301	1	VA0	VA1			
+einkaufen	einkaufen	400467	1	VA0	VA1_OPT	VA2_OPT		
+einkaufen	einkaufen in	400467	2	VA0	VA1	VA2	VA3_OPT	
+ausgehen	ausgehen	400329	1	VA0				
+ausgehen	ausgehen	400329	2	VA0				
+ausgehen	ausgehen	400329	3	VA0				
+ausgehen	ausgehen	400329	4	VA0				
+ausgehen	ausgehen	400329	5	VA0				
+ausgehen	ausgehen auf	400329	6	VA0	VA1			
+ausgehen	ausgehen von	400329	7	VA0	VA1			
+ausgehen	ausgehen von	400329	8	VA0	VA1			
+ausgehen	ausgehen von	400329	9	VA0	VA1			
+ausgehen	ausgehen	400329	10	VA0	VA1			
+ausgehen	ausgehen	400329	11	VA0	VA1			
+aufstehen	aufstehen	400324	1	VA0	VA1_OPT			
+aufstehen	aufstehen	400324	2	VA0	VA1_OPT			
+aufstehen	aufstehen für/gegen	400324	3	VA0	VA1			
+drehen	drehen	400456	1	VA0	VA1	VA2_OPT		
+drehen	drehen	400456	2	VA0	VA1			
+drehen	drehen	400456	3	VA0	VA1			
+drehen	drehen	400456	4	VA0	VA1			
+drehen	drehen	400456	5	VA0	VA1			
+drehen	drehen	400456	6	VA0	VA1_OPT			
+drehen	drehen zu	400456	7	VA0	VA1	VA2		
+drehen	drehen	400456	8	VA0	VA1	VA2		
+drehen	drehen an	400456	9	VA0	VA1			
+drehen	drehen an	400456	10	VA0	VA1			
+drehen	drehen	400456	11	VA0	VA1_OPT			
+aufmachen	aufmachen	400318	1	VA0	VA1			
+aufmachen	aufmachen	400318	2	VA0	VA1			
+aufmachen	aufmachen	400318	3	VA0	VA1			
+aufmachen	aufmachen	400318	4	VA0	VA1			
+aufmachen	aufmachen	400318	5	VA0	VA1_OPT	VA2_OPT		
+aufmachen	aufmachen	400318	6	VA0	VA1	VA2		
+aufmachen	aufmachen	400318	7	VA0	VA1			
+aufmachen	aufmachen	400318	8	VA0	VA1	VA2_OPT		
+aufmachen	aufmachen	400318	9	VA0	VA1	VA2		
+vergrößern	vergrößern	401012	1	VA0	VA1	VA2_OPT		
+vergrößern	vergrößern	401012	2	VA0	VA1	VA2_OPT		
+vergrößern	vergrößern	401012	3	VA0	VA1			
+vergrößern	vergrößern	401012	4	VA0	VA1			
+vergrößern	vergrößern	401012	5	VA0	VA1	VA2_OPT		
+vergrößern	vergrößern	401012	6	VA0	VA1_OPT	VA2_OPT		
+entdecken	entdecken	400481	1	VA0	VA1	VA2_OPT		
+entdecken	entdecken	400481	2	VA0	VA1			
+entdecken	entdecken	400481	3	VA0	VA1			
+entdecken	entdecken in	400481	4	VA0	VA1	VA2		
+entdecken	entdecken als	400481	5	VA0	VA1	VA2		
+entsprechen	entsprechen	400495	1	VA0	VA1			
+entsprechen	entsprechen	400495	2	VA0	VA1	VA2_OPT		
+entsprechen	entsprechen	400495	3	VA0	VA1			
+sollen	sollen	400898	1	VA0	VA1			
+sollen	sollen	400898	2	VA0	VA1			
+sollen	sollen	400898	3	VA0	VA1			
+gehen, es	es geht	400654	1	VA0	VA1			
+gehen, es	es geht um	400654	2	VA0	VA1_OPT			
+gehen, es	es geht	400654	3	VA0	VA1			
+gehen, es	es geht um	400654	4	VA0	VA1			
+gehen, es	es geht mit wie	400654	5	VA0_OPT	VA1	VA2		
+gehen, es	es geht mit	400654	6	VA0	VA1			
+gehen, es	es geht an	400654	7	VA0	VA1_OPT			
+gehen, es	es geht	400654	8	VA0				
+gehen, es	es geht	400654	9	VA0	VA1_OPT			
+wecken	wecken	401204	1	VA0	VA1	VA2_OPT	VA3_OPT	
+wecken	wecken	401204	2	VA0	VA1	VA2_OPT		
+wecken	wecken	401204	3	VA0	VA1	VA2_OPT		
+gratulieren	gratulieren	400668	1	VA0	VA1	VA2_OPT		
+weinen	weinen	401210	1	VA0	VA1_OPT			
+weinen	weinen über	401210	2	VA0	VA1			
+weinen	weinen nach	401210	3	VA0	VA1			
+weinen	weinen um	401210	4	VA0	VA1			
+weinen	weinen	401210	5	VA0	VA1			
+interessieren, sich	sich [A] interessieren für	400683	1	VA0	VA1			
+interessieren, sich	sich [A] interessieren für	400683	2	VA0	VA1			
+kämpfen	kämpfen für/gegen	400697	1	VA0	VA1			
+kämpfen	kämpfen gegen	400697	2	VA0	VA1			
+kämpfen	kämpfen gegen	400697	3	VA0	VA1			
+kämpfen	kämpfen mit	400697	4	VA0	VA1			
+kämpfen	kämpfen mit	400697	5	VA0	VA1			
+kämpfen	kämpfen mit	400697	6	VA0	VA1			
+kämpfen	kämpfen um	400697	7	VA0	VA1			
+kämpfen	kämpfen um	400697	8	VA0	VA1			
+kämpfen	kämpfen mit	400697	9	VA0	VA1			
+kämpfen	kämpfen gegen/mit	400697	10	VA0	VA1			
+kämpfen	kämpfen mit um	400697	11	VA0	VA1	VA2		
+kämpfen	kämpfen	400697	12	VA0	VA1_OPT	VA2_OPT		
+kämpfen	kämpfen	400697	13	VA0	VA1_OPT	VA2_OPT		
+schlagen II	schlagen II	400867	1	VA0	VA1	VA2		
+schlagen II	schlagen II	400867	2	VA0	VA1	VA2_OPT		
+schlagen II	schlagen II	400867	3	VA0	VA1	VA2_OPT		
+schlagen II	schlagen II	400867	4	VA0	VA1			
+schlagen II	schlagen II	400867	5	VA0	VA1	VA2_OPT		
+schlagen II	schlagen II	400867	6	VA0				
+schlagen II	schlagen II	400867	7	VA0	VA1			
+schlagen II	schlagen II	400867	8	VA0	VA1			
+schlagen II	schlagen II	400867	9	VA0	VA1			
+schlagen II	schlagen II	400867	10	VA0	VA1			
+schlagen II	schlagen II	400867	11	VA0	VA1			
+schlagen II	schlagen II auf	400867	12	VA0	VA1	VA2		
+schlagen II	schlagen II in	400867	13	VA0	VA1	VA2		
+schlagen II	schlagen II zu	400867	14	VA0	VA1	VA2		
+schlagen II	schlagen II	400867	15	VA0	VA1	VA2		
+schlagen II	schlagen II <zu/in>	400867	16	VA0	VA1	VA2_XOR VA3		
+schlagen II	schlagen II mit	400867	17	VA0	VA1			
+schlagen II	schlagen II	400867	18	VA0	VA1_OPT			
+schlagen II	schlagen II	400867	19	VA0	VA1_OPT			
+schneiden, sich	sich [A] schneiden an	400873	1	VA0	VA1			
+schneiden, sich	sich [A] schneiden	400873	2	VA0	VA1_OPT			
+leiden	leiden an/unter	400734	1	VA0	VA1			
+leiden	leiden	400734	2	VA0	VA1_OPT			
+leiden	leiden	400734	3	VA0	VA1			
+leiden	leiden an/unter	400734	4	VA0	VA1			
+leiden	leiden	400734	5	VA0	VA1_OPT			
+kündigen	kündigen	400720	1	VA0	VA1_OPT			
+kündigen	kündigen	400720	2	VA0	VA1_OPT	VA2		
+kündigen	kündigen	400720	3	VA0	VA1	VA2		
+klingeln, es	es klingelt	400708	1	VA0_OPT				
+klingeln, es	es klingelt zu	400708	2	VA0				
+drücken	drücken  <auf>	400536	1	VA0	VA1_XOR VA2			
+drücken	drücken	400536	2	VA0	VA1_OPT			
+drücken	drücken	400536	3	VA0	VA1			
+drücken	drücken	400536	4	VA0	VA1			
+drücken	drücken <zu>	400536	5	VA0	VA1	VA2_XOR VA3		
+drücken	drücken	400536	6	VA0	VA1	VA2		
+drücken	drücken	400536	7	VA0	VA1	VA2		
+drücken	drücken	400536	8	VA0	VA1	VA2		
+drücken	drücken	400536	9	VA0	VA1	VA2_OPT		
+drücken	drücken auf	400536	10	VA0	VA1			
+drücken	drücken auf/gegen	400536	11	VA0	VA1	VA2_OPT		
+ankommen	ankommen	400293	1	VA0	VA1	VA2		
+ankommen	ankommen	400293	2	VA0	VA1	VA2		
+ankommen	ankommen gegen	400293	3	VA0	VA1			
+ankommen	ankommen	400293	4	VA0	VA1_OPT	VA2		
+ankommen	ankommen	400293	5	VA0	VA1			
+anbieten	anbieten	400286	1	VA0	VA1	VA2		
+anbieten	anbieten	400286	2	VA0	VA1	VA2		
+anbieten	anbieten	400286	3	VA0	VA1	VA2_OPT		
+anbieten	anbieten zu	400286	4	VA0	VA1	VA2_OPT	VA3	
+anbieten	anbieten	400286	5	VA0	VA1	VA2_OPT		
+ankommen, es	es kommt an   auf	400292	1	VA0_OPT_XOR VA1_OPT	VA2			
+ankommen, es	es kommt an   auf	400292	2	VA0				
+ablehnen	ablehnen	400245	1	VA0	VA1			
+ablehnen	ablehnen	400245	2	VA0	VA1			
+ablehnen	ablehnen	400245	3	VA0	VA1			
+ablehnen	ablehnen	400245	4	VA0	VA1			
+ablehnen	ablehnen	400245	5	VA0	VA1			
+ablehnen	ablehnen	400245	6	VA0	VA1			
+ablehnen	ablehnen	400245	7	VA0	VA1	VA2_OPT		
+erinnern	erinnern an	400523	1	VA0	VA1_OPT	VA2		
+erinnern	erinnern an	400523	2	VA0	VA1_OPT	VA2		
+erinnern	erinnern an	400523	3	VA0	VA1			
+enthalten	enthalten	400537	1	VA0	VA1			
+abstimmen	abstimmen	400251	1	VA0	VA1_OPT			
+abstimmen	abstimmen auf	400251	2	VA0	VA1	VA2		
+abstimmen	abstimmen mit	400251	3	VA0	VA1	VA2		
+abstimmen	abstimmen mit	400251	4	VA0	VA1	VA2		
+klopfen	klopfen	400709	1	VA0	VA1_OPT	VA2_OPT		
+klopfen	klopfen	400709	2	VA0				
+klopfen	klopfen	400709	3	VA0	VA1			
+klopfen	klopfen	400709	4	VA0	VA1	VA2		
+klopfen	klopfen	400709	5	VA0	VA1	VA2	VA3_OPT	
+klopfen	klopfen	400709	6	VA0	VA1	VA2_OPT	VA3	
+leidtun	leidtun	400735	1	VA0	VA1			
+leidtun	leidtun	400735	2	VA0	VA1			
+schneiden	schneiden	400872	1	VA0				
+schneiden	schneiden	400872	2	VA0	VA1	VA2_OPT	VA3_OPT	
+schneiden	schneiden	400872	3	VA0	VA1			
+schneiden	schneiden	400872	4	VA0	VA1			
+schneiden	schneiden	400872	5	VA0	VA1			
+schneiden	schneiden	400872	6	VA0	VA1	VA2_OPT		
+schneiden	schneiden <zu>	400872	7	VA0	VA1	VA2_XOR VA3		
+schneiden	schneiden	400872	8	VA0	VA1	VA2_OPT		
+schneiden	schneiden	400872	9	VA0	VA1	VA2_OPT		
+schneiden	schneiden	400872	10	VA0	VA1	VA2_OPT		
+schneiden	schneiden	400872	11	VA0	VA1	VA2	VA3_OPT	
+schneiden	schneiden	400872	12	VA0	VA1	VA2_OPT	VA3_OPT	
+schneiden	schneiden	400872	13	VA0	VA1_OPT			
+schlagen I	schlagen	400866	1	VA0	VA1			
+schlagen I	schlagen auf	400866	2	VA0	VA1			
+schlagen I	schlagen nach	400866	3	VA0	VA1			
+interessieren	interessieren	400682	1	VA0	VA1			
+interessieren	interessieren für	400682	2	VA0	VA1	VA2		
+gründen	gründen	400669	1	VA0	VA1			
+gründen	gründen auf	400669	2	VA0	VA1	VA2		
+gründen	gründen auf/in	400669	3	VA0	VA1			
+wegfahren	wegfahren	401205	1	VA0	VA1_OPT			
+wegfahren	wegfahren	401205	2	VA0	VA1_OPT			
+gehören	gehören	400655	1	VA0	VA1			
+gehören	gehören zu	400655	2	VA0	VA1			
+gehören	gehören  <zu>	400655	3	VA0	VA1_XOR VA2			
+gehören	gehören zu	400655	4	VA0	VA1			
+gehören	gehören	400655	5	VA0	VA1			
+sorgen	sorgen für	400899	1	VA0	VA1			
+sorgen	sorgen für	400899	2	VA0	VA1			
+sorgen	sorgen für	400899	3	VA0	VA1			
+sorgen	sorgen für	400899	4	VA0	VA1	VA2_OPT		
+empfehlen	empfehlen	400480	1	VA0	VA1	VA2_OPT		
+empfehlen	empfehlen  <für>/<als>	400480	2	VA0	VA1	VA2_XOR VA3		
+verbringen	verbringen	401007	1	VA0	VA1	VA2		
+verbringen	verbringen	401007	2	VA0	VA1			
+verbringen	verbringen mit	401007	3	VA0	VA1	VA2		
+verbringen	verbringen	401007	4	VA0	VA1	VA2_XOR VA3		
+verbringen	verbringen	401007	5	VA0	VA1	VA2		
+verbringen	verbringen	401007	6	VA0	VA1	VA2		
+aufpassen	aufpassen auf	400319	1	VA0	VA1			
+aufpassen	aufpassen	400319	2	VA0	VA1_OPT			
+ausmachen	ausmachen	400331	1	VA0	VA1			
+ausmachen	ausmachen	400331	2	VA0	VA1			
+ausmachen	ausmachen mit	400331	3	VA0	VA1	VA2_OPT		
+ausmachen	ausmachen	400331	4	VA0	VA1			
+ausmachen	ausmachen	400331	5	VA0	VA1			
+ausmachen	ausmachen	400331	6	VA0	VA1	VA2_OPT		
+ausmachen	ausmachen	400331	7	VA0	VA1	VA2		
+ausmachen	ausmachen	400331	8	VA0	VA1			
+ausmachen	ausmachen	400331	9	VA0	VA1			
+drehen, sich	sich drehen um	400457	1	VA0	VA1			
+drehen, sich	sich [A] drehen	400457	2	VA0	VA1_OPT			
+drehen, sich	sich [A] drehen	400457	3	VA0	VA1			
+aufwachen	aufwachen	400325	1	VA0	VA1_OPT			
+aufwachen	aufwachen	400325	2	VA0				
+ausrechnen	ausrechnen	400333	1	VA0	VA1_XOR VA2			
+ausgeben	ausgeben	400327	1	VA0	VA1_XOR VA2	VA3_OPT		
+ausgeben	ausgeben	400327	2	VA0	VA1	VA2_OPT		
+ausgeben	ausgeben	400327	3	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+ausgeben	ausgeben	400327	4	VA0	VA1			
+ausgeben	ausgeben	400327	5	VA0	VA1			
+ausgeben	ausgeben	400327	6	VA0	VA1			
+ausgeben	ausgeben als	400327	7	VA0	VA1	VA2		
+ausgeben	ausgeben als	400327	8	VA0	VA1	VA2		
+verlängern	verlängern	401039	1	VA0	VA1	VA2_OPT		
+verlängern	verlängern	401039	2	VA0	VA1	VA2_OPT		
+verlängern	verlängern	401039	3	VA0	VA1	VA2_OPT		
+verlängern	verlängern	401039	4	VA0	VA1	VA2_OPT		
+verlängern	verlängern	401039	5	VA0	VA1	VA2_OPT		
+einpacken	einpacken	400469	1	VA0	VA1	VA2_OPT		
+einpacken	einpacken	400469	2	VA0	VA1	VA2_OPT		
+einpacken	einpacken	400469	3	VA0	VA1	VA2	VA3	
+entstehen	entstehen	400496	1	VA0	VA1_OPT	VA2_OPT		
+entstehen	entstehen aus	400496	2	VA0	VA1			
+entstehen	entstehen	400496	3	VA0	VA1_OPT			
+entgegenfahren	entgegenfahren	400482	1	VA0	VA1			
+wenden, sich	sich [A] wenden an	401213	1	VA0	VA1	VA2_OPT		
+wenden, sich	sich [A] wenden an	401213	2	VA0	VA1	VA2_OPT		
+wenden, sich	sich [A]  wenden gegen	401213	3	VA0	VA1	VA2_OPT		
+wenden, sich	sich [A] wenden	401213	4	VA0	VA1			
+wehtun, sich	sich [D] wehtun an	401207	1	VA0	VA1_OPT_XOR VA2_OPT			
+schließen	schließen	400870	1	VA0	VA1			
+schließen	schließen	400870	2	VA0	VA1			
+schließen	schließen	400870	3	VA0	VA1			
+schließen	schließen	400870	4	VA0	VA1			
+schließen	schließen	400870	5	VA0	VA1	VA2_OPT		
+schließen	schließen <auf> aus/nach	400870	6	VA0	VA1_XOR VA2	VA3		
+schließen	schließen	400870	7	VA0	VA1	VA2		
+schließen	schließen	400870	8	VA0	VA1			
+schließen	schließen	400870	9	VA0	VA1_OPT			
+schließen	schließen mit	400870	10	VA0	VA1	VA2		
+schließen	schließen	400870	11	VA0	VA1	VA2_OPT		
+schließen	schließen mit	400870	12	VA0	VA1_OPT	VA2		
+schließen	schließen	400870	13	VA0	VA1	VA2		
+schließen	schließen	400870	14	VA0	VA1	VA2_OPT		
+schließen	schließen mit	400870	15	VA0	VA1			
+schließen	schließen von auf	400870	16	VA0	VA1	VA2		
+schließen	schließen	400870	17	VA0	VA1_OPT			
+schimpfen	schimpfen auf/über	400864	1	VA0	VA1			
+schimpfen	schimpfen mit	400864	2	VA0	VA1			
+schimpfen	schimpfen	400864	3	VA0	VA1	VA2		
+zuschauen	zuschauen	401429	1	VA0	VA1_OPT	VA2_OPT		
+zuschauen	zuschauen	401429	2	VA0	VA1_OPT_XOR VA2_OPT			
+zuschauen	zuschauen	401429	3	VA0	VA1			
+streiten	streiten für/gegen	400938	1	VA0	VA1			
+streiten	streiten mit	400938	2	VA0	VA1	VA2_OPT		
+sprechen	sprechen	400904	1	VA0	VA1_OPT			
+sprechen	sprechen	400904	2	VA0	VA1			
+sprechen	sprechen	400904	3	VA0	VA1_XOR VA2			
+sprechen	sprechen mit	400904	4	VA0	VA1	VA2_OPT		
+sprechen	sprechen	400904	5	VA0	VA1	VA2		
+sprechen	sprechen	400904	6	VA0	VA1			
+sprechen	sprechen	400904	7	VA0	VA1			
+sprechen	sprechen	400904	8	VA0	VA1			
+sprechen	sprechen mit	400904	9	VA0	VA1_OPT	VA2		
+sprechen	sprechen zu	400904	10	VA0	VA1_OPT	VA2		
+sprechen	sprechen über/von	400904	11	VA0	VA1_XOR VA2	VA3		
+sprechen	sprechen	400904	12	VA0	VA1_OPT	VA2		
+sprechen	sprechen	400904	13	VA0	VA1	VA2		
+sprechen	sprechen aus	400904	14	VA0	VA1			
+sprechen	sprechen für	400904	15	VA0	VA1			
+sprechen	sprechen für/gegen	400904	16	VA0	VA1			
+sprechen	sprechen für/gegen	400904	17	VA0	VA1			
+sprechen	sprechen für/gegen	400904	18	VA0	VA1			
+sprechen	sprechen über/von	400904	19	VA0	VA1			
+sprechen	sprechen von	400904	20	VA0	VA1			
+sprechen	sprechen von	400904	21	VA0	VA1			
+sprechen	sprechen von	400904	22	VA0	VA1	VA2		
+abmachen	abmachen mit	400253	1	VA0	VA1	VA2		
+abmachen	abmachen	400253	2	VA0	VA1	VA2_OPT		
+angehen	angehen	400290	1	VA0				
+angehen	angehen	400290	2	VA0	VA1	VA2_OPT		
+angehen	angehen	400290	3	VA0	VA1			
+angehen	angehen um	400290	4	VA0	VA1	VA2		
+angehen	angehen	400290	5	VA0	VA1	VA2		
+angehen	angehen gegen	400290	6	VA0	VA1			
+angehen	angehen	400290	7	VA0	VA1_OPT			
+anhaben	anhaben	400291	1	VA0	VA1			
+anhaben	anhaben	400291	2	VA0	VA1			
+diskutieren	diskutieren <über>  mit	400534	1	VA0	VA1_XOR VA2	VA3		
+diskutieren	diskutieren	400534	2	VA0	VA1	VA2_OPT		
+gewinnen	gewinnen	400520	1	VA0	VA1	VA2		
+gewinnen	gewinnen	400520	2	VA0	VA1_OPT	VA2_OPT	VA3_OPT	
+gewinnen	gewinnen	400520	3	VA0				
+gewinnen	gewinnen	400520	4	VA0	VA1			
+gewinnen	gewinnen	400520	5	VA0	VA1			
+gewinnen	gewinnen	400520	6	VA0	VA1			
+gewinnen	gewinnen	400520	7	VA0	VA1			
+gewinnen	gewinnen	400520	8	VA0	VA1	VA2		
+gewinnen	gewinnen aus	400520	9	VA0	VA1	VA2		
+gewinnen	gewinnen für/zu als	400520	10	VA0	VA1	VA2	VA3	
+gewinnen	gewinnen	400520	11	VA0	VA1	VA2_OPT		
+gewinnen	gewinnen	400520	12	VA0	VA1	VA2_OPT		
+gewinnen	gewinnen an	400520	13	VA0	VA1			
+tun	tun	400246	1	VA0	VA1			
+tun	tun	400246	2	VA0	VA1	VA2		
+tun	tun	400246	3	VA0	VA1	VA2		
+tun	tun	400246	4	VA0	VA1			
+tun	tun	400246	5	VA0	VA1			
+tun	tun	400246	6	VA0	VA1			
+streiten, (sich)	(sich [A]) streiten	400939	1	VA0	VA1_OPT	VA2_OPT		
+streiten, (sich)	(sich [A]) streiten mit um	400939	2	VA0	VA1	VA2		
+leihen	leihen   <an>	400736	1	VA0	VA1	VA2_XOR VA3	VA4_OPT	
+leihen	leihen	400736	2	VA0	VA1	VA2		
+zusammenlegen	zusammenlegen	401428	1	VA0	VA1			
+zusammenlegen	zusammenlegen mit	401428	2	VA0	VA1	VA2	VA3_OPT	
+zusammenlegen	zusammenlegen mit	401428	3	VA0	VA1	VA2	VA3_OPT	
+zusammenlegen	zusammenlegen	401428	4	VA0	VA1_OPT_OR VA2_OPT	VA3_OPT		
+küssen	küssen	400722	1	VA0	VA1	VA2_OPT		
+küssen	küssen	400722	2	VA0	VA1			
+küssen	küssen	400722	3	VA0	VA1	VA2		
+schlafen	schlafen	400865	1	VA0				
+schlafen	schlafen	400865	2	VA0	VA1			
+schlafen	schlafen	400865	3	VA0				
+schlafen	schlafen mit	400865	4	VA0	VA1			
+schlafen	schlafen	400865	5	VA0	VA1_OPT			
+schmecken	schmecken	400871	1	VA0	VA1			
+schmecken	schmecken	400871	2	VA0	VA1			
+schmecken	schmecken	400871	3	VA0	VA1			
+schmecken	schmecken	400871	4	VA0	VA1			
+schmecken	schmecken nach	400871	5	VA0	VA1			
+schmecken	schmecken nach	400871	6	VA0	VA1			
+informieren, sich	sich [A] informieren	400681	1	VA0	VA1_OPT			
+wehtun, es	wehtun, es	401206	1	VA0	VA1			
+abholen	abholen	400124	1	VA0	VA1	VA2_OPT	VA3_OPT	
+abholen	abholen	400124	2	VA0	VA1	VA2_OPT		
+amüsieren	amüsieren	402280	1	VA0	VA1			
+amüsieren	amüsieren	402280	2	VA0	VA1	VA2		
+enttäuschen	enttäuschen	400497	1	VA0	VA1	VA2_OPT		
+verbinden	verbinden	401004	1	VA0	VA1			
+verbinden	verbinden mit	401004	2	VA0	VA1	VA2		
+verbinden	verbinden mit	401004	3	VA0	VA1	VA2		
+verbinden	verbinden mit	401004	4	VA0	VA1	VA2		
+verbinden	verbinden mit	401004	5	VA0	VA1	VA2		
+verbinden	verbinden mit	401004	6	VA0	VA1	VA2		
+verbinden	verbinden mit	401004	7	VA0	VA1	VA2		
+verbinden	verbinden zu	401004	8	VA0	VA1	VA2		
+verbinden	verbinden mit	401004	9	VA0	VA1	VA2	VA3_OPT	
+einladen	einladen	400468	1	VA0	VA1	VA2_OPT	VA3_OPT	
+einladen	einladen	400468	2	VA0	VA1	VA2		
+einladen	einladen zu	400468	3	VA0	VA1_OPT	VA2		
+einladen	einladen	400468	4	VA0	VA1	VA2_OPT		
+vergleichen	vergleichen	401010	1	VA0	VA1			
+vergleichen	vergleichen mit	401010	2	VA0	VA1	VA2		
+vergleichen	vergleichen mit	401010	3	VA0	VA1	VA2		
+ausfüllen	ausfüllen	400326	1	VA0	VA1			
+ausfüllen	ausfüllen	400326	2	VA0	VA1			
+ausfüllen	ausfüllen	400326	3	VA0	VA1			
+ausfüllen	ausfüllen	400326	4	VA0	VA1			
+ausfüllen	ausfüllen	400326	5	VA0	VA1			
+ausfüllen	ausfüllen	400326	6	VA0	VA1	VA2_OPT		
+ausfüllen	ausfüllen	400326	7	VA0	VA1	VA2_OPT		
+ausfüllen	ausfüllen	400326	8	VA0	VA1	VA2_OPT		
+auspacken	auspacken	400332	1	VA0	VA1			
+auspacken	auspacken	400332	2	VA0	VA1	VA2_OPT		
+auspacken	auspacken	400332	3	VA0	VA1	VA2_OPT		
+auspacken	auspacken	400332	4	VA0	VA1			
+auspacken	auspacken	400332	5	VA0	VA1_OPT			
+einziehen	einziehen	400478	1	VA0	VA1_OPT			
+einziehen	einziehen in	400478	2	VA0	VA1			
+einziehen	einziehen	400478	3	VA0	VA1			
+einziehen	einziehen	400478	4	VA0	VA1			
+einziehen	einziehen	400478	5	VA0	VA1_OPT			
+verbessern	verbessern	401000	1	VA0	VA1			
+verbessern	verbessern	401000	2	VA0	VA1			
+verbessern	verbessern	401000	3	VA0	VA1			
+verbessern	verbessern	401000	4	VA0	VA1	VA2_OPT		
+ausschalten	ausschalten	400336	1	VA0	VA1			
+ausschalten	ausschalten	400336	2	VA0	VA1			
+aufschreiben	aufschreiben	400322	1	VA0	VA1	VA2_OPT		
+aufschreiben	aufschreiben	400322	2	VA0	VA1			
+aufschreiben	aufschreiben	400322	3	VA0	VA1	VA2_OPT		
+aufschreiben	aufschreiben	400322	4	VA0	VA1	VA2_OPT		
+einschließen	einschließen	401955	1	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+einschließen	einschließen	401955	2	VA0	VA1	VA2_OPT		
+einschließen	einschließen in	401955	3	VA0	VA1	VA2		
+einschließen	einschließen	401955	4	VA0	VA1			
+entschließen, sich	sich [A] entschließen für/zu	400487	1	VA0	VA1			
+gefallen lassen, sich	sich [D] gefallen lassen	400652	1	VA0	VA1			
+schreiben	schreiben	400875	1	VA0	VA1			
+schreiben	schreiben	400875	2	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+schreiben	schreiben	400875	3	VA0	VA1	VA2_OPT	VA3_OPT	
+schreiben	schreiben	400875	4	VA0				
+schreiben	schreiben	400875	5	VA0	VA1_OPT	VA2_OPT_XOR VA3_OPT		
+schreiben	schreiben	400875	6	VA0	VA1	VA2_OPT		
+schreiben	schreiben über	400875	7	VA0	VA1_OPT	VA2		
+schreiben	schreiben	400875	8	VA0	VA1	VA2		
+schreiben	schreiben	400875	9	VA0	VA1	VA2_OPT		
+schreiben	schreiben	400875	10	VA0	VA1	VA2		
+schreiben	schreiben für	400875	11	VA0	VA1			
+schreiben	schreiben von	400875	12	VA0	VA1			
+schreiben	schreiben	400875	13	VA0	VA1			
+schreiben	schreiben	400875	14	VA0	VA1_OPT			
+schenken	schenken	400861	1	VA0	VA1	VA2		
+schenken	schenken	400861	2	VA0	VA1	VA2		
+kaputt machen/kaputtmachen	kaputtmachen	400691	1	VA0	VA1	VA2_OPT		
+kaputt machen/kaputtmachen	kaputtmachen	400691	2	VA0	VA1			
+kaputt machen/kaputtmachen	kaputtmachen	400691	3	VA0	VA1	VA2_OPT		
+irren, sich	sich [A] irren in	400685	1	VA0	VA1			
+irren, sich	sich [A] irren in	400685	2	VA0	VA1			
+irren, sich	sich [A] irren	400685	3	VA0	VA1			
+abhängen I	abhängen I von	401438	1	VA0	VA1			
+abhängen I	abhängen I von	401438	2	VA0	VA1			
+legen	legen	400732	1	VA0	VA1	VA2		
+legen	legen	400732	2	VA0	VA1			
+legen	legen	400732	3	VA0	VA1			
+legen	legen	400732	4	VA0	VA1	VA2		
+legen	legen	400732	5	VA0	VA1	VA2		
+legen	legen	400732	6	VA0	VA1	VA2		
+spazieren gehen	spazieren gehen	400901	1	VA0	VA1_OPT			
+stehlen	stehlen	400929	1	VA0	VA1	VA2_OPT		
+gewöhnen	gewöhnen an	400530	1	VA0	VA1	VA2		
+gewöhnen	gewöhnen an	400530	2	VA0	VA1	VA2		
+abtrocknen I	abtrocknen  I	400256	1	VA0				
+anmelden	anmelden  an/auf	400295	1	VA0	VA1	VA2		
+anmelden	anmelden für/zu	400295	2	VA0	VA1	VA2		
+anmelden	anmelden	400295	3	VA0	VA1	VA2_OPT		
+anmelden	anmelden	400295	4	VA0	VA1	VA2_OPT		
+anmelden	anmelden	400295	5	VA0	VA1	VA2_OPT		
+anmelden	anmelden	400295	6	VA0	VA1	VA2_OPT		
+anmelden	anmelden	400295	7	VA0	VA1			
+anmachen	anmachen	400294	1	VA0	VA1			
+anmachen	anmachen	400294	2	VA0	VA1			
+anmachen	anmachen	400294	3	VA0	VA1			
+anmachen	anmachen	400294	4	VA0	VA1			
+anmachen	anmachen	400294	5	VA0	VA1			
+anmachen	anmachen	400294	6	VA0	VA1	VA2_OPT		
+anmachen	anmachen	400294	7	VA0	VA1	VA2_OPT		
+haben	haben	400531	1	VA0	VA1			
+haben	haben	400531	2	VA0	VA1			
+haben	haben	400531	3	VA0	VA1			
+haben	haben	400531	4	VA0	VA1	VA2		
+haben	haben	400531	5	VA0	VA1			
+haben	haben	400531	6	VA0	VA1			
+haben	haben	400531	7	VA0	VA1			
+haben	haben	400531	8	VA0	VA1			
+haben	haben	400531	9	VA0	VA1			
+haben	haben	400531	10	VA0	VA1			
+haben	haben	400531	11	VA0	VA1			
+haben	haben	400531	12	VA0	VA1			
+haben	haben	400531	13	VA0	VA1			
+haben	haben von	400531	14	VA0	VA1	VA2		
+haben	haben zu	400531	15	VA0	VA1	VA2		
+haben	haben	400531	16	VA0	VA1	VA2_OPT		
+haben	haben als	400531	17	VA0	VA1	VA2		
+haben	haben	400531	18	VA0	VA1			
+abtrocknen II	abtrocknen  II	400257	1	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+abtrocknen II	abtrocknen  II	400257	2	VA0	VA1	VA2_OPT	VA3_OPT	
+erkälten, sich	sich [A] erkälten	400525	1	VA0				
+stehen	stehen	400928	1	VA0				
+stehen	stehen	400928	2	VA0	VA1	VA2		
+stehen	stehen auf	400928	3	VA0	VA1			
+stehen	stehen	400928	4	VA0	VA1			
+stehen	stehen	400928	5	VA0	VA1			
+stehen	stehen	400928	6	VA0	VA1_XOR VA2			
+stehen	stehen	400928	7	VA0	VA1_OPT	VA2		
+stehen	stehen	400928	8	VA0				
+stehen	stehen auf	400928	9	VA0	VA1			
+stehen	stehen auf	400928	10	VA0	VA1			
+stehen	stehen für	400928	11	VA0	VA1			
+stehen	stehen unter	400928	12	VA0	VA1			
+stehen	stehen unter	400928	13	VA0	VA1			
+stehen	stehen vor	400928	14	VA0	VA1			
+stehen	stehen zu	400928	15	VA0	VA1			
+stehen	stehen zu	400928	16	VA0	VA1			
+stehen	stehen zu/gegenüber	400928	17	VA0	VA1	VA2		
+stehen	stehen	400928	18	VA0	VA1			
+stehen	stehen	400928	19	VA0	VA1			
+stehen	stehen	400928	20	VA0	VA1			
+stehen	stehen	400928	21	VA0	VA1_XOR VA2			
+stehen	stehen	400928	22	VA0	VA1			
+sparen	sparen	400900	1	VA0	VA1			
+sparen	sparen an	400900	2	VA0	VA1			
+sparen	sparen mit	400900	3	VA0	VA1			
+sparen	sparen	400900	4	VA0	VA1_OPT	VA2_OPT		
+sparen	sparen auf	400900	5	VA0	VA1			
+legen, sich	sich [A] legen	400733	1	VA0	VA1			
+legen, sich	sich legen	400733	2	VA0				
+legen, sich	sich [A] legen	400733	3	VA0	VA1			
+legen, sich	sich  legen	400733	4	VA0	VA1			
+legen, sich	sich  legen	400733	5	VA0	VA1			
+lachen	lachen über	400727	1	VA0	VA1			
+lachen	lachen	400727	2	VA0				
+lachen	lachen	400727	3	VA0	VA1			
+lachen	lachen	400727	4	VA0	VA1			
+irren, (sich)	(sich [A]) irren	400684	1	VA0	VA1_OPT			
+scheiden	scheiden von	400848	1	VA0	VA1	VA2		
+scheiden	scheiden	400848	2	VA0	VA1			
+scheiden	scheiden von	400848	3	VA0	VA1	VA2		
+scheiden	scheiden von	400848	4	VA0	VA1	VA2		
+scheiden	scheiden	400848	5	VA0	VA1	VA2_OPT		
+scheiden	scheiden zwischen	400848	6	VA0	VA1			
+scheinen	scheinen	400860	1	VA0	VA1_OPT			
+scheinen	scheinen	400860	2	VA0	VA1			
+scheinen	scheinen	400860	3	VA0	VA1			
+schneien, es	es schneit	400874	1					
+schneien, es	es schneit	400874	2	VA0				
+schneien, es	es schneit	400874	3	VA0	VA1_OPT			
+schneien, es	es schneit	400874	4	VA0				
+schneien, es	es schneit	400874	5	VA0				
+werden	werden	401217	1	VA0				
+werden	werden	401217	2	VA0	VA1			
+werden	werden	401217	3	VA0	VA1			
+werden	werden    <zu>	401217	4	VA0	VA1_XOR VA2			
+werden	werden aus	401217	5	VA0	VA1			
+werden	werden	401217	6	VA0	VA1			
+entscheiden, sich	sich [A] entscheiden	400486	1	VA0	VA1_OPT			
+entscheiden, sich	sich [A] entscheiden	400486	2	VA0	VA1_XOR VA2			
+eingehen	eingehen	401954	1	VA0				
+eingehen	eingehen	401954	2	VA0	VA1_OPT			
+eingehen	eingehen	401954	3	VA0	VA1_OPT			
+eingehen	eingehen auf	401954	4	VA0	VA1			
+eingehen	eingehen auf	401954	5	VA0	VA1			
+eingehen	eingehen auf	401954	6	VA0	VA1			
+eingehen	eingehen in	401954	7	VA0	VA1			
+eingehen	eingehen	401954	8	VA0	VA1_OPT			
+denken	denken	400445	1	VA0	VA1			
+denken	denken über/von	400445	2	VA0	VA1	VA2		
+denken	denken an	400445	3	VA0	VA1			
+denken	denken an	400445	4	VA0	VA1			
+denken	denken an	400445	5	VA0	VA1			
+denken	denken über/von	400445	6	VA0	VA1	VA2		
+denken	denken	400445	7	VA0	VA1			
+denken	denken	400445	8	VA0	VA1_OPT			
+denken	denken an	400445	9	VA0	VA1	VA2		
+auf sein	auf sein	400323	1	VA0				
+auf sein	auf sein	400323	2	VA0				
+auf sein	auf sein	400323	3	VA0	VA1			
+auf sein	auf sein	400323	4	VA0	VA1_OPT			
+ausschließen	ausschließen	400337	1	VA0	VA1			
+ausschließen	ausschließen	400337	2	VA0	VA1			
+ausschließen	ausschließen von	400337	3	VA0	VA1	VA2		
+ausschließen	ausschließen	400337	4	VA0	VA1	VA2_OPT		
+ausschließen	ausschließen	400337	5	VA0	VA1	VA2_OPT		
+enden	enden mit	401997	1	VA0	VA1			
+enden	enden	401997	2	VA0	VA1_OPT			
+enden	enden auf/mit	401997	3	VA0	VA1			
+enden	enden mit/in	401997	4	VA0	VA1			
+enden	enden	401997	5	VA0	VA1			
+enden	enden	401997	6	VA0	VA1_OPT			
+enden	enden	401997	7	VA0	VA1			
+enden	enden	401997	8	VA0	VA1			
+enden	enden als	401997	9	VA0	VA1			
+verbessern, sich	sich  verbessern	401001	1	VA0				
+verbessern, sich	sich  verbessern	401001	2	VA0	VA1_OPT			
+verbessern, sich	sich [A] verbessern	401001	3	VA0	VA1_OPT	VA2_OPT		
+verbrauchen	verbrauchen	401003	1	VA0	VA1	VA2_OPT		
+verbrauchen	verbrauchen	401003	2	VA0	VA1			
+verbrauchen	verbrauchen	401003	3	VA0	VA1			
+arbeiten	arbeiten	400309	1	VA0				
+arbeiten	arbeiten	400309	2	VA0	VA1_OPT			
+arbeiten	arbeiten	400309	3	VA0	VA1			
+arbeiten	arbeiten an	400309	4	VA0	VA1			
+arbeiten	arbeiten für	400309	5	VA0	VA1			
+arbeiten	arbeiten mit	400309	6	VA0	VA1			
+arbeiten	arbeiten über	400309	7	VA0	VA1			
+arbeiten	arbeiten	400309	8	VA0	VA1_OPT			
+aufregen, sich	sich [A]  aufregen	400321	1	VA0	VA1_OPT			
+aufregen, sich	sich [A]  aufregen	400321	2	VA0				
+dienen	dienen	400447	1	VA0	VA1			
+dienen	dienen zu	400447	2	VA0	VA1_OPT	VA2		
+dienen	dienen als	400447	3	VA0	VA1_OPT	VA2		
+dienen	dienen	400447	4	VA0	VA1			
+ausruhen, (sich)	(sich [A])  ausruhen	400335	1	VA0	VA1_OPT			
+entlassen	entlassen	400484	1	VA0	VA1	VA2_OPT		
+entlassen	entlassen	400484	2	VA0	VA1	VA2_OPT		
+entlassen	entlassen	400484	3	VA0	VA1			
+entlassen	entlassen in	400484	4	VA0	VA1	VA2		
+entlassen	entlassen	400484	5	VA0	VA1	VA2_OPT		
+entschuldigen, sich	sich [A] entschuldigen	400490	1	VA0	VA1_OPT	VA2_OPT		
+schlussfolgern	schlussfolgern	401956	1	VA0	VA1	VA2_OPT		
+werden, es	es wird mit	401215	1	VA0	VA1			
+werden, es	es wird	401215	2	VA0_OPT	VA1			
+werden, es	es wird	401215	3	VA0_OPT	VA1			
+geben	geben	400645	1	VA0	VA1	VA2		
+geben	geben	400645	2	VA0	VA1	VA2		
+geben	geben	400645	3	VA0	VA1	VA2	VA3_OPT	
+geben	geben	400645	4	VA0	VA1			
+geben	geben	400645	5	VA0	VA1			
+geben	geben	400645	6	VA0	VA1	VA2		
+geben	geben	400645	7	VA0	VA1	VA2		
+geben	geben	400645	8	VA0	VA1	VA2_OPT		
+geben	geben	400645	9	VA0	VA1	VA2_OPT		
+geben	geben	400645	10	VA0	VA1	VA2_OPT		
+geben	geben	400645	11	VA0	VA1	VA2_OPT		
+geben	geben	400645	12	VA0	VA1	VA2_OPT		
+geben	geben	400645	13	VA0	VA1	VA2_OPT	VA3	
+geben	geben für	400645	14	VA0	VA1_XOR VA2	VA3_OPT	VA4	
+geben	geben an	400645	15	VA0	VA1	VA2		
+geben	geben	400645	16	VA0	VA1	VA2		
+geben	geben	400645	17	VA0	VA1	VA2_OPT	VA3_OPT	
+geben	geben	400645	18	VA0	VA1	VA2		
+gefallen, es	gefallen, es	400651	1	VA0	VA1			
+senden II	senden II	400889	1	VA0	VA1			
+schicken	schicken	400862	1	VA0	VA1	VA2	VA3	
+schicken	schicken	400862	2	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+schicken	schicken in	400862	3	VA0	VA1	VA2		
+schicken	schicken nach	400862	4	VA0	VA1_OPT	VA2		
+schicken	schicken	400862	5	VA0	VA1	VA2		
+schicken	schicken	400862	6	VA0	VA1	VA2_OPT	VA3	
+schreien	schreien	400876	1	VA0				
+schreien	schreien nach/um	400876	2	VA0	VA1			
+schreien	schreien	400876	3	VA0	VA1_OPT			
+schreien	schreien	400876	4	VA0	VA1	VA2		
+schreien	schreien nach	400876	5	VA0	VA1			
+schreien	schreien nach	400876	6	VA0	VA1			
+schreien	schreien um	400876	7	VA0	VA1			
+kaufen	kaufen	400692	1	VA0	VA1	VA2_OPT	VA3_OPT	
+kaufen	kaufen	400692	2	VA0	VA1			
+zunehmen	zunehmen	401407	1	VA0				
+zunehmen	zunehmen an	401407	2	VA0	VA1			
+zunehmen	zunehmen	401407	3	VA0	VA1_OPT			
+zunehmen	zunehmen	401407	4	VA0	VA1_OPT			
+kümmern, sich	sich [A] kümmern um	400719	1	VA0	VA1			
+kümmern, sich	sich [A] kümmern um	400719	2	VA0	VA1			
+leben	leben	400731	1	VA0				
+leben	leben von	400731	2	VA0	VA1			
+leben	leben	400731	3	VA0	VA1			
+leben	leben	400731	4	VA0				
+leben	leben	400731	5	VA0	VA1			
+leben	leben für	400731	6	VA0	VA1			
+leben	leben von	400731	7	VA0	VA1			
+leben	leben <von>	400731	8	VA0	VA1_XOR VA2			
+leben	leben	400731	9	VA0	VA1	VA2		
+leben	leben	400731	10	VA0	VA1			
+leben	leben	400731	11	VA0	VA1			
+leben	leben	400731	12	VA0	VA1_OPT			
+lächeln	lächeln über	400725	1	VA0	VA1			
+lächeln	lächeln	400725	2	VA0				
+lächeln	lächeln	400725	3	VA0	VA1			
+spielen	spielen	400902	1	VA0				
+spielen	spielen	400902	2	VA0	VA1			
+spielen	spielen	400902	3	VA0	VA1_OPT			
+spielen	spielen	400902	4	VA0	VA1_OPT	VA2_OPT		
+spielen	spielen	400902	5	VA0	VA1	VA2_OPT	VA3_OPT	
+spielen	spielen	400902	6	VA0	VA1_OPT			
+spielen	spielen	400902	7	VA0	VA1			
+spielen	spielen	400902	8	VA0	VA1			
+spielen	spielen	400902	9	VA0	VA1			
+spielen	spielen	400902	10	VA0	VA1_OPT	VA2		
+spielen	spielen für	400902	11	VA0	VA1			
+spielen	spielen in	400902	12	VA0	VA1			
+spielen	spielen mit	400902	13	VA0	VA1			
+spielen	spielen mit	400902	14	VA0	VA1			
+spielen	spielen mit	400902	15	VA0	VA1			
+spielen	spielen mit	400902	16	VA0	VA1			
+spielen	spielen um	400902	17	VA0	VA1			
+spielen	spielen an/bei	400902	18	VA0	VA1			
+spielen	spielen	400902	19	VA0	VA1			
+spielen	spielen	400902	20	VA0	VA1	VA2		
+spielen	spielen	400902	21	VA0	VA1	VA2		
+spielen	spielen	400902	22	VA0	VA1			
+spielen	spielen	400902	23	VA0	VA1			
+analysieren	analysieren	400269	1	VA0	VA1	VA2_OPT		
+analysieren	analysieren	400269	2	VA0	VA1			
+analysieren	analysieren auf (hin)	400269	3	VA0	VA1	VA2		
+abschließen	abschließen	400255	1	VA0	VA1			
+abschließen	abschließen	400255	2	VA0	VA1	VA2_OPT		
+abschließen	abschließen	400255	3	VA0	VA1	VA2_OPT		
+abschließen	abschließen	400255	4	VA0	VA1			
+abschließen	abschließen	400255	5	VA0	VA1			
+abschließen	abschließen von	400255	6	VA0	VA1	VA2		
+abschließen	abschließen mit	400255	7	VA0	VA1			
+funktionieren	funktionieren	400527	1	VA0	VA1_OPT			
+funktionieren	funktionieren	400527	2	VA0	VA1_OPT			
+funktionieren	funktionieren	400527	3	VA0	VA1_OPT			
+funktionieren	funktionieren als	400527	4	VA0	VA1			
+annehmen	annehmen	400296	1	VA0	VA1			
+annehmen	annehmen	400296	2	VA0	VA1			
+annehmen	annehmen	400296	3	VA0	VA1			
+annehmen	annehmen	400296	4	VA0	VA1			
+annehmen	annehmen	400296	5	VA0	VA1			
+annehmen	annehmen	400296	6	VA0	VA1			
+annehmen	annehmen	400296	7	VA0	VA1			
+annehmen	annehmen	400296	8	VA0	VA1			
+annehmen	annehmen	400296	9	VA0	VA1			
+annehmen	annehmen  von	400296	10	VA0	VA1	VA2		
+annehmen	annehmen	400296	11	VA0	VA1	VA2_OPT		
+annehmen	annehmen	400296	12	VA0	VA1	VA2_OPT		
+annehmen	annehmen	400296	13	VA0	VA1	VA2_OPT		
+annehmen	annehmen  als	400296	14	VA0	VA1	VA2		
+anrufen	anrufen	400297	1	VA0	VA1_OPT	VA2_OPT		
+anrufen	anrufen	400297	2	VA0	VA1			
+anrufen	anrufen	400297	3	VA0	VA1	VA2_OPT		
+anrufen	anrufen	400297	4	VA0	VA1	VA2_OPT		
+erkennen	erkennen	400526	1	VA0	VA1			
+erkennen	erkennen	400526	2	VA0	VA1	VA2_OPT		
+erkennen	erkennen	400526	3	VA0	VA1	VA2_OPT		
+erkennen	erkennen in	400526	4	VA0	VA1	VA2		
+erkennen	erkennen als	400526	5	VA0	VA1	VA2		
+erkennen	erkennen auf	400526	6	VA0	VA1			
+halten	halten für	400532	1	VA0	VA1	VA2		
+halten	halten	400532	2	VA0	VA1	VA2_OPT		
+halten	halten	400532	3	VA0	VA1	VA2_OPT	VA3_OPT	
+halten	halten	400532	4	VA0	VA1	VA2_OPT	VA3	
+halten	halten von	400532	5	VA0	VA1	VA2		
+halten	halten	400532	6	VA0	VA1_OPT			
+halten	halten	400532	7	VA0				
+halten	halten	400532	8	VA0	VA1			
+halten	halten	400532	9	VA0	VA1			
+halten	halten	400532	10	VA0	VA1			
+halten	halten	400532	11	VA0	VA1			
+halten	halten	400532	12	VA0	VA1			
+halten	halten an	400532	13	VA0	VA1	VA2		
+halten	halten	400532	14	VA0	VA1	VA2		
+halten	halten	400532	15	VA0	VA1	VA2		
+halten	halten	400532	16	VA0	VA1	VA2		
+halten	halten	400532	17	VA0	VA1	VA2		
+halten	halten	400532	18	VA0	VA1	VA2		
+halten	halten	400532	19	VA0	VA1	VA2		
+halten	halten	400532	20	VA0	VA1	VA2_OPT		
+halten	halten	400532	21	VA0	VA1	VA2_OPT		
+halten	halten	400532	22	VA0	VA1	VA2_OPT	VA3_OPT	
+halten	halten	400532	23	VA0	VA1	VA2		
+halten	halten auf	400532	24	VA0	VA1			
+halten	halten zu	400532	25	VA0	VA1			
+halten	halten	400532	26	VA0	VA1_OPT			
+abwaschen	abwaschen	400268	1	VA0	VA1_OPT	VA2_OPT		
+abwaschen	abwaschen	400268	2	VA0	VA1	VA2_OPT		
+abwaschen	abwaschen	400268	3	VA0	VA1	VA2_OPT		
+abwaschen	abwaschen	400268	4	VA0	VA1	VA2_OPT	VA3_OPT	
+kommen	kommen	400724	1	VA0				
+kommen	kommen an/auf/in	400724	2	VA0	VA1			
+kommen	kommen auf	400724	3	VA0	VA1			
+kommen	kommen	400724	4	VA0	VA1			
+kommen	kommen	400724	5	VA0	VA1			
+kommen	kommen	400724	6	VA0	VA1			
+kommen	kommen	400724	7	VA0	VA1			
+kommen	kommen	400724	8	VA0	VA1			
+kommen	kommen	400724	9	VA0	VA1			
+kommen	kommen	400724	10	VA0	VA1_OPT			
+kommen	kommen	400724	11	VA0				
+kommen	kommen	400724	12	VA0				
+kommen	kommen <auf>	400724	13	VA0	VA1_OPT	VA2_XOR VA3		
+kommen	kommen	400724	14	VA0	VA1			
+kommen	kommen an/zu	400724	15	VA0	VA1			
+kommen	kommen an/zu	400724	16	VA0	VA1			
+kommen	kommen auf	400724	17	VA0	VA1			
+kommen	kommen auf	400724	18	VA0	VA1			
+kommen	kommen auf	400724	19	VA0	VA1			
+kommen	kommen aus	400724	20	VA0	VA1			
+kommen	kommen aus/in	400724	21	VA0	VA1			
+kommen	kommen  durch/von	400724	22	VA0	VA1			
+kommen	kommen hinter	400724	23	VA0	VA1			
+kommen	kommen  mit	400724	24	VA0	VA1			
+kommen	kommen  nach	400724	25	VA0	VA1			
+kommen	kommen  über	400724	26	VA0	VA1			
+kommen	kommen  um	400724	27	VA0	VA1			
+kommen	kommen zu	400724	28	VA0	VA1			
+kommen	kommen  zu	400724	29	VA0	VA1			
+kommen	kommen zu	400724	30	VA0	VA1			
+kommen	kommen zu	400724	31	VA0	VA1			
+kommen	kommen zu	400724	32	VA0	VA1	VA2_OPT		
+kommen	kommen	400724	33	VA0	VA1			
+kommen	kommen	400724	34	VA0	VA1			
+kommen	kommen	400724	35	VA0	VA1			
+kommen	kommen	400724	36	VA0	VA1			
+kommen	kommen	400724	37	VA0	VA1			
+kommen	kommen	400724	38	VA0	VA1			
+kommen	kommen	400724	39	VA0	VA1_OPT			
+kommen	kommen	400724	40	VA0	VA1_OPT			
+kommen	kommen	400724	41	VA0	VA1_OPT			
+kommen	kommen	400724	42	VA0	VA1	VA2_OPT		
+kommen	kommen	400724	43	VA0	VA1	VA2		
+kommen	kommen	400724	44	VA0	VA1	VA2		
+kommen	kommen	400724	45	VA0	VA1			
+laufen	laufen	400730	1	VA0	VA1_OPT			
+laufen	laufen	400730	2	VA0	VA1_OPT			
+laufen	laufen	400730	3	VA0	VA1	VA2		
+laufen	laufen	400730	4	VA0	VA1	VA2		
+laufen	laufen	400730	5	VA0				
+laufen	laufen	400730	6	VA0				
+laufen	laufen	400730	7	VA0	VA1			
+laufen	laufen  <über>	400730	8	VA0	VA1_XOR VA2			
+laufen	laufen auf	400730	9	VA0	VA1			
+laufen	laufen in	400730	10	VA0	VA1			
+laufen	laufen über	400730	11	VA0	VA1			
+laufen	laufen unter	400730	12	VA0	VA1			
+laufen	laufen nach	400730	13	VA0	VA1	VA2_OPT		
+laufen	laufen	400730	14	VA0	VA1			
+laufen	laufen	400730	15	VA0	VA1			
+laufen	laufen	400730	16	VA0	VA1			
+laufen	laufen	400730	17	VA0	VA1			
+laufen	laufen	400730	18	VA0	VA1			
+laufen	laufen	400730	19	VA0	VA1			
+laufen	laufen	400730	20	VA0	VA1			
+laufen	laufen	400730	21	VA0	VA1			
+laufen	laufen	400730	22	VA0	VA1			
+laufen	laufen	400730	23	VA0	VA1_OPT			
+laufen	laufen	400730	24	VA0	VA1_OPT			
+laufen	laufen als	400730	25	VA0	VA1			
+kriegen	kriegen	400718	1	VA0	VA1	VA2_OPT		
+kriegen	kriegen	400718	2	VA0	VA1			
+kriegen	kriegen	400718	3	VA0	VA1			
+kriegen	kriegen	400718	4	VA0	VA1	VA2_OPT		
+kriegen	kriegen	400718	5	VA0	VA1	VA2		
+kriegen	kriegen	400718	6	VA0	VA1	VA2_OPT		
+kriegen	kriegen	400718	7	VA0	VA1			
+kriegen	kriegen	400718	8	VA0	VA1			
+kriegen	kriegen	400718	9	VA0	VA1			
+kriegen	kriegen	400718	10	VA0	VA1			
+kriegen	kriegen	400718	11	VA0	VA1			
+kriegen	kriegen	400718	12	VA0	VA1			
+kriegen	kriegen	400718	13	VA0	VA1			
+kriegen	kriegen an/zu	400718	14	VA0	VA1	VA2		
+kriegen	kriegen	400718	15	VA0	VA1	VA2_OPT		
+kriegen	kriegen	400718	16	VA0	VA1	VA2		
+kriegen	kriegen	400718	17	VA0	VA1	VA2_OPT		
+kriegen	kriegen	400718	18	VA0	VA1	VA2		
+kriegen	kriegen für	400718	19	VA0	VA1	VA2		
+zumachen	zumachen	401406	1	VA0	VA1			
+zumachen	zumachen	401406	2	VA0	VA1			
+zumachen	zumachen	401406	3	VA0	VA1			
+zumachen	zumachen	401406	4	VA0	VA1_OPT			
+zumachen	zumachen	401406	5	VA0	VA1	VA2		
+zumachen	zumachen	401406	6	VA0	VA1			
+zumachen	zumachen	401406	7	VA0	VA1	VA2_OPT		
+zumachen	zumachen	401406	8	VA0	VA1	VA2_OPT		
+schützen	schützen	400877	1	VA0	VA1	VA2_OPT	VA3_OPT	
+schützen	schützen	400877	2	VA0	VA1			
+schützen	schützen	400877	3	VA0	VA1_OPT	VA2_OPT		
+schieben	schieben	400863	1	VA0	VA1	VA2_OPT		
+schieben	schieben auf	400863	2	VA0	VA1	VA2		
+schieben	schieben auf	400863	3	VA0	VA1	VA2		
+schieben	schieben	400863	4	VA0	VA1	VA2		
+schieben	schieben mit	400863	5	VA0	VA1			
+gefallen	gefallen	400650	1	VA0	VA1			
+hören	hören	400678	1	VA0	VA1			
+hören	hören	400678	2	VA0	VA1			
+hören	hören	400678	3	VA0	VA1	VA2_OPT		
+hören	hören an	400678	4	VA0	VA1	VA2		
+hören	hören	400678	5	VA0	VA1	VA2_OPT		
+hören	hören	400678	6	VA0	VA1	VA2		
+hören	hören auf	400678	7	VA0	VA1			
+hören	hören auf	400678	8	VA0	VA1			
+hören	hören von	400678	9	VA0	VA1			
+entscheiden	entscheiden	400485	1	VA0	VA1			
+entscheiden	entscheiden über	400485	2	VA0	VA1			
+entscheiden	entscheiden	400485	3	VA0	VA1			
+entscheiden	entscheiden über	400485	4	VA0	VA1			
+ausreichen	ausreichen	400334	1	VA0	VA1_OPT			
+aufregen	aufregen	400320	1	VA0	VA1			
+aufregen	aufregen	400320	2	VA0	VA1	VA2_OPT		
+denken, sich	sich [D] denken	400446	1	VA0	VA1			
+denken, sich	sich [D] denken	400446	2	VA0	VA1	VA2		
+denken, sich	sich [D] denken	400446	3	VA0	VA1	VA2		
+denken, sich	sich [A] denken	400446	4	VA0	VA1			
+vergrößern, sich	sich [A] vergrößern	401016	1	VA0	VA1_OPT			
+vergrößern, sich	sich [A] vergrößern	401016	2	VA0	VA1_OPT			
+anzünden	anzünden	400308	1	VA0	VA1	VA2_OPT		
+anzünden	anzünden	400308	2	VA0	VA1			
+verbieten	verbieten	401002	1	VA0	VA1	VA2_OPT		
+verbieten	verbieten	401002	2	VA0	VA1			
+verbieten	verbieten	401002	3	VA0	VA1			
+ausziehen II	ausziehen II	400347	1	VA0	VA1			
+ausziehen II	ausziehen II	400347	2	VA0	VA1	VA2_OPT		
+ausziehen II	ausziehen II	400347	3	VA0	VA1			
+ausziehen II	ausziehen II	400347	4	VA0	VA1	VA2_OPT		
+brechen	brechen	400421	1	VA0	VA1			
+brechen	brechen	400421	2	VA0	VA1			
+brechen	brechen	400421	3	VA0	VA1			
+brechen	brechen	400421	4	VA0	VA1			
+brechen	brechen	400421	5	VA0	VA1			
+brechen	brechen	400421	6	VA0	VA1_OPT			
+brechen	brechen aus	400421	7	VA0	VA1	VA2		
+brechen	brechen	400421	8	VA0	VA1	VA2		
+brechen	brechen mit	400421	9	VA0	VA1			
+bedienen	bedienen	400353	1	VA0	VA1			
+bedienen	bedienen	400353	2	VA0	VA1			
+bedienen	bedienen	400353	3	VA0	VA1			
+bedienen	bedienen	400353	4	VA0	VA1			
+bedienen	bedienen	400353	5	VA0	VA1	VA2_OPT		
+bedienen	bedienen	400353	6	VA0	VA1			
+bewegen, sich	sich [A] bewegen	400409	1	VA0				
+bewegen, sich	sich [A] bewegen	400409	2	VA0				
+bewegen, sich	sich [A] bewegen	400409	3	VA0	VA1_OPT	VA2		
+bewegen, sich	sich [A] bewegen	400409	4	VA0	VA1_OPT			
+bewegen, sich	sich [A] bewegen	400409	5	VA0	VA1			
+bewegen, sich	sich [A] bewegen	400409	6	VA0	VA1			
+bewegen, sich	sich [A] bewegen	400409	7	VA0	VA1_OPT	VA2		
+bewegen, sich	sich [A] bewegen	400409	8	VA0	VA1_XOR VA2			
+vermieten	vermieten	401071	1	VA0	VA1	VA2_OPT_XOR VA3_OPT	VA4_OPT	VA5_OPT
+beschädigen	beschädigen	400384	1	VA0	VA1			
+beschädigen	beschädigen	400384	2	VA0	VA1	VA2_OPT		
+beschließen	beschließen über	400390	1	VA0	VA1			
+beschließen	beschließen	400390	2	VA0	VA1			
+beschließen	beschließen	400390	3	VA0	VA1			
+beschließen	beschließen	400390	4	VA0	VA1			
+beschließen	beschließen mit	400390	5	VA0	VA1	VA2		
+abspülen	abspülen	400145	1	VA0	VA1	VA2_OPT		
+abspülen	abspülen	400145	2	VA0	VA1	VA2_OPT		
+abspülen	abspülen	400145	3	VA0	VA1	VA2_OPT	VA3_OPT	
+befassen, sich	sich [Akk] befassen mit	402008	1	VA0	VA1			
+ableiten, sich	sich ableiten aus	401515	1	VA0	VA1			
+ableiten, sich	sich ableiten von	401515	2	VA0	VA1			
+riechen	riechen	400838	1	VA0	VA1			
+riechen	riechen nach	400838	2	VA0	VA1			
+riechen	riechen	400838	3	VA0	VA1			
+riechen	riechen an	400838	4	VA0	VA1			
+abheben	abheben	400186	1	VA0	VA1_XOR VA2	VA3_OPT		
+abheben	abheben	400186	2	VA0	VA1	VA2_OPT		
+abheben	abheben gegen/von	400186	3	VA0	VA1	VA2		
+abheben	abheben gegen/von	400186	4	VA0	VA1	VA2		
+abheben	abheben	400186	5	VA0	VA1_OPT			
+abheben	abheben auf	400186	6	VA0	VA1	VA2_OPT		
+abheben	abheben	400186	7	VA0	VA1_OPT			
+öffnen	öffnen	400804	1	VA0	VA1			
+öffnen	öffnen	400804	2	VA0	VA1			
+öffnen	öffnen	400804	3	VA0	VA1			
+öffnen	öffnen <für>	400804	4	VA0	VA1	VA2_XOR VA3		
+öffnen	öffnen	400804	5	VA0	VA1	VA2_OPT		
+öffnen	öffnen	400804	6	VA0	VA1	VA2		
+öffnen	öffnen	400804	7	VA0	VA1	VA2		
+parken	parken	400810	1	VA0	VA1_OPT	VA2_OPT		
+parken	parken	400810	2	VA0	VA1			
+mitteilen	mitteilen	400794	1	VA0	VA1			
+mitteilen	mitteilen	400794	2	VA0	VA1	VA2		
+mitteilen	mitteilen	400794	3	VA0	VA1	VA2		
+mitteilen	mitteilen	400794	4	VA0	VA1	VA2_OPT		
+markieren	markieren	400780	1	VA0	VA1	VA2_OPT		
+markieren	markieren	400780	2	VA0	VA1_OPT			
+markieren	markieren	400780	3	VA0	VA1			
+markieren	markieren mit	400780	4	VA0	VA1	VA2		
+turnen	turnen	400970	1	VA0	VA1_OPT			
+turnen	turnen	400970	2	VA0	VA1			
+turnen	turnen bei	400970	3	VA0	VA1			
+turnen	turnen	400970	4	VA0	VA1			
+heiraten	heiraten	400555	1	VA0	VA1_OPT			
+heiraten	heiraten	400555	2	VA0	VA1			
+erlauben, sich	sich [D] erlauben	400541	1	VA0	VA1			
+erlauben, sich	sich [D] erlauben	400541	2	VA0	VA1			
+warnen	warnen	401139	1	VA0	VA1	VA2		
+erwarten	erwarten	400569	1	VA0	VA1			
+erwarten	erwarten	400569	2	VA0	VA1	VA2_OPT		
+erwarten	erwarten	400569	3	VA0	VA1			
+erwarten	erwarten von	400569	4	VA0	VA1	VA2		
+erwarten	erwarten	400569	5	VA0	VA1	VA2_OPT		
+festhalten, sich / fest halten, sich	sich [A] festhalten / fest halten	400582	1	VA0	VA1_OPT	VA2_OPT		
+feststellen	feststellen	400583	1	VA0	VA1			
+feststellen	feststellen	400583	2	VA0	VA1			
+feststellen	feststellen	400583	3	VA0	VA1	VA2_OPT		
+erschrecken II	erschrecken	400568	1	VA0	VA1			
+erschrecken II	erschrecken	400568	2	VA0	VA1	VA2_OPT		
+erlauben	erlauben	400540	1	VA0	VA1	VA2_OPT		
+erlauben	erlauben	400540	2	VA0	VA1	VA2_OPT		
+wandern	wandern	401138	1	VA0	VA1_OPT			
+wandern	wandern	401138	2	VA0	VA1			
+wandern	wandern	401138	3	VA0	VA1			
+wandern	wandern	401138	4	VA0	VA1_OPT			
+wandern	wandern	401138	5	VA0	VA1_OPT			
+heben	heben	400554	1	VA0	VA1	VA2_OPT		
+heben	heben	400554	2	VA0	VA1	VA2		
+heben	heben	400554	3	VA0	VA1	VA2_OPT		
+heben	heben	400554	4	VA0	VA1	VA2		
+heben	heben	400554	5	VA0	VA1	VA2	VA3_OPT	
+heben	heben	400554	6	VA0	VA1	VA2_OPT	VA3_OPT	
+heben	heben	400554	7	VA0	VA1			
+treten I	treten	400965	1	VA0	VA1			
+treten I	treten	400965	2	VA0	VA1_OPT	VA2		
+treten I	treten aus/in	400965	3	VA0	VA1			
+treten I	treten in	400965	4	VA0	VA1			
+treten I	treten neben/zu	400965	5	VA0	VA1			
+treten I	treten	400965	6	VA0	VA1			
+überholen	überholen	400971	1	VA0	VA1_OPT			
+überholen	überholen	400971	2	VA0	VA1	VA2_OPT		
+überholen	überholen	400971	3	VA0	VA1			
+treiben II	treiben II	400959	1	VA0	VA1			
+treiben II	treiben II in/zu	400959	2	VA0	VA1	VA2		
+treiben II	treiben II	400959	3	VA0	VA1	VA2		
+treiben II	treiben II	400959	4	VA0	VA1			
+treiben II	treiben II	400959	5	VA0	VA1_OPT			
+treiben II	treiben II zu	400959	6	VA0	VA1_OPT	VA2		
+treiben II	treiben II zu	400959	7	VA0	VA1	VA2		
+treiben II	treiben II	400959	8	VA0	VA1	VA2	VA3_OPT	
+treiben II	treiben II	400959	9	VA0	VA1	VA2		
+treiben II	treiben II	400959	10	VA0	VA1	VA2	VA3_OPT	
+treiben II	treiben II	400959	11	VA0	VA1	VA2		
+treiben II	treiben II	400959	12	VA0	VA1	VA2		
+mögen	mögen	400795	1	VA0	VA1			
+mögen	mögen	400795	2	VA0	VA1			
+mögen	mögen	400795	3	VA0	VA1			
+mögen	mögen	400795	4	VA0	VA1			
+mögen	mögen	400795	5	VA0	VA1			
+leiten	leiten	400742	1	VA0	VA1			
+leiten	leiten	400742	2	VA0	VA1			
+leiten	leiten	400742	3	VA0	VA1			
+leiten	leiten	400742	4	VA0	VA1_OPT			
+leiten	leiten	400742	5	VA0	VA1	VA2		
+leiten	leiten	400742	6	VA0	VA1	VA2		
+passen	passen	400811	1	VA0	VA1			
+passen	passen	400811	2	VA0	VA1_OPT	VA2		
+passen	passen	400811	3	VA0	VA1			
+passen	passen	400811	4	VA0	VA1_OPT	VA2		
+passen	passen auf	400811	5	VA0	VA1			
+passen	passen in	400811	6	VA0	VA1			
+passen	passen	400811	7	VA0	VA1_OPT			
+passen	passen	400811	8	VA0	VA1_OPT			
+passen	passen	400811	9	VA0	VA1_OPT			
+operieren	operieren	400805	1	VA0	VA1	VA2_OPT		
+operieren	operieren	400805	2	VA0	VA1			
+operieren	operieren	400805	3	VA0	VA1	VA2		
+operieren	operieren mit	400805	4	VA0	VA1			
+operieren	operieren	400805	5	VA0	VA1			
+operieren	operieren	400805	6	VA0	VA1_XOR VA2			
+riechen, es	es riecht nach	400839	1	VA0	VA1_OPT			
+riechen, es	es riecht	400839	2	VA0_OPT	VA1			
+abfliegen	abfliegen	400187	1	VA0	VA1_OPT			
+abfliegen	abfliegen	400187	2	VA0	VA1	VA2_OPT		
+abfliegen	abfliegen	400187	3	VA0	VA1_OPT			
+erörtern	erörtern	402021	1	VA0	VA1			
+erörtern	erörtern	402021	2	VA0	VA1	VA2		
+fürchten, sich	sich [A] fürchten	400622	1	VA0	VA1_OPT			
+beschreiben	beschreiben	400391	1	VA0	VA1			
+beschreiben	beschreiben	400391	2	VA0	VA1			
+beschreiben	beschreiben	400391	3	VA0	VA1	VA2_OPT		
+beschreiben	beschreiben	400391	4	VA0	VA1	VA2_OPT		
+bewegen II	bewegen	400408	1	VA0	VA1			
+bewegen II	bewegen	400408	2	VA0	VA1	VA2		
+bewegen II	bewegen	400408	3	VA0	VA1			
+bewegen II	bewegen	400408	4	VA0	VA1			
+bewegen II	bewegen	400408	5	VA0	VA1			
+bewegen II	bewegen	400408	6	VA0	VA1	VA2_OPT		
+bewegen II	bewegen	400408	7	VA0	VA1	VA2_OPT		
+verlieren	verlieren	401070	1	VA0	VA1			
+verlieren	verlieren	401070	2	VA0	VA1			
+verlieren	verlieren	401070	3	VA0	VA1_OPT	VA2_OPT	VA3_OPT	
+verlieren	verlieren	401070	4	VA0	VA1			
+verlieren	verlieren	401070	5	VA0	VA1			
+verlieren	verlieren	401070	6	VA0	VA1			
+verlieren	verlieren an	401070	7	VA0	VA1	VA2		
+verlieren	verlieren <an>	401070	8	VA0	VA1_XOR VA2			
+verlieren	verlieren	401070	9	VA0	VA1	VA2_OPT		
+verlieren	verlieren	401070	10	VA0	VA1_OPT			
+verlassen, sich	sich [A] verlassen auf	401064	1	VA0	VA1			
+bedeuten	bedeuten	400352	1	VA0	VA1			
+bedeuten	bedeuten	400352	2	VA0	VA1			
+bedeuten	bedeuten für	400352	3	VA0	VA1	VA2		
+bedeuten	bedeuten	400352	4	VA0	VA1	VA2_OPT		
+bedeuten	bedeuten	400352	5	VA0	VA1_OPT_XOR VA2_OPT	VA3		
+bedeuten	bedeuten	400352	6	VA0	VA1			
+bedeuten	bedeuten	400352	7	VA0	VA1	VA2		
+ausziehen I	ausziehen I	400346	1	VA0	VA1_OPT			
+ausziehen I	ausziehen I auf/zu	400346	2	VA0	VA1			
+ausziehen I	ausziehen I aus	400346	3	VA0	VA1			
+ausziehen I	ausziehen I	400346	4	VA0	VA1			
+brauchen	brauchen	400420	1	VA0	VA1			
+brauchen	brauchen	400420	2	VA0	VA1	VA2_OPT		
+brauchen	brauchen	400420	3	VA0	VA1	VA2_OPT		
+brauchen	brauchen	400420	4	VA0	VA1	VA2_OPT		
+beantragen	beantragen	400350	1	VA0	VA1	VA2_OPT		
+beantragen	beantragen	400350	2	VA0	VA1			
+brechen, (sich)	(sich [D]) brechen	400422	1	VA0	VA1			
+aussuchen, (sich)	(sich  [D])  aussuchen	400344	1	VA0	VA1	VA2_OPT	VA3_OPT	
+vermuten	vermuten	401072	1	VA0	VA1			
+vermuten	vermuten hinter	401072	2	VA0	VA1	VA2		
+vermuten	vermuten in	401072	3	VA0	VA1	VA2		
+beobachten	beobachten	400378	1	VA0	VA1	VA2_OPT		
+beobachten	beobachten	400378	2	VA0	VA1			
+beobachten	beobachten	400378	3	VA0	VA1	VA2_OPT		
+besichtigen	besichtigen	400393	1	VA0	VA1			
+verwenden	verwenden	401099	1	VA0	VA1	VA2_OPT		
+verwenden	verwenden auf	401099	2	VA0	VA1	VA2		
+verwenden	verwenden gegen	401099	3	VA0	VA1	VA2		
+verwenden	verwenden als	401099	4	VA0	VA1	VA2		
+fragen, sich	sich [A] fragen <nach>	400608	1	VA0	VA1_XOR VA2			
+abnehmen	abnehmen	400185	1	VA0	VA1	VA2_OPT		
+abnehmen	abnehmen	400185	2	VA0	VA1_OPT			
+abnehmen	abnehmen	400185	3	VA0	VA1_OPT			
+abnehmen	abnehmen	400185	4	VA0				
+abnehmen	abnehmen	400185	5	VA0	VA1			
+abnehmen	abnehmen	400185	6	VA0	VA1			
+abnehmen	abnehmen	400185	7	VA0	VA1	VA2		
+abnehmen	abnehmen	400185	8	VA0	VA1	VA2		
+abnehmen	abnehmen	400185	9	VA0	VA1	VA2		
+abnehmen	abnehmen	400185	10	VA0	VA1	VA2		
+abnehmen	abnehmen	400185	11	VA0	VA1	VA2_OPT	VA3_OPT	
+abnehmen	abnehmen	400185	12	VA0	VA1	VA2_OPT		
+abnehmen	abnehmen an	400185	13	VA0	VA1			
+pflegen	pflegen	400813	1	VA0	VA1			
+pflegen	pflegen	400813	2	VA0	VA1			
+pflegen	pflegen	400813	3	VA0	VA1			
+pflegen	pflegen	400813	4	VA0	VA1			
+ordnen	ordnen	400807	1	VA0	VA1	VA2_OPT		
+ordnen	ordnen	400807	2	VA0	VA1			
+ordnen	ordnen	400807	3	VA0	VA1			
+ordnen	ordnen zu	400807	4	VA0	VA1	VA2		
+ordnen	ordnen	400807	5	VA0	VA1	VA2_OPT		
+ordnen	ordnen	400807	6	VA0	VA1	VA2		
+verändern	verändern	400998	1	VA0	VA1			
+verändern	verändern	400998	2	VA0	VA1			
+verändern	verändern	400998	3	VA0	VA1			
+verändern	verändern	400998	4	VA0	VA1			
+verändern	verändern an	400998	5	VA0	VA1	VA2		
+verändern	verändern	400998	6	VA0	VA1	VA2_OPT		
+leisten, sich	sich [D] leisten	400740	1	VA0	VA1			
+leisten, sich	sich [D] leisten	400740	2	VA0	VA1			
+leisten, sich	sich [D] leisten	400740	3	VA0	VA1			
+zuhören	zuhören	401304	1	VA0	VA1_OPT	VA2_OPT		
+nachdenken	nachdenken über	400797	1	VA0	VA1			
+nachdenken	nachdenken über	400797	2	VA0	VA1			
+trinken	trinken	400967	1	VA0	VA1_OPT			
+trinken	trinken	400967	2	VA0				
+trinken	trinken auf	400967	3	VA0	VA1_OPT	VA2		
+überlegen	überlegen	400973	1	VA0				
+überlegen	überlegen	400973	2	VA0	VA1			
+erleben	erleben	400542	1	VA0	VA1			
+erleben	erleben	400542	2	VA0	VA1			
+erleben	erleben	400542	3	VA0	VA1	VA2_OPT		
+erleben	erleben	400542	4	VA0	VA1	VA2		
+heißen	heißen	400556	1	VA0	VA1			
+heißen	heißen auf/in	400556	2	VA0	VA1	VA2		
+heißen	heißen	400556	3	VA0	VA1			
+heißen	heißen für	400556	4	VA0	VA1	VA2		
+heißen	heißen	400556	5	VA0	VA1	VA2		
+heißen	heißen nach	400556	6	VA0	VA1			
+heißen	heißen	400556	7	VA0	VA1			
+heißen	heißen	400556	8	VA0	VA1			
+verzeihen	verzeihen	401106	1	VA0	VA1_OPT	VA2_OPT		
+verzeihen	verzeihen	401106	2	VA0	VA1			
+da sein	da sein	400218	1	VA0	VA1_OPT			
+da sein	da sein	400218	2	VA0	VA1_OPT			
+da sein	da sein	400218	3	VA0				
+da sein	da sein	400218	4	VA0				
+da sein	da sein für/zu	400218	5	VA0	VA1			
+beginnen, es	es beginnt	400219	1	VA0_OPT	VA1			
+heißen, es	es heißt	400557	1	VA0_OPT	VA1			
+heißen, es	es heißt	400557	2	VA0	VA1			
+ernähren	ernähren	400543	1	VA0	VA1	VA2_OPT		
+ernähren	ernähren	400543	2	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+ernähren	ernähren	400543	3	VA0	VA1			
+ernähren	ernähren	400543	4	VA0	VA1			
+überfahren	überfahren	400972	1	VA0	VA1			
+überfahren	überfahren	400972	2	VA0	VA1			
+überfahren	überfahren	400972	3	VA0	VA1			
+überfahren	überfahren	400972	4	VA0	VA1	VA2_OPT		
+treten II	treten II	400966	1	VA0	VA1			
+treten II	treten II  <auf>	400966	2	VA0	VA1_XOR VA2			
+treten II	treten II	400966	3	VA0	VA1	VA2_OPT		
+treten II	treten II in	400966	4	VA0	VA1	VA2		
+treten II	treten II <zu>	400966	5	VA0	VA1	VA2_XOR VA3		
+treten II	treten II	400966	6	VA0	VA1	VA2		
+treten II	treten II	400966	7	VA0	VA1	VA2		
+treten II	treten II	400966	8	VA0	VA1	VA2_OPT		
+müssen	müssen	400796	1	VA0	VA1			
+müssen	müssen	400796	2	VA0	VA1			
+müssen	müssen	400796	3	VA0	VA1			
+meinen	meinen	400782	1	VA0	VA1	VA2_OPT		
+meinen	meinen	400782	2	VA0	VA1	VA2_OPT	VA3_OPT	
+meinen	meinen	400782	3	VA0	VA1			
+meinen	meinen	400782	4	VA0	VA1			
+meinen	meinen mit	400782	5	VA0	VA1	VA2		
+meinen	meinen	400782	6	VA0	VA1	VA2_OPT		
+meinen	meinen	400782	7	VA0	VA1	VA2		
+meinen	meinen als	400782	8	VA0	VA1	VA2		
+meinen	meinen	400782	9	VA0	VA1			
+erziehen	erziehen	400741	1	VA0	VA1	VA2_OPT		
+erziehen	erziehen zu	400741	2	VA0	VA1_OPT	VA2		
+verändern, sich	sich [A] verändern	400999	1	VA0				
+verändern, sich	sich [A] verändern	400999	2	VA0	VA1_OPT			
+verändern, sich	sich [A] verändern	400999	3	VA0	VA1_OPT			
+passieren	passieren	400812	1	VA0				
+passieren	passieren	400812	2	VA0	VA1			
+passieren	passieren aus	400812	3	VA0	VA1			
+passieren	passieren mit	400812	4	VA0	VA1			
+passieren	passieren	400812	5	VA0	VA1	VA2		
+bezeichnen	bezeichnen	401503	1	VA0	VA1			
+bezeichnen	bezeichnen	401503	2	VA0	VA1	VA2_OPT		
+bezeichnen	bezeichnen mit	401503	3	VA0	VA1	VA2		
+bezeichnen	bezeichnen	401503	4	VA0	VA1	VA2		
+fressen	fressen	400609	1	VA0	VA1_OPT			
+fressen	fressen	400609	2	VA0	VA1			
+fressen	fressen	400609	3	VA0	VA1_OPT			
+fressen	fressen	400609	4	VA0	VA1	VA2		
+fressen	fressen an	400609	5	VA0	VA1			
+fressen	fressen	400609	6	VA0	VA1_XOR VA2			
+fürchten	fürchten	400621	1	VA0	VA1			
+fürchten	fürchten	400621	2	VA0	VA1			
+fürchten	fürchten als	400621	3	VA0	VA1	VA2		
+fürchten	fürchten um	400621	4	VA0	VA1			
+verwechseln	verwechseln	401098	1	VA0	VA1	VA2_OPT		
+verwechseln	verwechseln mit	401098	2	VA0	VA1	VA2		
+verwechseln	verwechseln	401098	3	VA0	VA1	VA2_OPT		
+beschweren, sich	sich [A] beschweren	400392	1	VA0	VA1_OPT	VA2_OPT		
+verletzen	verletzen	401067	1	VA0	VA1	VA2_OPT	VA3_OPT	
+verletzen	verletzen	401067	2	VA0	VA1	VA2_OPT		
+verletzen	verletzen	401067	3	VA0	VA1			
+verletzen	verletzen	401067	4	VA0	VA1	VA2_OPT		
+verletzen	verletzen	401067	5	VA0	VA1			
+verletzen	verletzen	401067	6	VA0	VA1	VA2_OPT	VA3_OPT	
+verletzen	verletzen	401067	7	VA0	VA1	VA2_OPT		
+beraten	beraten <über>  mit	400379	1	VA0	VA1_XOR VA2	VA3		
+beraten	beraten	400379	2	VA0	VA1	VA2		
+bremsen	bremsen	400423	1	VA0				
+bremsen	bremsen	400423	2	VA0	VA1			
+bremsen	bremsen	400423	3	VA0	VA1			
+bremsen	bremsen	400423	4	VA0	VA1	VA2		
+auswandern	auswandern	400345	1	VA0	VA1_OPT			
+auswandern	auswandern	400345	2	VA0	VA1			
+bedanken, sich	sich [A] bedanken	400351	1	VA0	VA1_OPT	VA2_OPT	VA3_OPT	
+behaupten	behaupten	400369	1	VA0	VA1			
+behaupten	behaupten	400369	2	VA0	VA1			
+verpassen	verpassen	401077	1	VA0	VA1	VA2_OPT		
+verpassen	verpassen	401077	2	VA0	VA1	VA2_OPT		
+verpassen	verpassen	401077	3	VA0	VA1			
+verpassen	verpassen	401077	4	VA0	VA1	VA2_OPT		
+verpassen	verpassen	401077	5	VA0	VA1	VA2		
+verlassen	verlassen	401063	1	VA0	VA1			
+verlassen	verlassen	401063	2	VA0	VA1			
+verlassen	verlassen	401063	3	VA0	VA1			
+verlassen	verlassen	401063	4	VA0	VA1			
+verlassen	verlassen	401063	5	VA0	VA1			
+verlassen	verlassen	401063	6	VA0	VA1			
+verlassen	verlassen	401063	7	VA0	VA1			
+beeinflussen	beeinflussen	400355	1	VA0	VA1			
+beeinflussen	beeinflussen in	400355	2	VA0	VA1	VA2		
+beeinflussen	beeinflussen	400355	3	VA0	VA1	VA2_OPT		
+aussprechen	aussprechen	400341	1	VA0	VA1			
+aussprechen	aussprechen	400341	2	VA0	VA1	VA2		
+aussprechen	aussprechen	400341	3	VA0	VA1	VA2_OPT		
+buchen	buchen	400427	1	VA0	VA1	VA2_OPT		
+buchen	buchen	400427	2	VA0	VA1	VA2_OPT		
+bestätigen	bestätigen	400396	1	VA0	VA1			
+bestätigen	bestätigen	400396	2	VA0	VA1			
+bestätigen	bestätigen	400396	3	VA0	VA1			
+bestätigen	bestätigen	400396	4	VA0	VA1			
+bestätigen	bestätigen	400396	5	VA0	VA1	VA2		
+bestätigen	bestätigen	400396	6	VA0	VA1	VA2_OPT		
+bestätigen	bestätigen als	400396	7	VA0	VA1	VA2		
+beruhigen	beruhigen	400382	1	VA0	VA1	VA2_OPT		
+beruhigen	beruhigen	400382	2	VA0	VA1_OPT			
+fliehen	fliehen	401507	1	VA0	VA1			
+fliehen	fliehen	401507	2	VA0	VA1_OPT	VA2_OPT		
+probieren	probieren	400816	1	VA0	VA1			
+probieren	probieren	400816	2	VA0	VA1			
+probieren	probieren <von>	400816	3	VA0	VA1_XOR VA2			
+probieren	probieren	400816	4	VA0	VA1			
+probieren	probieren	400816	5	VA0	VA1			
+probieren	probieren	400816	6	VA0	VA1_OPT			
+nennen	nennen	400802	1	VA0	VA1	VA2_OPT		
+nennen	nennen	400802	2	VA0	VA1	VA2		
+nennen	nennen	400802	3	VA0	VA1	VA2		
+nennen	nennen	400802	4	VA0	VA1			
+nennen	nennen nach	400802	5	VA0	VA1	VA2		
+nennen	nennen	400802	6	VA0	VA1	VA2		
+nennen	nennen als	400802	7	VA0	VA1	VA2		
+malen	malen	400779	1	VA0	VA1	VA2_OPT		
+malen	malen	400779	2	VA0				
+malen	malen	400779	3	VA0	VA1			
+malen	malen	400779	4	VA0	VA1			
+malen	malen	400779	5	VA0	VA1	VA2		
+malen	malen	400779	6	VA0	VA1	VA2		
+malen	malen	400779	7	VA0	VA1	VA2		
+umziehen II	umziehen II	400989	1	VA0	VA1			
+umziehen II	umziehen II	400989	2	VA0	VA1			
+trennen	trennen von	400962	1	VA0	VA1	VA2		
+trennen	trennen aus/von	400962	2	VA0	VA1	VA2		
+trennen	trennen von	400962	3	VA0	VA1	VA2		
+trennen	trennen von	400962	4	VA0	VA1	VA2		
+trennen	trennen <zwischen>	400962	5	VA0	VA1_XOR VA2			
+trennen	trennen	400962	6	VA0	VA1	VA2_OPT	VA3_OPT	
+melden, sich	sich [A] melden	400786	1	VA0	VA1_OPT			
+melden, sich	sich [A] melden	400786	2	VA0	VA1_OPT	VA2_OPT		
+melden, sich	sich [A] melden für/zu	400786	3	VA0	VA1			
+melden, sich	sich [A] melden	400786	4	VA0	VA1_OPT			
+melden, sich	sich   melden	400786	5	VA0	VA1	VA2		
+missverstehen	missverstehen	400792	1	VA0	VA1			
+missverstehen	missverstehen als	400792	2	VA0	VA1	VA2		
+erledigen	erledigen	400547	1	VA0	VA1			
+erledigen	erledigen	400547	2	VA0	VA1			
+hassen	hassen	400553	1	VA0	VA1			
+hassen	hassen	400553	2	VA0	VA1			
+finden	finden	400584	1	VA0	VA1			
+finden	finden	400584	2	VA0	VA1			
+finden	finden	400584	3	VA0	VA1	VA2_OPT		
+finden	finden	400584	4	VA0	VA1	VA2		
+finden	finden	400584	5	VA0	VA1			
+finden	finden an	400584	6	VA0	VA1	VA2		
+finden	finden in	400584	7	VA0	VA1	VA2		
+finden	finden	400584	8	VA0	VA1	VA2		
+finden	finden	400584	9	VA0	VA1	VA2		
+finden	finden zu	400584	10	VA0	VA1			
+finden	finden	400584	11	VA0	VA1			
+finden	finden	400584	12	VA0	VA1			
+fliegen	fliegen	400585	1	VA0	VA1_OPT			
+fliegen	fliegen	400585	2	VA0				
+fliegen	fliegen	400585	3	VA0	VA1			
+fliegen	fliegen auf	400585	4	VA0	VA1			
+fliegen	fliegen durch	400585	5	VA0	VA1			
+fliegen	fliegen	400585	6	VA0	VA1_OPT			
+fliegen	fliegen	400585	7	VA0	VA1_OPT			
+fliegen	fliegen	400585	8	VA0	VA1_XOR VA2			
+fliegen	fliegen	400585	9	VA0	VA1			
+fliegen	fliegen	400585	10	VA0	VA1			
+fliegen	fliegen	400585	11	VA0	VA1			
+hängen I	hängen I	400552	1	VA0	VA1			
+hängen I	hängen I	400552	2	VA0	VA1			
+hängen I	hängen I	400552	3	VA0				
+hängen I	hängen I an	400552	4	VA0	VA1			
+hängen I	hängen I an	400552	5	VA0	VA1			
+hängen I	hängen I	400552	6	VA0	VA1			
+hängen I	hängen I	400552	7	VA0	VA1			
+hängen I	hängen I	400552	8	VA0	VA1			
+hängen I	hängen I	400552	9	VA0	VA1			
+hängen I	hängen I	400552	10	VA0	VA1			
+hängen I	hängen I	400552	11	VA0	VA1_OPT			
+hängen I	hängen I	400552	12	VA0	VA1			
+hängen II	hängen II	400546	1	VA0	VA1	VA2		
+hängen II	hängen II	400546	2	VA0	VA1			
+hängen II	hängenn II an	400546	3	VA0	VA1	VA2		
+hängen II	hängen II	400546	4	VA0	VA1	VA2		
+hängen II	hängen II	400546	5	VA0	VA1	VA2		
+hängen II	hängen II	400546	6	VA0	VA1	VA2		
+erinnern, sich	sich [A] erinnern   <an>	400220	1	VA0	VA1_XOR VA2			
+verzollen	verzollen	401116	1	VA0	VA1			
+mitfahren	mitfahren	400793	1	VA0	VA1_OPT	VA2_OPT		
+mitfahren	mitfahren	400793	2	VA0	VA1_OPT_XOR VA2_OPT			
+merken	merken	400787	1	VA0	VA1			
+übernachten	übernachten	400977	1	VA0	VA1			
+trennen, sich	sich [A] trennen von	400963	1	VA0	VA1			
+trennen, sich	sich [A] trennen von	400963	2	VA0	VA1			
+trennen, sich	sich [A] trennen  von	400963	3	VA0	VA1			
+trennen, sich	sich [A] trennen	400963	4	VA0	VA1			
+trennen, sich	sich [A] trennen	400963	5	VA0	VA1_OPT			
+unterhalten, sich	sich [A] unterhalten mit	400988	1	VA0	VA1	VA2_OPT		
+unterhalten, sich	sich [A] unterhalten	400988	2	VA0	VA1_OPT			
+losfahren	losfahren	400778	1	VA0	VA1_OPT	VA2_OPT		
+losfahren	losfahren auf	400778	2	VA0	VA1			
+losfahren	losfahren auf	400778	3	VA0	VA1			
+nützen/nutzen	nützen/nutzen	400803	1	VA0	VA1	VA2_OPT		
+nützen/nutzen	nützen/nutzen	400803	2	VA0	VA1	VA2		
+nützen/nutzen	nützen/nutzen	400803	3	VA0	VA1	VA2		
+produzieren	produzieren	400817	1	VA0	VA1	VA2_OPT	VA3_OPT	
+produzieren	produzieren	400817	2	VA0	VA1			
+produzieren	produzieren	400817	3	VA0	VA1			
+produzieren	produzieren	400817	4	VA0	VA1			
+produzieren	produzieren	400817	5	VA0	VA1			
+gebären	gebären	400624	1	VA0	VA1	VA2_OPT		
+gebären	gebären	400624	2	VA0	VA1	VA2_OPT		
+zahlen	zahlen	401248	1	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+zahlen	zahlen für	401248	2	VA0	VA1_OPT_XOR VA2_OPT	VA3	VA4_OPT	
+zahlen	zahlen	401248	3	VA0	VA1	VA2		
+führen	führen	400618	1	VA0	VA1			
+führen	führen	400618	2	VA0	VA1	VA2		
+führen	führen zu	400618	3	VA0	VA1			
+führen	führen	400618	4	VA0	VA1			
+führen	führen	400618	5	VA0	VA1_OPT	VA2_OPT		
+führen	führen	400618	6	VA0	VA1			
+führen	führen	400618	7	VA0	VA1			
+führen	führen	400618	8	VA0	VA1			
+führen	führen	400618	9	VA0	VA1			
+führen	führen	400618	10	VA0	VA1			
+führen	führen	400618	11	VA0	VA1			
+führen	führen zu	400618	12	VA0	VA1	VA2		
+führen	führen	400618	13	VA0	VA1	VA2		
+führen	führen	400618	14	VA0	VA1	VA2		
+führen	führen	400618	15	VA0	VA1	VA2		
+führen	führen	400618	16	VA0	VA1	VA2		
+führen	führen	400618	17	VA0	VA1	VA2_OPT		
+beruhigen, sich	sich [A] beruhigen	400383	1	VA0	VA1_OPT			
+beruhigen, sich	sich [A] beruhigen	400383	2	VA0				
+einbeziehen	einbeziehen	401937	1	VA0	VA1	VA2_OPT		
+einbeziehen	einbeziehen	401937	2	VA0	VA1	VA2_OPT		
+bestehen	bestehen	400397	1	VA0	VA1			
+bestehen	bestehen auf	400397	2	VA0	VA1			
+bestehen	bestehen aus	400397	3	VA0	VA1			
+bestehen	bestehen in	400397	4	VA0	VA1			
+bestehen	bestehen	400397	5	VA0	VA1	VA2		
+bestehen	bestehen	400397	6	VA0	VA1_OPT			
+verspäten, sich	sich [A] verspäten	401089	1	VA0	VA1_OPT			
+aus sein	aus sein	400340	1	VA0				
+aus sein	aus sein	400340	2	VA0	VA1_OPT			
+aus sein	aus sein	400340	3	VA0				
+aus sein	aus sein auf	400340	4	VA0	VA1			
+aus sein	aus sein	400340	5	VA0	VA1_OPT			
+dauern, es	es dauert	400432	1	VA0	VA1			
+beeilen, sich	sich [A]  beeilen	400354	1	VA0	VA1_OPT			
+behandeln	behandeln	400368	1	VA0	VA1			
+behandeln	behandeln	400368	2	VA0	VA1	VA2		
+behandeln	behandeln	400368	3	VA0	VA1	VA2_OPT		
+behandeln	behandeln	400368	4	VA0	VA1	VA2		
+behandeln	behandeln	400368	5	VA0	VA1	VA2_OPT		
+behandeln	behandeln als/wie	400368	6	VA0	VA1	VA2		
+bluten	bluten	400418	1	VA0				
+bluten	bluten	400418	2	VA0				
+bluten	bluten aus	400418	3	VA0	VA1			
+brennen	brennen	400424	1	VA0				
+brennen	brennen	400424	2	VA0				
+brennen	brennen	400424	3	VA0	VA1_OPT			
+brennen	brennen	400424	4	VA0				
+brennen	brennen	400424	5	VA0				
+brennen	brennen zu	400424	6	VA0	VA1	VA2		
+brennen	brennen	400424	7	VA0	VA1	VA2	VA3_OPT	
+brennen	brennen auf	400424	8	VA0	VA1			
+brennen	brennen vor	400424	9	VA0	VA1			
+brennen	brennen	400424	10	VA0	VA1			
+brennen	brennen	400424	11	VA0	VA1_OPT			
+aussteigen	aussteigen	400342	1	VA0	VA1_OPT	VA2_OPT		
+aussteigen	aussteigen	400342	2	VA0	VA1_OPT			
+aussteigen	aussteigen	400342	3	VA0	VA1_OPT			
+begegnen	begegnen	400356	1	VA0	VA1	VA2_OPT		
+begegnen	begegnen	400356	2	VA0	VA1			
+begegnen	begegnen	400356	3	VA0	VA1	VA2		
+begegnen	begegnen	400356	4	VA0	VA1	VA2_OPT		
+begegnen	begegnen	400356	5	VA0	VA1	VA2_OPT		
+begegnen	begegnen	400356	6	VA0	VA1	VA2_OPT		
+berücksichtigen	berücksichtigen	400381	1	VA0	VA1	VA2_OPT		
+berücksichtigen	berücksichtigen	400381	2	VA0	VA1	VA2_OPT		
+besorgen	besorgen	400395	1	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+besorgen	besorgen	400395	2	VA0	VA1			
+besorgen	besorgen	400395	3	VA0	VA1			
+beruhen	beruhen auf	401510	1	VA0	VA1			
+beruhen	beruhen in	401510	2	VA0	VA1			
+abzielen	abzielen auf	402019	1	VA0	VA1			
+abzielen	abzielen auf	402019	2	VA0	VA1	VA2_OPT		
+nehmen, (sich)	(sich [D]) nehmen	400801	1	VA0	VA1			
+nehmen, (sich)	(sich [D]) nehmen	400801	2	VA0	VA1			
+nehmen, (sich)	(sich [D]) nehmen	400801	3	VA0	VA1	VA2_OPT		
+nehmen, (sich)	(sich [D]) nehmen	400801	4	VA0	VA1			
+planen	planen	400815	1	VA0	VA1	VA2_OPT		
+planen	planen   <auf>	400815	2	VA0	VA1	VA2_XOR VA3		
+planen	planen	400815	3	VA0	VA1_OPT	VA2_OPT		
+reden	reden	400829	1	VA0	VA1	VA2		
+reden	reden	400829	2	VA0	VA1_OPT			
+reden	reden	400829	3	VA0				
+reden	reden	400829	4	VA0	VA1			
+reden	reden über/von	400829	5	VA0	VA1_XOR VA2	VA3		
+reden	reden mit	400829	6	VA0	VA1_OPT	VA2		
+reden	reden über/von	400829	7	VA0	VA1			
+reden	reden von	400829	8	VA0	VA1			
+reden	reden zu	400829	9	VA0	VA1			
+reden	reden von	400829	10	VA0	VA1	VA2_OPT		
+reden	reden	400829	11	VA0	VA1	VA2		
+reden	reden	400829	12	VA0	VA1			
+überlegen, (sich)	(sich [D]) überlegen	400975	1	VA0	VA1			
+überlegen, (sich)	(sich [D]) überlegen	400975	2	VA0	VA1			
+töten	töten	400949	1	VA0	VA1	VA2_OPT		
+töten	töten	400949	2	VA0	VA1			
+töten	töten	400949	3	VA0	VA1	VA2_OPT		
+melden	melden	400785	1	VA0	VA1			
+melden	melden	400785	2	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+melden	melden	400785	3	VA0	VA1	VA2_OPT		
+melden	melden	400785	4	VA0	VA1	VA2_OPT		
+melden	melden	400785	5	VA0	VA1_OPT	VA2_OPT		
+vorhaben	vorhaben	401114	1	VA0	VA1			
+vorhaben	vorhaben mit	401114	2	VA0	VA1	VA2		
+fehlen, es	es fehlt an	400578	1	VA0_OPT	VA1			
+halten, sich	sich [A] halten an	400550	1	VA0	VA1	VA2_OPT		
+halten, sich	sich halten	400550	2	VA0	VA1_OPT			
+halten, sich	sich [D] halten	400550	3	VA0	VA1			
+halten, sich	sich [A] halten an	400550	4	VA0	VA1			
+halten, sich	sich [A] halten  an	400550	5	VA0	VA1			
+halten, sich	sich [A]  halten an	400550	6	VA0	VA1			
+halten, sich	sich [A] halten	400550	7	VA0	VA1			
+halten, sich	sich [A] halten	400550	8	VA0	VA1			
+halten, sich	sich [A] halten	400550	9	VA0	VA1			
+halten, sich	sich [A] halten	400550	10	VA0	VA1			
+halten, sich	sich halten	400550	11	VA0	VA1_OPT	VA2_OPT		
+halten, sich	sich [A] halten	400550	12	VA0	VA1	VA2_OPT		
+halten, sich	sich [A] halten	400550	13	VA0	VA1_OPT	VA2		
+halten, sich	sich [A] halten	400550	14	VA0	VA1			
+dürfen	dürfen	401128	1	VA0	VA1			
+dürfen	dürfen	401128	2	VA0	VA1			
+dürfen	dürfen	401128	3	VA0	VA1			
+ernähren, sich	sich [A] ernähren von	400544	1	VA0	VA1			
+folgen	folgen	400587	1	VA0	VA1_OPT			
+folgen	folgen	400587	2	VA0	VA1_OPT_XOR VA2_OPT			
+folgen	folgen	400587	3	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+folgen	folgen	400587	4	VA0	VA1	VA2_OPT		
+folgen	folgen aus	400587	5	VA0	VA1			
+folgen	folgen	400587	6	VA0	VA1			
+folgen	folgen	400587	7	VA0	VA1			
+folgen	folgen	400587	8	VA0	VA1	VA2_OPT		
+fließen	fließen	400586	1	VA0	VA1			
+fließen	fließen aus	400586	2	VA0	VA1			
+fließen	fließen in	400586	3	VA0	VA1			
+fließen	fließen	400586	4	VA0	VA1			
+fließen	fließen	400586	5	VA0	VA1			
+fließen	fließen	400586	6	VA0	VA1			
+eröffnen	eröffnen	400545	1	VA0	VA1			
+eröffnen	eröffnen	400545	2	VA0	VA1	VA2_OPT		
+eröffnen	eröffnen	400545	3	VA0	VA1			
+eröffnen	eröffnen	400545	4	VA0	VA1			
+eröffnen	eröffnen	400545	5	VA0	VA1	VA2		
+eröffnen	eröffnen mit	400545	6	VA0	VA1			
+eröffnen	eröffnen	400545	7	VA0	VA1	VA2		
+halten, (sich)	(sich) [D] halten	400551	1	VA0	VA1			
+halten, (sich)	(sich) [D] halten	400551	2	VA0	VA1			
+halten, (sich)	(sich) halten	400551	3	VA0	VA1_OPT			
+feiern	feiern	400579	1	VA0	VA1			
+feiern	feiern	400579	2	VA0				
+feiern	feiern	400579	3	VA0	VA1			
+feiern	feiern	400579	4	VA0	VA1			
+vorkommen	vorkommen	401115	1	VA0				
+vorkommen	vorkommen <in>	401115	2	VA0	VA1_XOR VA2			
+vorkommen	vorkommen	401115	3	VA0	VA1	VA2		
+vorkommen	vorkommen	401115	4	VA0	VA1	VA2		
+vorkommen	vorkommen	401115	5	VA0	VA1			
+vorkommen	vorkommen	401115	6	VA0	VA1_OPT			
+telefonieren	telefonieren	400948	1	VA0	VA1_OPT	VA2_OPT		
+telefonieren	telefonieren	400948	2	VA0	VA1	VA2		
+telefonieren	telefonieren nach/um	400948	3	VA0	VA1	VA2_OPT		
+telefonieren	telefonieren	400948	4	VA0	VA1			
+mieten	mieten	400790	1	VA0	VA1	VA2_OPT	VA3_OPT	VA4_OPT
+ziehen, es	ziehen, es	401303	1					
+ziehen, es	ziehen, es	401303	2	VA0				
+ziehen, es	ziehen, es	401303	3	VA0				
+ziehen, es	ziehen, es	401303	4	VA0	VA1			
+ziehen, es	ziehen, es	401303	5	VA0_OPT				
+rechnen	rechnen	400828	1	VA0	VA1_OPT			
+rechnen	rechnen mit	400828	2	VA0	VA1			
+rechnen	rechnen	400828	3	VA0	VA1			
+rechnen	rechnen unter/zu	400828	4	VA0	VA1	VA2		
+rechnen	rechnen in	400828	5	VA0	VA1_OPT	VA2		
+rechnen	rechnen als	400828	6	VA0	VA1	VA2		
+rechnen	rechnen auf	400828	7	VA0	VA1			
+rechnen	rechnen zu	400828	8	VA0	VA1			
+rechnen	rechnen auf/für/pro	400828	9	VA0	VA1	VA2		
+rechnen	rechnen als	400828	10	VA0	VA1			
+nehmen	nehmen	400800	1	VA0	VA1			
+nehmen	nehmen	400800	2	VA0	VA1			
+nehmen	nehmen	400800	3	VA0	VA1	VA2		
+nehmen	nehmen	400800	4	VA0	VA1	VA2		
+nehmen	nehmen	400800	5	VA0	VA1	VA2		
+nehmen	nehmen	400800	6	VA0	VA1	VA2_OPT		
+nehmen	nehmen	400800	7	VA0	VA1_OPT	VA2		
+nehmen	nehmen	400800	8	VA0	VA1			
+nehmen	nehmen	400800	9	VA0	VA1			
+nehmen	nehmen	400800	10	VA0	VA1			
+nehmen	nehmen	400800	11	VA0	VA1	VA2		
+nehmen	nehmen <von>	400800	12	VA0	VA1	VA2_XOR VA3		
+nehmen	nehmen aus/von	400800	13	VA0	VA1	VA2		
+nehmen	nehmen in/zu	400800	14	VA0	VA1	VA2		
+nehmen	nehmen	400800	15	VA0	VA1	VA2_OPT		
+nehmen	nehmen	400800	16	VA0	VA1	VA2		
+nehmen	nehmen	400800	17	VA0	VA1	VA2_OPT		
+nehmen	nehmen als	400800	18	VA0	VA1	VA2		
+nehmen	nehmen als	400800	19	VA0	VA1	VA2		
+besitzen	besitzen	400394	1	VA0	VA1			
+besitzen	besitzen	400394	2	VA0	VA1			
+besitzen	besitzen	400394	3	VA0	VA1			
+berichten	berichten	400380	1	VA0	VA1	VA2_OPT		
+berichten	berichten  aus/über/von	400380	2	VA0	VA1			
+dauern	dauern	400431	1	VA0	VA1			
+dauern	dauern	400431	2	VA0				
+dauern	dauern	400431	3	VA0	VA1			
+bringen	bringen	400425	1	VA0	VA1			
+bringen	bringen	400425	2	VA0	VA1	VA2_OPT		
+bringen	bringen	400425	3	VA0	VA1	VA2		
+bringen	bringen	400425	4	VA0	VA1	VA2		
+bringen	bringen	400425	5	VA0	VA1			
+bringen	bringen	400425	6	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+bringen	bringen	400425	7	VA0	VA1_XOR VA2	VA3_OPT_XOR VA4_OPT		
+bringen	bringen auf	400425	8	VA0	VA1	VA2		
+bringen	bringen auf/aus/in	400425	9	VA0	VA1	VA2		
+bringen	bringen durch/über	400425	10	VA0	VA1	VA2		
+bringen	bringen um	400425	11	VA0	VA1	VA2		
+bringen	bringen zu	400425	12	VA0	VA1	VA2		
+bringen	bringen	400425	13	VA0	VA1	VA2		
+bringen	bringen	400425	14	VA0	VA1	VA2		
+bringen	bringen	400425	15	VA0	VA1	VA2	VA3_OPT	
+ausstellen	ausstellen	400343	1	VA0	VA1	VA2_OPT_XOR VA3_OPT		
+ausstellen	ausstellen	400343	2	VA0	VA1	VA2		
+ausstellen	ausstellen	400343	3	VA0	VA1			
+veröffentlichen	veröffentlichen	401075	1	VA0	VA1	VA2_OPT		
+veröffentlichen	veröffentlichen	401075	2	VA0	VA1			
+veröffentlichen	veröffentlichen	401075	3	VA0	VA1			
+braten	braten	400419	1	VA0	VA1			
+braten	braten	400419	2	VA0	VA1_OPT			
+braten	braten	400419	3	VA0	VA1	VA2		
+braten	braten	400419	4	VA0	VA1			
+braten	braten	400419	5	VA0	VA1			

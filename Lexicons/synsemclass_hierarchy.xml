@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SynSemClass_Hierarchy>
+  <header>
+    <edition>1</edition>
+    <version>1.0</version>
+    <description>
+			Hierarchy of Synonym Classes
+		</description>
+    <list_of_users>
+      <user id="ZU" can_modify="YES" name="Hierarchy - Zdenka"/>
+    </list_of_users>
+  </header>
+  <body>
+    <hi_concept id="hic_0" name="ROOT" status="active">
+      <children>
+        <hi_concept id="hic_1" name="State of being or existence" status="active">
+          <children>
+            <hi_concept id="hic_1_1" name="Conditions" status="active">
+              <definition>Refers to the circumstances or factors affecting the way in which state of being happens.</definition>
+              <children/>
+            </hi_concept>
+            <hi_concept id="hic_1_2" name="Position" status="active">
+              <definition>Refers to the status of an entity in relation to its surroundings, context, or circumstances.</definition>
+            </hi_concept>
+            <hi_concept id="hic_1_3" name="Time" status="active">
+              <definition>Refers to the specific points or durations in which an entity exists or events occur.</definition>
+            </hi_concept>
+            <hi_concept id="hic_1_4" name="Characteristics and qualities" status="active">
+              <definition>Refers to the inherent attributes, traits, or properties of an entity, focusing on its qualitative aspects.</definition>
+              <children>
+                <hi_concept id="hic_1_4_1" status="active" name="Value">
+                  <definition>Refers to the measurable quantity or amount attributed to an entity or state.</definition>
+                </hi_concept>
+              </children>
+            </hi_concept>
+            <hi_concept id="hic_1_5" name="Possession" status="active">
+              <definition>Refers to the state of having or owning something.</definition>
+            </hi_concept>
+            <hi_concept id="hic_1_6" status="active" name="Psychological (mental) state">
+              <definition>Expressing a person's state, attitude, and emotions.</definition>
+              <children>
+                <hi_concept id="hic_1_6_1" status="active" name="Attitude">
+                  <definition>Refers to a long-lasting, consistent perspective or feeling toward something, influencing behavior and shaped by experience and beliefs.</definition>
+                </hi_concept>
+                <hi_concept id="hic_1_6_2" status="active" name="Emotions">
+                  <definition>Refer to intense, short-term psychological states triggered by specific events, involving feelings, physiological reactions, and behaviors.</definition>
+                </hi_concept>
+              </children>
+            </hi_concept>
+          </children>
+          <local_history>
+            <local_event time_stamp="5.6.2024 15:27:23" type_of_event="hierarchyConceptAdd" author="ZU"/>
+            <local_event time_stamp="18.6.2024 11:04:30" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+          </local_history>
+          <definition>Refers to the state of being, the conditions, qualities,  possession, results, or psychological states.</definition>
+        </hi_concept>
+        <hi_concept id="hic_2" name="Processes" status="active">
+          <children>
+            <hi_concept id="hic_2_1" name="Physical" status="active">
+              <children>
+                <hi_concept id="hic_2_1_1" status="active" name="Motion">
+                  <children>
+                    <hi_concept id="hic_2_1_1_1" status="active" name="Self-Motion">
+                      <definition>Refers to the movement driven by the entity itself.</definition>
+                      <children>
+                        <hi_concept id="hic_2_1_1_1_1" status="active" name="Pure motion">
+                          <definition>Refers to physical movement itself, without necessarily implying a specific goal or outcome beyond the act of moving.</definition>
+                          <children>
+                            <hi_concept id="hic_2_1_1_1_1_1" status="active" name="Sporting">
+                              <definition>Refers to various activities, techniques, and disciplines related to sports.</definition>
+                            </hi_concept>
+                            <hi_concept id="hic_2_1_1_1_1_2" status="active" name="Movement Style">
+                              <definition>Refers to a characteristic way or manner of moving, often reflecting the technique, rhythm, or pattern of motion.</definition>
+                            </hi_concept>
+                          </children>
+                          <local_history>
+                            <local_event time_stamp="29.7.2024 17:23:21" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+                            <local_event time_stamp="29.7.2024 17:27:55" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+                          </local_history>
+                        </hi_concept>
+                        <hi_concept id="hic_2_1_1_1_2" status="active" name="Changing_location">
+                          <definition>Refers to the activity or process of moving from one place to another.</definition>
+                          <children>
+                            <hi_concept id="hic_2_1_1_1_2_1" status="active" name="To a Location">
+                              <definition>Refers to the activity or process of moving  to a  location.</definition>
+                            </hi_concept>
+                            <hi_concept id="hic_2_1_1_1_2_2" status="active" name="From-To">
+                              <definition>Refers to the activity or process of moving from one place to another.</definition>
+                            </hi_concept>
+                            <hi_concept id="hic_2_1_1_1_2_3" status="active" name="Path">
+                              <definition>Refers to the activity or process of moving through a path.</definition>
+                            </hi_concept>
+                            <hi_concept id="hic_2_1_1_1_2_4" status="active" name="Obstacle">
+                              <definition>Refers to the activity or process of moving from one place to another via an obstacle.</definition>
+                            </hi_concept>
+                          </children>
+                        </hi_concept>
+                        <hi_concept id="hic_2_1_1_1_3" status="active" name="Motion_Gesture">
+                          <definition>Refers to a movement of part of the body  or Instrument.</definition>
+                        </hi_concept>
+                        <hi_concept id="hic_2_1_1_1_4" status="active" name="Manner of motion">
+                          <definition>Refers to the way in which a movement is done.</definition>
+                        </hi_concept>
+                        <hi_concept id="hic_2_1_1_1_5" status="active" name="Motion_Place">
+                          <definition>Refers to the movement done at a place.</definition>
+                        </hi_concept>
+                      </children>
+                    </hi_concept>
+                    <hi_concept id="hic_2_1_1_2" status="active" name="Transport">
+                      <definition>Refers to the movement driven by external factors.</definition>
+                      <children>
+                        <hi_concept id="hic_2_1_1_2_1" status="active" name="Relocation">
+                          <definition>Refers to the act of moving from one place to another.</definition>
+                        </hi_concept>
+                        <hi_concept id="hic_2_1_1_2_2" status="active" name="Placement">
+                          <definition>Refers to the action of positioning or situating within a given space.</definition>
+                        </hi_concept>
+                      </children>
+                    </hi_concept>
+                  </children>
+                  <definition>Refers to changing position or place, typically involving physical movement. It can occur through self-propulsion (self motion) or external forces (transport).</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_1_2" status="active" name="Acoustic">
+                  <definition>Refers to the impact of one object against another with production of a sound.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_1_3" status="active" name="Manipulative">
+                  <definition>Refer to physically handling or interacting with objects to achieve specific outcomes.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_1_4" status="active" name="Operational">
+                  <definition>Refers to the execution, management, or functioning of processes, tasks, or systems to achieve specific outcomes or objectives.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_1_5" status="active" name="Production">
+                  <definition>Refers to methods and steps used to create or generate a product, service, or result from inputs.</definition>
+                  <children>
+                    <hi_concept id="hic_2_1_5_1" status="active" name="Creative ">
+                      <definition>Refers to the activities and actions that lead to the generation of new ideas, concepts, art, or products.</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_1_5_2" status="active" name="Transformative">
+                      <definition>Refers to the transformation of materials (like ingredients) into different states or forms.</definition>
+                    </hi_concept>
+                  </children>
+                  <local_history>
+                    <local_event time_stamp="26.7.2024 16:37:52" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+                  </local_history>
+                </hi_concept>
+              </children>
+              <local_history>
+                <local_event time_stamp="4.6.2024 14:59:10" type_of_event="hierarchyConceptAdd" author="ZU"/>
+                <local_event time_stamp="28.6.2024 17:48:06" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+                <local_event time_stamp="28.6.2024 17:59:41" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+                <local_event time_stamp="17.7.2024 10:31:37" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+                <local_event time_stamp="17.7.2024 10:54:13" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+                <local_event time_stamp="17.7.2024 11:02:06" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+                <local_event time_stamp="26.7.2024 13:46:11" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+                <local_event time_stamp="26.7.2024 15:08:41" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+              </local_history>
+              <definition>Refers to actions or behaviors that  predominantly involve bodily movement and physical exertion.</definition>
+            </hi_concept>
+            <hi_concept id="hic_2_2" name="Mental " status="active">
+              <local_history>
+                <local_event time_stamp="29.7.2024 17:00:34" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+              </local_history>
+              <definition>Refer predominantly to cognitive processes and mental exertion.</definition>
+              <children>
+                <hi_concept id="hic_2_2_1" status="active" name="Financial">
+                  <definition>Refers to financial matters.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_2_2" status="active" name="Judging and Evaluating">
+                  <definition>Refers to opinions, conclusions, or evaluations.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_2_3" status="active" name="Knowledge acquisition">
+                  <definition>Refer to acquire, assimilate, or integrate knowledge.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_2_4" status="active" name="Communication">
+                  <definition>Refers to imparting or exchanging of information by speaking.</definition>
+                  <children>
+                    <hi_concept id="hic_2_2_4_1" status="active" name="Transfer message">
+                      <definition>Refers to conveying information or a message from one person to another.</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_2_4_2" status="active" name="Discussion">
+                      <definition>Refers to an exchange of ideas, thoughts, or opinions between two or more people.</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_2_4_3" status="active" name="Request (question)">
+                      <definition>Refers to the act of asking for something or seeking information from someone.</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_2_4_4" status="active" name="Communicated relation">
+                      <definition>Refers to using verbal skills to be connected with someone via a specific relation.</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_2_4_5" status="active" name="Manner of speaking">
+                      <definition>Refers to the way in which a Speaker speaks.</definition>
+                    </hi_concept>
+                  </children>
+                </hi_concept>
+                <hi_concept id="hic_2_2_5" status="active" name="Engagement">
+                  <definition>Refers to  being involved or actively participating in a particular task, activity, or subject matter, requiring mental focus and effort.</definition>
+                  <children>
+                    <hi_concept id="hic_2_2_5_1" status="active" name="Thinking, Intention and Planning">
+                      <definition>Refers to effective goal-setting, problem-solving, and decision-making.</definition>
+                      <children>
+                        <hi_concept id="hic_2_2_5_1_1" status="active" name="Motivational Objectives">
+                          <definition>Refer to the set of targets, desires, and aspirations that drive an individual's actions and decisions.</definition>
+                        </hi_concept>
+                      </children>
+                    </hi_concept>
+                    <hi_concept id="hic_2_2_5_2" status="active" name="Cognitive selection">
+                      <definition>Refers to various mental processes related to choosing, prioritizing, or filtering information.</definition>
+                    </hi_concept>
+                  </children>
+                  <local_history>
+                    <local_event time_stamp="29.7.2024 17:10:05" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+                  </local_history>
+                </hi_concept>
+                <hi_concept id="hic_2_2_6" status="active" name="Achievement">
+                  <definition>Refers to the successful completion or performance of tasks, actions, or activities that involve physical effort, skill, or endurance.</definition>
+                </hi_concept>
+              </children>
+            </hi_concept>
+            <hi_concept id="hic_2_3" status="active" name="Phase of Action">
+              <children>
+                <hi_concept id="hic_2_3_1" status="active" name="Start">
+                  <definition>Refers to the initiation point of the phase, marked by specific triggers or tasks.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_3_2" status="active" name="End">
+                  <definition>Refers to the conclusion point of the phase, marked by the completion of objectives and tasks.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_3_3" status="active" name="Duration">
+                  <definition>Refers to the total time span from the start to the end of the phase, reflecting the length of the phase or action.</definition>
+                </hi_concept>
+              </children>
+              <definition>Refers to a distinct stage within a broader process or activity.</definition>
+            </hi_concept>
+            <hi_concept id="hic_2_4" status="active" name="Change">
+              <definition>Refers to an act or process through which somebody or something becomes different.</definition>
+              <children>
+                <hi_concept id="hic_2_4_1" status="active" name="Change of oneself">
+                  <definition>Refers to an act or process through which oneself becomes different.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_4_2" status="active" name="Change of other entity">
+                  <definition>Refers to an act or process through which someone else becomes different.</definition>
+                  <children>
+                    <hi_concept id="hic_2_4_2_1" status="active" name="Administrative Processes">
+                      <definition>Refers to the activities related to the management and organization of an entity.</definition>
+                    </hi_concept>
+                  </children>
+                </hi_concept>
+                <hi_concept id="hic_2_4_3" status="active" name="Change of value">
+                  <definition>Refers to any change in the value of the given entity.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_4_4" status="active" name="Change of possesion">
+                  <definition>Refers to the transfer of control and ownership of a property or asset from one party to another.</definition>
+                  <children>
+                    <hi_concept id="hic_2_4_4_1" status="active" name="Gained">
+                      <definition>Refers to a gained possession.</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_4_4_2" status="active" name="Lost">
+                      <definition>Refers to a loss of possession.</definition>
+                    </hi_concept>
+                  </children>
+                </hi_concept>
+              </children>
+              <local_history>
+                <local_event time_stamp="8.7.2024 14:35:22" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+              </local_history>
+            </hi_concept>
+            <hi_concept id="hic_2_5" status="active" name="Social interaction">
+              <definition>Expressing reciprocal influence exercised by individuals over one another during social encounters.</definition>
+              <children>
+                <hi_concept id="hic_2_5_1" status="active" name="Positive social Interactions">
+                  <definition>The state or condition of being related or the manner in which things are related.</definition>
+                  <children>
+                    <hi_concept id="hic_2_5_1_1" status="active" name="Category">
+                      <definition>Refers to the relation according to some quality or qualities in common.</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_5_1_2" status="active" name="Support">
+                      <definition>Refers to providing assistance, encouragement, or resources to enhance well-being, growth, or positive outcomes in social interactions or relationships..</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_5_1_3" status="active" name="Collaboration">
+                      <definition>Refers to working together with others to achieve a shared goal.</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_5_1_4" status="active" name="Permission">
+                      <definition>Refers to the authorization or consent granted to do something that would otherwise be restricted or prohibited.</definition>
+                    </hi_concept>
+                  </children>
+                </hi_concept>
+                <hi_concept id="hic_2_5_2" status="active" name="Comparison">
+                  <definition>Refers to identifying similarities and differences.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_5_3" status="active" name="Negative social interactions">
+                  <definition>Refers to a struggle or clash between opposing forces, ideas, or interests</definition>
+                  <children>
+                    <hi_concept id="hic_2_5_3_1" status="active" name="Competitive or confrontational interactions">
+                      <definition>Refer to competition or conflict where individuals or groups strive to outperform each other or assert dominance.</definition>
+                    </hi_concept>
+                  </children>
+                </hi_concept>
+                <hi_concept id="hic_2_5_4" status="active" name="Social Etiquette">
+                  <definition>Refers to the expected manners and behaviors in social settings, guiding respectful and appropriate interaction.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_5_5" status="active" name="Influence">
+                  <definition>Refers to the capacity to affect the thoughts, behaviors, or decisions of others through various means, such as persuasion or example.</definition>
+                </hi_concept>
+              </children>
+            </hi_concept>
+            <hi_concept id="hic_2_6" status="active" name="Body">
+              <definition>Involving the physical substance of the human organism.</definition>
+              <children>
+                <hi_concept id="hic_2_6_1" status="active" name="Ingesting">
+                  <definition>The act or process of taking in something for or as if for digestion</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_6_2" status="active" name="Bodily Care">
+                  <definition>Refers to any practice that works to look after the body.</definition>
+                </hi_concept>
+                <hi_concept id="hic_2_6_3" status="active" name="Involving body">
+                  <definition>Refers to a physical material body.</definition>
+                </hi_concept>
+              </children>
+            </hi_concept>
+            <hi_concept id="hic_2_7" status="active" name="Perception">
+              <definition>Refers to the act of perceiving or the ability to perceive.</definition>
+              <children>
+                <hi_concept id="hic_2_7_1" status="active" name="Senses ">
+                  <definition>Refers to perceiving the world through our sensory organs, sensory experiences.</definition>
+                  <children>
+                    <hi_concept id="hic_2_7_1_1" status="active" name="Visual">
+                      <definition>Refers to the perception through eyes (sight).</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_7_1_2" status="active" name="Auditory">
+                      <definition>Refers to the perception through ears (hearing).</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_7_1_3" status="active" name="Olfactory">
+                      <definition>Refers to the perception through nose (smell).</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_7_1_4" status="active" name="Gustatory">
+                      <definition>Refers to the perception through thongue (Taste).</definition>
+                    </hi_concept>
+                    <hi_concept id="hic_2_7_1_5" status="active" name="Tactile">
+                      <definition>Refers to the perception through physical contact (touch).</definition>
+                    </hi_concept>
+                  </children>
+                </hi_concept>
+              </children>
+            </hi_concept>
+            <hi_concept id="hic_2_8" status="active" name="Weather">
+              <definition>Refers to dynamic changes and actions occurring in the atmosphere.</definition>
+            </hi_concept>
+            <hi_concept id="hic_2_9" status="active" name="Behavioral">
+              <definition>Refers to the patterns, sequences, or changes in an individual's behavior over time, reflecting how they act, react, adapt, or change in various situations.</definition>
+            </hi_concept>
+          </children>
+          <definition>Refers to series of actions or steps taken to achieve a particular goal or outcome.</definition>
+          <local_history>
+            <local_event time_stamp="28.6.2024 11:47:10" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+          </local_history>
+        </hi_concept>
+        <hi_concept id="hic_3" name="Modality" status="active">
+          <definition>Refers to the speaker's attitude towards an action or event.</definition>
+          <children>
+            <hi_concept id="hic_3_1" status="active" name="Possibility">
+              <definition>Refers to the likelihood or possibility of something happening.</definition>
+            </hi_concept>
+            <hi_concept id="hic_3_2" status="active" name="Necessity">
+              <definition>Refers to obligation or necessity.</definition>
+            </hi_concept>
+            <hi_concept id="hic_3_3" status="active" name="Intention (Will)">
+              <definition>Refers to the intention, plan, or purpose.</definition>
+            </hi_concept>
+          </children>
+          <local_history>
+            <local_event time_stamp="28.6.2024 17:42:00" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+            <local_event time_stamp="3.7.2024 16:24:53" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+            <local_event time_stamp="3.7.2024 16:28:12" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+            <local_event time_stamp="3.7.2024 16:44:12" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+            <local_event time_stamp="3.7.2024 16:46:27" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+          </local_history>
+        </hi_concept>
+      </children>
+      <local_history>
+        <local_event time_stamp="20.6.2024 17:06:13" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+        <local_event time_stamp="1.7.2024 17:50:28" type_of_event="hierarchyConceptAdd" author="ZU_hierarchy"/>
+      </local_history>
+    </hi_concept>
+  </body>
+</SynSemClass_Hierarchy>

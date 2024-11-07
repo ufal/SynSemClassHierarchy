@@ -1,0 +1,1001 @@
+analyzovatelnost	impf	blu-n-analyzovatelnost	blu-n-analyzovatelnost-1	blu-n-analyzovatelnost-1-impf	ACT	PAT
+analyzování	impf	blu-n-analyzování	blu-n-analyzování-1	blu-n-analyzování-1-impf	ACT	PAT
+analýza	no-aspect	blu-n-analýza	blu-n-analýza-1	blu-n-analýza-1-no-aspect	ACT	PAT
+apel	no-aspect	blu-n-apel	blu-n-apel-1	blu-n-apel-1-no-aspect	ACT	ADDR	PAT
+apel	no-aspect	blu-n-apel	blu-n-apel-2	blu-n-apel-2-no-aspect	ACT	PAT
+apelování	impf	blu-n-apelování	blu-n-apelování-1	blu-n-apelování-1-impf	ACT	ADDR	PAT
+apelování	impf	blu-n-apelování	blu-n-apelování-2	blu-n-apelování-2-impf	ACT	PAT
+bohatost	no-aspect	blu-n-bohatost	blu-n-bohatost-1	blu-n-bohatost-1-no-aspect	ACT	PAT
+bohatost	no-aspect	blu-n-bohatost	blu-n-bohatost-2	blu-n-bohatost-2-no-aspect	ACT
+bohatost	no-aspect	blu-n-bohatost	blu-n-bohatost-3	blu-n-bohatost-3-no-aspect	ACT
+bohatství	no-aspect	blu-n-bohatství	blu-n-bohatství-1	blu-n-bohatství-1-no-aspect	MAT
+bohatství	no-aspect	blu-n-bohatství	blu-n-bohatství-2	blu-n-bohatství-2-no-aspect	ACT	PAT
+bohatství	no-aspect	blu-n-bohatství	blu-n-bohatství-3	blu-n-bohatství-3-no-aspect	EMPTY	APP
+bání (se)	impf	blu-n-bání-se	blu-n-bání-se-1	blu-n-bání-se-1-impf	ACT	PAT
+bání (se)	impf	blu-n-bání-se	blu-n-bání-se-2	blu-n-bání-se-2-impf	ACT	PAT
+bázeň	no-aspect	blu-n-bázeň	blu-n-bázeň-1	blu-n-bázeň-1-no-aspect	ACT	PAT
+bázeň	no-aspect	blu-n-bázeň	blu-n-bázeň-2	blu-n-bázeň-2-no-aspect	ACT	PAT
+cena	no-aspect	blu-n-cena	blu-n-cena-1	blu-n-cena-1-no-aspect	ACT	PAT	CAUS	ID
+cena	no-aspect	blu-n-cena	blu-n-cena-2	blu-n-cena-2-no-aspect	PAT	ID
+chtivost	no-aspect	blu-n-chtivost	blu-n-chtivost-1	blu-n-chtivost-1-no-aspect	ACT	PAT
+chtěnost	impf	blu-n-chtěnost	blu-n-chtěnost-1	blu-n-chtěnost-1-impf	ACT	PAT
+chudoba	no-aspect	blu-n-chudoba	blu-n-chudoba-1	blu-n-chudoba-1-no-aspect	ACT
+chudost	no-aspect	blu-n-chudost	blu-n-chudost-1	blu-n-chudost-1-no-aspect	ACT	PAT
+chudost	no-aspect	blu-n-chudost	blu-n-chudost-2	blu-n-chudost-2-no-aspect	ACT
+chudost	no-aspect	blu-n-chudost	blu-n-chudost-3	blu-n-chudost-3-no-aspect	ACT
+cit	no-aspect	blu-n-cit	blu-n-cit-1	blu-n-cit-1-no-aspect	ACT	ADDR	PAT
+cit	no-aspect	blu-n-cit	blu-n-cit-2	blu-n-cit-2-no-aspect	ACT	PAT
+cit	no-aspect	blu-n-cit	blu-n-cit-3	blu-n-cit-3-no-aspect	ACT
+cit	no-aspect	blu-n-cit	blu-n-cit-4	blu-n-cit-4-no-aspect	ACT
+citlivost	no-aspect	blu-n-citlivost	blu-n-citlivost-1	blu-n-citlivost-1-no-aspect	ACT	PAT
+citlivost	no-aspect	blu-n-citlivost	blu-n-citlivost-2	blu-n-citlivost-2-no-aspect	ACT	PAT
+cítění	impf	blu-n-cítění	blu-n-cítění-1	blu-n-cítění-1-impf	ACT	PAT
+cítění	impf	blu-n-cítění	blu-n-cítění-3	blu-n-cítění-3-impf	ACT	PAT	EFF
+cítění	impf	blu-n-cítění	blu-n-cítění-4	blu-n-cítění-4-impf	ACT	PAT
+cítění	impf	blu-n-cítění	blu-n-cítění-5	blu-n-cítění-5-impf	ACT	PAT
+cítění	impf	blu-n-cítění	blu-n-cítění-6	blu-n-cítění-6-impf	ACT	PAT
+cítění	impf	blu-n-cítění	blu-n-cítění-7	blu-n-cítění-7-impf	ACT	PAT
+cítění	impf	blu-n-cítění	blu-n-cítění-8	blu-n-cítění-8-impf	ACT	PAT
+cítění se	impf	blu-n-cítění-se	blu-n-cítění-se-1	blu-n-cítění-se-1-impf	ACT	PAT
+cítění se	impf	blu-n-cítění-se	blu-n-cítění-se-2	blu-n-cítění-se-2-impf	ACT	MANN
+dar	no-aspect	blu-n-dar	blu-n-dar-1	blu-n-dar-1-no-aspect	ACT	ADDR	PAT
+dbalost	no-aspect	blu-n-dbalost	blu-n-dbalost-1	blu-n-dbalost-1-no-aspect	ACT	PAT
+debata	no-aspect	blu-n-debata	blu-n-debata-1	blu-n-debata-1-no-aspect	ACT	ADDR	PAT
+debata	no-aspect	blu-n-debata	blu-n-debata-2	blu-n-debata-2-no-aspect	PAT
+debatování	impf	blu-n-debatování	blu-n-debatování-1	blu-n-debatování-1-impf	ACT	ADDR	PAT	MANN
+diskuse	no-aspect	blu-n-diskuse	blu-n-diskuse-1	blu-n-diskuse-1-no-aspect	ACT	ADDR	PAT	MANN
+diskuse	no-aspect	blu-n-diskuse	blu-n-diskuse-2	blu-n-diskuse-2-no-aspect	PAT
+diskutovanost	impf	blu-n-diskutovanost	blu-n-diskutovanost-1	blu-n-diskutovanost-1-impf	ACT	ADDR	PAT
+diskutování	impf	blu-n-diskutování	blu-n-diskutování-1	blu-n-diskutování-1-impf	ACT	ADDR	PAT
+dlužnost	no-aspect	blu-n-dlužnost	blu-n-dlužnost-1	blu-n-dlužnost-1-no-aspect	ACT	ADDR
+dohad1	no-aspect	blu-n-dohad1	blu-n-dohad1-1	blu-n-dohad1-1-no-aspect	ACT	ADDR	PAT
+dohad2	no-aspect	blu-n-dohad2	blu-n-dohad2-1	blu-n-dohad2-1-no-aspect	ACT	PAT
+dohadování1	impf	blu-n-dohadování1-dohodnutí	blu-n-dohadování1-dohodnutí-1	blu-n-dohadování1-dohodnutí-1-impf	ACT	ADDR	PAT
+dohodnutí	pf	blu-n-dohadování1-dohodnutí	blu-n-dohadování1-dohodnutí-1	blu-n-dohadování1-dohodnutí-1-pf	ACT	ADDR	PAT
+dohadování1 (se)	impf	blu-n-dohadování1-se-dohodnutí-se	blu-n-dohadování1-se-dohodnutí-se-1	blu-n-dohadování1-se-dohodnutí-se-1-impf	ACT	ADDR	PAT
+dohodnutí (se)	pf	blu-n-dohadování1-se-dohodnutí-se	blu-n-dohadování1-se-dohodnutí-se-1	blu-n-dohadování1-se-dohodnutí-se-1-pf	ACT	ADDR	PAT
+dohadování1 (se)	impf	blu-n-dohadování1-se-dohodnutí-se	blu-n-dohadování1-se-dohodnutí-se-2	blu-n-dohadování1-se-dohodnutí-se-2-impf	ACT	ADDR	PAT
+dohadování2 (se)	impf	blu-n-dohadování2-se	blu-n-dohadování2-se-1	blu-n-dohadování2-se-1-impf	ACT	PAT
+dohoda	no-aspect	blu-n-dohoda	blu-n-dohoda-1	blu-n-dohoda-1-no-aspect	ACT	ADDR	PAT
+dohoda	no-aspect	blu-n-dohoda	blu-n-dohoda-2	blu-n-dohoda-2-no-aspect	ACT	ADDR	PAT
+dojatost	no-aspect	blu-n-dojatost	blu-n-dojatost-1	blu-n-dojatost-1-no-aspect	ACT	PAT
+dojem	no-aspect	blu-n-dojem	blu-n-dojem-1	blu-n-dojem-1-no-aspect	ACT	PAT	ORIG
+dojem	no-aspect	blu-n-dojem	blu-n-dojem-2	blu-n-dojem-2-no-aspect	ACT	ADDR	PAT
+dokazování	impf	blu-n-dokazování-dokázání	blu-n-dokazování-dokázání-1	blu-n-dokazování-dokázání-1-impf	ACT	ADDR	PAT
+dokázání	pf	blu-n-dokazování-dokázání	blu-n-dokazování-dokázání-1	blu-n-dokazování-dokázání-1-pf	ACT	ADDR	PAT
+dokazování	impf	blu-n-dokazování-dokázání	blu-n-dokazování-dokázání-2+4	blu-n-dokazování-dokázání-2+4 -impf	ACT	ADDR	PAT	ORIG
+dokázání	pf	blu-n-dokazování-dokázání	blu-n-dokazování-dokázání-2+4	blu-n-dokazování-dokázání-2+4 -pf	ACT	ADDR	PAT	ORIG
+dokázání	pf	blu-n-dokazování-dokázání	blu-n-dokazování-dokázání-5	blu-n-dokazování-dokázání-5-pf	ACT	PAT
+domlouvání	impf	blu-n-domlouvání-domluvení	blu-n-domlouvání-domluvení-2	blu-n-domlouvání-domluvení-2-impf	ACT	ADDR	PAT	BEN
+domluvení	pf	blu-n-domlouvání-domluvení	blu-n-domlouvání-domluvení-2	blu-n-domlouvání-domluvení-2-pf	ACT	ADDR	PAT	BEN
+domlouvání	impf	blu-n-domlouvání-domluvení	blu-n-domlouvání-domluvení-3	blu-n-domlouvání-domluvení-3-impf	ACT	ADDR	PAT
+domluvení	pf	blu-n-domlouvání-domluvení	blu-n-domlouvání-domluvení-3	blu-n-domlouvání-domluvení-3-pf	ACT	ADDR	PAT
+domlouvání (se)	impf	blu-n-domlouvání-se-domluvení-se	blu-n-domlouvání-se-domluvení-se-1	blu-n-domlouvání-se-domluvení-se-1-impf	ACT	ADDR	PAT
+domluvení (se)	pf	blu-n-domlouvání-se-domluvení-se	blu-n-domlouvání-se-domluvení-se-1	blu-n-domlouvání-se-domluvení-se-1-pf	ACT	ADDR	PAT
+domlouvání (se)	impf	blu-n-domlouvání-se-domluvení-se	blu-n-domlouvání-se-domluvení-se-2	blu-n-domlouvání-se-domluvení-se-2-impf	ACT	PAT	MANN
+domluvení (se)	pf	blu-n-domlouvání-se-domluvení-se	blu-n-domlouvání-se-domluvení-se-2	blu-n-domlouvání-se-domluvení-se-2-pf	ACT	PAT	MANN
+domlouvání (se)	impf	blu-n-domlouvání-se-domluvení-se	blu-n-domlouvání-se-domluvení-se-3	blu-n-domlouvání-se-domluvení-se-3-impf	ACT	ADDR	PAT
+domluvení (se)	pf	blu-n-domlouvání-se-domluvení-se	blu-n-domlouvání-se-domluvení-se-3	blu-n-domlouvání-se-domluvení-se-3-pf	ACT	ADDR	PAT
+domluva	no-aspect	blu-n-domluva	blu-n-domluva-1	blu-n-domluva-1-no-aspect	ACT	ADDR	PAT
+domluva	no-aspect	blu-n-domluva	blu-n-domluva-2	blu-n-domluva-2-no-aspect	ACT	ADDR	PAT
+domluva	no-aspect	blu-n-domluva	blu-n-domluva-3	blu-n-domluva-3-no-aspect	ACT	PAT	MANN
+domnívání (se)	impf	blu-n-domnívání-se	blu-n-domnívání-se-1	blu-n-domnívání-se-1-impf	ACT	PAT
+domněnka	no-aspect	blu-n-domněnka	blu-n-domněnka-1	blu-n-domněnka-1-no-aspect	ACT	PAT
+domněnka	no-aspect	blu-n-domněnka	blu-n-domněnka-2	blu-n-domněnka-2-no-aspect	ACT	PAT	EFF
+domnění	pf	blu-n-domnění	blu-n-domnění-1	blu-n-domnění-1-pf	ACT	PAT
+dotaz	no-aspect	blu-n-dotaz	blu-n-dotaz-1	blu-n-dotaz-1-no-aspect	ACT	ADDR	PAT
+dotaz	no-aspect	blu-n-dotaz	blu-n-dotaz-2	blu-n-dotaz-2-no-aspect	PAT
+dotazování (se)	impf	blu-n-dotazování-se-dotázání-se	blu-n-dotazování-se-dotázání-se-1	blu-n-dotazování-se-dotázání-se-1-impf	ACT	ADDR	PAT
+dotázání (se)	pf	blu-n-dotazování-se-dotázání-se	blu-n-dotazování-se-dotázání-se-1	blu-n-dotazování-se-dotázání-se-1-pf	ACT	ADDR	PAT
+dotknutelnost	no-aspect	blu-n-dotknutelnost	blu-n-dotknutelnost-1	blu-n-dotknutelnost-1-no-aspect	ACT	PAT	MEANS
+dotčenost	no-aspect	blu-n-dotčenost	blu-n-dotčenost-1	blu-n-dotčenost-1-no-aspect	ACT	PAT
+dotčenost	no-aspect	blu-n-dotčenost	blu-n-dotčenost-2	blu-n-dotčenost-2-no-aspect	ACT	PAT
+doufání	impf	blu-n-doufání	blu-n-doufání-1	blu-n-doufání-1-impf	ACT	PAT
+dovtípení (se)	pf	blu-n-dovtípení-se	blu-n-dovtípení-se-1	blu-n-dovtípení-se-1-pf	ACT	PAT
+doznání	pf	blu-n-doznání	blu-n-doznání-1	blu-n-doznání-1-pf	ACT	ADDR	PAT
+doznávání (se)	impf	blu-n-doznávání-se-doznání-se	blu-n-doznávání-se-doznání-se-1	blu-n-doznávání-se-doznání-se-1-impf	ACT	ADDR	PAT
+doznání (se)	pf	blu-n-doznávání-se-doznání-se	blu-n-doznávání-se-doznání-se-1	blu-n-doznávání-se-doznání-se-1-pf	ACT	ADDR	PAT
+drahota	no-aspect	blu-n-drahota	blu-n-drahota-1	blu-n-drahota-1-no-aspect	ACT
+drahota	no-aspect	blu-n-drahota	blu-n-drahota-2	blu-n-drahota-2-no-aspect	ACT	PAT
+dychtivost	no-aspect	blu-n-dychtivost	blu-n-dychtivost-1	blu-n-dychtivost-1-no-aspect	ACT	PAT
+děs	no-aspect	blu-n-děs	blu-n-děs-1	blu-n-děs-1-no-aspect	ACT	PAT
+děs	no-aspect	blu-n-děs	blu-n-děs-2	blu-n-děs-2-no-aspect	ACT
+děs	no-aspect	blu-n-děs	blu-n-děs-3	blu-n-děs-3-no-aspect	EMPTY
+děsení	impf1	blu-n-děsení-děšení	blu-n-děsení-děšení-1	blu-n-děsení-děšení-1-impf1	ACT	ADDR	PAT
+děšení	impf2	blu-n-děsení-děšení	blu-n-děsení-děšení-1	blu-n-děsení-děšení-1-impf2	ACT	ADDR	PAT
+děsení se	impf1	blu-n-děsení-se-děšení-se	blu-n-děsení-se-děšení-se-1	blu-n-děsení-se-děšení-se-1-impf1	ACT	PAT
+děšení se	impf2	blu-n-děsení-se-děšení-se	blu-n-děsení-se-děšení-se-1	blu-n-děsení-se-děšení-se-1-impf2	ACT	PAT
+důkaz	no-aspect	blu-n-důkaz	blu-n-důkaz-1	blu-n-důkaz-1-no-aspect	ACT	ADDR	PAT	BEN
+důtklivost	no-aspect	blu-n-důtklivost	blu-n-důtklivost-1	blu-n-důtklivost-1-no-aspect	ACT
+důvtip	no-aspect	blu-n-důvtip	blu-n-důvtip-1	blu-n-důvtip-1-no-aspect	ACT
+důvěřivost	no-aspect	blu-n-důvěřivost	blu-n-důvěřivost-1	blu-n-důvěřivost-1-no-aspect	ACT	PAT
+hlášení	impf	blu-n-hlášení	blu-n-hlášení-1	blu-n-hlášení-1-impf	ACT	ADDR	PAT
+hlášení	impf	blu-n-hlášení	blu-n-hlášení-2	blu-n-hlášení-2-impf	ACT	ADDR	PAT	LOC
+hlášení	impf	blu-n-hlášení	blu-n-hlášení-3	blu-n-hlášení-3-impf	ACT	ADDR	PAT	LOC
+hodnost	no-aspect	blu-n-hodnost	blu-n-hodnost-1	blu-n-hodnost-1-no-aspect	EMPTY	ID
+hodnota	no-aspect	blu-n-hodnota	blu-n-hodnota-1	blu-n-hodnota-1-no-aspect	ACT
+hodnota	no-aspect	blu-n-hodnota	blu-n-hodnota-2	blu-n-hodnota-2-no-aspect	ACT
+hodnota	no-aspect	blu-n-hodnota	blu-n-hodnota-3	blu-n-hodnota-3-no-aspect	EMPTY	APP
+hodnota	no-aspect	blu-n-hodnota	blu-n-hodnota-4	blu-n-hodnota-4-no-aspect	ACT
+horlivost	no-aspect	blu-n-horlivost	blu-n-horlivost-1	blu-n-horlivost-1-no-aspect	ACT	PAT
+hovor	no-aspect	blu-n-hovor	blu-n-hovor-1	blu-n-hovor-1-no-aspect	ACT	ADDR	PAT
+hovor	no-aspect	blu-n-hovor	blu-n-hovor-2	blu-n-hovor-2-no-aspect	ACT	ADDR	PAT
+hovor	no-aspect	blu-n-hovor	blu-n-hovor-3	blu-n-hovor-3-no-aspect	ACT	ADDR	PAT	DIR3
+hovoření	impf	blu-n-hovoření	blu-n-hovoření-1	blu-n-hovoření-1-impf	ACT	ADDR	PAT	MANN
+hovoření	impf	blu-n-hovoření	blu-n-hovoření-2	blu-n-hovoření-2-impf	ACT	ADDR	PAT
+hrdost	no-aspect	blu-n-hrdost	blu-n-hrdost-1	blu-n-hrdost-1-no-aspect	ACT	PAT
+hrození se	impf	blu-n-hrození-se	blu-n-hrození-se-1	blu-n-hrození-se-1-impf	ACT	PAT
+hrůza	no-aspect	blu-n-hrůza	blu-n-hrůza-1	blu-n-hrůza-1-no-aspect	ACT	PAT
+hrůza	no-aspect	blu-n-hrůza	blu-n-hrůza-2	blu-n-hrůza-2-no-aspect	ACT
+hrůza	no-aspect	blu-n-hrůza	blu-n-hrůza-3	blu-n-hrůza-3-no-aspect	EMPTY
+hrůza	no-aspect	blu-n-hrůza	blu-n-hrůza-4	blu-n-hrůza-4-no-aspect	MAT
+imunita	no-aspect	blu-n-imunita	blu-n-imunita-1	blu-n-imunita-1-no-aspect	ACT	PAT
+imunita	no-aspect	blu-n-imunita	blu-n-imunita-2	blu-n-imunita-2-no-aspect	ACT	PAT
+informace	no-aspect	blu-n-informace	blu-n-informace-1	blu-n-informace-1-no-aspect	ACT	ADDR	PAT
+informace	no-aspect	blu-n-informace	blu-n-informace-2	blu-n-informace-2-no-aspect	ACT	ADDR	PAT	EFF
+informace	no-aspect	blu-n-informace	blu-n-informace-5	blu-n-informace-5-no-aspect	PAT
+informace	no-aspect	blu-n-informace	blu-n-informace-6	blu-n-informace-6-no-aspect	PAT
+informovanost	biasp	blu-n-informovanost	blu-n-informovanost-1	blu-n-informovanost-1-biasp	ACT	ADDR	PAT
+informování	biasp	blu-n-informování	blu-n-informování-1	blu-n-informování-1-biasp	ACT	ADDR	PAT
+informování se	biasp	blu-n-informování-se	blu-n-informování-se-1	blu-n-informování-se-1-biasp	ACT	PAT
+instrukce	no-aspect	blu-n-instrukce	blu-n-instrukce-1	blu-n-instrukce-1-no-aspect	ACT	ADDR	PAT
+instruktáž	no-aspect	blu-n-instruktáž	blu-n-instruktáž-1	blu-n-instruktáž-1-no-aspect	ACT	ADDR	PAT
+instruktáž	no-aspect	blu-n-instruktáž	blu-n-instruktáž-2	blu-n-instruktáž-2-no-aspect	ACT	PAT
+instruování	biasp	blu-n-instruování	blu-n-instruování-1	blu-n-instruování-1-biasp	ACT	ADDR	PAT
+instruování	biasp	blu-n-instruování	blu-n-instruování-2	blu-n-instruování-2-biasp	ACT	PAT
+jistota	no-aspect	blu-n-jistota	blu-n-jistota-1	blu-n-jistota-1-no-aspect	ACT	PAT
+jistota	no-aspect	blu-n-jistota	blu-n-jistota-2	blu-n-jistota-2-no-aspect	ACT	PAT
+jistota	no-aspect	blu-n-jistota	blu-n-jistota-3	blu-n-jistota-3-no-aspect	ACT	APP
+jistota	no-aspect	blu-n-jistota	blu-n-jistota-4	blu-n-jistota-4-no-aspect	ACT	APP
+komunikace	no-aspect	blu-n-komunikace	blu-n-komunikace-1	blu-n-komunikace-1-no-aspect	ACT	ADDR	PAT
+komunikace	no-aspect	blu-n-komunikace	blu-n-komunikace-2	blu-n-komunikace-2-no-aspect	ACT	ADDR	PAT
+komunikace	no-aspect	blu-n-komunikace	blu-n-komunikace-3	blu-n-komunikace-3-no-aspect	EMPTY
+komunikovatelnost	impf	blu-n-komunikovatelnost	blu-n-komunikovatelnost-1	blu-n-komunikovatelnost-1-impf	ACT	ADDR	PAT
+komunikování	impf	blu-n-komunikování	blu-n-komunikování-1	blu-n-komunikování-1-impf	ACT	ADDR	PAT
+komunikování	impf	blu-n-komunikování	blu-n-komunikování-2	blu-n-komunikování-2-impf	ACT	ADDR	PAT
+kontrola	no-aspect	blu-n-kontrola	blu-n-kontrola-1	blu-n-kontrola-1-no-aspect	ACT	PAT
+kontrola	no-aspect	blu-n-kontrola	blu-n-kontrola-2	blu-n-kontrola-2-no-aspect	ACT	PAT	EFF
+kontrola	no-aspect	blu-n-kontrola	blu-n-kontrola-3	blu-n-kontrola-3-no-aspect	ACT	PAT
+kontrola	no-aspect	blu-n-kontrola	blu-n-kontrola-4	blu-n-kontrola-4-no-aspect	EMPTY
+kontrolovatelnost	impf	blu-n-kontrolovatelnost	blu-n-kontrolovatelnost-1	blu-n-kontrolovatelnost-1-impf	ACT	PAT
+kontrolování	impf	blu-n-kontrolování	blu-n-kontrolování-1	blu-n-kontrolování-1-impf	ACT	PAT
+kontrolování	impf	blu-n-kontrolování	blu-n-kontrolování-2	blu-n-kontrolování-2-impf	ACT	PAT	MEANS
+kontrolování	impf	blu-n-kontrolování	blu-n-kontrolování-3	blu-n-kontrolování-3-impf	ACT	PAT	EFF
+laskavost	no-aspect	blu-n-laskavost	blu-n-laskavost-1	blu-n-laskavost-1-no-aspect	ACT	PAT
+laskavost	no-aspect	blu-n-laskavost	blu-n-laskavost-2	blu-n-laskavost-2-no-aspect	ACT
+lačnost	no-aspect	blu-n-lačnost	blu-n-lačnost-1	blu-n-lačnost-1-no-aspect	ACT	PAT
+lačnost	no-aspect	blu-n-lačnost	blu-n-lačnost-2	blu-n-lačnost-2-no-aspect	ACT
+lhostejnost	no-aspect	blu-n-lhostejnost	blu-n-lhostejnost-1	blu-n-lhostejnost-1-no-aspect	ACT	PAT
+libost	no-aspect	blu-n-libost	blu-n-libost-1	blu-n-libost-1-no-aspect	PAT
+libost	no-aspect	blu-n-libost	blu-n-libost-2	blu-n-libost-2-no-aspect	ACT	PAT
+libost	no-aspect	blu-n-libost	blu-n-libost-3	blu-n-libost-3-no-aspect	ACT	PAT
+litování	impf	blu-n-litování	blu-n-litování-1	blu-n-litování-1-impf	ACT	PAT
+litování	impf	blu-n-litování	blu-n-litování-2	blu-n-litování-2-impf	ACT	PAT
+loajalita	no-aspect	blu-n-loajalita	blu-n-loajalita-1	blu-n-loajalita-1-no-aspect	ACT	PAT
+loajálnost	no-aspect	blu-n-loajálnost	blu-n-loajálnost-1	blu-n-loajálnost-1-no-aspect	ACT	PAT
+lákavost	no-aspect	blu-n-lákavost	blu-n-lákavost-1	blu-n-lákavost-1-no-aspect	ACT	PAT	MEANS
+lítost	no-aspect	blu-n-lítost	blu-n-lítost-1	blu-n-lítost-1-no-aspect	ACT	PAT
+mocnost	no-aspect	blu-n-mocnost	blu-n-mocnost-1	blu-n-mocnost-1-no-aspect	ACT
+mocnost	no-aspect	blu-n-mocnost	blu-n-mocnost-2	blu-n-mocnost-2-no-aspect	EMPTY	APP
+mocnost	no-aspect	blu-n-mocnost	blu-n-mocnost-3	blu-n-mocnost-3-no-aspect	EMPTY
+mocnost	no-aspect	blu-n-mocnost	blu-n-mocnost-4	blu-n-mocnost-4-no-aspect	ACT
+mocnost	no-aspect	blu-n-mocnost	blu-n-mocnost-5	blu-n-mocnost-5-no-aspect	ACT
+mohoucnost	no-aspect	blu-n-mohoucnost	blu-n-mohoucnost-1	blu-n-mohoucnost-1-no-aspect	ACT	PAT
+možnost	no-aspect	blu-n-možnost	blu-n-možnost-1	blu-n-možnost-1-no-aspect	ACT	PAT
+možnost	no-aspect	blu-n-možnost	blu-n-možnost-2	blu-n-možnost-2-no-aspect	ACT
+myšlenka	no-aspect	blu-n-myšlenka	blu-n-myšlenka-1	blu-n-myšlenka-1-no-aspect	ACT	PAT
+myšlenka	no-aspect	blu-n-myšlenka	blu-n-myšlenka-2	blu-n-myšlenka-2-no-aspect	ACT	PAT
+myšlení	impf	blu-n-myšlení	blu-n-myšlení-1	blu-n-myšlení-1-impf	ACT	PAT
+myšlení	impf	blu-n-myšlení	blu-n-myšlení-3	blu-n-myšlení-3-impf	ACT	PAT
+myšlení	impf	blu-n-myšlení	blu-n-myšlení-4	blu-n-myšlení-4-impf	ACT	PAT
+myšlení si	impf	blu-n-myšlení-si	blu-n-myšlení-si-1	blu-n-myšlení-si-1-impf	ACT	PAT
+nabídka	no-aspect	blu-n-nabídka	blu-n-nabídka-1	blu-n-nabídka-1-no-aspect	ACT	ADDR	PAT
+nabídka	no-aspect	blu-n-nabídka	blu-n-nabídka-2	blu-n-nabídka-2-no-aspect	ACT	ADDR	PAT	ORIG
+nabízení	impf	blu-n-nabízení-nabídnutí	blu-n-nabízení-nabídnutí-1	blu-n-nabízení-nabídnutí-1-impf	ACT	ADDR	PAT	AIM	RCMP
+nabídnutí	pf	blu-n-nabízení-nabídnutí	blu-n-nabízení-nabídnutí-1	blu-n-nabízení-nabídnutí-1-pf	ACT	ADDR	PAT	AIM	RCMP
+nadchnutí	pf	blu-n-nadchnutí	blu-n-nadchnutí-1	blu-n-nadchnutí-1-pf	ACT	PAT	EFF
+nadchnutí (se)	pf	blu-n-nadchnutí-se	blu-n-nadchnutí-se-1	blu-n-nadchnutí-se-1-pf	ACT	PAT
+naděje	no-aspect	blu-n-naděje	blu-n-naděje-1	blu-n-naděje-1-no-aspect	ACT	PAT
+naděje	no-aspect	blu-n-naděje	blu-n-naděje-2	blu-n-naděje-2-no-aspect	APP
+nadšenost	no-aspect	blu-n-nadšenost	blu-n-nadšenost-1	blu-n-nadšenost-1-no-aspect	ACT	PAT
+nadšenost	no-aspect	blu-n-nadšenost	blu-n-nadšenost-2	blu-n-nadšenost-2-no-aspect	ACT	PAT
+nadšení	pf	blu-n-nadšení	blu-n-nadšení-1	blu-n-nadšení-1-pf	ACT	PAT
+nadšení	pf	blu-n-nadšení	blu-n-nadšení-2	blu-n-nadšení-2-pf	ACT	PAT
+namítání	impf	blu-n-namítání-namítnutí	blu-n-namítání-namítnutí-1	blu-n-namítání-namítnutí-1-impf	ACT	ADDR	PAT	EFF
+namítnutí	pf	blu-n-namítání-namítnutí	blu-n-namítání-namítnutí-1	blu-n-namítání-namítnutí-1-pf	ACT	ADDR	PAT	EFF
+napomáhání	impf	blu-n-napomáhání-napomožení	blu-n-napomáhání-napomožení-1	blu-n-napomáhání-napomožení-1-impf	ACT	ADDR	PAT	REG	MEANS
+napomožení	pf	blu-n-napomáhání-napomožení	blu-n-napomáhání-napomožení-1	blu-n-napomáhání-napomožení-1-pf	ACT	ADDR	PAT	REG	MEANS
+napomáhání	impf	blu-n-napomáhání-napomožení	blu-n-napomáhání-napomožení-2	blu-n-napomáhání-napomožení-2-impf	ACT	ADDR	PAT
+napomožení	pf	blu-n-napomáhání-napomožení	blu-n-napomáhání-napomožení-2	blu-n-napomáhání-napomožení-2-pf	ACT	ADDR	PAT
+naučenost	no-aspect	blu-n-naučenost	blu-n-naučenost-1	blu-n-naučenost-1-no-aspect	ACT	PAT
+naučenost	no-aspect	blu-n-naučenost	blu-n-naučenost-2	blu-n-naučenost-2-no-aspect	ACT
+navrhování	impf	blu-n-navrhování-navrhnutí-navržení	blu-n-navrhování-navrhnutí-navržení-1	blu-n-navrhování-navrhnutí-navržení-1-impf	ACT	ADDR	PAT
+navrhnutí	pf1	blu-n-navrhování-navrhnutí-navržení	blu-n-navrhování-navrhnutí-navržení-1	blu-n-navrhování-navrhnutí-navržení-1-pf1	ACT	ADDR	PAT
+navržení	pf2	blu-n-navrhování-navrhnutí-navržení	blu-n-navrhování-navrhnutí-navržení-1	blu-n-navrhování-navrhnutí-navržení-1-pf2	ACT	ADDR	PAT
+navrhování	impf	blu-n-navrhování-navrhnutí-navržení	blu-n-navrhování-navrhnutí-navržení-2	blu-n-navrhování-navrhnutí-navržení-2 -impf	ACT	ADDR	PAT	EFF
+navrhnutí	pf1	blu-n-navrhování-navrhnutí-navržení	blu-n-navrhování-navrhnutí-navržení-2	blu-n-navrhování-navrhnutí-navržení-2 -pf1	ACT	ADDR	PAT	EFF
+navržení	pf2	blu-n-navrhování-navrhnutí-navržení	blu-n-navrhování-navrhnutí-navržení-2	blu-n-navrhování-navrhnutí-navržení-2 -pf2	ACT	ADDR	PAT	EFF
+navrhování	impf	blu-n-navrhování-navrhnutí-navržení	blu-n-navrhování-navrhnutí-navržení-3	blu-n-navrhování-navrhnutí-navržení-3-impf	ACT	PAT	BEN
+navrhnutí	pf1	blu-n-navrhování-navrhnutí-navržení	blu-n-navrhování-navrhnutí-navržení-3	blu-n-navrhování-navrhnutí-navržení-3-pf1	ACT	PAT	BEN
+navržení	pf2	blu-n-navrhování-navrhnutí-navržení	blu-n-navrhování-navrhnutí-navržení-3	blu-n-navrhování-navrhnutí-navržení-3-pf2	ACT	PAT	BEN
+navyklost	no-aspect	blu-n-navyklost	blu-n-navyklost-1	blu-n-navyklost-1-no-aspect	ACT	PAT
+navykání	impf	blu-n-navykání-navyknutí	blu-n-navykání-navyknutí-1	blu-n-navykání-navyknutí-1-impf	ACT	PAT	EFF
+navyknutí	pf	blu-n-navykání-navyknutí	blu-n-navykání-navyknutí-1	blu-n-navykání-navyknutí-1-pf	ACT	PAT	EFF
+navykání	impf	blu-n-navykání-navyknutí	blu-n-navykání-navyknutí-2	blu-n-navykání-navyknutí-2-impf	ACT	PAT
+navyknutí	pf	blu-n-navykání-navyknutí	blu-n-navykání-navyknutí-2	blu-n-navykání-navyknutí-2-pf	ACT	PAT
+navykání (si)	impf	blu-n-navykání-si-navyknutí-si	blu-n-navykání-si-navyknutí-si-1	blu-n-navykání-si-navyknutí-si-1-impf	ACT	PAT
+navyknutí (si)	pf	blu-n-navykání-si-navyknutí-si	blu-n-navykání-si-navyknutí-si-1	blu-n-navykání-si-navyknutí-si-1-pf	ACT	PAT
+naštvanost	no-aspect	blu-n-naštvanost	blu-n-naštvanost-1	blu-n-naštvanost-1-no-aspect	ACT	ADDR	PAT
+naštvanost	no-aspect	blu-n-naštvanost	blu-n-naštvanost-2	blu-n-naštvanost-2-no-aspect	ACT	PAT
+nedočkavost	no-aspect	blu-n-nedočkavost	blu-n-nedočkavost-1	blu-n-nedočkavost-1-no-aspect	ACT	PAT
+nedůtklivost	no-aspect	blu-n-nedůtklivost	blu-n-nedůtklivost-1	blu-n-nedůtklivost-1-no-aspect	ACT	PAT
+nelibost	no-aspect	blu-n-nelibost	blu-n-nelibost-1	blu-n-nelibost-1-no-aspect	ACT	PAT
+nelibost	no-aspect	blu-n-nelibost	blu-n-nelibost-2	blu-n-nelibost-2-no-aspect	ACT	PAT
+nemožnost	no-aspect	blu-n-nemožnost	blu-n-nemožnost-1	blu-n-nemožnost-1-no-aspect	ACT
+nenávidění	impf	blu-n-nenávidění	blu-n-nenávidění-1	blu-n-nenávidění-1-impf	ACT	PAT
+nenávist	no-aspect	blu-n-nenávist	blu-n-nenávist-1	blu-n-nenávist-1-no-aspect	ACT	PAT
+neohroženost	no-aspect	blu-n-neohroženost	blu-n-neohroženost-1	blu-n-neohroženost-1-no-aspect	ACT
+nepříjemnost	no-aspect	blu-n-nepříjemnost	blu-n-nepříjemnost-1	blu-n-nepříjemnost-1-no-aspect	ACT	PAT
+nepřítomnost	no-aspect	blu-n-nepřítomnost	blu-n-nepřítomnost-1	blu-n-nepřítomnost-1-no-aspect	ACT
+nervozita	no-aspect	blu-n-nervozita	blu-n-nervozita-1	blu-n-nervozita-1-no-aspect	ACT	PAT
+nesmysl	no-aspect	blu-n-nesmysl	blu-n-nesmysl-1	blu-n-nesmysl-1-no-aspect	ACT
+nespokojenost	no-aspect	blu-n-nespokojenost	blu-n-nespokojenost-1	blu-n-nespokojenost-1-no-aspect	ACT	PAT
+netečnost	no-aspect	blu-n-netečnost	blu-n-netečnost-1	blu-n-netečnost-1-no-aspect	ACT	PAT
+nezávislost	no-aspect	blu-n-nezávislost	blu-n-nezávislost-1	blu-n-nezávislost-1-no-aspect	ACT	PAT
+neústupnost	no-aspect	blu-n-neústupnost	blu-n-neústupnost-1	blu-n-neústupnost-1-no-aspect	ACT	PAT
+náchylnost	no-aspect	blu-n-náchylnost	blu-n-náchylnost-1	blu-n-náchylnost-1-no-aspect	ACT	PAT
+náklonnost	no-aspect	blu-n-náklonnost	blu-n-náklonnost-1	blu-n-náklonnost-1-no-aspect	ACT	PAT
+námitka	no-aspect	blu-n-námitka	blu-n-námitka-1	blu-n-námitka-1-no-aspect	ACT	ADDR	PAT
+námitka	no-aspect	blu-n-námitka	blu-n-námitka-2	blu-n-námitka-2-no-aspect	ACT	ADDR	PAT	EFF
+nápad	no-aspect	blu-n-nápad	blu-n-nápad-1	blu-n-nápad-1-no-aspect	ACT	PAT
+nápomocnost	no-aspect	blu-n-nápomocnost	blu-n-nápomocnost-1	blu-n-nápomocnost-1-no-aspect	ACT	ADDR	PAT	REG
+náročnost	no-aspect	blu-n-náročnost	blu-n-náročnost-1	blu-n-náročnost-1-no-aspect	ACT	PAT
+náročnost	no-aspect	blu-n-náročnost	blu-n-náročnost-2	blu-n-náročnost-2-no-aspect	ACT	PAT
+návrh	no-aspect	blu-n-návrh	blu-n-návrh-1	blu-n-návrh-1-no-aspect	ACT	ADDR	PAT
+návrh	no-aspect	blu-n-návrh	blu-n-návrh-2	blu-n-návrh-2-no-aspect	ACT	ADDR	PAT	EFF
+návrh	no-aspect	blu-n-návrh	blu-n-návrh-3	blu-n-návrh-3-no-aspect	ACT	PAT
+návrh	no-aspect	blu-n-návrh	blu-n-návrh-4	blu-n-návrh-4-no-aspect	ACT	PAT
+návrh	no-aspect	blu-n-návrh	blu-n-návrh-5	blu-n-návrh-5-no-aspect	ACT	PAT
+návyk	no-aspect	blu-n-návyk	blu-n-návyk-1	blu-n-návyk-1-no-aspect	ACT	PAT
+obava	no-aspect	blu-n-obava	blu-n-obava-1	blu-n-obava-1-no-aspect	ACT	PAT
+obava	no-aspect	blu-n-obava	blu-n-obava-2	blu-n-obava-2-no-aspect	ACT	PAT
+obdiv	no-aspect	blu-n-obdiv	blu-n-obdiv-1	blu-n-obdiv-1-no-aspect	ACT	PAT
+obdivovanost	impf	blu-n-obdivovanost	blu-n-obdivovanost-1	blu-n-obdivovanost-1-impf	ACT	PAT
+obdivování	impf	blu-n-obdivování	blu-n-obdivování-1	blu-n-obdivování-1-impf	ACT	PAT
+obdivování se	impf	blu-n-obdivování-se	blu-n-obdivování-se-1	blu-n-obdivování-se-1-impf	ACT	PAT
+obliba	no-aspect	blu-n-obliba	blu-n-obliba-1	blu-n-obliba-1-no-aspect	ACT	PAT
+oblíbenost	no-aspect	blu-n-oblíbenost	blu-n-oblíbenost-1	blu-n-oblíbenost-1-no-aspect	ACT	PAT
+oblíbení (si)	pf	blu-n-oblíbení-si	blu-n-oblíbení-si-1	blu-n-oblíbení-si-1-pf	ACT	PAT
+oblíbitelnost	no-aspect	blu-n-oblíbitelnost	blu-n-oblíbitelnost-1	blu-n-oblíbitelnost-1-no-aspect	ACT	PAT
+obávanost	impf	blu-n-obávanost	blu-n-obávanost-1	blu-n-obávanost-1-impf	PAT
+obávání (se)	impf	blu-n-obávání-se	blu-n-obávání-se-1	blu-n-obávání-se-1-impf	ACT	PAT
+obávání (se)	impf	blu-n-obávání-se	blu-n-obávání-se-2	blu-n-obávání-se-2-impf	ACT	PAT
+ocenění	no-aspect	blu-n-ocenění	blu-n-ocenění-1	blu-n-ocenění-1-no-aspect	ACT	PAT	CAUS
+ocenění	no-aspect	blu-n-ocenění	blu-n-ocenění-2	blu-n-ocenění-2-no-aspect	ACT	PAT	EFF
+ochota	no-aspect	blu-n-ochota	blu-n-ochota-1	blu-n-ochota-1-no-aspect	ACT	PAT
+oddanost	no-aspect	blu-n-oddanost	blu-n-oddanost-1	blu-n-oddanost-1-no-aspect	ACT	PAT
+oddělenost	no-aspect	blu-n-oddělenost	blu-n-oddělenost-1	blu-n-oddělenost-1-no-aspect	ORIG	PAT
+odhodlanost	no-aspect	blu-n-odhodlanost	blu-n-odhodlanost-1	blu-n-odhodlanost-1-no-aspect	ACT	PAT
+odlišnost	no-aspect	blu-n-odlišnost	blu-n-odlišnost-1	blu-n-odlišnost-1-no-aspect	ACT	PAT
+odolnost	no-aspect	blu-n-odolnost	blu-n-odolnost-1	blu-n-odolnost-1-no-aspect	ACT	PAT
+odpovídání	impf	blu-n-odpovídání-odpovědění-odpovězení	blu-n-odpovídání-odpovědění-odpovězení-1	blu-n-odpovídání-odpovědění-odpovězení-1-impf	ACT	ADDR	PAT	EFF	MANN	MEANS
+odpovědění	pf1	blu-n-odpovídání-odpovědění-odpovězení	blu-n-odpovídání-odpovědění-odpovězení-1	blu-n-odpovídání-odpovědění-odpovězení-1-pf1	ACT	ADDR	PAT	EFF	MANN	MEANS
+odpovězení	pf2	blu-n-odpovídání-odpovědění-odpovězení	blu-n-odpovídání-odpovědění-odpovězení-1	blu-n-odpovídání-odpovědění-odpovězení-1-pf2	ACT	ADDR	PAT	EFF	MANN	MEANS
+odpovídání	impf	blu-n-odpovídání-odpovědění-odpovězení	blu-n-odpovídání-odpovědění-odpovězení-2	blu-n-odpovídání-odpovědění-odpovězení-2-impf	ACT	PAT	EFF
+odpovídání	impf	blu-n-odpovídání-odpovědění-odpovězení	blu-n-odpovídání-odpovědění-odpovězení-3	blu-n-odpovídání-odpovědění-odpovězení-3-impf	ACT	ADDR	PAT	MEANS
+odpovídání	impf	blu-n-odpovídání-odpovědění-odpovězení	blu-n-odpovídání-odpovědění-odpovězení-4	blu-n-odpovídání-odpovědění-odpovězení-4-impf	ACT	PAT	REG
+odpovídání	impf	blu-n-odpovídání-odpovědění-odpovězení	blu-n-odpovídání-odpovědění-odpovězení-5	blu-n-odpovídání-odpovědění-odpovězení-5-impf	ACT	ADDR	PAT
+odpovědění	pf1	blu-n-odpovídání-odpovědění-odpovězení	blu-n-odpovídání-odpovědění-odpovězení-5	blu-n-odpovídání-odpovědění-odpovězení-5-pf1	ACT	ADDR	PAT
+odpovězení	pf2	blu-n-odpovídání-odpovědění-odpovězení	blu-n-odpovídání-odpovědění-odpovězení-5	blu-n-odpovídání-odpovědění-odpovězení-5-pf2	ACT	ADDR	PAT
+odpovídání se	impf	blu-n-odpovídání-se	blu-n-odpovídání-se-1	blu-n-odpovídání-se-1-impf	ACT	ADDR	PAT
+odpovědnost	no-aspect1	blu-n-odpovědnost-zodpovědnost	blu-n-odpovědnost-zodpovědnost-1	blu-n-odpovědnost-zodpovědnost-1 -no-aspect1	ACT	ADDR	PAT
+zodpovědnost	no-aspect2	blu-n-odpovědnost-zodpovědnost	blu-n-odpovědnost-zodpovědnost-1	blu-n-odpovědnost-zodpovědnost-1 -no-aspect2	ACT	ADDR	PAT
+odpovědnost	no-aspect1	blu-n-odpovědnost-zodpovědnost	blu-n-odpovědnost-zodpovědnost-2	blu-n-odpovědnost-zodpovědnost-2-no-aspect1	ACT	PAT
+zodpovědnost	no-aspect2	blu-n-odpovědnost-zodpovědnost	blu-n-odpovědnost-zodpovědnost-2	blu-n-odpovědnost-zodpovědnost-2-no-aspect2	ACT	PAT
+odpovědnost	no-aspect1	blu-n-odpovědnost-zodpovědnost	blu-n-odpovědnost-zodpovědnost-3	blu-n-odpovědnost-zodpovědnost-3-no-aspect1	ACT
+zodpovědnost	no-aspect2	blu-n-odpovědnost-zodpovědnost	blu-n-odpovědnost-zodpovědnost-3	blu-n-odpovědnost-zodpovědnost-3-no-aspect2	ACT
+odpověď	no-aspect	blu-n-odpověď	blu-n-odpověď-1	blu-n-odpověď-1-no-aspect	ACT	ADDR	PAT	EFF	MEANS
+odpověď	no-aspect	blu-n-odpověď	blu-n-odpověď-2	blu-n-odpověď-2-no-aspect	ACT	PAT	EFF
+odrostlost	no-aspect	blu-n-odrostlost	blu-n-odrostlost-1	blu-n-odrostlost-1-no-aspect	ACT	PAT
+odvaha	no-aspect	blu-n-odvaha	blu-n-odvaha-1	blu-n-odvaha-1-no-aspect	ACT	PAT
+odvažování1	impf	blu-n-odvažování1-odvážení1	blu-n-odvažování1-odvážení1-1	blu-n-odvažování1-odvážení1-1-impf	ACT	PAT	ORIG	MEANS
+odvážení1	pf	blu-n-odvažování1-odvážení1	blu-n-odvažování1-odvážení1-1	blu-n-odvažování1-odvážení1-1-pf	ACT	PAT	ORIG	MEANS
+odvažování2 (se)	impf	blu-n-odvažování2-se-odvážení2-se	blu-n-odvažování2-se-odvážení2-se-1	blu-n-odvažování2-se-odvážení2-se-1-impf	ACT	PAT
+odvážení2 (se)	pf	blu-n-odvažování2-se-odvážení2-se	blu-n-odvažování2-se-odvážení2-se-1	blu-n-odvažování2-se-odvážení2-se-1-pf	ACT	PAT
+odvažování2 (se)	impf	blu-n-odvažování2-se-odvážení2-se	blu-n-odvažování2-se-odvážení2-se-2	blu-n-odvažování2-se-odvážení2-se-2-impf	ACT	PAT
+odvážení2 (se)	pf	blu-n-odvažování2-se-odvážení2-se	blu-n-odvažování2-se-odvážení2-se-2	blu-n-odvažování2-se-odvážení2-se-2-pf	ACT	PAT
+odvolatelnost	no-aspect	blu-n-odvolatelnost	blu-n-odvolatelnost-1	blu-n-odvolatelnost-1-no-aspect	ACT	PAT	ORIG
+ohleduplnost	no-aspect	blu-n-ohleduplnost	blu-n-ohleduplnost-1	blu-n-ohleduplnost-1-no-aspect	ACT	PAT
+ohroženost	no-aspect	blu-n-ohroženost	blu-n-ohroženost-1	blu-n-ohroženost-1-no-aspect	ACT	PAT
+ohroženost	no-aspect	blu-n-ohroženost	blu-n-ohroženost-2	blu-n-ohroženost-2-no-aspect	PAT
+opatření	pf	blu-n-opatření	blu-n-opatření-1	blu-n-opatření-1-pf	ACT	PAT
+oprávněnost	no-aspect	blu-n-oprávněnost	blu-n-oprávněnost-1	blu-n-oprávněnost-1-no-aspect	EFF	PAT
+oprávněnost	no-aspect	blu-n-oprávněnost	blu-n-oprávněnost-2	blu-n-oprávněnost-2-no-aspect	ACT
+otázka	no-aspect	blu-n-otázka	blu-n-otázka-1	blu-n-otázka-1-no-aspect	ACT	ADDR	PAT
+otázka	no-aspect	blu-n-otázka	blu-n-otázka-2	blu-n-otázka-2-no-aspect	ACT	ADDR	PAT
+otázka	no-aspect	blu-n-otázka	blu-n-otázka-3	blu-n-otázka-3-no-aspect	PAT
+otázání (se)	pf	blu-n-otázání-se	blu-n-otázání-se-1	blu-n-otázání-se-1-pf	ACT	ADDR	PAT
+ovladatelnost	no-aspect	blu-n-ovladatelnost	blu-n-ovladatelnost-1	blu-n-ovladatelnost-1-no-aspect	ACT	PAT
+ovladatelnost	no-aspect	blu-n-ovladatelnost	blu-n-ovladatelnost-2	blu-n-ovladatelnost-2-no-aspect	ACT	PAT
+oznamování	impf	blu-n-oznamování-oznámení	blu-n-oznamování-oznámení-1	blu-n-oznamování-oznámení-1-impf	ACT	ADDR	PAT	MEANS	LOC
+oznámení	pf	blu-n-oznamování-oznámení	blu-n-oznamování-oznámení-1	blu-n-oznamování-oznámení-1-pf	ACT	ADDR	PAT	MEANS	LOC
+oznámení	pf	blu-n-oznamování-oznámení	blu-n-oznamování-oznámení-2	blu-n-oznamování-oznámení-2-pf	ACT	ADDR	PAT	MEANS	LOC
+oznámení	pf	blu-n-oznamování-oznámení	blu-n-oznamování-oznámení-3	blu-n-oznamování-oznámení-3-pf	ACT	ADDR	PAT	EFF	CAUS	LOC
+oznámení	pf	blu-n-oznamování-oznámení	blu-n-oznamování-oznámení-4	blu-n-oznamování-oznámení-4-pf	ACT	PAT
+pamětlivost	no-aspect	blu-n-pamětlivost	blu-n-pamětlivost-1	blu-n-pamětlivost-1-no-aspect	ACT	PAT
+plán	no-aspect	blu-n-plán	blu-n-plán-1	blu-n-plán-1-no-aspect	ACT	PAT
+plán	no-aspect	blu-n-plán	blu-n-plán-2	blu-n-plán-2-no-aspect	ACT	PAT
+plánování	impf	blu-n-plánování	blu-n-plánování-1	blu-n-plánování-1-impf	ACT	PAT
+pobuřování	impf	blu-n-pobuřování-pobouření	blu-n-pobuřování-pobouření-1	blu-n-pobuřování-pobouření-1-impf	ACT	ADDR	PAT	MEANS
+pobouření	pf	blu-n-pobuřování-pobouření	blu-n-pobuřování-pobouření-1	blu-n-pobuřování-pobouření-1-pf	ACT	ADDR	PAT	MEANS
+pobouření	pf	blu-n-pobuřování-pobouření	blu-n-pobuřování-pobouření-2	blu-n-pobuřování-pobouření-2-pf	ACT	PAT
+pobuřování (se)	impf	blu-n-pobuřování-se	blu-n-pobuřování-se-1	blu-n-pobuřování-se-1-impf	ACT	PAT
+pochopení	pf	blu-n-pochopení	blu-n-pochopení-1	blu-n-pochopení-1-pf	ACT	PAT
+pochopení	pf	blu-n-pochopení	blu-n-pochopení-2	blu-n-pochopení-2-pf	ACT	PAT
+pochopitelnost	no-aspect	blu-n-pochopitelnost	blu-n-pochopitelnost-1	blu-n-pochopitelnost-1-no-aspect	ACT	PAT
+pochvala	no-aspect	blu-n-pochvala	blu-n-pochvala-1	blu-n-pochvala-1-no-aspect	ACT	PAT	BEN	CAUS
+pochvalování (si)	impf	blu-n-pochvalování-si-pochválení-si	blu-n-pochvalování-si-pochválení-si-1	blu-n-pochvalování-si-pochválení-si-1-impf	ACT	PAT	BEN	CAUS
+pochválení (si)	pf	blu-n-pochvalování-si-pochválení-si	blu-n-pochvalování-si-pochválení-si-1	blu-n-pochvalování-si-pochválení-si-1-pf	ACT	PAT	BEN	CAUS
+pochyba	no-aspect	blu-n-pochyba	blu-n-pochyba-1	blu-n-pochyba-1-no-aspect	ACT	PAT
+pochyba	no-aspect	blu-n-pochyba	blu-n-pochyba-2	blu-n-pochyba-2-no-aspect	ACT	PAT	EFF
+pochybnost	no-aspect	blu-n-pochybnost	blu-n-pochybnost-1	blu-n-pochybnost-1-no-aspect	ACT	PAT
+pochybování	impf	blu-n-pochybování	blu-n-pochybování-1	blu-n-pochybování-1-impf	ACT	PAT
+pocit	no-aspect	blu-n-pocit	blu-n-pocit-1	blu-n-pocit-1-no-aspect	ACT	PAT	ORIG
+pociťování	impf	blu-n-pociťování-pocítění	blu-n-pociťování-pocítění-1	blu-n-pociťování-pocítění-1-impf	ACT	PAT
+pocítění	pf	blu-n-pociťování-pocítění	blu-n-pociťování-pocítění-1	blu-n-pociťování-pocítění-1-pf	ACT	PAT
+pociťování	impf	blu-n-pociťování-pocítění	blu-n-pociťování-pocítění-3	blu-n-pociťování-pocítění-3-impf	ACT	PAT	EFF
+pocítění	pf	blu-n-pociťování-pocítění	blu-n-pociťování-pocítění-3	blu-n-pociťování-pocítění-3-pf	ACT	PAT	EFF
+poddajnost	no-aspect	blu-n-poddajnost	blu-n-poddajnost-1	blu-n-poddajnost-1-no-aspect	ACT	PAT
+podezíravost	no-aspect1	blu-n-podezíravost-podezřívavost	blu-n-podezíravost-podezřívavost-1	blu-n-podezíravost-podezřívavost-1-no-aspect1	ACT	ADDR	PAT
+podezřívavost	no-aspect2	blu-n-podezíravost-podezřívavost	blu-n-podezíravost-podezřívavost-1	blu-n-podezíravost-podezřívavost-1-no-aspect2	ACT	ADDR	PAT
+podezíravost	no-aspect1	blu-n-podezíravost-podezřívavost	blu-n-podezíravost-podezřívavost-2	blu-n-podezíravost-podezřívavost-2-no-aspect1	ACT	PAT
+podezřívavost	no-aspect2	blu-n-podezíravost-podezřívavost	blu-n-podezíravost-podezřívavost-2	blu-n-podezíravost-podezřívavost-2-no-aspect2	ACT	PAT
+podezřelost	no-aspect	blu-n-podezřelost	blu-n-podezřelost-1	blu-n-podezřelost-1-no-aspect	ADDR
+podiv	no-aspect	blu-n-podiv	blu-n-podiv-1	blu-n-podiv-1-no-aspect	ACT	PAT
+podivování (se)	impf	blu-n-podivování-se-podivení-se	blu-n-podivování-se-podivení-se-1	blu-n-podivování-se-podivení-se-1-impf	ACT	PAT
+podivení (se)	pf	blu-n-podivování-se-podivení-se	blu-n-podivování-se-podivení-se-1	blu-n-podivování-se-podivení-se-1-pf	ACT	PAT
+podmíněnost	no-aspect	blu-n-podmíněnost	blu-n-podmíněnost-1	blu-n-podmíněnost-1-no-aspect	PAT	EFF
+podmíněnost	no-aspect	blu-n-podmíněnost	blu-n-podmíněnost-2	blu-n-podmíněnost-2-no-aspect	ACT	PAT
+podněcování	impf	blu-n-podněcování-podnícení	blu-n-podněcování-podnícení-1	blu-n-podněcování-podnícení-1-impf	ACT	PAT
+podnícení	pf	blu-n-podněcování-podnícení	blu-n-podněcování-podnícení-1	blu-n-podněcování-podnícení-1-pf	ACT	PAT
+podněcování	impf	blu-n-podněcování-podnícení	blu-n-podněcování-podnícení-2	blu-n-podněcování-podnícení-2-impf	ACT	ADDR	PAT
+podnícení	pf	blu-n-podněcování-podnícení	blu-n-podněcování-podnícení-2	blu-n-podněcování-podnícení-2-pf	ACT	ADDR	PAT
+podnět	no-aspect	blu-n-podnět	blu-n-podnět-1	blu-n-podnět-1-no-aspect	ACT	ADDR	PAT	BEN
+podobnost	no-aspect	blu-n-podobnost	blu-n-podobnost-1	blu-n-podobnost-1-no-aspect	ACT	PAT
+podobnost	no-aspect	blu-n-podobnost	blu-n-podobnost-2	blu-n-podobnost-2-no-aspect	ACT	PAT
+poděkování	pf	blu-n-poděkování	blu-n-poděkování-1	blu-n-poděkování-1-pf	ACT	ADDR	PAT	MEANS
+pohled	no-aspect	blu-n-pohled	blu-n-pohled-1	blu-n-pohled-1-no-aspect	ACT	DIR
+pohled	no-aspect	blu-n-pohled	blu-n-pohled-2	blu-n-pohled-2-no-aspect	ACT	PAT
+pohled	no-aspect	blu-n-pohled	blu-n-pohled-3	blu-n-pohled-3-no-aspect	ACT	PAT	EFF
+pohled	no-aspect	blu-n-pohled	blu-n-pohled-4	blu-n-pohled-4-no-aspect	ACT	PAT
+pohled	no-aspect	blu-n-pohled	blu-n-pohled-5	blu-n-pohled-5-no-aspect	ACT	PAT	EFF
+pohled	no-aspect	blu-n-pohled	blu-n-pohled-6	blu-n-pohled-6-no-aspect	ACT	ORIG
+pohlížení	impf	blu-n-pohlížení-pohlédnutí-pohledění	blu-n-pohlížení-pohlédnutí-pohledění-1	blu-n-pohlížení-pohlédnutí-pohledění-1-impf	ACT	DIR	BEN
+pohlédnutí	pf1	blu-n-pohlížení-pohlédnutí-pohledění	blu-n-pohlížení-pohlédnutí-pohledění-1	blu-n-pohlížení-pohlédnutí-pohledění-1-pf1	ACT	DIR	BEN
+pohledění	pf2	blu-n-pohlížení-pohlédnutí-pohledění	blu-n-pohlížení-pohlédnutí-pohledění-1	blu-n-pohlížení-pohlédnutí-pohledění-1-pf2	ACT	DIR	BEN
+pohlížení	impf	blu-n-pohlížení-pohlédnutí-pohledění	blu-n-pohlížení-pohlédnutí-pohledění-2	blu-n-pohlížení-pohlédnutí-pohledění-2-impf	ACT	PAT	MANN
+pohlédnutí	pf1	blu-n-pohlížení-pohlédnutí-pohledění	blu-n-pohlížení-pohlédnutí-pohledění-2	blu-n-pohlížení-pohlédnutí-pohledění-2-pf1	ACT	PAT	MANN
+pohlížení	impf	blu-n-pohlížení-pohlédnutí-pohledění	blu-n-pohlížení-pohlédnutí-pohledění-3	blu-n-pohlížení-pohlédnutí-pohledění-3-impf	ACT	PAT
+pohlédnutí	pf1	blu-n-pohlížení-pohlédnutí-pohledění	blu-n-pohlížení-pohlédnutí-pohledění-3	blu-n-pohlížení-pohlédnutí-pohledění-3-pf1	ACT	PAT
+pohledění	pf2	blu-n-pohlížení-pohlédnutí-pohledění	blu-n-pohlížení-pohlédnutí-pohledění-3	blu-n-pohlížení-pohlédnutí-pohledění-3-pf2	ACT	PAT
+pohlížení	impf	blu-n-pohlížení-pohlédnutí-pohledění	blu-n-pohlížení-pohlédnutí-pohledění-5	blu-n-pohlížení-pohlédnutí-pohledění-5-impf	ACT	PAT	EFF
+pohrdání	impf	blu-n-pohrdání-pohrdnutí	blu-n-pohrdání-pohrdnutí-1	blu-n-pohrdání-pohrdnutí-1-impf	ACT	PAT
+pohrdnutí	pf	blu-n-pohrdání-pohrdnutí	blu-n-pohrdání-pohrdnutí-1	blu-n-pohrdání-pohrdnutí-1-pf	ACT	PAT
+pohrdání	impf	blu-n-pohrdání-pohrdnutí	blu-n-pohrdání-pohrdnutí-2	blu-n-pohrdání-pohrdnutí-2-impf	ACT	PAT
+pomyšlení si	pf	blu-n-pomyšlení-si	blu-n-pomyšlení-si-1	blu-n-pomyšlení-si-1-pf	ACT	PAT
+pomyšlení si	pf	blu-n-pomyšlení-si	blu-n-pomyšlení-si-2	blu-n-pomyšlení-si-2-pf	ACT	PAT	EFF
+pomýšlení	impf	blu-n-pomýšlení-pomyšlení	blu-n-pomýšlení-pomyšlení-1	blu-n-pomýšlení-pomyšlení-1-impf	ACT	PAT
+pomyšlení	pf	blu-n-pomýšlení-pomyšlení	blu-n-pomýšlení-pomyšlení-1	blu-n-pomýšlení-pomyšlení-1-pf	ACT	PAT
+pomýšlení	impf	blu-n-pomýšlení-pomyšlení	blu-n-pomýšlení-pomyšlení-2	blu-n-pomýšlení-pomyšlení-2-impf	ACT	PAT
+pomyšlení	pf	blu-n-pomýšlení-pomyšlení	blu-n-pomýšlení-pomyšlení-2	blu-n-pomýšlení-pomyšlení-2-pf	ACT	PAT
+pomyšlení	pf	blu-n-pomýšlení-pomyšlení	blu-n-pomýšlení-pomyšlení-3	blu-n-pomýšlení-pomyšlení-3-pf	ACT	PAT
+pomyšlení	pf	blu-n-pomýšlení-pomyšlení	blu-n-pomýšlení-pomyšlení-4	blu-n-pomýšlení-pomyšlení-4-pf	ACT
+ponaučování	impf	blu-n-ponaučování-ponaučení	blu-n-ponaučování-ponaučení-1	blu-n-ponaučování-ponaučení-1-impf	ACT	ADDR	PAT
+ponaučení	pf	blu-n-ponaučování-ponaučení	blu-n-ponaučování-ponaučení-1	blu-n-ponaučování-ponaučení-1-pf	ACT	ADDR	PAT
+ponaučení	pf	blu-n-ponaučování-ponaučení	blu-n-ponaučování-ponaučení-2	blu-n-ponaučování-ponaučení-2-pf	ACT	ADDR	PAT
+ponaučení	pf	blu-n-ponaučování-ponaučení	blu-n-ponaučování-ponaučení-3	blu-n-ponaučování-ponaučení-3-pf	ACT	PAT	ORIG
+ponaučování (se)	impf	blu-n-ponaučování-se-ponaučení-se	blu-n-ponaučování-se-ponaučení-se-1	blu-n-ponaučování-se-ponaučení-se-1-impf	ACT	PAT	ORIG
+ponaučení (se)	pf	blu-n-ponaučování-se-ponaučení-se	blu-n-ponaučování-se-ponaučení-se-1	blu-n-ponaučování-se-ponaučení-se-1-pf	ACT	PAT	ORIG
+posedlost	no-aspect	blu-n-posedlost	blu-n-posedlost-1	blu-n-posedlost-1-no-aspect	ACT	PAT
+posedlost	no-aspect	blu-n-posedlost	blu-n-posedlost-2	blu-n-posedlost-2-no-aspect	ACT	PAT
+poslech	no-aspect	blu-n-poslech	blu-n-poslech-1	blu-n-poslech-1-no-aspect	ACT	PAT
+poslechnutí (si)	pf	blu-n-poslechnutí-si	blu-n-poslechnutí-si-1	blu-n-poslechnutí-si-1-pf	ACT	PAT
+poslechnutí (si)	pf	blu-n-poslechnutí-si	blu-n-poslechnutí-si-2	blu-n-poslechnutí-si-2-pf	ACT	PAT	ORIG
+poslouchanost	no-aspect	blu-n-poslouchanost	blu-n-poslouchanost-1	blu-n-poslouchanost-1-no-aspect	ACT	PAT
+poslouchatelnost	no-aspect	blu-n-poslouchatelnost	blu-n-poslouchatelnost-1	blu-n-poslouchatelnost-1-no-aspect	ACT	PAT
+poslouchání	impf	blu-n-poslouchání-poslechnutí	blu-n-poslouchání-poslechnutí-1	blu-n-poslouchání-poslechnutí-1-impf	ACT	PAT
+poslouchání	impf	blu-n-poslouchání-poslechnutí	blu-n-poslouchání-poslechnutí-2	blu-n-poslouchání-poslechnutí-2-impf	ACT	PAT	EFF
+poslouchání	impf	blu-n-poslouchání-poslechnutí	blu-n-poslouchání-poslechnutí-3	blu-n-poslouchání-poslechnutí-3-impf	ACT	PAT	ORIG
+poslouchání	impf	blu-n-poslouchání-poslechnutí	blu-n-poslouchání-poslechnutí-4	blu-n-poslouchání-poslechnutí-4-impf	ACT	PAT
+poslechnutí	pf	blu-n-poslouchání-poslechnutí	blu-n-poslouchání-poslechnutí-4	blu-n-poslouchání-poslechnutí-4-pf	ACT	PAT
+poslušnost	no-aspect	blu-n-poslušnost	blu-n-poslušnost-1	blu-n-poslušnost-1-no-aspect	ACT	PAT
+postavení	pf	blu-n-postavení	blu-n-postavení-1	blu-n-postavení-1-pf	ACT	LOC
+postavení	pf	blu-n-postavení	blu-n-postavení-2	blu-n-postavení-2-pf	ACT	LOC	ID
+potěcha	no-aspect	blu-n-potěcha	blu-n-potěcha-1	blu-n-potěcha-1-no-aspect	ACT	PAT
+potěšování	impf	blu-n-potěšování-potěšení	blu-n-potěšování-potěšení-1	blu-n-potěšování-potěšení-1-impf	ACT	PAT	MEANS
+potěšení	pf	blu-n-potěšování-potěšení	blu-n-potěšování-potěšení-1	blu-n-potěšování-potěšení-1-pf	ACT	PAT	MEANS
+potěšení	pf	blu-n-potěšování-potěšení	blu-n-potěšování-potěšení-2	blu-n-potěšování-potěšení-2-pf	ACT	PAT
+potěšení	pf	blu-n-potěšování-potěšení	blu-n-potěšování-potěšení-3	blu-n-potěšování-potěšení-3-pf	EMPTY
+potěšování se	impf	blu-n-potěšování-se-potěšení-se	blu-n-potěšování-se-potěšení-se-1	blu-n-potěšování-se-potěšení-se-1-impf	ACT	PAT
+potěšení se	pf	blu-n-potěšování-se-potěšení-se	blu-n-potěšování-se-potěšení-se-1	blu-n-potěšování-se-potěšení-se-1-pf	ACT	PAT
+poučování	impf	blu-n-poučování-poučení	blu-n-poučování-poučení-1	blu-n-poučování-poučení-1-impf	ACT	ADDR	PAT
+poučení	pf	blu-n-poučování-poučení	blu-n-poučování-poučení-1	blu-n-poučování-poučení-1-pf	ACT	ADDR	PAT
+poučení	pf	blu-n-poučování-poučení	blu-n-poučování-poučení-2	blu-n-poučování-poučení-2-pf	ACT	ADDR	PAT
+poučení	pf	blu-n-poučování-poučení	blu-n-poučování-poučení-3	blu-n-poučování-poučení-3-pf	PAT
+poučení	pf	blu-n-poučování-poučení	blu-n-poučování-poučení-4	blu-n-poučování-poučení-4-pf	ACT	ORIG
+poučování (se)	impf	blu-n-poučování-se-poučení-se	blu-n-poučování-se-poučení-se-1	blu-n-poučování-se-poučení-se-1-impf	ACT	PAT	ORIG
+poučení (se)	pf	blu-n-poučování-se-poučení-se	blu-n-poučování-se-poučení-se-1	blu-n-poučování-se-poučení-se-1-pf	ACT	PAT	ORIG
+použitelnost	no-aspect	blu-n-použitelnost	blu-n-použitelnost-1	blu-n-použitelnost-1-no-aspect	ACT	AIM	PAT
+používanost	impf	blu-n-používanost-použitost	blu-n-používanost-použitost-1	blu-n-používanost-použitost-1-impf	ACT	PAT
+použitost	pf	blu-n-používanost-použitost	blu-n-používanost-použitost-1	blu-n-používanost-použitost-1-pf	ACT	PAT
+považování	impf	blu-n-považování	blu-n-považování-1	blu-n-považování-1-impf	ACT	PAT	EFF
+povinnost	no-aspect	blu-n-povinnost	blu-n-povinnost-1	blu-n-povinnost-1-no-aspect	ACT	ADDR	PAT
+povolanost	no-aspect	blu-n-povolanost	blu-n-povolanost-1	blu-n-povolanost-1-no-aspect	ACT	EFF	PAT
+povolování	impf	blu-n-povolování-povolení	blu-n-povolování-povolení-1	blu-n-povolování-povolení-1-impf	ACT	ADDR	PAT
+povolení	pf	blu-n-povolování-povolení	blu-n-povolování-povolení-1	blu-n-povolování-povolení-1-pf	ACT	ADDR	PAT
+povolování	impf	blu-n-povolování-povolení	blu-n-povolování-povolení-2	blu-n-povolování-povolení-2-impf	ACT
+povolení	pf	blu-n-povolování-povolení	blu-n-povolování-povolení-2	blu-n-povolování-povolení-2-pf	ACT
+povolování	impf	blu-n-povolování-povolení	blu-n-povolování-povolení-3	blu-n-povolování-povolení-3-impf	ACT	PAT	BEN
+povolení	pf	blu-n-povolování-povolení	blu-n-povolování-povolení-3	blu-n-povolování-povolení-3-pf	ACT	PAT	BEN
+povolování	impf	blu-n-povolování-povolení	blu-n-povolování-povolení-4	blu-n-povolování-povolení-4-impf	ACT	PAT	REG
+povolení	pf	blu-n-povolování-povolení	blu-n-povolování-povolení-4	blu-n-povolování-povolení-4-pf	ACT	PAT	REG
+povolování	impf	blu-n-povolování-povolení	blu-n-povolování-povolení-5	blu-n-povolování-povolení-5-impf	ACT	PAT	BEN
+povolení	pf	blu-n-povolování-povolení	blu-n-povolování-povolení-5	blu-n-povolování-povolení-5-pf	ACT	PAT	BEN
+povolení	pf	blu-n-povolování-povolení	blu-n-povolování-povolení-6	blu-n-povolování-povolení-6-pf	ACT	ADDR	PAT
+povolení	pf	blu-n-povolování-povolení	blu-n-povolování-povolení-7	blu-n-povolování-povolení-7-pf	ADDR	PAT	ORIG
+povědomost	no-aspect	blu-n-povědomost	blu-n-povědomost-1	blu-n-povědomost-1-no-aspect	ACT	PAT
+poznatelnost	no-aspect	blu-n-poznatelnost	blu-n-poznatelnost-1	blu-n-poznatelnost-1-no-aspect	ACT	PAT	MEANS
+pozornost	no-aspect	blu-n-pozornost	blu-n-pozornost-1	blu-n-pozornost-1-no-aspect	ACT	PAT
+pozornost	no-aspect	blu-n-pozornost	blu-n-pozornost-2	blu-n-pozornost-2-no-aspect	ACT	PAT
+pozornost	no-aspect	blu-n-pozornost	blu-n-pozornost-3	blu-n-pozornost-3-no-aspect	ACT	PAT
+počet	no-aspect	blu-n-počet	blu-n-počet-1	blu-n-počet-1-no-aspect	ACT	PAT
+počet	no-aspect	blu-n-počet	blu-n-počet-2	blu-n-počet-2-no-aspect	MAT
+počítání	impf	blu-n-počítání	blu-n-počítání-1	blu-n-počítání-1-impf	ACT	PAT	ORIG	MANN	BEN
+počítání	impf	blu-n-počítání	blu-n-počítání-2	blu-n-počítání-2-impf	ACT	PAT
+počítání	impf	blu-n-počítání	blu-n-počítání-3	blu-n-počítání-3-impf	ACT	PAT	TSIN
+počítání	impf	blu-n-počítání	blu-n-počítání-4	blu-n-počítání-4-impf	ACT	ADDR	PAT	RCMP
+počítání	impf	blu-n-počítání	blu-n-počítání-5	blu-n-počítání-5-impf	ACT	PAT	EFF
+počítání	impf	blu-n-počítání	blu-n-počítání-6	blu-n-počítání-6-impf	ACT	PAT	EFF
+počítání	impf	blu-n-počítání	blu-n-počítání-7	blu-n-počítání-7-impf	ACT	PAT
+požadavek	no-aspect	blu-n-požadavek	blu-n-požadavek-1	blu-n-požadavek-1-no-aspect	ACT	ADDR	PAT
+požadování	impf	blu-n-požádání-požadování	blu-n-požádání-požadování-1	blu-n-požádání-požadování-1-impf	ACT	PAT	ORIG
+požádání	pf	blu-n-požádání-požadování	blu-n-požádání-požadování-2	blu-n-požádání-požadování-2-pf	ACT	ADDR	PAT
+prodejnost	no-aspect	blu-n-prodejnost	blu-n-prodejnost-1	blu-n-prodejnost-1-no-aspect	ACT	ADDR	PAT
+prodejnost	no-aspect	blu-n-prodejnost	blu-n-prodejnost-2	blu-n-prodejnost-2-no-aspect	ACT
+prohlašování	impf	blu-n-prohlašování-prohlášení	blu-n-prohlašování-prohlášení-1	blu-n-prohlašování-prohlášení-1-impf	ACT	PAT
+prohlášení	pf	blu-n-prohlašování-prohlášení	blu-n-prohlašování-prohlášení-1	blu-n-prohlašování-prohlášení-1-pf	ACT	PAT
+prohlašování	impf	blu-n-prohlašování-prohlášení	blu-n-prohlašování-prohlášení-2	blu-n-prohlašování-prohlášení-2-impf	ACT	PAT	EFF
+prohlášení	pf	blu-n-prohlašování-prohlášení	blu-n-prohlašování-prohlášení-2	blu-n-prohlašování-prohlášení-2-pf	ACT	PAT	EFF
+prohlašování	impf	blu-n-prohlašování-prohlášení	blu-n-prohlašování-prohlášení-4	blu-n-prohlašování-prohlášení-4-impf	ACT	PAT	EFF
+prohlášení	pf	blu-n-prohlašování-prohlášení	blu-n-prohlašování-prohlášení-4	blu-n-prohlašování-prohlášení-4-pf	ACT	PAT	EFF
+prohlášení	pf	blu-n-prohlašování-prohlášení	blu-n-prohlašování-prohlášení-5	blu-n-prohlašování-prohlášení-5-pf	ACT	ADDR	PAT
+prohlášení	pf	blu-n-prohlašování-prohlášení	blu-n-prohlašování-prohlášení-6	blu-n-prohlašování-prohlášení-6 -pf	ACT	ADDR	PAT	EFF
+prosba	no-aspect	blu-n-prosba	blu-n-prosba-1	blu-n-prosba-1-no-aspect	ACT	ADDR	PAT
+prosba	no-aspect	blu-n-prosba	blu-n-prosba-2	blu-n-prosba-2-no-aspect	ACT	ADDR	PAT
+proslulost	no-aspect	blu-n-proslulost	blu-n-proslulost-1	blu-n-proslulost-1-no-aspect	ACT	PAT
+prostota	no-aspect	blu-n-prostota	blu-n-prostota-1	blu-n-prostota-1-no-aspect	ACT	PAT
+prostota	no-aspect	blu-n-prostota	blu-n-prostota-2	blu-n-prostota-2-no-aspect	ACT
+protest	no-aspect	blu-n-protest	blu-n-protest-1	blu-n-protest-1-no-aspect	ACT	PAT	MEANS
+protestování	impf	blu-n-protestování	blu-n-protestování-1	blu-n-protestování-1-impf	ACT	PAT	MEANS
+protivnost	no-aspect	blu-n-protivnost	blu-n-protivnost-1	blu-n-protivnost-1-no-aspect	PAT
+prozkoumávání	impf	blu-n-prozkoumávání-prozkoumání	blu-n-prozkoumávání-prozkoumání-1	blu-n-prozkoumávání-prozkoumání-1-impf	ACT	PAT
+prozkoumání	pf	blu-n-prozkoumávání-prozkoumání	blu-n-prozkoumávání-prozkoumání-1	blu-n-prozkoumávání-prozkoumání-1-pf	ACT	PAT
+prošení	impf	blu-n-prošení	blu-n-prošení-1	blu-n-prošení-1-impf	ACT	ADDR	PAT
+prošení	impf	blu-n-prošení	blu-n-prošení-2	blu-n-prošení-2-impf	ACT	ADDR	PAT
+prošení	impf	blu-n-prošení	blu-n-prošení-3	blu-n-prošení-3-impf	ACT
+prošení se	impf	blu-n-prošení-se	blu-n-prošení-se-1	blu-n-prošení-se-1 -impf	ACT	ADDR	PAT
+průzkum	no-aspect	blu-n-průzkum	blu-n-průzkum-1	blu-n-průzkum-1-no-aspect	ACT	PAT	LOC
+ptaní (se)	impf	blu-n-ptaní-se	blu-n-ptaní-se-1	blu-n-ptaní-se-1-impf	ACT	ADDR	PAT	MANN
+ptaní (se)	impf	blu-n-ptaní-se	blu-n-ptaní-se-2	blu-n-ptaní-se-2-impf	ACT	ADDR	PAT
+pyšnost	no-aspect	blu-n-pyšnost	blu-n-pyšnost-1	blu-n-pyšnost-1-no-aspect	ACT	PAT
+přecitlivělost	no-aspect	blu-n-přecitlivělost	blu-n-přecitlivělost-1	blu-n-přecitlivělost-1-no-aspect	ACT	PAT
+přednost	no-aspect	blu-n-přednost	blu-n-přednost-1	blu-n-přednost-1-no-aspect	ACT	PAT	REG
+přednost	no-aspect	blu-n-přednost	blu-n-přednost-2	blu-n-přednost-2-no-aspect	ACT	PAT
+předpoklad	no-aspect	blu-n-předpoklad	blu-n-předpoklad-1	blu-n-předpoklad-1-no-aspect	ACT	PAT
+předpoklad	no-aspect	blu-n-předpoklad	blu-n-předpoklad-2	blu-n-předpoklad-2-no-aspect	ACT	PAT	EFF
+předpoklad	no-aspect	blu-n-předpoklad	blu-n-předpoklad-3	blu-n-předpoklad-3-no-aspect	ACT	PAT
+předpoklad	no-aspect	blu-n-předpoklad	blu-n-předpoklad-4	blu-n-předpoklad-4-no-aspect	PAT
+předpokládání	impf	blu-n-předpokládání	blu-n-předpokládání-1	blu-n-předpokládání-1-impf	ACT	PAT
+představivost	no-aspect	blu-n-představivost	blu-n-představivost-1	blu-n-představivost-1-no-aspect	ACT	PAT
+předurčenost	no-aspect	blu-n-předurčenost	blu-n-předurčenost-1	blu-n-předurčenost-1-no-aspect	ACT	PAT	EFF
+přejícnost	no-aspect	blu-n-přejícnost	blu-n-přejícnost-1	blu-n-přejícnost-1-no-aspect	ACT	ADDR
+přemlouvání	impf	blu-n-přemlouvání-přemluvení	blu-n-přemlouvání-přemluvení-1	blu-n-přemlouvání-přemluvení-1-impf	ACT	ADDR	PAT
+přemluvení	pf	blu-n-přemlouvání-přemluvení	blu-n-přemlouvání-přemluvení-1	blu-n-přemlouvání-přemluvení-1-pf	ACT	ADDR	PAT
+přemlouvání	impf	blu-n-přemlouvání-přemluvení	blu-n-přemlouvání-přemluvení-2	blu-n-přemlouvání-přemluvení-2-impf	ACT	PAT	ORIG	EFF
+přemluvení	pf	blu-n-přemlouvání-přemluvení	blu-n-přemlouvání-přemluvení-2	blu-n-přemlouvání-přemluvení-2-pf	ACT	PAT	ORIG	EFF
+přemýšlení	impf	blu-n-přemýšlení	blu-n-přemýšlení-1	blu-n-přemýšlení-1-impf	ACT	PAT
+přesvědčenost	no-aspect	blu-n-přesvědčenost	blu-n-přesvědčenost-1	blu-n-přesvědčenost-1-no-aspect	ACT	PAT
+přesvědčenost	no-aspect	blu-n-přesvědčenost	blu-n-přesvědčenost-2	blu-n-přesvědčenost-2-no-aspect	ACT
+přesvědčování	impf	blu-n-přesvědčování-přesvědčení	blu-n-přesvědčování-přesvědčení-1	blu-n-přesvědčování-přesvědčení-1-impf	ACT	ADDR	PAT	MEANS
+přesvědčení	pf	blu-n-přesvědčování-přesvědčení	blu-n-přesvědčování-přesvědčení-1	blu-n-přesvědčování-přesvědčení-1-pf	ACT	ADDR	PAT	MEANS
+přesvědčení	pf	blu-n-přesvědčování-přesvědčení	blu-n-přesvědčování-přesvědčení-2	blu-n-přesvědčování-přesvědčení-2-pf	ACT	PAT
+přesvědčování se	impf	blu-n-přesvědčování-se-přesvědčení-se	blu-n-přesvědčování-se-přesvědčení-se-1	blu-n-přesvědčování-se-přesvědčení-se-1-impf	ACT	PAT	MANN	MEANS
+přesvědčení se	pf	blu-n-přesvědčování-se-přesvědčení-se	blu-n-přesvědčování-se-přesvědčení-se-1	blu-n-přesvědčování-se-přesvědčení-se-1-pf	ACT	PAT	MANN	MEANS
+přijatelnost	no-aspect	blu-n-přijatelnost	blu-n-přijatelnost-1	blu-n-přijatelnost-1-no-aspect	ACT	PAT
+přikazování	impf	blu-n-přikazování-přikázání	blu-n-přikazování-přikázání-1	blu-n-přikazování-přikázání-1-impf	ACT	ADDR	PAT
+přikázání	pf	blu-n-přikazování-přikázání	blu-n-přikazování-přikázání-1	blu-n-přikazování-přikázání-1-pf	ACT	ADDR	PAT
+přikazování	impf	blu-n-přikazování-přikázání	blu-n-přikazování-přikázání-2	blu-n-přikazování-přikázání-2-impf	ACT	ADDR	PAT
+přikázání	pf	blu-n-přikazování-přikázání	blu-n-přikazování-přikázání-2	blu-n-přikazování-přikázání-2-pf	ACT	ADDR	PAT
+přikázání	pf	blu-n-přikazování-přikázání	blu-n-přikazování-přikázání-3	blu-n-přikazování-přikázání-3-pf	ACT	ADDR	PAT
+přilehlost	no-aspect	blu-n-přilehlost	blu-n-přilehlost-1	blu-n-přilehlost-1-no-aspect	ACT	PAT
+připravenost	pf	blu-n-připravenost	blu-n-připravenost-1	blu-n-připravenost-1-pf	ACT	ORIG	PAT
+připravenost	pf	blu-n-připravenost	blu-n-připravenost-2	blu-n-připravenost-2-pf	ACT	EFF	PAT
+připravenost	pf	blu-n-připravenost	blu-n-připravenost-3	blu-n-připravenost-3-pf	ACT	PAT
+přislibování	impf	blu-n-přislibování-přislíbení	blu-n-přislibování-přislíbení-1	blu-n-přislibování-přislíbení-1-impf	ACT	ADDR	PAT
+přislíbení	pf	blu-n-přislibování-přislíbení	blu-n-přislibování-přislíbení-1	blu-n-přislibování-přislíbení-1-pf	ACT	ADDR	PAT
+přitažlivost	no-aspect	blu-n-přitažlivost	blu-n-přitažlivost-1	blu-n-přitažlivost-1-no-aspect	ACT	PAT
+přitažlivost	no-aspect	blu-n-přitažlivost	blu-n-přitažlivost-2	blu-n-přitažlivost-2-no-aspect	PAT	DIR3
+přizpůsobivost	no-aspect	blu-n-přizpůsobivost	blu-n-přizpůsobivost-1	blu-n-přizpůsobivost-1-no-aspect	ACT	PAT
+přání	impf	blu-n-přání	blu-n-přání-1	blu-n-přání-1-impf	ACT	PAT
+přání	impf	blu-n-přání	blu-n-přání-2	blu-n-přání-2-impf	ACT	ADDR	PAT
+přání	impf	blu-n-přání	blu-n-přání-3	blu-n-přání-3-impf	ACT	ADDR	CAUS
+přání si	impf	blu-n-přání-si	blu-n-přání-si-1	blu-n-přání-si-1-impf	ACT	PAT
+přání si	impf	blu-n-přání-si	blu-n-přání-si-2	blu-n-přání-si-2-impf	ACT	PAT	ORIG
+příjemnost	no-aspect	blu-n-příjemnost	blu-n-příjemnost-1	blu-n-příjemnost-1-no-aspect	ACT	PAT
+příjemnost	no-aspect	blu-n-příjemnost	blu-n-příjemnost-2	blu-n-příjemnost-2-no-aspect	EMPTY
+příkaz	no-aspect	blu-n-příkaz	blu-n-příkaz-1	blu-n-příkaz-1-no-aspect	ACT	ADDR	PAT
+příslib	no-aspect	blu-n-příslib	blu-n-příslib-1	blu-n-příslib-1-no-aspect	ACT	ADDR	PAT
+příslib	no-aspect	blu-n-příslib	blu-n-příslib-2	blu-n-příslib-2-no-aspect	ACT	PAT
+příslib	no-aspect	blu-n-příslib	blu-n-příslib-3	blu-n-příslib-3-no-aspect	ACT	ADDR	PAT
+přítomnost	no-aspect	blu-n-přítomnost	blu-n-přítomnost-1	blu-n-přítomnost-1-no-aspect	ACT	PAT
+přítomnost	no-aspect	blu-n-přítomnost	blu-n-přítomnost-2	blu-n-přítomnost-2-no-aspect	ACT	LOC
+přítomnost	no-aspect	blu-n-přítomnost	blu-n-přítomnost-3	blu-n-přítomnost-3-no-aspect	ACT	LOC
+přítomnost	no-aspect	blu-n-přítomnost	blu-n-přítomnost-4	blu-n-přítomnost-4-no-aspect	EMPTY
+půjčka	no-aspect	blu-n-půjčka	blu-n-půjčka-1	blu-n-půjčka-1-no-aspect	ACT	ADDR	PAT	AIM
+radost	no-aspect	blu-n-radost	blu-n-radost-1	blu-n-radost-1-no-aspect	ACT	PAT
+radost	no-aspect	blu-n-radost	blu-n-radost-2	blu-n-radost-2-no-aspect	ACT
+radování (se)	impf	blu-n-radování-se	blu-n-radování-se-1	blu-n-radování-se-1-impf	ACT	PAT
+ranění	pf	blu-n-ranění	blu-n-ranění-1	blu-n-ranění-1-pf	ACT	PAT
+ranění	pf	blu-n-ranění	blu-n-ranění-2	blu-n-ranění-2-pf	ACT	PAT	MEANS
+respekt	no-aspect	blu-n-respekt	blu-n-respekt-1	blu-n-respekt-1-no-aspect	ACT	PAT
+respektování	impf	blu-n-respektování	blu-n-respektování-1	blu-n-respektování-1-impf	ACT	PAT
+rozhodnutí	pf	blu-n-rozhodnutí	blu-n-rozhodnutí-1	blu-n-rozhodnutí-1-pf	ACT	PAT	BEN	REG
+rozhodnutí	pf	blu-n-rozhodnutí	blu-n-rozhodnutí-2	blu-n-rozhodnutí-2-pf	ACT	PAT	BEN	REG
+rozhodnutí	pf	blu-n-rozhodnutí	blu-n-rozhodnutí-3	blu-n-rozhodnutí-3-pf	ACT	PAT
+rozhovor	no-aspect	blu-n-rozhovor	blu-n-rozhovor-1	blu-n-rozhovor-1-no-aspect	ACT	ADDR	PAT
+rozhovoření (se)	pf	blu-n-rozhovoření-se	blu-n-rozhovoření-se-1	blu-n-rozhovoření-se-1-pf	ACT	PAT
+rozhádanost	no-aspect	blu-n-rozhádanost	blu-n-rozhádanost-1	blu-n-rozhádanost-1-no-aspect	ACT	ADDR	PAT
+rozkaz	no-aspect	blu-n-rozkaz	blu-n-rozkaz-1	blu-n-rozkaz-1-no-aspect	ACT	ADDR	PAT
+rozkazování	impf	blu-n-rozkazování-rozkázání	blu-n-rozkazování-rozkázání-1	blu-n-rozkazování-rozkázání-1-impf	ACT	ADDR	PAT
+rozkázání	pf	blu-n-rozkazování-rozkázání	blu-n-rozkazování-rozkázání-1	blu-n-rozkazování-rozkázání-1-pf	ACT	ADDR	PAT
+rozmrzelost	no-aspect	blu-n-rozmrzelost	blu-n-rozmrzelost-1	blu-n-rozmrzelost-1-no-aspect	ACT	PAT
+rozpadlost	no-aspect	blu-n-rozpadlost	blu-n-rozpadlost-1	blu-n-rozpadlost-1-no-aspect	ACT	PAT
+rozpadlost	no-aspect	blu-n-rozpadlost	blu-n-rozpadlost-2	blu-n-rozpadlost-2-no-aspect	ACT
+rozpustitelnost	no-aspect	blu-n-rozpustitelnost	blu-n-rozpustitelnost-1	blu-n-rozpustitelnost-1-no-aspect	ACT	PAT	LOC
+rozpustitelnost	no-aspect	blu-n-rozpustitelnost	blu-n-rozpustitelnost-2	blu-n-rozpustitelnost-2-no-aspect	ACT	PAT
+rozpustnost	no-aspect	blu-n-rozpustnost	blu-n-rozpustnost-1	blu-n-rozpustnost-1-no-aspect	ACT	LOC
+rána	no-aspect	blu-n-rána	blu-n-rána-1	blu-n-rána-1-no-aspect	ACT	PAT	MEANS
+rána	no-aspect	blu-n-rána	blu-n-rána-2	blu-n-rána-2-no-aspect	ACT	PAT
+rána	no-aspect	blu-n-rána	blu-n-rána-3	blu-n-rána-3-no-aspect	EMPTY
+rána	no-aspect	blu-n-rána	blu-n-rána-4	blu-n-rána-4-no-aspect	EMPTY
+rána	no-aspect	blu-n-rána	blu-n-rána-5	blu-n-rána-5-no-aspect	EMPTY
+schopnost	no-aspect	blu-n-schopnost	blu-n-schopnost-1	blu-n-schopnost-1-no-aspect	ACT	PAT
+sdílenost	impf	blu-n-sdílenost	blu-n-sdílenost-1	blu-n-sdílenost-1-impf	ACT	ADDR	PAT
+slabost	no-aspect	blu-n-slabost	blu-n-slabost-1	blu-n-slabost-1-no-aspect	ACT
+slabost	no-aspect	blu-n-slabost	blu-n-slabost-2	blu-n-slabost-2-no-aspect	ACT	PAT
+slabost	no-aspect	blu-n-slabost	blu-n-slabost-3	blu-n-slabost-3-no-aspect	ACT	PAT
+slabost	no-aspect	blu-n-slabost	blu-n-slabost-4	blu-n-slabost-4-no-aspect	ACT	PAT
+slabost	no-aspect	blu-n-slabost	blu-n-slabost-5	blu-n-slabost-5-no-aspect	ACT	PAT
+slabota	no-aspect	blu-n-slabota	blu-n-slabota-1	blu-n-slabota-1-no-aspect	ACT
+slabota	no-aspect	blu-n-slabota	blu-n-slabota-2	blu-n-slabota-2-no-aspect	EMPTY
+smlouva	no-aspect	blu-n-smlouva	blu-n-smlouva-1	blu-n-smlouva-1 -no-aspect	ACT	ADDR	PAT
+smlouvání	impf	blu-n-smlouvání-smluvení	blu-n-smlouvání-smluvení-1	blu-n-smlouvání-smluvení-1-impf	ACT	ADDR	PAT
+smluvení	pf	blu-n-smlouvání-smluvení	blu-n-smlouvání-smluvení-1	blu-n-smlouvání-smluvení-1-pf	ACT	ADDR	PAT
+smlouvání	impf	blu-n-smlouvání-smluvení	blu-n-smlouvání-smluvení-2	blu-n-smlouvání-smluvení-2-impf	ACT	ADDR	PAT
+smlouvání	impf	blu-n-smlouvání-smluvení	blu-n-smlouvání-smluvení-3	blu-n-smlouvání-smluvení-3-impf	ACT	ADDR	PAT
+smysl	no-aspect	blu-n-smysl	blu-n-smysl-1	blu-n-smysl-1-no-aspect	ACT	PAT
+smysl	no-aspect	blu-n-smysl	blu-n-smysl-2	blu-n-smysl-2-no-aspect	ACT
+smysl	no-aspect	blu-n-smysl	blu-n-smysl-3	blu-n-smysl-3-no-aspect	ACT
+smysl	no-aspect	blu-n-smysl	blu-n-smysl-4	blu-n-smysl-4-no-aspect	APP
+smysly	no-aspect	blu-n-smysl	blu-n-smysl-5	blu-n-smysl-5-no-aspect	ACT
+snášenlivost	no-aspect	blu-n-snášenlivost	blu-n-snášenlivost-1	blu-n-snášenlivost-1-no-aspect	ACT	PAT
+snášenlivost	no-aspect	blu-n-snášenlivost	blu-n-snášenlivost-2	blu-n-snášenlivost-2-no-aspect	ACT	PAT
+solidarita	no-aspect	blu-n-solidarita	blu-n-solidarita-1	blu-n-solidarita-1-no-aspect	ACT	PAT
+solidárnost	no-aspect	blu-n-solidárnost	blu-n-solidárnost-1	blu-n-solidárnost-1-no-aspect	ACT	PAT
+spojení	pf	blu-n-spojení	blu-n-spojení-1	blu-n-spojení-1-pf	ACT	ADDR	PAT
+spojení	pf	blu-n-spojení	blu-n-spojení-2	blu-n-spojení-2-pf	ACT	PAT
+spokojenost	no-aspect	blu-n-spokojenost	blu-n-spokojenost-1	blu-n-spokojenost-1-no-aspect	ACT	PAT
+spokojování se	impf	blu-n-spokojení-se-spokojování-se	blu-n-spokojení-se-spokojování-se-1	blu-n-spokojení-se-spokojování-se-1-impf	ACT	PAT
+spokojení se	pf	blu-n-spokojení-se-spokojování-se	blu-n-spokojení-se-spokojování-se-1	blu-n-spokojení-se-spokojování-se-1-pf	ACT	PAT
+společnost	no-aspect	blu-n-společnost	blu-n-společnost-1	blu-n-společnost-1-no-aspect	ACT
+společnost	no-aspect	blu-n-společnost	blu-n-společnost-2	blu-n-společnost-2-no-aspect	MAT
+společnost	no-aspect	blu-n-společnost	blu-n-společnost-3	blu-n-společnost-3-no-aspect	EMPTY
+společnost	no-aspect	blu-n-společnost	blu-n-společnost-4	blu-n-společnost-4-no-aspect	EMPTY
+společnost	no-aspect	blu-n-společnost	blu-n-společnost-5	blu-n-společnost-5-no-aspect	EMPTY
+spravování	impf	blu-n-spravování-spravení	blu-n-spravování-spravení-1	blu-n-spravování-spravení-1-impf	ACT	PAT	BEN
+spravení	pf	blu-n-spravování-spravení	blu-n-spravování-spravení-1	blu-n-spravování-spravení-1-pf	ACT	PAT	BEN
+spravování	impf	blu-n-spravování-spravení	blu-n-spravování-spravení-2	blu-n-spravování-spravení-2-impf	ACT	PAT
+spravení	pf	blu-n-spravování-spravení	blu-n-spravování-spravení-3	blu-n-spravování-spravení-3-pf	ACT	PAT	BEN
+správa	no-aspect	blu-n-správa	blu-n-správa-1	blu-n-správa-1-no-aspect	ACT	PAT	REG
+srovnatelnost	no-aspect	blu-n-srovnatelnost	blu-n-srovnatelnost-1	blu-n-srovnatelnost-1-no-aspect	EFF	PAT
+strach	no-aspect	blu-n-strach	blu-n-strach-1	blu-n-strach-1-no-aspect	ACT	PAT
+strach	no-aspect	blu-n-strach	blu-n-strach-2	blu-n-strach-2-no-aspect	ACT	PAT
+strachování (se)	impf	blu-n-strachování-se	blu-n-strachování-se-1	blu-n-strachování-se-1-impf	ACT	PAT
+strachování (se)	impf	blu-n-strachování-se	blu-n-strachování-se-2	blu-n-strachování-se-2-impf	ACT	PAT
+strašení	impf	blu-n-strašení	blu-n-strašení-2	blu-n-strašení-2-impf	ACT	ADDR	PAT
+stížnost	no-aspect	blu-n-stížnost	blu-n-stížnost-1	blu-n-stížnost-1-no-aspect	ACT	ADDR	PAT
+stížnost	no-aspect	blu-n-stížnost	blu-n-stížnost-2	blu-n-stížnost-2-no-aspect	ACT	ADDR	PAT	EFF
+stěžování (si)	impf	blu-n-stěžování-si	blu-n-stěžování-si-1	blu-n-stěžování-si-1-impf	ACT	ADDR	PAT
+stěžování (si)	impf	blu-n-stěžování-si	blu-n-stěžování-si-2	blu-n-stěžování-si-2-impf	ACT	ADDR	PAT	EFF
+svolnost	no-aspect	blu-n-svolnost	blu-n-svolnost-1	blu-n-svolnost-1-no-aspect	ACT	PAT
+sympatie	no-aspect	blu-n-sympatie	blu-n-sympatie-1	blu-n-sympatie-1-no-aspect	ACT	PAT
+sympatičnost	no-aspect	blu-n-sympatičnost	blu-n-sympatičnost-1	blu-n-sympatičnost-1-no-aspect	PAT
+sčetlost	pf1	blu-n-sčetlost-sečtělost	blu-n-sčetlost-sečtělost-1	blu-n-sčetlost-sečtělost-1-pf1	ACT	PAT
+sečtělost	pf2	blu-n-sčetlost-sečtělost	blu-n-sčetlost-sečtělost-1	blu-n-sčetlost-sečtělost-1-pf2	ACT	PAT
+test	no-aspect	blu-n-test	blu-n-test-1	blu-n-test-1-no-aspect	ACT	PAT	EFF
+test	no-aspect	blu-n-test	blu-n-test-2	blu-n-test-2-no-aspect	ACT	ADDR	PAT
+test	no-aspect	blu-n-test	blu-n-test-3	blu-n-test-3-no-aspect	ACT	PAT
+testování	impf	blu-n-testování	blu-n-testování-1	blu-n-testování-1-impf	ACT	PAT
+testování	impf	blu-n-testování	blu-n-testování-2	blu-n-testování-2-impf	ACT	PAT	EFF
+testování	impf	blu-n-testování	blu-n-testování-3	blu-n-testování-3-impf	ACT	ADDR	PAT
+touha	no-aspect	blu-n-touha	blu-n-touha-1	blu-n-touha-1-no-aspect	ACT	PAT
+toužení	impf	blu-n-toužení	blu-n-toužení-1	blu-n-toužení-1-impf	ACT	PAT
+trpělivost	no-aspect	blu-n-trpělivost	blu-n-trpělivost-1	blu-n-trpělivost-1-no-aspect	ACT	PAT
+trápení	impf	blu-n-trápení	blu-n-trápení-1	blu-n-trápení-1-impf	ACT	PAT	MEANS
+trápení	impf	blu-n-trápení	blu-n-trápení-2	blu-n-trápení-2-impf	ACT	PAT
+trápení se	impf	blu-n-trápení-se	blu-n-trápení-se-1	blu-n-trápení-se-1-impf	ACT	PAT
+trápení se	impf	blu-n-trápení-se	blu-n-trápení-se-2	blu-n-trápení-se-2-impf	ACT	PAT
+tušení	impf	blu-n-tušení	blu-n-tušení-1	blu-n-tušení-1-impf	ACT	PAT
+tušení	impf	blu-n-tušení	blu-n-tušení-2	blu-n-tušení-2-impf	ACT	PAT
+tužba	no-aspect	blu-n-tužba	blu-n-tužba-1	blu-n-tužba-1-no-aspect	ACT	PAT
+tázání (se)	impf	blu-n-tázání-se	blu-n-tázání-se-1	blu-n-tázání-se-1-impf	ACT	ADDR	PAT
+ulpělost	no-aspect	blu-n-ulpělost	blu-n-ulpělost-1	blu-n-ulpělost-1-no-aspect	ACT	PAT
+upozorňování	impf	blu-n-upozorňování-upozornění	blu-n-upozorňování-upozornění-1	blu-n-upozorňování-upozornění-1-impf	ACT	ADDR	PAT	MEANS
+upozornění	pf	blu-n-upozorňování-upozornění	blu-n-upozorňování-upozornění-1	blu-n-upozorňování-upozornění-1-pf	ACT	ADDR	PAT	MEANS
+upozornění	pf	blu-n-upozorňování-upozornění	blu-n-upozorňování-upozornění-2	blu-n-upozorňování-upozornění-2-pf	ACT	ADDR	PAT
+upřímnost	no-aspect	blu-n-upřímnost	blu-n-upřímnost-1	blu-n-upřímnost-1-no-aspect	ACT	PAT
+upřímnost	no-aspect	blu-n-upřímnost	blu-n-upřímnost-2	blu-n-upřímnost-2-no-aspect	ACT
+uraženost	pf	blu-n-uraženost	blu-n-uraženost-1	blu-n-uraženost-1-pf	ACT	PAT
+urgence	no-aspect	blu-n-urgence	blu-n-urgence-1	blu-n-urgence-1-no-aspect	ACT	PAT	LOC
+urgence	no-aspect	blu-n-urgence	blu-n-urgence-2	blu-n-urgence-2-no-aspect	ACT	ADDR	PAT
+urgování	biasp	blu-n-urgování	blu-n-urgování-1	blu-n-urgování-1-biasp	ACT	PAT	LOC
+urgování	biasp	blu-n-urgování	blu-n-urgování-2	blu-n-urgování-2-biasp	ACT	ADDR	PAT
+urážení (se)	impf	blu-n-urážení-se-uražení-se	blu-n-urážení-se-uražení-se-1	blu-n-urážení-se-uražení-se-1-impf	ACT
+uražení (se)	pf	blu-n-urážení-se-uražení-se	blu-n-urážení-se-uražení-se-1	blu-n-urážení-se-uražení-se-1-pf	ACT
+urážení (se)	impf	blu-n-urážení-se-uražení-se	blu-n-urážení-se-uražení-se-2	blu-n-urážení-se-uražení-se-2-impf	ACT	PAT
+uražení (se)	pf	blu-n-urážení-se-uražení-se	blu-n-urážení-se-uražení-se-2	blu-n-urážení-se-uražení-se-2-pf	ACT	PAT
+urážení (se)	impf	blu-n-urážení-se-uražení-se	blu-n-urážení-se-uražení-se-3	blu-n-urážení-se-uražení-se-3-impf	ACT	PAT
+urážení	impf	blu-n-urážení-uražení	blu-n-urážení-uražení-1	blu-n-urážení-uražení-1-impf	ACT	PAT	OBST
+uražení	pf	blu-n-urážení-uražení	blu-n-urážení-uražení-1	blu-n-urážení-uražení-1-pf	ACT	PAT	OBST
+urážení	impf	blu-n-urážení-uražení	blu-n-urážení-uražení-2	blu-n-urážení-uražení-2-impf	ACT	PAT	MEANS
+uražení	pf	blu-n-urážení-uražení	blu-n-urážení-uražení-2	blu-n-urážení-uražení-2-pf	ACT	PAT	MEANS
+uražení	pf	blu-n-urážení-uražení	blu-n-urážení-uražení-4	blu-n-urážení-uražení-4-pf	ACT	PAT	MEANS
+urážka	no-aspect	blu-n-urážka	blu-n-urážka-1	blu-n-urážka-1-no-aspect	ACT	PAT	MEANS
+usedlost	no-aspect	blu-n-usedlost	blu-n-usedlost-1	blu-n-usedlost-1-no-aspect	EMPTY
+usedlost	no-aspect	blu-n-usedlost	blu-n-usedlost-2	blu-n-usedlost-2-no-aspect	ACT
+uspokojování	impf	blu-n-uspokojování-uspokojení	blu-n-uspokojování-uspokojení-1	blu-n-uspokojování-uspokojení-1-impf	ACT	PAT
+uspokojení	pf	blu-n-uspokojování-uspokojení	blu-n-uspokojování-uspokojení-1	blu-n-uspokojování-uspokojení-1-pf	ACT	PAT
+uspokojování	impf	blu-n-uspokojování-uspokojení	blu-n-uspokojování-uspokojení-2	blu-n-uspokojování-uspokojení-2-impf	ACT	PAT	MEANS
+uspokojení	pf	blu-n-uspokojování-uspokojení	blu-n-uspokojování-uspokojení-2	blu-n-uspokojování-uspokojení-2-pf	ACT	PAT	MEANS
+uspokojení	pf	blu-n-uspokojování-uspokojení	blu-n-uspokojování-uspokojení-3	blu-n-uspokojování-uspokojení-3-pf	ACT	PAT
+usuzování	impf	blu-n-usuzování-usouzení	blu-n-usuzování-usouzení-1	blu-n-usuzování-usouzení-1-impf	ACT	PAT	ORIG
+usouzení	pf	blu-n-usuzování-usouzení	blu-n-usuzování-usouzení-1	blu-n-usuzování-usouzení-1-pf	ACT	PAT	ORIG
+utěšování se	impf	blu-n-utěšování-se-utěšení-se	blu-n-utěšování-se-utěšení-se-1	blu-n-utěšování-se-utěšení-se-1-impf	ACT	PAT
+utěšení se	pf	blu-n-utěšování-se-utěšení-se	blu-n-utěšování-se-utěšení-se-1	blu-n-utěšování-se-utěšení-se-1-pf	ACT	PAT
+utěšování	impf	blu-n-utěšování-utěšení	blu-n-utěšování-utěšení-1	blu-n-utěšování-utěšení-1-impf	ACT	ADDR	PAT
+utěšení	pf	blu-n-utěšování-utěšení	blu-n-utěšování-utěšení-1	blu-n-utěšování-utěšení-1-pf	ACT	ADDR	PAT
+utěšení	pf	blu-n-utěšování-utěšení	blu-n-utěšování-utěšení-2	blu-n-utěšování-utěšení-2 -pf	ACT	PAT
+utěšování	impf	blu-n-utěšování-utěšení	blu-n-utěšování-utěšení-3	blu-n-utěšování-utěšení-3-impf	ACT	PAT
+utěšení	pf	blu-n-utěšování-utěšení	blu-n-utěšování-utěšení-3	blu-n-utěšování-utěšení-3-pf	ACT	PAT
+uvědomování (si)	impf	blu-n-uvědomování-si-uvědomění-si	blu-n-uvědomování-si-uvědomění-si-1	blu-n-uvědomování-si-uvědomění-si-1-impf	ACT	PAT
+uvědomění (si)	pf	blu-n-uvědomování-si-uvědomění-si	blu-n-uvědomování-si-uvědomění-si-1	blu-n-uvědomování-si-uvědomění-si-1-pf	ACT	PAT
+uvědomování	impf	blu-n-uvědomování-uvědomění	blu-n-uvědomování-uvědomění-1	blu-n-uvědomování-uvědomění-1-impf	ACT	ADDR	PAT	MEANS
+uvědomění	pf	blu-n-uvědomování-uvědomění	blu-n-uvědomování-uvědomění-1	blu-n-uvědomování-uvědomění-1-pf	ACT	ADDR	PAT	MEANS
+uvědomování	impf	blu-n-uvědomování-uvědomění	blu-n-uvědomování-uvědomění-2	blu-n-uvědomování-uvědomění-2-impf	ACT	PAT
+uvědomění	pf	blu-n-uvědomování-uvědomění	blu-n-uvědomování-uvědomění-2	blu-n-uvědomování-uvědomění-2-pf	ACT	PAT
+uznalost	pf	blu-n-uznalost	blu-n-uznalost-1	blu-n-uznalost-1-pf	ACT	PAT
+uznatelnost	pf	blu-n-uznatelnost	blu-n-uznatelnost-1	blu-n-uznatelnost-1-pf	ACT	PAT
+uznávanost	impf	blu-n-uznávanost	blu-n-uznávanost-1	blu-n-uznávanost-1-impf	ACT	PAT
+uznávání	impf	blu-n-uznávání-uznání	blu-n-uznávání-uznání-1	blu-n-uznávání-uznání-1-impf	ACT	PAT
+uznání	pf	blu-n-uznávání-uznání	blu-n-uznávání-uznání-1	blu-n-uznávání-uznání-1-pf	ACT	PAT
+uznávání	impf	blu-n-uznávání-uznání	blu-n-uznávání-uznání-2	blu-n-uznávání-uznání-2 -impf	ACT	PAT	CAUS
+uznání	pf	blu-n-uznávání-uznání	blu-n-uznávání-uznání-2	blu-n-uznávání-uznání-2 -pf	ACT	PAT	CAUS
+uznávání	impf	blu-n-uznávání-uznání	blu-n-uznávání-uznání-3	blu-n-uznávání-uznání-3-impf	ACT	PAT	EFF
+uznání	pf	blu-n-uznávání-uznání	blu-n-uznávání-uznání-3	blu-n-uznávání-uznání-3-pf	ACT	PAT	EFF
+uznání	pf	blu-n-uznávání-uznání	blu-n-uznávání-uznání-4	blu-n-uznávání-uznání-4-pf	ACT	PAT	CAUS
+užasnutí	pf	blu-n-užasnutí	blu-n-užasnutí-1	blu-n-užasnutí-1-pf	ACT	PAT
+varování	impf	blu-n-varování	blu-n-varování-1	blu-n-varování-1-impf	ACT	ADDR	PAT
+varování	impf	blu-n-varování	blu-n-varování-2	blu-n-varování-2-impf	ACT	ADDR	PAT
+vděčnost	no-aspect	blu-n-vděčnost	blu-n-vděčnost-1	blu-n-vděčnost-1-no-aspect	ACT	ADDR	PAT
+vděčnost	no-aspect	blu-n-vděčnost	blu-n-vděčnost-2	blu-n-vděčnost-2-no-aspect	ACT
+velení	impf	blu-n-velení	blu-n-velení-1	blu-n-velení-1-impf	ACT	PAT
+velení	impf	blu-n-velení	blu-n-velení-2	blu-n-velení-2-impf	ACT	ADDR	PAT
+velení	impf	blu-n-velení	blu-n-velení-3	blu-n-velení-3-impf	PAT
+vhodnost	no-aspect	blu-n-vhodnost	blu-n-vhodnost-1	blu-n-vhodnost-1-no-aspect	ACT	EFF	PAT
+vjem	no-aspect	blu-n-vjem	blu-n-vjem-1	blu-n-vjem-1-no-aspect	ACT	PAT
+vlastnost	no-aspect	blu-n-vlastnost	blu-n-vlastnost-1	blu-n-vlastnost-1-no-aspect	ACT	PAT
+vlastnost	no-aspect	blu-n-vlastnost	blu-n-vlastnost-2	blu-n-vlastnost-2-no-aspect	ACT	APP
+vlídnost	no-aspect	blu-n-vlídnost	blu-n-vlídnost-1	blu-n-vlídnost-1-no-aspect	ACT	PAT
+vlídnost	no-aspect	blu-n-vlídnost	blu-n-vlídnost-2	blu-n-vlídnost-2-no-aspect	ACT
+vnímatelnost	no-aspect	blu-n-vnímatelnost	blu-n-vnímatelnost-1	blu-n-vnímatelnost-1-no-aspect	ACT	PAT
+vnímatelnost	no-aspect	blu-n-vnímatelnost	blu-n-vnímatelnost-2	blu-n-vnímatelnost-2-no-aspect	ACT
+vnímavost	no-aspect	blu-n-vnímavost	blu-n-vnímavost-1	blu-n-vnímavost-1-no-aspect	ACT	PAT
+vnímavost	no-aspect	blu-n-vnímavost	blu-n-vnímavost-2	blu-n-vnímavost-2-no-aspect	ACT	PAT
+vnímání	impf	blu-n-vnímání	blu-n-vnímání-1	blu-n-vnímání-1-impf	ACT	PAT
+vnímání	impf	blu-n-vnímání	blu-n-vnímání-2	blu-n-vnímání-2-impf	ACT	PAT	EFF
+vnímání	impf	blu-n-vnímání	blu-n-vnímání-3	blu-n-vnímání-3-impf	ACT	PAT	EFF
+vstřícnost	no-aspect	blu-n-vstřícnost	blu-n-vstřícnost-1	blu-n-vstřícnost-1-no-aspect	ACT	PAT
+vydíratelnost	no-aspect	blu-n-vydíratelnost	blu-n-vydíratelnost-1	blu-n-vydíratelnost-1-no-aspect	ACT	PAT	MEANS
+vykládání1	impf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-1	blu-n-vykládání1-vyložení1-1-impf	ACT	PAT	DIR1	DIR
+vyložení1	pf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-1	blu-n-vykládání1-vyložení1-1-pf	ACT	PAT	DIR1	DIR
+vykládání1	impf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-2	blu-n-vykládání1-vyložení1-2-impf	ACT	PAT
+vyložení1	pf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-2	blu-n-vykládání1-vyložení1-2-pf	ACT	PAT
+vykládání1	impf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-3	blu-n-vykládání1-vyložení1-3-impf	ACT	PAT	EFF
+vyložení1	pf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-3	blu-n-vykládání1-vyložení1-3-pf	ACT	PAT	EFF
+vykládání1	impf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-4	blu-n-vykládání1-vyložení1-4-impf	EMPTY
+vyložení1	pf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-4	blu-n-vykládání1-vyložení1-4-pf	EMPTY
+vykládání1	impf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-5	blu-n-vykládání1-vyložení1-5-impf	ACT	PAT	BEN
+vyložení1	pf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-5	blu-n-vykládání1-vyložení1-5-pf	ACT	PAT	BEN
+vyložení1	pf	blu-n-vykládání1-vyložení1	blu-n-vykládání1-vyložení1-6	blu-n-vykládání1-vyložení1-6-pf	APP
+vykládání2	impf	blu-n-vykládání2-vyložení2	blu-n-vykládání2-vyložení2-1	blu-n-vykládání2-vyložení2-1-impf	ACT	ADDR	PAT
+vykládání2	impf	blu-n-vykládání2-vyložení2	blu-n-vykládání2-vyložení2-2	blu-n-vykládání2-vyložení2-2-impf	ACT	ADDR	PAT
+vyložení2	pf	blu-n-vykládání2-vyložení2	blu-n-vykládání2-vyložení2-2	blu-n-vykládání2-vyložení2-2-pf	ACT	ADDR	PAT
+vykládání2	impf	blu-n-vykládání2-vyložení2	blu-n-vykládání2-vyložení2-3	blu-n-vykládání2-vyložení2-3-impf	ACT	ADDR	PAT	EFF
+vykládání2	impf	blu-n-vykládání2-vyložení2	blu-n-vykládání2-vyložení2-4	blu-n-vykládání2-vyložení2-4-impf	ACT	PAT	EFF	BEN
+vyložení2	pf	blu-n-vykládání2-vyložení2	blu-n-vykládání2-vyložení2-4	blu-n-vykládání2-vyložení2-4-pf	ACT	PAT	EFF	BEN
+vykládání2	impf	blu-n-vykládání2-vyložení2	blu-n-vykládání2-vyložení2-5	blu-n-vykládání2-vyložení2-5-impf	ACT	PAT	MANN	BEN
+vyložení2	pf	blu-n-vykládání2-vyložení2	blu-n-vykládání2-vyložení2-5	blu-n-vykládání2-vyložení2-5-pf	ACT	PAT	MANN	BEN
+vymahatelnost	no-aspect	blu-n-vymahatelnost	blu-n-vymahatelnost-1	blu-n-vymahatelnost-1-no-aspect	ACT	PAT	ORIG
+vypovídání1 (se)	impf	blu-n-vypovídání1-se	blu-n-vypovídání1-se-1	blu-n-vypovídání1-se-1-impf	ACT	ADDR	PAT
+vypovídání1	impf	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-1	blu-n-vypovídání1-vypovězení1-vypovědění1-1-impf	ACT	PAT	LOC
+vypovězení1	pf1	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-1	blu-n-vypovídání1-vypovězení1-vypovědění1-1-pf1	ACT	PAT	LOC
+vypovědění1	pf2	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-1	blu-n-vypovídání1-vypovězení1-vypovědění1-1-pf2	ACT	PAT	LOC
+vypovídání1	impf	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-2	blu-n-vypovídání1-vypovězení1-vypovědění1-2-impf	ACT	PAT	EFF	LOC
+vypovídání1	impf	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-3+5	blu-n-vypovídání1-vypovězení1-vypovědění1-3+5-impf	ACT	ADDR	CPHR
+vypovězení1	pf1	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-3+5	blu-n-vypovídání1-vypovězení1-vypovědění1-3+5-pf1	ACT	ADDR	CPHR
+vypovědění1	pf2	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-3+5	blu-n-vypovídání1-vypovězení1-vypovědění1-3+5-pf2	ACT	ADDR	CPHR
+vypovídání1	impf	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-4	blu-n-vypovídání1-vypovězení1-vypovědění1-4-impf	ACT	PAT	DIR1	DIR3
+vypovězení1	pf1	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-4	blu-n-vypovídání1-vypovězení1-vypovědění1-4-pf1	ACT	PAT	DIR1	DIR3
+vypovědění1	pf2	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-4	blu-n-vypovídání1-vypovězení1-vypovědění1-4-pf2	ACT	PAT	DIR1	DIR3
+vypovídání1	impf	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-6	blu-n-vypovídání1-vypovězení1-vypovědění1-6-impf	ACT	PAT
+vypovězení1	pf1	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-6	blu-n-vypovídání1-vypovězení1-vypovědění1-6-pf1	ACT	PAT
+vypovědění1	pf2	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-6	blu-n-vypovídání1-vypovězení1-vypovědění1-6-pf2	ACT	PAT
+vypovídání1	impf	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-8	blu-n-vypovídání1-vypovězení1-vypovědění1-8-impf	ACT	CPHR
+vypovězení1	pf1	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-8	blu-n-vypovídání1-vypovězení1-vypovědění1-8-pf1	ACT	CPHR
+vypovědění1	pf2	blu-n-vypovídání1-vypovězení1-vypovědění1	blu-n-vypovídání1-vypovězení1-vypovědění1-8	blu-n-vypovídání1-vypovězení1-vypovědění1-8-pf2	ACT	CPHR
+vypovídání2	pf1	blu-n-vypovídání2-vypovězení2-vypovědění2	blu-n-vypovídání2-vypovězení2-vypovědění2-1	blu-n-vypovídání2-vypovězení2-vypovědění2-1-pf1	ACT	ADDR	PAT
+vypovězení2	pf2	blu-n-vypovídání2-vypovězení2-vypovědění2	blu-n-vypovídání2-vypovězení2-vypovědění2-1	blu-n-vypovídání2-vypovězení2-vypovědění2-1-pf2	ACT	ADDR	PAT
+vypovědění2	pf3	blu-n-vypovídání2-vypovězení2-vypovědění2	blu-n-vypovídání2-vypovězení2-vypovědění2-1	blu-n-vypovídání2-vypovězení2-vypovědění2-1-pf3	ACT	ADDR	PAT
+vyptávání (se)	impf	blu-n-vyptávání-se-vyptání-se	blu-n-vyptávání-se-vyptání-se-1	blu-n-vyptávání-se-vyptání-se-1-impf	ACT	ADDR	PAT
+vyptání (se)	pf	blu-n-vyptávání-se-vyptání-se	blu-n-vyptávání-se-vyptání-se-1	blu-n-vyptávání-se-vyptání-se-1-pf	ACT	ADDR	PAT
+vysvětlování	impf	blu-n-vysvětlování-vysvětlení	blu-n-vysvětlování-vysvětlení-1	blu-n-vysvětlování-vysvětlení-1-impf	ACT	ADDR	PAT	MEANS
+vysvětlení	pf	blu-n-vysvětlování-vysvětlení	blu-n-vysvětlování-vysvětlení-1	blu-n-vysvětlování-vysvětlení-1-pf	ACT	ADDR	PAT	MEANS
+vysvětlení	pf	blu-n-vysvětlování-vysvětlení	blu-n-vysvětlování-vysvětlení-2	blu-n-vysvětlování-vysvětlení-2-pf	ACT	ADDR	PAT
+vytýkání	impf	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-1	blu-n-vytýkání-vytčení-vytknutí-1-impf	ACT	ADDR	PAT
+vytknutí	pf1	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-1	blu-n-vytýkání-vytčení-vytknutí-1-pf1	ACT	ADDR	PAT
+vytčení	pf2	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-1	blu-n-vytýkání-vytčení-vytknutí-1-pf2	ACT	ADDR	PAT
+vytýkání	impf	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-2	blu-n-vytýkání-vytčení-vytknutí-2-impf	ACT	PAT	EFF
+vytknutí	pf1	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-2	blu-n-vytýkání-vytčení-vytknutí-2-pf1	ACT	PAT	EFF
+vytčení	pf2	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-2	blu-n-vytýkání-vytčení-vytknutí-2-pf2	ACT	PAT	EFF
+vytýkání	impf	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-3	blu-n-vytýkání-vytčení-vytknutí-3-impf	ACT	PAT	DIR1
+vytknutí	pf1	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-3	blu-n-vytýkání-vytčení-vytknutí-3-pf1	ACT	PAT	DIR1
+vytčení	pf2	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-3	blu-n-vytýkání-vytčení-vytknutí-3-pf2	ACT	PAT	DIR1
+vytýkání	impf	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-4	blu-n-vytýkání-vytčení-vytknutí-4-impf	ACT	PAT
+vytknutí	pf1	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-4	blu-n-vytýkání-vytčení-vytknutí-4-pf1	ACT	PAT
+vytčení	pf2	blu-n-vytýkání-vytčení-vytknutí	blu-n-vytýkání-vytčení-vytknutí-4	blu-n-vytýkání-vytčení-vytknutí-4-pf2	ACT	PAT
+vyučení (se)	pf	blu-n-vyučení-se	blu-n-vyučení-se-1	blu-n-vyučení-se-1-pf	ACT	PAT
+vyučování	impf	blu-n-vyučování-vyučení	blu-n-vyučování-vyučení-1	blu-n-vyučování-vyučení-1-impf	ACT	ADDR	PAT
+vyučení	pf	blu-n-vyučování-vyučení	blu-n-vyučování-vyučení-2	blu-n-vyučování-vyučení-2-pf	ACT	ADDR	PAT
+vyučování	impf	blu-n-vyučování-vyučení	blu-n-vyučování-vyučení-3	blu-n-vyučování-vyučení-3-impf	ACT	PAT
+vyučení	pf	blu-n-vyučování-vyučení	blu-n-vyučování-vyučení-3	blu-n-vyučování-vyučení-3-pf	ACT	PAT
+vyučování	impf	blu-n-vyučování-vyučení	blu-n-vyučování-vyučení-4	blu-n-vyučování-vyučení-4-impf	EMPTY
+využitelnost	no-aspect	blu-n-využitelnost	blu-n-využitelnost-1	blu-n-využitelnost-1-no-aspect	ACT	PAT	AIM
+vyznamenávání	impf	blu-n-vyznamenávání-vyznamenání	blu-n-vyznamenávání-vyznamenání-1	blu-n-vyznamenávání-vyznamenání-1-impf	ACT	PAT	MEANS	CAUS
+vyznamenání	pf	blu-n-vyznamenávání-vyznamenání	blu-n-vyznamenávání-vyznamenání-1	blu-n-vyznamenávání-vyznamenání-1-pf	ACT	PAT	MEANS	CAUS
+vyznamenání	pf	blu-n-vyznamenávání-vyznamenání	blu-n-vyznamenávání-vyznamenání-2	blu-n-vyznamenávání-vyznamenání-2-pf	ACT	PAT	MEANS	CAUS
+vyznamenání	pf	blu-n-vyznamenávání-vyznamenání	blu-n-vyznamenávání-vyznamenání-3	blu-n-vyznamenávání-vyznamenání-3-pf	EMPTY
+vyznamenání	pf	blu-n-vyznamenávání-vyznamenání	blu-n-vyznamenávání-vyznamenání-4	blu-n-vyznamenávání-vyznamenání-4-pf	EMPTY
+vyzývání	impf	blu-n-vyzývání-vyzvání	blu-n-vyzývání-vyzvání-1	blu-n-vyzývání-vyzvání-1-impf	ACT	ADDR	PAT
+vyzvání	pf	blu-n-vyzývání-vyzvání	blu-n-vyzývání-vyzvání-1	blu-n-vyzývání-vyzvání-1-pf	ACT	ADDR	PAT
+vyzvání	pf	blu-n-vyzývání-vyzvání	blu-n-vyzývání-vyzvání-2	blu-n-vyzývání-vyzvání-2-pf	ACT	ADDR	PAT
+vyčítání	impf	blu-n-vyčítání-vyčtení	blu-n-vyčítání-vyčtení-1	blu-n-vyčítání-vyčtení-1-impf	ACT	ADDR	PAT
+vyčtení	pf	blu-n-vyčítání-vyčtení	blu-n-vyčítání-vyčtení-1	blu-n-vyčítání-vyčtení-1-pf	ACT	ADDR	PAT
+vyčítání	impf	blu-n-vyčítání-vyčtení	blu-n-vyčítání-vyčtení-2	blu-n-vyčítání-vyčtení-2-impf	ACT	PAT	DIR1	LOC
+vyčtení	pf	blu-n-vyčítání-vyčtení	blu-n-vyčítání-vyčtení-2	blu-n-vyčítání-vyčtení-2-pf	ACT	PAT	DIR1	LOC
+vyčítání	impf	blu-n-vyčítání-vyčtení	blu-n-vyčítání-vyčtení-3	blu-n-vyčítání-vyčtení-3-impf	ACT	PAT
+vyčtení	pf	blu-n-vyčítání-vyčtení	blu-n-vyčítání-vyčtení-3	blu-n-vyčítání-vyčtení-3-pf	ACT	PAT
+vzpomínka	no-aspect	blu-n-vzpomínka	blu-n-vzpomínka-1	blu-n-vzpomínka-1-no-aspect	ACT	PAT
+vzpomínka	no-aspect	blu-n-vzpomínka	blu-n-vzpomínka-2	blu-n-vzpomínka-2-no-aspect	ACT	PAT	EFF
+vzpomínka	no-aspect	blu-n-vzpomínka	blu-n-vzpomínka-3	blu-n-vzpomínka-3-no-aspect	ACT	PAT
+vzpomínání (si)	impf	blu-n-vzpomínání-si-vzpomenutí-si	blu-n-vzpomínání-si-vzpomenutí-si-1	blu-n-vzpomínání-si-vzpomenutí-si-1-impf	ACT	PAT	COMPL
+vzpomenutí (si)	pf	blu-n-vzpomínání-si-vzpomenutí-si	blu-n-vzpomínání-si-vzpomenutí-si-1	blu-n-vzpomínání-si-vzpomenutí-si-1-pf	ACT	PAT	COMPL
+vzpomínání (si)	impf	blu-n-vzpomínání-si-vzpomenutí-si	blu-n-vzpomínání-si-vzpomenutí-si-2	blu-n-vzpomínání-si-vzpomenutí-si-2-impf	ACT	PAT	EFF
+vzpomenutí (si)	pf	blu-n-vzpomínání-si-vzpomenutí-si	blu-n-vzpomínání-si-vzpomenutí-si-2	blu-n-vzpomínání-si-vzpomenutí-si-2-pf	ACT	PAT	EFF
+vzpomínání	impf	blu-n-vzpomínání-vzpomenutí	blu-n-vzpomínání-vzpomenutí-1	blu-n-vzpomínání-vzpomenutí-1-impf	ACT	PAT
+vzpomenutí	pf	blu-n-vzpomínání-vzpomenutí	blu-n-vzpomínání-vzpomenutí-1	blu-n-vzpomínání-vzpomenutí-1-pf	ACT	PAT
+vzrušování (se)	impf	blu-n-vzrušování-se	blu-n-vzrušování-se-1	blu-n-vzrušování-se-1-impf	ACT	PAT
+vzrušování	impf	blu-n-vzrušování-vzrušení	blu-n-vzrušování-vzrušení-1	blu-n-vzrušování-vzrušení-1-impf	ACT	PAT	MEANS
+vzrušení	pf	blu-n-vzrušování-vzrušení	blu-n-vzrušování-vzrušení-1	blu-n-vzrušování-vzrušení-1-pf	ACT	PAT	MEANS
+vzrušení	pf	blu-n-vzrušování-vzrušení	blu-n-vzrušování-vzrušení-2	blu-n-vzrušování-vzrušení-2-pf	ACT	PAT
+vztek	no-aspect	blu-n-vztek	blu-n-vztek-1	blu-n-vztek-1-no-aspect	ACT	PAT
+vzteklost	no-aspect	blu-n-vzteklost	blu-n-vzteklost-1	blu-n-vzteklost-1-no-aspect	ACT	ADDR	PAT
+vztekání (se)	impf	blu-n-vztekání-se-vzteknutí-se	blu-n-vztekání-se-vzteknutí-se-1	blu-n-vztekání-se-vzteknutí-se-1-impf	ACT	PAT
+vzteknutí (se)	pf	blu-n-vztekání-se-vzteknutí-se	blu-n-vztekání-se-vzteknutí-se-1	blu-n-vztekání-se-vzteknutí-se-1-pf	ACT	PAT
+vztekání (se)	impf	blu-n-vztekání-se-vzteknutí-se	blu-n-vztekání-se-vzteknutí-se-2	blu-n-vztekání-se-vzteknutí-se-2-impf	ACT	PAT
+výklad1	no-aspect	blu-n-výklad1	blu-n-výklad1-1	blu-n-výklad1-1-no-aspect	ACT	PAT	BEN
+výklad1	no-aspect	blu-n-výklad1	blu-n-výklad1-2	blu-n-výklad1-2-no-aspect	EMPTY
+výklad2	no-aspect	blu-n-výklad2	blu-n-výklad2-1	blu-n-výklad2-1-no-aspect	ACT	ADDR	PAT
+výklad2	no-aspect	blu-n-výklad2	blu-n-výklad2-2	blu-n-výklad2-2-no-aspect	ACT	ADDR	PAT	EFF
+výklad2	no-aspect	blu-n-výklad2	blu-n-výklad2-3	blu-n-výklad2-3-no-aspect	ACT	PAT	EFF
+výpověď	no-aspect	blu-n-výpověď	blu-n-výpověď-1	blu-n-výpověď-1-no-aspect	ACT	ADDR	PAT	LOC
+výpověď	no-aspect	blu-n-výpověď	blu-n-výpověď-3+5	blu-n-výpověď-3+5-no-aspect	ACT	ADDR	CPHR
+výpověď	no-aspect	blu-n-výpověď	blu-n-výpověď-4	blu-n-výpověď-4-no-aspect	ACT	PAT	DIR1	DIR3
+výpověď	no-aspect	blu-n-výpověď	blu-n-výpověď-8	blu-n-výpověď-8-no-aspect	ACT	CPHR
+výtka	no-aspect	blu-n-výtka	blu-n-výtka-1	blu-n-výtka-1-no-aspect	ACT	ADDR	PAT
+výuka	no-aspect	blu-n-výuka	blu-n-výuka-1	blu-n-výuka-1-no-aspect	ACT	ADDR	PAT
+výzva	no-aspect	blu-n-výzva	blu-n-výzva-1	blu-n-výzva-1-no-aspect	ACT	ADDR	PAT
+vědomost	no-aspect	blu-n-vědomost	blu-n-vědomost-1	blu-n-vědomost-1-no-aspect	ACT	PAT
+vědomost	no-aspect	blu-n-vědomost	blu-n-vědomost-2	blu-n-vědomost-2-no-aspect	ACT	PAT
+vědomost	no-aspect	blu-n-vědomost	blu-n-vědomost-3	blu-n-vědomost-3-no-aspect	EMPTY
+vědoucnost	impf	blu-n-vědoucnost	blu-n-vědoucnost-1	blu-n-vědoucnost-1-impf	ACT	PAT
+věrnost	no-aspect	blu-n-věrnost	blu-n-věrnost-1	blu-n-věrnost-1-no-aspect	ACT	PAT
+věrnost	no-aspect	blu-n-věrnost	blu-n-věrnost-2	blu-n-věrnost-2-no-aspect	ACT	PAT
+věrnost	no-aspect	blu-n-věrnost	blu-n-věrnost-3	blu-n-věrnost-3-no-aspect	ACT
+věrnost	no-aspect	blu-n-věrnost	blu-n-věrnost-4	blu-n-věrnost-4-no-aspect	ACT
+všímavost	no-aspect	blu-n-všímavost	blu-n-všímavost-1	blu-n-všímavost-1-no-aspect	ACT	PAT
+zajímavost	no-aspect	blu-n-zajímavost	blu-n-zajímavost-1	blu-n-zajímavost-1-no-aspect	ACT	PAT
+zajímavost	no-aspect	blu-n-zajímavost	blu-n-zajímavost-2	blu-n-zajímavost-2-no-aspect	PAT
+zajímavost	no-aspect	blu-n-zajímavost	blu-n-zajímavost-3	blu-n-zajímavost-3-no-aspect	EMPTY	APP
+zajímání1 (se)	impf	blu-n-zajímání1-se	blu-n-zajímání1-se-1	blu-n-zajímání1-se-1-impf	ACT	PAT
+zajímání2	impf	blu-n-zajímání2-zajmutí-zajetí	blu-n-zajímání2-zajmutí-zajetí-1	blu-n-zajímání2-zajmutí-zajetí-1-impf	ACT	PAT
+zajmutí	pf1	blu-n-zajímání2-zajmutí-zajetí	blu-n-zajímání2-zajmutí-zajetí-1	blu-n-zajímání2-zajmutí-zajetí-1-pf1	ACT	PAT
+zajetí	pf2	blu-n-zajímání2-zajmutí-zajetí	blu-n-zajímání2-zajmutí-zajetí-1	blu-n-zajímání2-zajmutí-zajetí-1-pf2	ACT	PAT
+zajetí	pf2	blu-n-zajímání2-zajmutí-zajetí	blu-n-zajímání2-zajmutí-zajetí-2	blu-n-zajímání2-zajmutí-zajetí-2-pf2	ACT	PAT
+zajetí	pf2	blu-n-zajímání2-zajmutí-zajetí	blu-n-zajímání2-zajmutí-zajetí-3	blu-n-zajímání2-zajmutí-zajetí-3-pf2	ACT
+zajetí	pf2	blu-n-zajímání2-zajmutí-zajetí	blu-n-zajímání2-zajmutí-zajetí-4	blu-n-zajímání2-zajmutí-zajetí-4-pf2	EMPTY
+zakazování	impf	blu-n-zakazování-zakázání	blu-n-zakazování-zakázání-1	blu-n-zakazování-zakázání-1-impf	ACT	ADDR	PAT
+zakázání	pf	blu-n-zakazování-zakázání	blu-n-zakazování-zakázání-1	blu-n-zakazování-zakázání-1-pf	ACT	ADDR	PAT
+zakazování	impf	blu-n-zakazování-zakázání	blu-n-zakazování-zakázání-2	blu-n-zakazování-zakázání-2-impf	ACT	PAT
+zakázání	pf	blu-n-zakazování-zakázání	blu-n-zakazování-zakázání-2	blu-n-zakazování-zakázání-2-pf	ACT	PAT
+zalíbení	pf	blu-n-zalíbení	blu-n-zalíbení-1	blu-n-zalíbení-1-pf	ACT	PAT
+zalíbení	pf	blu-n-zalíbení	blu-n-zalíbení-2	blu-n-zalíbení-2-pf	EMPTY
+zalíbení (se)	pf	blu-n-zalíbení-se	blu-n-zalíbení-se-1	blu-n-zalíbení-se-1-pf	ACT	PAT
+zamilovanost	no-aspect	blu-n-zamilovanost	blu-n-zamilovanost-1	blu-n-zamilovanost-1-no-aspect	ACT	PAT
+zarmucování	impf	blu-n-zarmucování-zarmoucení	blu-n-zarmucování-zarmoucení-1	blu-n-zarmucování-zarmoucení-1-impf	ACT	PAT
+zarmoucení	pf	blu-n-zarmucování-zarmoucení	blu-n-zarmucování-zarmoucení-1	blu-n-zarmucování-zarmoucení-1-pf	ACT	PAT
+zarmoucení	pf	blu-n-zarmucování-zarmoucení	blu-n-zarmucování-zarmoucení-2	blu-n-zarmucování-zarmoucení-2-pf	ACT	PAT
+zasahování	impf	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-1	blu-n-zasahování-zasáhnutí-zasažení-1-impf	ACT	PAT	MEANS
+zasáhnutí	pf1	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-1	blu-n-zasahování-zasáhnutí-zasažení-1-pf1	ACT	PAT	MEANS
+zasažení	pf2	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-1	blu-n-zasahování-zasáhnutí-zasažení-1-pf2	ACT	PAT	MEANS
+zasáhnutí	pf1	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-2	blu-n-zasahování-zasáhnutí-zasažení-2-pf1	ACT	PAT	MEANS
+zasažení	pf2	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-2	blu-n-zasahování-zasáhnutí-zasažení-2-pf2	ACT	PAT	MEANS
+zasahování	impf	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-3	blu-n-zasahování-zasáhnutí-zasažení-3-impf	ACT	PAT
+zasáhnutí	pf1	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-3	blu-n-zasahování-zasáhnutí-zasažení-3-pf1	ACT	PAT
+zasažení	pf2	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-3	blu-n-zasahování-zasáhnutí-zasažení-3-pf2	ACT	PAT
+zasahování	impf	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-4	blu-n-zasahování-zasáhnutí-zasažení-4-impf	ACT	PAT	MEANS	LOC
+zasáhnutí	pf1	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-4	blu-n-zasahování-zasáhnutí-zasažení-4-pf1	ACT	PAT	MEANS	LOC
+zasažení	pf2	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-4	blu-n-zasahování-zasáhnutí-zasažení-4-pf2	ACT	PAT	MEANS	LOC
+zasahování	impf	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-6	blu-n-zasahování-zasáhnutí-zasažení-6-impf	ACT	PAT
+zasáhnutí	pf1	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-6	blu-n-zasahování-zasáhnutí-zasažení-6-pf1	ACT	PAT
+zasažení	pf2	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-6	blu-n-zasahování-zasáhnutí-zasažení-6-pf2	ACT	PAT
+zasahování	impf	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-7	blu-n-zasahování-zasáhnutí-zasažení-7-impf	ACT	DIR3	DIR
+zasáhnutí	pf1	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-7	blu-n-zasahování-zasáhnutí-zasažení-7-pf1	ACT	DIR3	DIR
+zasažení	pf2	blu-n-zasahování-zasáhnutí-zasažení	blu-n-zasahování-zasáhnutí-zasažení-7	blu-n-zasahování-zasáhnutí-zasažení-7-pf2	ACT	DIR3	DIR
+zasedlost	no-aspect	blu-n-zasedlost	blu-n-zasedlost-1	blu-n-zasedlost-1-no-aspect	ACT	PAT
+zaujatost	no-aspect	blu-n-zaujatost	blu-n-zaujatost-1	blu-n-zaujatost-1-no-aspect	ACT	PAT
+zaujatost	no-aspect	blu-n-zaujatost	blu-n-zaujatost-2	blu-n-zaujatost-2-no-aspect	ACT	PAT
+zaujatost	no-aspect	blu-n-zaujatost	blu-n-zaujatost-3	blu-n-zaujatost-3-no-aspect	ACT	PAT
+zaznamenávání	impf	blu-n-zaznamenávání-zaznamenání	blu-n-zaznamenávání-zaznamenání-1	blu-n-zaznamenávání-zaznamenání-1-impf	ACT	PAT	BEN	LOC	DIR3	MEANS
+zaznamenání	pf	blu-n-zaznamenávání-zaznamenání	blu-n-zaznamenávání-zaznamenání-1	blu-n-zaznamenávání-zaznamenání-1-pf	ACT	PAT	BEN	LOC	DIR3	MEANS
+zaznamenávání	impf	blu-n-zaznamenávání-zaznamenání	blu-n-zaznamenávání-zaznamenání-2	blu-n-zaznamenávání-zaznamenání-2-impf	ACT	PAT	EFF	BEN	LOC	DIR3
+zaznamenání	pf	blu-n-zaznamenávání-zaznamenání	blu-n-zaznamenávání-zaznamenání-2	blu-n-zaznamenávání-zaznamenání-2-pf	ACT	PAT	EFF	BEN	LOC	DIR3
+zaznamenání	pf	blu-n-zaznamenávání-zaznamenání	blu-n-zaznamenávání-zaznamenání-3	blu-n-zaznamenávání-zaznamenání-3-pf	ACT	PAT
+zaznamenávání	impf	blu-n-zaznamenávání-zaznamenání	blu-n-zaznamenávání-zaznamenání-5	blu-n-zaznamenávání-zaznamenání-5-impf	ACT	CPHR
+zaznamenání	pf	blu-n-zaznamenávání-zaznamenání	blu-n-zaznamenávání-zaznamenání-5	blu-n-zaznamenávání-zaznamenání-5-pf	ACT	CPHR
+zbavenost	no-aspect	blu-n-zbavenost	blu-n-zbavenost-1	blu-n-zbavenost-1-no-aspect	PAT
+zdvořilost	no-aspect	blu-n-zdvořilost	blu-n-zdvořilost-1	blu-n-zdvořilost-1-no-aspect	ACT	PAT
+zdvořilost	no-aspect	blu-n-zdvořilost	blu-n-zdvořilost-2	blu-n-zdvořilost-2-no-aspect	ACT
+zdání	impf	blu-n-zdání	blu-n-zdání-1	blu-n-zdání-1-impf	ACT	PAT	ORIG
+zdání	impf	blu-n-zdání	blu-n-zdání-2	blu-n-zdání-2-impf	PAT
+zdání	impf	blu-n-zdání	blu-n-zdání-3	blu-n-zdání-3-impf	PAT
+zdání	impf	blu-n-zdání	blu-n-zdání-4	blu-n-zdání-4-impf	MAT
+zděšení	pf	blu-n-zděšení	blu-n-zděšení-1	blu-n-zděšení-1-pf	ACT	PAT
+zeptání (se)	pf	blu-n-zeptání-se	blu-n-zeptání-se-1	blu-n-zeptání-se-1-pf	ACT	ADDR	PAT	MANN
+zhrození (se)	pf	blu-n-zhrození-se	blu-n-zhrození-se-1	blu-n-zhrození-se-1-pf	ACT	PAT
+zisk	no-aspect	blu-n-zisk	blu-n-zisk-1	blu-n-zisk-1-no-aspect	ACT	PAT	ORIG	DIR1	MEANS
+zkušenost	no-aspect	blu-n-zkušenost	blu-n-zkušenost-1	blu-n-zkušenost-1-no-aspect	ACT	PAT	ORIG
+zmatenost	no-aspect	blu-n-zmatenost	blu-n-zmatenost-1	blu-n-zmatenost-1-no-aspect	ACT	PAT
+zmatenost	no-aspect	blu-n-zmatenost	blu-n-zmatenost-2	blu-n-zmatenost-2-no-aspect	ACT
+znalost	no-aspect	blu-n-znalost	blu-n-znalost-1	blu-n-znalost-1-no-aspect	ACT	PAT
+znalost	no-aspect	blu-n-znalost	blu-n-znalost-2	blu-n-znalost-2-no-aspect	ACT	PAT
+znatelnost	no-aspect	blu-n-znatelnost	blu-n-znatelnost-1	blu-n-znatelnost-1-no-aspect	PAT
+znepokojování (se)	impf	blu-n-znepokojování-se-znepokojení-se	blu-n-znepokojování-se-znepokojení-se-1	blu-n-znepokojování-se-znepokojení-se-1-impf	ACT	PAT
+znepokojení (se)	pf	blu-n-znepokojování-se-znepokojení-se	blu-n-znepokojování-se-znepokojení-se-1	blu-n-znepokojování-se-znepokojení-se-1-pf	ACT	PAT
+znepokojování	impf	blu-n-znepokojování-znepokojení	blu-n-znepokojování-znepokojení-1	blu-n-znepokojování-znepokojení-1-impf	ACT	PAT	MEANS
+znepokojení	pf	blu-n-znepokojování-znepokojení	blu-n-znepokojování-znepokojení-1	blu-n-znepokojování-znepokojení-1-pf	ACT	PAT	MEANS
+znepokojení	pf	blu-n-znepokojování-znepokojení	blu-n-znepokojování-znepokojení-2	blu-n-znepokojování-znepokojení-2-pf	ACT	PAT
+znesvářenost	no-aspect	blu-n-znesvářenost	blu-n-znesvářenost-1	blu-n-znesvářenost-1-no-aspect	ACT	PAT
+známost	no-aspect	blu-n-známost	blu-n-známost-1	blu-n-známost-1-no-aspect	ACT	PAT	COMPL
+známost	no-aspect	blu-n-známost	blu-n-známost-2	blu-n-známost-2-no-aspect	ACT	PAT
+známost	no-aspect	blu-n-známost	blu-n-známost-3	blu-n-známost-3-no-aspect	ACT	PAT
+známost	no-aspect	blu-n-známost	blu-n-známost-4	blu-n-známost-4-no-aspect	APP
+zoufalost	no-aspect	blu-n-zoufalost	blu-n-zoufalost-1	blu-n-zoufalost-1-no-aspect	ACT	PAT
+zoufalost	no-aspect	blu-n-zoufalost	blu-n-zoufalost-2	blu-n-zoufalost-2-no-aspect	ACT
+zoufalost	no-aspect	blu-n-zoufalost	blu-n-zoufalost-3	blu-n-zoufalost-3-no-aspect	EMPTY
+zoufalství	no-aspect	blu-n-zoufalství	blu-n-zoufalství-1	blu-n-zoufalství-1-no-aspect	ACT	PAT
+zoufalství	no-aspect	blu-n-zoufalství	blu-n-zoufalství-2	blu-n-zoufalství-2-no-aspect	ACT
+zpravování	impf	blu-n-zpravování-zpravení	blu-n-zpravování-zpravení-1	blu-n-zpravování-zpravení-1-impf	ACT	ADDR	PAT
+zpravení	pf	blu-n-zpravování-zpravení	blu-n-zpravování-zpravení-1	blu-n-zpravování-zpravení-1-pf	ACT	ADDR	PAT
+zpráva	no-aspect	blu-n-zpráva	blu-n-zpráva-1	blu-n-zpráva-1-no-aspect	ACT	ADDR	PAT
+zpráva	no-aspect	blu-n-zpráva	blu-n-zpráva-2	blu-n-zpráva-2-no-aspect	ACT	ADDR	PAT	EFF
+zpráva	no-aspect	blu-n-zpráva	blu-n-zpráva-4	blu-n-zpráva-4-no-aspect	ACT	PAT
+zpráva	no-aspect	blu-n-zpráva	blu-n-zpráva-5	blu-n-zpráva-5-no-aspect	ACT	LOC
+způsobilost	no-aspect	blu-n-způsobilost	blu-n-způsobilost-1	blu-n-způsobilost-1-no-aspect	ACT	PAT
+zuřivost	no-aspect	blu-n-zuřivost	blu-n-zuřivost-1	blu-n-zuřivost-1-no-aspect	ACT	ADDR	PAT
+zvyklost	no-aspect	blu-n-zvyklost	blu-n-zvyklost-1	blu-n-zvyklost-1-no-aspect	ACT	PAT
+zvědavost	no-aspect	blu-n-zvědavost	blu-n-zvědavost-1	blu-n-zvědavost-1-no-aspect	ACT	PAT
+zájem	no-aspect	blu-n-zájem	blu-n-zájem-1	blu-n-zájem-1-no-aspect	ACT	PAT
+zájem	no-aspect	blu-n-zájem	blu-n-zájem-2	blu-n-zájem-2-no-aspect	ACT	PAT
+zájem	no-aspect	blu-n-zájem	blu-n-zájem-3	blu-n-zájem-3-no-aspect	ACT
+zájem	no-aspect	blu-n-zájem	blu-n-zájem-4	blu-n-zájem-4-no-aspect	ACT
+zákaz	no-aspect	blu-n-zákaz	blu-n-zákaz-1	blu-n-zákaz-1-no-aspect	ACT	ADDR	PAT
+zákaz	no-aspect	blu-n-zákaz	blu-n-zákaz-2	blu-n-zákaz-2-no-aspect	ACT	PAT
+záliba	no-aspect	blu-n-záliba	blu-n-záliba-1	blu-n-záliba-1-no-aspect	ACT	PAT
+záliba	no-aspect	blu-n-záliba	blu-n-záliba-2	blu-n-záliba-2-no-aspect	ACT
+záliba	no-aspect	blu-n-záliba	blu-n-záliba-3	blu-n-záliba-3-no-aspect	EMPTY
+zármutek	no-aspect	blu-n-zármutek	blu-n-zármutek-1	blu-n-zármutek-1-no-aspect	ACT	PAT
+zásah	no-aspect	blu-n-zásah	blu-n-zásah-1	blu-n-zásah-1-no-aspect	ACT	PAT	MEANS
+zásah	no-aspect	blu-n-zásah	blu-n-zásah-3	blu-n-zásah-3-no-aspect	ACT	PAT
+zásah	no-aspect	blu-n-zásah	blu-n-zásah-4	blu-n-zásah-4-no-aspect	ACT	PAT
+zásah	no-aspect	blu-n-zásah	blu-n-zásah-6	blu-n-zásah-6-no-aspect	ACT	PAT
+závidění	impf	blu-n-závidění	blu-n-závidění-1	blu-n-závidění-1-impf	ACT	ADDR	PAT
+závislost	no-aspect	blu-n-závislost	blu-n-závislost-1	blu-n-závislost-1-no-aspect	ACT	PAT
+závislost	no-aspect	blu-n-závislost	blu-n-závislost-2	blu-n-závislost-2-no-aspect	ACT	PAT
+závist	no-aspect	blu-n-závist	blu-n-závist-1	blu-n-závist-1-no-aspect	ACT	ADDR	PAT
+záznam	no-aspect	blu-n-záznam	blu-n-záznam-1	blu-n-záznam-1-no-aspect	ACT	PAT	BEN	LOC	DIR3	MEANS
+záznam	no-aspect	blu-n-záznam	blu-n-záznam-2	blu-n-záznam-2-no-aspect	ACT	PAT	LOC	DIR3
+záznam	no-aspect	blu-n-záznam	blu-n-záznam-3	blu-n-záznam-3-no-aspect	ACT	PAT	EFF	LOC	DIR3
+záznam	no-aspect	blu-n-záznam	blu-n-záznam-7	blu-n-záznam-7-no-aspect	ACT	PAT	DIR1
+záznam	no-aspect	blu-n-záznam	blu-n-záznam-8	blu-n-záznam-8-no-aspect	APP
+zříkání se	impf	blu-n-zříkání-se-zřeknutí-se	blu-n-zříkání-se-zřeknutí-se-1	blu-n-zříkání-se-zřeknutí-se-1-impf	ACT	PAT
+zřeknutí se	pf	blu-n-zříkání-se-zřeknutí-se	blu-n-zříkání-se-zřeknutí-se-1	blu-n-zříkání-se-zřeknutí-se-1-pf	ACT	PAT
+ústupnost	no-aspect	blu-n-ústupnost	blu-n-ústupnost-1	blu-n-ústupnost-1-no-aspect	ACT	PAT	REG
+úsudek	no-aspect	blu-n-úsudek	blu-n-úsudek-1	blu-n-úsudek-1-no-aspect	ACT	PAT	ORIG
+útěcha	no-aspect	blu-n-útěcha	blu-n-útěcha-1	blu-n-útěcha-1-no-aspect	ACT	PAT
+útěcha	no-aspect	blu-n-útěcha	blu-n-útěcha-2	blu-n-útěcha-2-no-aspect	ACT	ADDR	PAT
+útěcha	no-aspect	blu-n-útěcha	blu-n-útěcha-3	blu-n-útěcha-3-no-aspect	ACT	PAT
+úzkost	no-aspect	blu-n-úzkost	blu-n-úzkost-1	blu-n-úzkost-1-no-aspect	ACT	PAT
+úzkost	no-aspect	blu-n-úzkost	blu-n-úzkost-2	blu-n-úzkost-2-no-aspect	ACT	PAT
+účastenství	no-aspect	blu-n-účastenství	blu-n-účastenství-1	blu-n-účastenství-1-no-aspect	ACT	PAT
+účastenství	no-aspect	blu-n-účastenství	blu-n-účastenství-2	blu-n-účastenství-2-no-aspect	ACT	PAT
+účastnost	no-aspect	blu-n-účastnost	blu-n-účastnost-1	blu-n-účastnost-1-no-aspect	ACT	PAT
+účastnost	no-aspect	blu-n-účastnost	blu-n-účastnost-2	blu-n-účastnost-2-no-aspect	ACT	PAT
+úžas	no-aspect	blu-n-úžas	blu-n-úžas-1	blu-n-úžas-1-no-aspect	ACT	PAT
+četba	no-aspect	blu-n-četba	blu-n-četba-1	blu-n-četba-1-no-aspect	ACT	ADDR	PAT
+četba	no-aspect	blu-n-četba	blu-n-četba-2	blu-n-četba-2-no-aspect	PAT
+činnost	no-aspect	blu-n-činnost	blu-n-činnost-1	blu-n-činnost-1-no-aspect	ACT	PAT	AIM	BEN
+činnost	no-aspect	blu-n-činnost	blu-n-činnost-2	blu-n-činnost-2-no-aspect	ACT	PAT
+čitelnost	impf	blu-n-čitelnost	blu-n-čitelnost-1	blu-n-čitelnost-1-impf	ACT	PAT
+čitelnost	impf	blu-n-čitelnost	blu-n-čitelnost-2	blu-n-čitelnost-2-impf	ACT	PAT
+čtenost	impf	blu-n-čtenost	blu-n-čtenost-1	blu-n-čtenost-1-impf	ACT	PAT
+čtení	impf	blu-n-čtení	blu-n-čtení-1	blu-n-čtení-1-impf	ACT	ADDR	PAT
+čtení	impf	blu-n-čtení	blu-n-čtení-2	blu-n-čtení-2-impf	ACT	ADDR	PAT	EFF	MANN	LOC
+čtení	impf	blu-n-čtení	blu-n-čtení-3	blu-n-čtení-3-impf	PAT
+čtení	impf	blu-n-čtení	blu-n-čtení-4	blu-n-čtení-4-impf	ACT	PAT	EFF
+čtení	impf	blu-n-čtení	blu-n-čtení-5	blu-n-čtení-5-impf	ACT	PAT	DPHR	BEN
+čtení	impf	blu-n-čtení	blu-n-čtení-6	blu-n-čtení-6-impf	ACT	PAT	DPHR	BEN
+čtení	impf	blu-n-čtení	blu-n-čtení-7	blu-n-čtení-7-impf	ACT	DPHR	BEN
+čtivost	impf	blu-n-čtivost	blu-n-čtivost-1	blu-n-čtivost-1-impf	ACT	PAT
+řešení	impf	blu-n-řešení	blu-n-řešení-1	blu-n-řešení-1-impf	ACT	PAT	AIM
+škodlivost	no-aspect	blu-n-škodlivost	blu-n-škodlivost-1	blu-n-škodlivost-1-no-aspect	ACT	PAT
+žal	no-aspect	blu-n-žal	blu-n-žal-1	blu-n-žal-1-no-aspect	ACT	PAT
+žaloba	no-aspect	blu-n-žaloba	blu-n-žaloba-1	blu-n-žaloba-1-no-aspect	ACT	ADDR	PAT	EFF	CAUS
+žaloba	no-aspect	blu-n-žaloba	blu-n-žaloba-3	blu-n-žaloba-3-no-aspect	ACT	ADDR	PAT
+žalování	impf	blu-n-žalování	blu-n-žalování-1	blu-n-žalování-1-impf	ACT	PAT	EFF	CAUS
+žalování	impf	blu-n-žalování	blu-n-žalování-2	blu-n-žalování-2-impf	ACT	ADDR	PAT
+žalování	impf	blu-n-žalování	blu-n-žalování-3	blu-n-žalování-3-impf	ACT	ADDR	PAT
+žalování	impf	blu-n-žalování	blu-n-žalování-4	blu-n-žalování-4-impf	ACT	ADDR	PAT	EFF
+žalování	impf	blu-n-žalování	blu-n-žalování-5	blu-n-žalování-5-impf	ACT	PAT	EFF
+žasnutí	impf	blu-n-žasnutí	blu-n-žasnutí-1	blu-n-žasnutí-1-impf	ACT	PAT
+želení	impf	blu-n-želení	blu-n-želení-1	blu-n-želení-1-impf	ACT	PAT
+želení	impf	blu-n-želení	blu-n-želení-2	blu-n-želení-2-impf	ACT	PAT
+žádanost	no-aspect	blu-n-žádanost	blu-n-žádanost-1	blu-n-žádanost-1-no-aspect	ACT	PAT	LOC
+žádost	no-aspect	blu-n-žádost	blu-n-žádost-1	blu-n-žádost-1-no-aspect	ACT	ADDR	PAT
+žádost	no-aspect	blu-n-žádost	blu-n-žádost-2	blu-n-žádost-2-no-aspect	ACT	PAT
+žádost	no-aspect	blu-n-žádost	blu-n-žádost-3	blu-n-žádost-3-no-aspect	ACT	ADDR	PAT
+žádostivost	no-aspect	blu-n-žádostivost	blu-n-žádostivost-1	blu-n-žádostivost-1-no-aspect	ACT	PAT
+žádoucnost	no-aspect	blu-n-žádoucnost	blu-n-žádoucnost-1	blu-n-žádoucnost-1-no-aspect	ACT	PAT
+žádoucnost	no-aspect	blu-n-žádoucnost	blu-n-žádoucnost-2	blu-n-žádoucnost-2-no-aspect	ACT	PAT
+žádání (si)	impf	blu-n-žádání-si	blu-n-žádání-si-1	blu-n-žádání-si-1-impf	ACT	PAT	ORIG
+žádání (si)	impf	blu-n-žádání-si	blu-n-žádání-si-2	blu-n-žádání-si-2-impf	ACT	ADDR	PAT
+žárlivost	no-aspect	blu-n-žárlivost	blu-n-žárlivost-1	blu-n-žárlivost-1-no-aspect	ACT	PAT

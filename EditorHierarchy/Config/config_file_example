@@ -1,0 +1,7 @@
+ResourcePath="..\\..\\Lexicons,..\\resources"
+TrEdPath="c:\\Users\\user_name\\tred\\tred.bat"
+Languages="ces,eng,spa"
+ClassSearchBy="ces"
+
+;; Options changed by CzEngClass Editor on every close (DO NOT EDIT)
+Geometry = 1500x1500
