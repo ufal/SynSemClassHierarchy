@@ -91,7 +91,7 @@ sub check_new_cm_values{
   my ($self, $lexidref, $vallex_id, $lemma, $pos)=@_;
 
   if ($lexidref eq "vallex"){
-	my $map=$SynSemClassHierarchy::CES::LexLink::vallex4_0_mapping;
+	my $map=$SynSemClassHierarchy::CES::LexLink::vallex4_5_mapping;
   	if (defined $map->{id}->{$vallex_id}->{validid}){
 		my $idpref = $map->{id}->{$vallex_id}->{idpref};
 		if (defined $map->{idpref}->{$idpref}->{lemmas}->{$lemma}){
@@ -200,7 +200,7 @@ sub get_verb_info_link_address{
  			$idref =~ s/Vallex-ID-//;
  		}
  		
- 		$anchor= $SynSemClassHierarchy::CES::LexLink::vallex4_0_mapping->{id}->{$idref}->{anchor};
+ 		$anchor= $SynSemClassHierarchy::CES::LexLink::vallex4_5_mapping->{id}->{$idref}->{anchor};
 
  		$address=$data->getLexBrowsing($lexidref);
  		if ($address eq "" or $anchor eq ""){
@@ -255,7 +255,7 @@ sub get_frame_elements{
   if ($lexidref eq 'pdtvallex'){
 	push @elements, map { $_->[1] } SynSemClassHierarchy::LibXMLVallex::getLexiconFrameElementsByFrameID('pdtvallex', $idref);
   }elsif($lexidref eq 'vallex'){
-  	push @elements, @{$SynSemClassHierarchy::CES::LexLink::vallex4_0_mapping->{id}->{$idref}->{args}} if (defined $SynSemClassHierarchy::CES::LexLink::vallex4_0_mapping->{id}->{$idref}->{args});
+  	push @elements, @{$SynSemClassHierarchy::CES::LexLink::vallex4_5_mapping->{id}->{$idref}->{args}} if (defined $SynSemClassHierarchy::CES::LexLink::vallex4_5_mapping->{id}->{$idref}->{args});
   }elsif($lexidref eq 'nomvallex'){
   	push @elements, @{$SynSemClassHierarchy::CES::LexLink::nomvallex_mapping->{id}->{$idref}->{args}} if (defined $SynSemClassHierarchy::CES::LexLink::nomvallex_mapping->{id}->{$idref}->{args});
   }
@@ -268,7 +268,7 @@ sub get_frame_elements{
 package SynSemClassHierarchy::CES::LexLink;
 use base qw(SynSemClassHierarchy::FramedWidget);
 use base qw(SynSemClassHierarchy::LexLink_All);
-use vars qw($vallex4_0_mapping, $pdtval_val3_mapping, $nomvallex_mapping);
+use vars qw($vallex4_5_mapping, $pdtval_val3_mapping, $nomvallex_mapping, $pdtvallex4_5_changes);
 use utf8;
 require Tk::HList;
 require Tk::ItemStyle;
@@ -299,7 +299,7 @@ sub getMapping{
 			$valid_mapping{lemma}{$lemma}{validlemma}=1;
 			$valid_mapping{lemma}{$lemma}{id}=$idpref;
 			$valid_mapping{lemma}{$lemma}{filename}=$fileName;
-		}elsif($lexicon eq "vallex4.0"){
+		}elsif($lexicon eq "vallex4.5"){
 			my ($lemma, $filename, $idpref, $id, $anchor, @args)=split(/\t/, $_);
 			$valid_mapping{idpref}{$idpref}{validframe}=1;
 			$valid_mapping{idpref}{$idpref}{lemmas}{$lemma}=1;
@@ -336,6 +336,10 @@ sub getMapping{
  			$valid_mapping{id}{$id}{idpref}=$idpref;
  			$valid_mapping{id}{$id}{aspect}=$aspect;
  			@{$valid_mapping{id}{$id}{args}} = @args;
+		}elsif($lexicon eq "pdtvallex4.5_changes"){
+			my ($old, $new)=split(/\t/, $_);
+			$valid_mapping{"old_new"}{$old}=$new;
+			push @{$valid_mapping{"new_old"}{$new}}, $old;
 		}
 	}
 	close(IN);
@@ -505,7 +509,15 @@ sub getNewLink{
 			($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "enid", @new_value);
 			next;	
 		}
-		$cslemma=SynSemClassHierarchy::LibXMLVallex::getLemmaByFrameID("pdtvallex",$cs_id);
+		$cslemma="";
+		if (defined $pdtvallex4_5_changes->{old_new}->{$cs_id} and ($pdtvallex4_5_changes->{old_new}->{$cs_id} ne "delete")){
+			$cslemma = SynSemClassHierarchy::LibXMLVallex::getLemmaByFrameID("pdtvallex",$pdtvallex4_5_changes->{old_new}->{$cs_id});
+		}else{
+			SynSemClassHierarchy::Editor::warning_dialog($self, "There is no valency frame in PDT-Vallex4.5 corresponding to old frame $cs_id");
+			($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "csid", @new_value);
+			next;	
+		}
+
 		$enlemma=SynSemClassHierarchy::LibXMLVallex::getLemmaByFrameID("engvallex",$en_id);
 		if ($new_value[2] ne "" and $enlemma ne $new_value[2]){
 			my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "Do you want to change english lemma? (English lemma for typed english frame is " . $enlemma . ")", "No");
@@ -577,28 +589,28 @@ sub getNewLink{
 			next;
 		}
 		
-		if ($idpref ne "" and not $vallex4_0_mapping->{idpref}->{$idpref}->{validframe}){
-			if ($new_value[2] ne "" and $vallex4_0_mapping->{filename}{$new_value[2]}->{validname}){
-				my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "'$idpref' is not valid vallex4.0 ID prefix. Do you want to use '" . $vallex4_0_mapping->{filename}->{$new_value[2]}->{idpref} . "'?", "Yes");
+		if ($idpref ne "" and not $vallex4_5_mapping->{idpref}->{$idpref}->{validframe}){
+			if ($new_value[2] ne "" and $vallex4_5_mapping->{filename}{$new_value[2]}->{validname}){
+				my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "'$idpref' is not valid vallex4.5 ID prefix. Do you want to use '" . $vallex4_5_mapping->{filename}->{$new_value[2]}->{idpref} . "'?", "Yes");
 				if ($answer eq "Yes"){
-					$idpref = $vallex4_0_mapping->{framename}->{$new_value[2]}->{idpref};
+					$idpref = $vallex4_5_mapping->{framename}->{$new_value[2]}->{idpref};
 					$new_value[0]=$idpref . "-" . $sense;
 				}else{
 					($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "id", @new_value);
 					next;
 				}
 			}else{
-				SynSemClassHierarchy::Editor::warning_dialog($self, "'$idpref' is not valid vallex4.0 ID prefix!");
+				SynSemClassHierarchy::Editor::warning_dialog($self, "'$idpref' is not valid vallex4.5 ID prefix!");
 				($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "id", @new_value);
 				next;
 			}
 		}		
 		
-		if ($new_value[2] ne "" and not $vallex4_0_mapping->{filename}->{$new_value[2]}->{validname}){
-			if ($idpref ne "" and $vallex4_0_mapping->{idpref}->{$idpref}->{validframe}){
-				my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "'$new_value[2]' is not valid filename!\nDo you want to use '$vallex4_0_mapping->{idpref}->{$idpref}->{filename}'?", "Yes");
+		if ($new_value[2] ne "" and not $vallex4_5_mapping->{filename}->{$new_value[2]}->{validname}){
+			if ($idpref ne "" and $vallex4_5_mapping->{idpref}->{$idpref}->{validframe}){
+				my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "'$new_value[2]' is not valid filename!\nDo you want to use '$vallex4_5_mapping->{idpref}->{$idpref}->{filename}'?", "Yes");
 				if ($answer eq "Yes"){
-					$new_value[2] = $vallex4_0_mapping->{idpref}->{$idpref}->{filename};
+					$new_value[2] = $vallex4_5_mapping->{idpref}->{$idpref}->{filename};
 				}else{
 					SynSemClassHierarchy::Editor::warning_dialog($self, "Fill valid filename!");
 					($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "filename", @new_value);
@@ -612,23 +624,23 @@ sub getNewLink{
 		}
 	
 		if ($idpref eq ""){
-			$idpref = $vallex4_0_mapping->{filename}->{$new_value[2]}->{idpref};
+			$idpref = $vallex4_5_mapping->{filename}->{$new_value[2]}->{idpref};
 			SynSemClassHierarchy::Editor::warning_dialog($self, "Setting $idpref to ID prefix!");
 			$new_value[0]=$idpref . "-" . $sense;
 		}
 		if ($new_value[2] eq ""){
-			$new_value[2] = $vallex4_0_mapping->{idpref}->{$idpref}->{filename};
+			$new_value[2] = $vallex4_5_mapping->{idpref}->{$idpref}->{filename};
 			SynSemClassHierarchy::Editor::warning_dialog($self, "Setting $new_value[2] to filename!");
 		}
 
-		if ($vallex4_0_mapping->{idpref}->{$idpref}->{filename} ne $new_value[2]){
-			my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "'$new_value[2]' is not filename for ID prefix '$idpref'!\nDo you want to use filename '$vallex4_0_mapping->{idpref}->{$idpref}->{filename}'?", "Yes");
+		if ($vallex4_5_mapping->{idpref}->{$idpref}->{filename} ne $new_value[2]){
+			my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "'$new_value[2]' is not filename for ID prefix '$idpref'!\nDo you want to use filename '$vallex4_5_mapping->{idpref}->{$idpref}->{filename}'?", "Yes");
 			if ($answer eq "Yes"){
-				$new_value[2] = $vallex4_0_mapping->{idpref}->{$idpref}->{filename};
+				$new_value[2] = $vallex4_5_mapping->{idpref}->{$idpref}->{filename};
 			}else{
-				my $answer1=SynSemClassHierarchy::Editor::question_dialog($self, "Or do you want to use ID prefix '$vallex4_0_mapping->{filename}->{$new_value[2]}->{idpref}'?", "Yes");
+				my $answer1=SynSemClassHierarchy::Editor::question_dialog($self, "Or do you want to use ID prefix '$vallex4_5_mapping->{filename}->{$new_value[2]}->{idpref}'?", "Yes");
 				if ($answer1 eq "Yes"){
-					$idpref = $vallex4_0_mapping->{filename}->{$new_value[2]}->{idpref};
+					$idpref = $vallex4_5_mapping->{filename}->{$new_value[2]}->{idpref};
 					$new_value[0]=$idpref . "-" . $sense;
 				}else{
 					SynSemClassHierarchy::Editor::warning_dialog($self, "Fill valid pair ID prefix and filename\nYou can also fill only one of them!");
@@ -639,10 +651,10 @@ sub getNewLink{
 			
 		}
 
-		if (!$vallex4_0_mapping->{id}->{$new_value[0]}->{validid}){
-			my @val_ids = sort keys (%{$vallex4_0_mapping->{idpref}->{$idpref}->{ids}});
+		if (!$vallex4_5_mapping->{id}->{$new_value[0]}->{validid}){
+			my @val_ids = sort keys (%{$vallex4_5_mapping->{idpref}->{$idpref}->{ids}});
 			if (scalar @val_ids > 1){
-				$text = "'$new_value[0]' is not valid vallex4.0 id. Valid ids are: ";
+				$text = "'$new_value[0]' is not valid vallex4.5 id. Valid ids are: ";
 				foreach my $val_id (@val_ids){
 					$text .= "\n'$val_id' ";
 					$val_id =~ s/^$idpref-//;
@@ -652,7 +664,7 @@ sub getNewLink{
 				($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "sense", @new_value);
 				next;
 			}else{
-				my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "'$new_value[0]' is not valid vallex4.0 ID!\nDo you want to use '$val_ids[0]'?", "Yes");
+				my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "'$new_value[0]' is not valid vallex4.5 ID!\nDo you want to use '$val_ids[0]'?", "Yes");
 				if ($answer eq "Yes"){
 					($idpref, $sense)=SynSemClassHierarchy::Sort_all::parse_vallex_id($val_ids[0]);
 					$new_value[0] = $val_ids[0];
@@ -663,13 +675,13 @@ sub getNewLink{
 				}
 			}
 		}
-		if (($new_value[1] eq "") or ($new_value[1] ne "" and not $vallex4_0_mapping->{lemma}->{$new_value[1]}->{validlemma})){
-			my @lemmas = sort keys %{$vallex4_0_mapping->{idpref}->{$idpref}->{lemmas}};
+		if (($new_value[1] eq "") or ($new_value[1] ne "" and not $vallex4_5_mapping->{lemma}->{$new_value[1]}->{validlemma})){
+			my @lemmas = sort keys %{$vallex4_5_mapping->{idpref}->{$idpref}->{lemmas}};
 			my $text;
 			if ($new_value[1] eq ""){
 				$text = "Empty lemma. ";
 			}else{
-				$text = "'$new_value[1]' is not valid vallex4.0 lemma. ";
+				$text = "'$new_value[1]' is not valid vallex4.5 lemma. ";
 			}
 			if (scalar @lemmas == 1){
 				$text .= "Do you want to use '" . $lemmas[0] . "'?";
@@ -692,27 +704,27 @@ sub getNewLink{
 			}
 		}
 		$new_value[0]=$idpref . "-" . $sense;
-		if (!$vallex4_0_mapping->{id}->{$new_value[0]}->{validid}){
-			SynSemClassHierarchy::Editor::warning_dialog($self, "Bad vallex4.0 ID '$new_value[0]'(try Show button!");
+		if (!$vallex4_5_mapping->{id}->{$new_value[0]}->{validid}){
+			SynSemClassHierarchy::Editor::warning_dialog($self, "Bad vallex4.5 ID '$new_value[0]'(try Show button!");
 			($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "sense", @new_value);
 			next;	
-		}elsif(!$vallex4_0_mapping->{filename}->{$new_value[2]}->{validname}){
-			SynSemClassHierarchy::Editor::warning_dialog($self, "Bad vallex4.0 filename '$new_value[2]' (try Show button)!");
+		}elsif(!$vallex4_5_mapping->{filename}->{$new_value[2]}->{validname}){
+			SynSemClassHierarchy::Editor::warning_dialog($self, "Bad vallex4.5 filename '$new_value[2]' (try Show button)!");
 			($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "filename", @new_value);
 			next;	
-		}elsif(!$vallex4_0_mapping->{lemma}->{$new_value[1]}->{validlemma}){
-			SynSemClassHierarchy::Editor::warning_dialog($self, "Bad vallex4.0 lemma '$new_value[1]'(try Show button!)");
+		}elsif(!$vallex4_5_mapping->{lemma}->{$new_value[1]}->{validlemma}){
+			SynSemClassHierarchy::Editor::warning_dialog($self, "Bad vallex4.5 lemma '$new_value[1]'(try Show button!)");
 			($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "lemma", @new_value);
 			next;	
 		}else{
-			my $val_pref = $vallex4_0_mapping->{id}{$new_value[0]}->{idpref};
-			if ($vallex4_0_mapping->{idpref}{$val_pref}{filename} ne $new_value[2]){
-				SynSemClassHierarchy::Editor::warning_dialog($self, "Bad vallex4.0 filename '$new_value[2]'for ID '$new_value[0]' (try Show button)!");
+			my $val_pref = $vallex4_5_mapping->{id}{$new_value[0]}->{idpref};
+			if ($vallex4_5_mapping->{idpref}{$val_pref}{filename} ne $new_value[2]){
+				SynSemClassHierarchy::Editor::warning_dialog($self, "Bad vallex4.5 filename '$new_value[2]'for ID '$new_value[0]' (try Show button)!");
 				($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "filename", @new_value);
 				next;					
 			}
-			if (!$vallex4_0_mapping->{idpref}{$val_pref}{lemmas}{$new_value[1]}){
-				SynSemClassHierarchy::Editor::warning_dialog($self, "Bad vallex4.0  lemma '$new_value[1]' for ID '$new_value[0]' (try Show button)!");
+			if (!$vallex4_5_mapping->{idpref}{$val_pref}{lemmas}{$new_value[1]}){
+				SynSemClassHierarchy::Editor::warning_dialog($self, "Bad vallex4.5  lemma '$new_value[1]' for ID '$new_value[0]' (try Show button)!");
 				($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "lemma", @new_value);
 				next;					
 			}
@@ -1005,11 +1017,11 @@ sub show_vallex_editor_dialog{
   		my $pdtid = $self->data()->getClassMemberAttribute($self->selectedClassMember(), 'idref');
 		$pdtid=~s/^.*-ID-//;
   		my $cmlemma = $self->data()->getClassMemberAttribute($self->selectedClassMember(), 'lemma');
-		if ($vallex4_0_mapping->{lemma}->{$cmlemma}->{validlemma}){
+		if ($vallex4_5_mapping->{lemma}->{$cmlemma}->{validlemma}){
 			$lemma_s=$cmlemma;
-			my @val_idprefs = sort keys %{$vallex4_0_mapping->{lemma}{$cmlemma}->{idprefs}};
+			my @val_idprefs = sort keys %{$vallex4_5_mapping->{lemma}{$cmlemma}->{idprefs}};
 			$idpref_s=$val_idprefs[0] || "";
-			$filename_s=$vallex4_0_mapping->{idpref}->{$idpref_s}->{filename} || "";
+			$filename_s=$vallex4_5_mapping->{idpref}->{$idpref_s}->{filename} || "";
 		}
 
 	}
@@ -1160,8 +1172,8 @@ sub get_vallex_link_address{
 	my ($self, $link)=@_;
   	my $idref=$self->data()->getLinkAttribute($link, "idref");
 
-	if ($vallex4_0_mapping->{id}{$idref}{validid}){
-		return $self->get_vallex4_0_address($vallex4_0_mapping->{id}{$idref}{anchor});
+	if ($vallex4_5_mapping->{id}{$idref}{validid}){
+		return $self->get_vallex4_5_address($vallex4_5_mapping->{id}{$idref}{anchor});
 	}else{
 	  return;	
 	}
@@ -1267,15 +1279,15 @@ sub test_vallex_link{
 
 	my $validfilename="";
 	if ($idpref ne ""){
-		if (not $vallex4_0_mapping->{idpref}->{$idpref}->{validframe}){
-			if ($lemma ne "" and $vallex4_0_mapping->{lemma}->{$lemma}->{validlemma}){
-				my $text = "'$idpref' is not valid vallex4.0 id prefix!'\n Valid id ";
-				if (scalar keys %{$vallex4_0_mapping->{lemma}->{$lemma}->{idprefs}} > 1){
+		if (not $vallex4_5_mapping->{idpref}->{$idpref}->{validframe}){
+			if ($lemma ne "" and $vallex4_5_mapping->{lemma}->{$lemma}->{validlemma}){
+				my $text = "'$idpref' is not valid vallex4.5 id prefix!'\n Valid id ";
+				if (scalar keys %{$vallex4_5_mapping->{lemma}->{$lemma}->{idprefs}} > 1){
 					$text .= "prefixes for '$lemma' are: ";
 				}else{
 					$text .= "prefix for '$lemma' is: ";
 				}
-				foreach my $val_pref (sort keys %{$vallex4_0_mapping->{lemma}->{$lemma}->{idprefs}}){
+				foreach my $val_pref (sort keys %{$vallex4_5_mapping->{lemma}->{$lemma}->{idprefs}}){
 					$text .= "\n'$val_pref'";
 				}
 				SynSemClassHierarchy::Editor::warning_dialog($self, $text);
@@ -1288,23 +1300,23 @@ sub test_vallex_link{
 			}
 		}
 		if ($lemma ne ""){
-			if (!$vallex4_0_mapping->{lemma}->{$lemma}->{validlemma}){
-				my $text = "'$lemma' is not valid vallex4.0 lemma!\n You can try ";
-				foreach my $val_lemma (sort keys %{$vallex4_0_mapping->{idpref}->{$idpref}->{lemmas}}){
+			if (!$vallex4_5_mapping->{lemma}->{$lemma}->{validlemma}){
+				my $text = "'$lemma' is not valid vallex4.5 lemma!\n You can try ";
+				foreach my $val_lemma (sort keys %{$vallex4_5_mapping->{idpref}->{$idpref}->{lemmas}}){
 					$text .= "'$val_lemma' or ";
 				}
 				$text =~ s/ or $/.\n(You can also use the Search button!)/;
 				SynSemClassHierarchy::Editor::warning_dialog($self, $text);
 				$values[2]->focusForce;
 				return -2;
-			}elsif(!$vallex4_0_mapping->{lemma}->{$lemma}->{idprefs}->{$idpref}){
+			}elsif(!$vallex4_5_mapping->{lemma}->{$lemma}->{idprefs}->{$idpref}){
 			    my $text = "'$lemma'  is not valid lemma for id prefix '$idpref'.\nValid ";
-				if (scalar keys %{$vallex4_0_mapping->{idpref}->{$idpref}->{lemmas}} > 1){
+				if (scalar keys %{$vallex4_5_mapping->{idpref}->{$idpref}->{lemmas}} > 1){
 					$text .= "lemmas for '$idpref' are: ";
 				}else{
 					$text .= "lemma for '$idpref' is: ";
 				}
-				foreach my $val_lemma (sort keys %{$vallex4_0_mapping->{idpref}->{$idpref}->{lemmas}}){
+				foreach my $val_lemma (sort keys %{$vallex4_5_mapping->{idpref}->{$idpref}->{lemmas}}){
 					$text .= "\n'$val_lemma'";
 				}
 				$text .="\n(You can also use the Search button!)";
@@ -1314,22 +1326,22 @@ sub test_vallex_link{
 			}
 		}
 		if ($filename ne ""){
-			$validfilename=$vallex4_0_mapping->{idpref}->{$idpref}->{filename};
+			$validfilename=$vallex4_5_mapping->{idpref}->{$idpref}->{filename};
 			if ($validfilename ne $filename){
-				SynSemClassHierarchy::Editor::warning_dialog($self, "'$filename' is not valid vallex4.0 filename for '$idpref'.\nValid filename for typed idpref is '$validfilename'");
+				SynSemClassHierarchy::Editor::warning_dialog($self, "'$filename' is not valid vallex4.5 filename for '$idpref'.\nValid filename for typed idpref is '$validfilename'");
 				$values[3]->focusForce;
 				return -2;
 			}
 		}else{
-			$filename = $vallex4_0_mapping->{idpref}->{$idpref}->{filename};
+			$filename = $vallex4_5_mapping->{idpref}->{$idpref}->{filename};
 		}
 	}elsif($filename ne ""){
-		if (!$vallex4_0_mapping->{filename}->{$filename}->{validname}){
-			if ($lemma ne "" and $vallex4_0_mapping->{lemma}->{$lemma}->{validlemma}){
-				my $text = "'$filename' is not valid vallex4.0 filename!'\n Valid  ";
+		if (!$vallex4_5_mapping->{filename}->{$filename}->{validname}){
+			if ($lemma ne "" and $vallex4_5_mapping->{lemma}->{$lemma}->{validlemma}){
+				my $text = "'$filename' is not valid vallex4.5 filename!'\n Valid  ";
 				my @filenames = ();
-				foreach my $val_pref (keys %{$vallex4_0_mapping->{lemma}->{$lemma}->{idprefs}}){
-					push @filenames, $vallex4_0_mapping->{idpref}{$val_pref}{filename};
+				foreach my $val_pref (keys %{$vallex4_5_mapping->{lemma}->{$lemma}->{idprefs}}){
+					push @filenames, $vallex4_5_mapping->{idpref}{$val_pref}{filename};
 				}
 				if (scalar @filenames > 1){
 					$text .= "filenames for '$lemma' are: ";
@@ -1343,30 +1355,30 @@ sub test_vallex_link{
 				$values[3]->focusForce;
 				return -2;
 			}else{
-				SynSemClassHierarchy::Editor::warning_dialog($self, "'$filename' is not valid vallex4.0 filename and '$lemma' is not valid vallex lemma. Fill another filename or lemma!");
+				SynSemClassHierarchy::Editor::warning_dialog($self, "'$filename' is not valid vallex4.5 filename and '$lemma' is not valid vallex lemma. Fill another filename or lemma!");
 				$values[3]->focusForce;
 				return -2;
 			}
 		}
-		$idpref = $vallex4_0_mapping->{filename}->{$filename}->{idpref};
+		$idpref = $vallex4_5_mapping->{filename}->{$filename}->{idpref};
 		if ($lemma ne ""){
-			if (not $vallex4_0_mapping->{lemma}->{$lemma}->{validlemma}){
-				my $text = "'$lemma' is not valid vallex4.0 lemma!\n You can try ";
-				foreach my $val_lemma (sort keys %{$vallex4_0_mapping->{idpref}->{$idpref}->{lemmas}}){
+			if (not $vallex4_5_mapping->{lemma}->{$lemma}->{validlemma}){
+				my $text = "'$lemma' is not valid vallex4.5 lemma!\n You can try ";
+				foreach my $val_lemma (sort keys %{$vallex4_5_mapping->{idpref}->{$idpref}->{lemmas}}){
 					$text .= "'$val_lemma' or ";
 				}
 				$text =~ s/ or $/./;
 				SynSemClassHierarchy::Editor::warning_dialog($self, $text);
 				$values[2]->focusForce;
 				return -2;
-			}elsif(!$vallex4_0_mapping->{lemma}->{$lemma}->{idprefs}->{$idpref}){
+			}elsif(!$vallex4_5_mapping->{lemma}->{$lemma}->{idprefs}->{$idpref}){
 			    my $text = "'$lemma'  is not valid lemma for filename '$filename'.\nValid ";
-				if (scalar keys %{$vallex4_0_mapping->{idpref}->{$idpref}->{lemmas}} > 1){
+				if (scalar keys %{$vallex4_5_mapping->{idpref}->{$idpref}->{lemmas}} > 1){
 					$text .= "lemmas for '$filename' are: ";
 				}else{
 					$text .= "lemma for '$filename' is: ";
 				}
-				foreach my $val_lemma (sort keys %{$vallex4_0_mapping->{idpref}->{$idpref}->{lemmas}}){
+				foreach my $val_lemma (sort keys %{$vallex4_5_mapping->{idpref}->{$idpref}->{lemmas}}){
 					$text .= "\n'$val_lemma'";
 				}
 				$text .="\n(You can also use the Search button!)";
@@ -1382,8 +1394,8 @@ sub test_vallex_link{
 			$values[2]->focusForce;
 			return -2;
 		}else{
-			if ($vallex4_0_mapping->{lemma}->{$lemma}->{validlemma}){
-				my @val_prefs = keys %{$vallex4_0_mapping->{lemma}->{$lemma}->{idprefs}};
+			if ($vallex4_5_mapping->{lemma}->{$lemma}->{validlemma}){
+				my @val_prefs = keys %{$vallex4_5_mapping->{lemma}->{$lemma}->{idprefs}};
 				my $text = "I need more informations - fill the filename. ";
 				if (scalar @val_prefs > 1){
 					$text .= "Filenames for lemma $lemma are: ";
@@ -1391,7 +1403,7 @@ sub test_vallex_link{
 					$text .= "Filename for lemma $lemma is: ";
 				}
 				foreach my $val_pref (sort @val_prefs){
-					$text .= "\n$vallex4_0_mapping->{idpref}->{$val_pref}->{filename}";
+					$text .= "\n$vallex4_5_mapping->{idpref}->{$val_pref}->{filename}";
 				}	
 				SynSemClassHierarchy::Editor::warning_dialog($self, $text);
 				$values[2]->focusForce;
@@ -1405,9 +1417,9 @@ sub test_vallex_link{
 	}
 	if ($sense ne ""){
 		my $id = $idpref . "-$sense";
-		if (!$vallex4_0_mapping->{id}->{$id}->{validid}){
+		if (!$vallex4_5_mapping->{id}->{$id}->{validid}){
 			my $text = "'$sense' is not valid sense for id prefix '$idpref' (filename '$filename').\nValid ";
-			my @val_ids = keys %{$vallex4_0_mapping->{idpref}->{$idpref}->{ids}};
+			my @val_ids = keys %{$vallex4_5_mapping->{idpref}->{$idpref}->{ids}};
 			if (scalar @val_ids > 1){
 				$text .= "ids are: ";
 			}else{
@@ -1422,10 +1434,10 @@ sub test_vallex_link{
 			$values[1]->focusForce;
 			return -2;
 		}else{
-			return $self->get_vallex4_0_address($vallex4_0_mapping->{id}{$id}->{anchor});
+			return $self->get_vallex4_5_address($vallex4_5_mapping->{id}{$id}->{anchor});
 		}
 	}else{
-		return $self->get_vallex4_0_address("$filename/0");
+		return $self->get_vallex4_5_address("$filename/0");
 	}
 }
 
@@ -1578,7 +1590,7 @@ sub get_pdtvallex_address{
   return $address;
 }
 
-sub get_vallex4_0_address{
+sub get_vallex4_5_address{
   my ($self, $anchor)=@_;
   return if ($anchor eq "");
 

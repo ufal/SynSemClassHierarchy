@@ -1,7 +1,15 @@
-ResourcePath="..\\..\\Lexicons,..\\resources"
+ResourcePath="c:\\Users\\user_name\\Desktop\\DataSynSemClass_hierarchy,/c:\\Users\\user_name\\Desktop\\EditorSynSemClass_hierarchy\\resources"
 TrEdPath="c:\\Users\\user_name\\tred\\tred.bat"
+;; TrEdDataPath_ces="c:\\Users\\user_name\\tred_data_ces"
+;; TrEdDataPath_eng="c:\\Users\\user_name\\tred_data_eng"
+
 Languages="ces,eng,spa"
+
+;; Options for Class Searching can be "id", one of the Languages options, "classmembers" or "roles
 ClassSearchBy="ces"
+
+;; Optional font settings for the Browsing Entries in the form ['type', size] (['Arial', 12])
+;;BEFont="['Arial',12]"
 
 ;; Options changed by CzEngClass Editor on every close (DO NOT EDIT)
 Geometry = 1500x1500

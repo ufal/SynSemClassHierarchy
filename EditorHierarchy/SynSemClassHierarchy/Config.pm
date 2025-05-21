@@ -9,8 +9,12 @@ use utf8;
 
 my %resourcePath;
 my %tredPath;
+my %tredDataPath;
+my %tredDataPath;
 my %languages;
 my %searchBy;
+my %beFont;
+
 my $geometry;
    
 my $config_file="../Config/config_file_hierarchy";
@@ -42,6 +46,12 @@ sub loadConfig{
 	       $tredPath{valid}=(($_=~/^;/) ? 0 : 1);
 	       $tredPath{value}=~s/^;*TrEdPath=//g;
 	       $tredPath{value}=~s/"//g;
+	   }elsif ($_ =~ /^;*TrEdDataPath_([a-z]*)=/){
+	       my $lang=$1;
+		   $tredDataPath{$lang}{value}=$_;
+	       $tredDataPath{$lang}{valid}=(($_=~/^;/) ? 0 : 1);
+	       $tredDataPath{$lang}{value}=~s/^;*TrEdDataPath_$lang=//g;
+	       $tredDataPath{$lang}{value}=~s/"//g;
 	   }elsif ($_ =~ /^;*Languages=/){
 	       $languages{value}=$_;
 	       $languages{valid}=(($_=~/^;/) ? 0 : 1);
@@ -54,14 +64,19 @@ sub loadConfig{
 	       $searchBy{value}=~s/"//g;
 		   my $langs = $languages{value};
 		   $langs =~ s/,/|/g;
-		   if ($searchBy{value} !~ /^($langs|id|roles)$/){
+		   if ($searchBy{value} !~ /^($langs|id|classmembers|roles)$/){
 			$searchBy{value} = "id";
 			print "Bad value for ClassSearchBy in config_file_hierarchy (valid values are ";
 			foreach (split(",",$languages{value})){
 				print "'$_', ";
 			} 
-			print "'id' or 'roles')\n";
+			print "'id', 'classmembers, or 'roles')\n";
 		   }
+	   }elsif ($_ =~ /^BEFont=/){
+	       $beFont{value}=$_;
+	       $beFont{valid}=(($_=~/^;/) ? 0 : 1);
+	       $beFont{value}=~s/BEFont=//;
+	       $beFont{value}=~s/"//g;
 	   }elsif ($_ =~ /^Geometry=/){
 	       $geometry=$_;
 	       $geometry=~s/Geometry=//;
@@ -110,21 +125,40 @@ sub saveConfig{
 		  print OUT 'TrEdPath="' . $tredPath{value} . '"' . "\n";
 	  }
 
+	  foreach my $lang (sort keys %tredDataPath){
+		  if ($tredDataPath{$lang}{value} eq ""){
+			  print OUT ';; TrEdDataPath_' . $lang . '="c:\\Users\\user_name\\TrEdDataCes"' . "\n";
+		  }else{
+			  print OUT ";;" if (!$tredDataPath{$lang}{valid});
+			  print OUT 'TrEdDataPath_' . $lang . '="' . $tredDataPath{$lang}{value} . '"' . "\n";
+		  }
+	  }
+
+	  print OUT "\n";
 	  if ($languages{value} eq ""){
-	  	  print OUT ';; Languages="ces,eng"' . "\n";
+	  	  print OUT ';; Languages="ces,eng, deu, spa"' . "\n";
 	  }else{
 	  	  print OUT ";;" if (!$languages{valid});
 		  print OUT 'Languages="' . $languages{value} . '"' . "\n";
 	  }
 	
+	  print OUT "\n" . ';; Options for Class Searching can be "id", one of the Languages options, "classmembers", or "roles"' . "\n";
 	  if ($searchBy{value} eq ""){
 	  	  print OUT ';; ClassSearchBy="id"' . "\n";
 	  }else{
 	  	  print OUT ";;" if (!$searchBy{valid});
 		  print OUT 'ClassSearchBy="' . $searchBy{value} . '"' . "\n";
+  	  }
+	
+	  print OUT "\n;; Font settings for the Browsing Entries in the form ['type', size] (['Arial', 12])\n";
+	  if ($beFont{value} eq ""){
+	  	  print OUT ';; BEFont=""' . "\n";
+	  }else{
+		  print OUT ";;" if (!$beFont{valid});
+		  print OUT 'BEFont="' . $beFont{value} . '"' . "\n";
 	  }
 	
-	  print OUT "\n";
+	  print OUT "\n\n";
 	  print OUT ';; Options changed by SynEd on every close (DO NOT EDIT)' . "\n";
 	  print OUT 'Geometry=' . $new_geometry . "\n";
 	
@@ -178,6 +212,19 @@ sub getTrEd{
 	}
 }
 
+sub getTrEdDataPath{
+	my ($self, $lang)=@_;
+	if (defined $tredDataPath{$lang}){
+		if ($tredDataPath{$lang}{valid}){
+			return "$tredDataPath{$lang}{value}";
+		}else{
+			return "";
+		}
+	}else{
+		return "";
+	}
+}
+
 sub getLanguages{
 	my ($self)=@_;
 
@@ -196,6 +243,16 @@ sub getClassSearchBy{
 		return "$searchBy{value}";
 	}else{
 		return ("id");
+	}
+}
+
+sub getBEFont{
+	my ($self)=@_;
+
+	if ($beFont{valid}){
+		return "$beFont{value}";
+	}else{
+		return 0;
 	}
 }
 

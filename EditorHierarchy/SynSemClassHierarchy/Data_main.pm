@@ -91,6 +91,22 @@ sub getRoleDefById {
   }
 }
 
+sub getAllRolesSLs {
+  my ($self) = @_;
+  my %allRolesSLs = ();
+  my $doc=$self->doc();
+  my $root=$doc->documentElement();
+  my ($header)=$root->getChildElementsByTagName("header");
+  my ($roles)=$header->getChildElementsByTagName("roles");
+
+  foreach ($roles->getChildElementsByTagName("role")){
+	  my $id = $_->getAttribute("id");
+	  my ($shortlabel) = $_->getChildElementsByTagName("shortlabel");
+	  $allRolesSLs{$id} = $shortlabel->getText; 
+  }
+  return %allRolesSLs;
+}
+
 sub getRoleDefByShortLabel{
   my ($self, $shlab)=@_;
   my $doc=$self->doc();

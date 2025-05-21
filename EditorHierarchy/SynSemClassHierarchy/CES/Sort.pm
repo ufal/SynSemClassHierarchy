@@ -12,7 +12,7 @@ use strict;
 use locale;
 
 sub sort_links_for_type{
-	my ($type, $l1, $l2)=@_;
+	my ($self, $type, $l1, $l2)=@_;
 
 	if ($type eq "pdtvallex"){
 		return sort_vallexlinks($l1, $l2);
@@ -104,13 +104,21 @@ sub sort_by_lemmas{
 sub sort_by_ids{
 	my $a=shift;
 	my $b=shift;
-	my ($a1,$a2)=$a=~/^[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]*$/;
-	my ($b1,$b2)=$b=~/^[^0-9]+([0-9]+)[^0-9]+([0-9]+)[^0-9]*$/;
+	my ($a1,$a2)=$a=~/^v41([a-z]+)([A-Z]+)$/;
+	my ($b1,$b2)=$b=~/^v41([a-z]+)([A-Z]+)$/;
 
-	if ($a1 == $b1){
-		return ($a2<=>$b2);
+	if ($a1 eq $b1){
+		if (length($a2) eq length($b2)){
+			return ($a2 cmp $b2);
+		}else{
+			return (length($a2)<=>length($b2))
+		}
 	}else{
-		return ($a1<=>$b1);
+		if (length($a1) eq length($b1)){
+			return ($a1 cmp $b1);
+		}else{
+			return (length($a1)<=>length($b1));
+		}
 	}
 }
 

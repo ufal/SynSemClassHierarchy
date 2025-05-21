@@ -20,7 +20,14 @@ sub create_widget {
   my $hic_frame = $w->Frame(-takefocus=>0);
   $hic_frame->pack(qw/-side top -expand yes -fill both/);
 
-  my $hierarchylabel_frame = $hic_frame->Frame(-takefocus=>0);
+  my $hic_frame_top = $hic_frame->Frame(qw/-takefocus 0/);
+  $hic_frame_top->pack(qw/-side top -fill both/);
+  my $adjuster_hic = $hic_frame->Adjuster();
+  $adjuster_hic->packAfter($hic_frame_top, qw/-side top/);
+  my $hic_frame_bottom = $hic_frame->Frame(qw/-takefocus 0/);
+  $hic_frame_bottom->pack(qw/ -expand yes -side top -fill both/);
+  
+  my $hierarchylabel_frame = $hic_frame_top->Frame(-takefocus=>0);
   $hierarchylabel_frame->pack(qw/-fill both/);
 
   $hierarchylabel_label = $hierarchylabel_frame->Label(-text => "Hierarchy concepts", qw/-anchor nw -justify left/)->pack(qw/-side left -padx 4 -fill x/);
@@ -28,6 +35,7 @@ sub create_widget {
   my $hierarchybutton_frame=$hierarchylabel_frame->Frame(-takefocus=>0);
   $hierarchybutton_frame->pack(qw/-side right -padx 4/);
 
+  my $search_hic_button = $hierarchybutton_frame->Button(-text=>'Search', -underline=>3, -command=>[\&search_hic_button_pressed, $self])->pack(qw/-side right -fill x/);
   my $modify_hic_button = $hierarchybutton_frame->Button(-text=>'Modify', -underline=>0, -command=>[\&modify_hic_button_pressed, $self])->pack(qw/-side right -fill x/);
   my $move_hic_button = $hierarchybutton_frame->Button(-text=>'Move', -underline=>2, -command=>[\&move_hic_button_pressed, $self])->pack(qw/-side right -fill x/);
   my $un_delete_hic_button = $hierarchybutton_frame->Button(-text=>'(Un)delete', -underline=>4, -command=>[\&un_delete_hic_button_pressed, $self])->pack(qw/-side right -fill x/);
@@ -35,17 +43,18 @@ sub create_widget {
   my $set_hic_button = $hierarchybutton_frame->Button(-text=>'Set', -underline=>0, -command=>[\&set_hic_button_pressed, $self])->pack(qw/-side right -fill x/);
 
 
-  my $hierarchy_tree = $hic_frame->Scrolled(qw/Tree -separator \/
+  my $hierarchy_tree = $hic_frame_top->Scrolled(qw/Tree -separator \/
 	  											-columns 2
 	  											-background white
 	  											-width 35
-												-height 25
+												-height 20
 												-selectmode single
 												-scrollbars osoe /) -> pack( qw/-expand yes -fill both -padx 4 -side top/ );
 
   $hierarchy_tree->configure(-browsecmd => [\&hic_item_changed, $self]);
   
   $hierarchy_tree->bind('<v>', sub { $self->move_hic_button_pressed(); });
+  $hierarchy_tree->bind('<r>', sub { $self->search_hic_button_pressed(); });
   $hierarchy_tree->bind('<m>', sub { $self->modify_hic_button_pressed(); });
   $hierarchy_tree->bind('<d>', sub { $self->un_delete_hic_button_pressed(); });
   $hierarchy_tree->bind('<a>', sub { $self->add_hic_button_pressed(); });
@@ -53,13 +62,15 @@ sub create_widget {
 
   my $hic_balloon = $hic_frame->Balloon(-balloonposition=>'mouse');
 
-  my $buttons_for_concepts_frame = $hic_frame->Frame(-takefocus=>0);
+  my $buttons_for_concepts_frame = $hic_frame_top->Frame(-takefocus=>0);
   $buttons_for_concepts_frame->pack(qw/-fill both/);
   my $deleted_concepts_visibility_button = $buttons_for_concepts_frame->Checkbutton(-text => "Show deleted Concepts", 
 															-command => [\&deleted_concepts_visibility_button_pressed, $self]);
 
   $deleted_concepts_visibility_button->pack(qw/-fill both -side left -padx 4/);
-  my $hic_classes_frame = $hic_frame->Frame(-takefocus=>0)->pack( qw/-expand yes -fill x -padx 4 -pady 20 -side left/ );
+
+  my $hic_classes_frame = $hic_frame_bottom->Frame(-takefocus=>0);
+  $hic_classes_frame->pack( qw/-expand yes -fill both -padx 4 -pady 6 -side left/ );
   
   my $hic_classeslabel_frame = $hic_classes_frame->Frame(-takefocus=>0);
   $hic_classeslabel_frame->pack(qw/-fill both/);
@@ -74,9 +85,10 @@ sub create_widget {
 	  										-background white
 											-header 1
 											-width 35
-											-height 25
+											-height 20
 											-selectmode single
-											-scrollbars osoe /)->pack( qw/-expand yes -fill both -padx 4 -side top/ );
+											-scrollbars osoe /);
+  $hic_classes_list->pack( qw/-expand yes -fill both -padx 4 -pady 4 -side top/ );
 
   $hic_classes_list->configure(-command => [\&open_class_info_link, $self]);
   $hic_classes_list->configure(-browsecmd => [\&hic_classes_item_changed, $self]);
@@ -85,21 +97,24 @@ sub create_widget {
   $hic_classes_list->bind('<n>', sub { $self->modify_note_for_class_button_pressed(); });
  
  
-  my $hic_class_classmembers_frame = $hic_frame->Frame(-takefocus=>0)->pack( qw/-expand yes -fill x -padx 4 -pady 20 -side left/ );
+  my $hic_class_classmembers_frame = $hic_frame_bottom->Frame(-takefocus=>0);
+  $hic_class_classmembers_frame->pack( qw/-expand yes -fill both -padx 4 -pady 6 -side left/ );
   
   my $hic_class_classmembers_label = $hic_class_classmembers_frame->Label(-text => "Classmembers for selected class: ", qw/-anchor nw -justify left/)->pack(qw/-side top -padx 4 -fill both/);
   my $hic_class_classmembers_list = $hic_class_classmembers_frame->Scrolled(qw/HList -columns 2
 	  										-background white
 											-header 1
 											-width 35
-											-height 25
+											-height 20
 											-selectmode single
-											-scrollbars osoe /) -> pack( qw/-expand yes -fill both -padx 4 -side top/ );
+											-scrollbars osoe /);
+  $hic_class_classmembers_list-> pack( qw/-expand yes -fill both -padx 4 -pady 4 -side top/ );
 
   $hic_class_classmembers_list->configure(-command => [\&open_classmember_info_link, $self]);
 
  return $w, {
-	 move_hic_button=>$modify_hic_button,
+	 move_hic_button=>$move_hic_button,
+	 search_hic_button=>$search_hic_button,
 	 modify_hic_button=>$modify_hic_button,
 	 un_delete_hic_button=>$un_delete_hic_button,
 	 add_hic_button=>$add_hic_button,
@@ -189,10 +204,20 @@ sub fetch_data {
   my %balloon_msg = ();
   $path_for_concept{$id}=$root_path;
   my @nodes=($root_node);
-
+  my %ancestorsIDs = ();
+  foreach my $ancestorID ($data_hierarchy->getAncestorsIDs($class_hic)){
+	$ancestorsIDs{$ancestorID} = 1;
+  }
+  my %selectedBranchIDs = ();
+  $selectedBranchIDs{$anchor_hic} = 1;
+  foreach my $ancestorID ($data_hierarchy->getAncestorsIDs($anchor_hic)){
+	$selectedBranchIDs{$ancestorID} = 1;
+  }
   while (scalar @nodes > 0){
 	my $node = shift @nodes;
-	foreach my $child ($data_hierarchy->getHierarchyChildren($node)){
+  	my $sortBy = "name";
+	$sortBy = "id" if ($data_hierarchy->getHierarchyConceptAttribute($node, "id") eq "hic_0");
+	foreach my $child (sort { $data_hierarchy->getHierarchyConceptAttribute($a, $sortBy) cmp $data_hierarchy->getHierarchyConceptAttribute($b, $sortBy) } $data_hierarchy->getHierarchyChildren($node)){
 		my $parent_id = $data_hierarchy->getHierarchyConceptAttribute($node, "id");
 		my $parent_path = $path_for_concept{$parent_id};
 		my $id = $data_hierarchy->getHierarchyConceptAttribute($child, "id");
@@ -202,7 +227,11 @@ sub fetch_data {
 		next if (!$self->[SHOW_DELETED_CONCEPTS] and ($status =~ /(moved|deleted)/));
 		my $child_path = $t->addchild($parent_path, -data=>[$child]);
 		$path_for_concept{$id} = $child_path;
-		
+	
+		$t->hide('entry', $child_path) unless (($class_hic eq $id) or ($parent_id eq $class_hic) 
+												or $ancestorsIDs{$id} or $ancestorsIDs{$parent_id} 
+												or $selectedBranchIDs{$id} or $selectedBranchIDs{$parent_id} 
+												or ($parent_id eq "hic_0"));
 		my $style = $node_style;
 		if ($anchor_hic eq $id){
 			$t->anchorSet($child_path);
@@ -211,7 +240,7 @@ sub fetch_data {
 		}
 		if ($class_hic eq $id){
 			$style = $end_node_style;	
-		} elsif ($data_hierarchy->isAncestor($id, $class_hic)){
+		} elsif ($ancestorsIDs{$id}){
 			$style = $in_node_style;
 		}elsif (($status eq "canceled") or (lc($name) =~ /^(zrušit|cancel)/)){
 			$style = $node_style_canceled;
@@ -227,9 +256,9 @@ sub fetch_data {
 						   		);
 		$balloon_msg{$child_path} =$data_hierarchy->getHierarchyConceptDefinition($child) || "Concept $name ($id)"; 
 		push @nodes, $child;
-		$t->setmode($path, "close");
 	}
   }
+  $t->autosetmode;
   $balloon->attach($t, -msg=>\%balloon_msg);
   $self->hic_item_changed();
 }
@@ -445,7 +474,7 @@ sub move_hic_button_pressed {
 	$hic_id = $focused_hic->[1];
 	$hic_name= $focused_hic->[0];
 
-	my ($ok, @new_values) = $self->getNewParentForHierarchyConcept("ID", ($hic_id,$hic_name));
+	my ($ok, @new_values) = $self->getNewParentForHierarchyConcept("Name", ($hic_id,$hic_name));
 
 	if ($ok){
 		if ($hic_id eq $new_values[0]){
@@ -474,6 +503,30 @@ sub move_hic_button_pressed {
 	return 1;
 }
 
+sub search_hic_button_pressed {
+	my ($self) = @_;
+    my $focused_hic = $self->focused_hierarchy_concept();
+
+    my $hic_id = $focused_hic->[1] || "hic_0";
+    my $hic_name= $focused_hic->[0] || "ROOT";
+    my $type = "Search";
+    my @values = ($hic_id, $hic_name);
+
+    my ($ok, @new_values) = $self->show_choosing_hierarchy_concept_dialog($type, "Name", @values);
+
+	while ($ok){
+		if (($new_values[0] eq "") and ($new_values[1] eq "")){
+			SynSemClassHierarchy::Editor::warning_dialog($self, "Select Hierarchy Concept!");
+			($ok, @new_values) = $self->show_choosing_hierarchy_concept_dialog($type, "Name", @new_values);
+		}
+		last;
+	}
+	if ($ok){
+		$self->fetch_data($self->get_selected_class(), $new_values[0]);
+		$self->get_editor_frame->update_title();
+	}
+}
+
 sub change_hic_for_class_button_pressed{
  	my ($self) = @_;
 
@@ -493,30 +546,37 @@ sub change_hic_for_class_button_pressed{
 	#	print "menim koncept z $old_hic / $old_name\n";
 	my @old_values=($old_hic, $old_name);
 
-  	my ($ok, @new_values)=$self->getHierarchyForClass("change class", "ID", @old_values);  
+  	my ($ok, @new_values)=$self->getHierarchyForClass("change class", "Name", @old_values);  
   
-	if($ok){
+	while($ok){
 		return if ($new_values[0] eq $old_hic);
-		my $answer = SynSemClassHierarchy::Editor::question_dialog($self, "Do you really want to change hierarchy concept for class \n$classname ($classid)\nfrom\n$old_name ($old_hic)\nto\n$new_values[1] ($new_values[0])?", "Yes");
-		return if ($answer eq "No");
-
-		print "Changing hierarchy concept for class $classid from $old_name ($old_hic) to $new_values[1] ($new_values[0])\n";
-		
-		my $ret_val = $self->data->setClassHierarchyConcept($class, $new_values[0]);
-		if ($ret_val == 1){
-		    $self->data->main->addClassLocalHistory($class, "hierarchy concept changing");
-			if (($self->get_selected_class) and ($self->get_selected_class->getAttribute("id") eq $classid)){
-				$self->fetch_data($self->get_selected_class(), $old_hic);
-			}else{
-				$self->hic_item_changed();
-  				$self->get_editor_frame->update_title();
-			}
+		my @buttons = ("Yes", "No", "Cancel");
+		my $answer = SynSemClassHierarchy::Editor::question_complex_dialog($self, "Do you really want to change hierarchy concept for class \n$classname ($classid)\nfrom\n$old_name ($old_hic)\nto\n$new_values[1] ($new_values[0])?", \@buttons, "Yes", "Cancel");
+		if ($answer eq "No"){
+			return;
+		}elsif ($answer eq "Cancel"){
+			($ok, @new_values)=$self->getHierarchyForClass("change class", "Name", @new_values);  
+			next;
 		}else{
-			my $text = "Can not change hierarchy concept for class $classid. ";
-			$text .= " Unknown class." if ($ret_val == -2);
-			$text .= " Undefined concept ID $new_values[0]." if ($ret_val == -1);
-			SynSemClassHierarchy::Editor::warning_dialog($self, $text);
-			print "changing failed ...\n";
+			print "Changing hierarchy concept for class $classid from $old_name ($old_hic) to $new_values[1] ($new_values[0])\n";
+			
+			my $ret_val = $self->data->setClassHierarchyConcept($class, $new_values[0]);
+			if ($ret_val == 1){
+			    $self->data->main->addClassLocalHistory($class, "hierarchy concept changing");
+				if (($self->get_selected_class) and ($self->get_selected_class->getAttribute("id") eq $classid)){
+					$self->fetch_data($self->get_selected_class(), $old_hic);
+				}else{
+					$self->hic_item_changed();
+  					$self->get_editor_frame->update_title();
+				}
+			}else{
+				my $text = "Can not change hierarchy concept for class $classid. ";
+				$text .= " Unknown class." if ($ret_val == -2);
+				$text .= " Undefined concept ID $new_values[0]." if ($ret_val == -1);
+				SynSemClassHierarchy::Editor::warning_dialog($self, $text);
+				print "changing failed ...\n";
+			}
+			last;
 		}
   	}
 }
@@ -767,7 +827,7 @@ sub getHierarchyForClass{
   while ($ok){
 	if (($new_values[0] eq "") and ($new_values[1] eq "")){
 		SynSemClassHierarchy::Editor::warning_dialog($self, "Select Hierarchy Concept!");
-		($ok, @new_values) = $self->show_choosing_hierarchy_concept_dialog($type, "ID", @new_values);
+		($ok, @new_values) = $self->show_choosing_hierarchy_concept_dialog($type, "Name", @new_values);
 	}
 	last;
   }
@@ -782,11 +842,11 @@ sub getNewParentForHierarchyConcept{
   while ($ok){
 	if (($new_values[0] eq "") and ($new_values[1] eq "")){
 		SynSemClassHierarchy::Editor::warning_dialog($self, "Select parent Hierarchy Concept!");
-		($ok, @new_values) = $self->show_choosing_hierarchy_concept_dialog("Select parent", "ID", @new_values);
+		($ok, @new_values) = $self->show_choosing_hierarchy_concept_dialog("Select parent", "Name", @new_values);
 	}
 	if ($self->data->hierarchy->isAncestor($values[0], $new_values[0])){
 		SynSemClassHierarchy::Editor::warning_dialog($self, "New parent cannot be the descendant of the moving concept (or the same concept)!");
-		($ok, @new_values) = $self->show_choosing_hierarchy_concept_dialog("Select parent", "ID", @new_values);
+		($ok, @new_values) = $self->show_choosing_hierarchy_concept_dialog("Select parent", "Name", @new_values);
 	}
 	last;
   }
@@ -796,6 +856,7 @@ sub getNewParentForHierarchyConcept{
 sub show_hierarchy_concept_editor_dialog{
   my ($self, $action,@value)=@_;
   
+  my $text_settings = SynSemClassHierarchy::Config->getBEFont();
   my $top=$self->widget()->toplevel;
   my $d;
   if ($action =~ /modify/){
@@ -816,14 +877,19 @@ sub show_hierarchy_concept_editor_dialog{
   $d->bind('<Escape>',\&SynSemClassHierarchy::Widget::dlgCancel);
   $d->bind('<Alt-c>',\&SynSemClassHierarchy::Widget::dlgCancel);
 
+  my $entry_frame=$d->Subwidget('top');
+  $entry_frame->pack(qw/-fill both -expand 1/);
+  $entry_frame->gridColumnconfigure(1, -weight => 1);
   my $name_value = $value[1] || "";
-  my $hic_name_l=$d->Label( -text => "Name")->grid(-row=>0,-column=>0, -sticky=>"w");
-  my $hic_name=$d->Entry(qw/-width 30 -background white/, -text=>\$name_value)->grid(-row=>0, -column=>1, -sticky=>'w');
+  my $hic_name_l=$entry_frame->Label( -text => "Name")->grid(-row=>0,-column=>0, -sticky=>"w");
+  my $hic_name=$entry_frame->Entry(qw/-width 30 -background white/, -text=>\$name_value)->grid(-row=>0, -column=>1, -sticky=>'ew');
+  $hic_name->configure(-font=>$text_settings) if ($text_settings); 
   $hic_name->focus;
 
   my $def_value = $value[2] || "";
-  my $hic_definition_l=$d->Label( -text => "Definition")->grid(-row=>1,-column=>0, -sticky=>"w");
-  my $hic_definition=$d->Entry(qw/-width 30 -background white/, -text=>\$def_value)->grid(-row=>1, -column=>1, -sticky=>'w');
+  my $hic_definition_l=$entry_frame->Label( -text => "Definition")->grid(-row=>1,-column=>0, -sticky=>"w");
+  my $hic_definition=$entry_frame->Entry(qw/-width 30 -background white/, -text=>\$def_value)->grid(-row=>1, -column=>1, -sticky=>'ew');
+  $hic_definition->configure(-font=>$text_settings) if ($text_settings);
   
   my $dialog_return = SynSemClassHierarchy::Widget::ShowDialog($d);
   if ($dialog_return =~ /OK/){
@@ -842,6 +908,8 @@ sub show_hierarchy_concept_editor_dialog{
 
 sub show_choosing_hierarchy_concept_dialog{
  my ($self, $type, $focused, @values)=@_;
+ 
+ my $text_settings = SynSemClassHierarchy::Config->getBEFont();
 
  my $top=$self->widget()->toplevel;
  my $d = $top->DialogBox(-title => ucfirst($type) . " hierarchy concept",
@@ -850,40 +918,108 @@ sub show_choosing_hierarchy_concept_dialog{
 
   $d->Subwidget("B_OK")->configure(-underline=>0);
   $d->Subwidget("B_Cancel")->configure(-underline=>0);
+  
   $d->bind('<Return>',\&SynSemClassHierarchy::Widget::dlgReturn);
   $d->bind('<KP_Enter>',\&SynSemClassHierarchy::Widget::dlgReturn);
   $d->bind('<Alt-o>',\&SynSemClassHierarchy::Widget::dlgReturn);
-  $d->bind('<Escape>',\&SynSemClassHierarchy::Widget::dlgCancel);
   $d->bind('<Alt-c>',\&SynSemClassHierarchy::Widget::dlgCancel);
 
-  my $hic_id_value = $values[0];
-  my $hic_name_value = $values[1];
+  my $entry_frame=$d->Subwidget('top');
+  $entry_frame->pack(qw/-fill both -expand 1/);
+  $entry_frame->gridColumnconfigure(0, -weight => 1);
+  $entry_frame->gridColumnconfigure(1, -weight => 1);
   
-  my $hic_id_l=$d->Label( -text => "Concept ID")->grid(-row=>0,-column=>0, -sticky=>"w");
-  my $hic_id=$d->BrowseEntry(qw/-width 15 -disabledbackground white -disabledforeground black -state readonly /, -variable => \$hic_id_value )->grid(-row=>1, -column=>0, -sticky=>"e");
-  my $hic_name_l_=$d->Label( -text => "Concept Name")->grid(-row=>0, -column=>1, -sticky=>"w");
-  my $hic_name=$d->BrowseEntry(qw/-width 30 -disabledbackground white -disabledforeground black -state readonly/, -variable => \$hic_name_value)->grid(-row=>1, -column=>1, -sticky=>"e");
-
-  $hic_id->configure(-browsecmd=>[ sub { my $hic = $self->data->hierarchy->getHierarchyNodeByID($hic_id_value); if ($hic->getAttribute("name") ne $hic_name_value) { $hic_name_value = $hic->getAttribute("name") }}] );
-  $hic_name->configure(-browsecmd=>[ sub { my $hic = $self->data->hierarchy->getHierarchyNodeByName($hic_name_value); if ($hic->getAttribute("id") ne $hic_id_value) { $hic_id_value = $hic->getAttribute("id")} }] );
-
+  my $hic_id_value = ""; # $values[0];
+  my $hic_name_value = ""; #$values[1];
+  my @hic_names_values = ("");
+  my @hic_ids_values = ("");
+  
   my %hic_names =();
   foreach my $hic ($self->data->hierarchy->getSortedHierarchySubConcepts){
-
 	my $hic_status = $self->data->hierarchy->getHierarchyConceptStatus($hic);
 	$hic_status = "deleted" if ($hic->getAttribute("name") =~ /^deleted/);
 	next if ($hic_status =~ /(moved|deleted)/);
 
-	$hic_id->insert("end", $hic->getAttribute("id"));
+	push @hic_ids_values, $hic->getAttribute("id");
 	$hic_names{$hic->getAttribute("name")} = 1;
   }
 
   for my $hn (sort keys %hic_names){
-	$hic_name->insert("end", $hn);
+	push @hic_names_values, $hn;
   }
+
+  my $hic_id_l=$entry_frame->Label( -text => "Concept ID")->grid(-row=>0,-column=>0, -sticky=>"w");
+  my $hic_id=$entry_frame->BrowseEntry(qw/-width 15 
+	  									  -disabledbackground white 
+										  -disabledforeground black 
+										  -listheight 20 /, 
+										  -choices => \@hic_ids_values,
+										  -variable => \$hic_id_value )->grid(-row=>1, -column=>0, -sticky=>"ew");
+  my $hic_name_l_=$entry_frame->Label( -text => "Concept Name")->grid(-row=>0, -column=>1, -sticky=>"w");
+  my $hic_name=$entry_frame->BrowseEntry(qw/-width 30 
+	  										-disabledbackground white 
+											-disabledforeground black 
+											-listheight 20 /, 
+											-choices => \@hic_names_values,
+											-variable => \$hic_name_value)->grid(-row=>1, -column=>1, -sticky=>"ew");
+
+  $hic_id->configure(-browsecmd=>[ sub { 
+			  							  if ($hic_id_value =~ /^ *$/){
+											  $hic_name_value = "" if ($hic_name_value !~ /^ *$/);
+										  }else{
+			  								  my $hic = $self->data->hierarchy->getHierarchyNodeByID($hic_id_value); 
+										 	  $hic_name->Subwidget('slistbox')->toplevel->withdraw if ($hic_name->Subwidget('slistbox')->ismapped); 
+			  						     	  if ($hic->getAttribute("name") ne $hic_name_value) { $hic_name_value = $hic->getAttribute("name") };
+										 	  $hic_id->Subwidget('entry')->icursor(end);
+										  }
+										}] );
+  $hic_id->configure(-font=>$text_settings) if ($text_settings);
+
+  $hic_name->configure(-browsecmd=>[ sub { 
+			  								if ($hic_name_value =~ /^ *$/){
+												$hic_id_value = "" if ($hic_id_value !~ /^ *$/);
+											}else{
+				  							   my $hic = $self->data->hierarchy->getHierarchyNodeByName($hic_name_value);
+											   $hic_id->Subwidget('slistbox')->toplevel->withdraw if ($hic_id->Subwidget('slistbox')->ismapped); 
+  				  						       if ($hic->getAttribute("id") ne $hic_id_value) { $hic_id_value = $hic->getAttribute("id")};
+  										   	   $hic_name->Subwidget('entry')->icursor(end);
+										   }
+  									     }] );
+  $hic_name->configure(-font=>$text_settings) if ($text_settings);;
+
+
+  $hic_name->Subwidget('entry')->bind('<KeyRelease>' => sub { $self->be_update_choices($hic_name, \@hic_names_values)});
+  $hic_id->Subwidget('entry')->bind('<KeyRelease>' => sub { $self->be_update_choices($hic_id, \@hic_ids_values)});
+
+  $hic_name->Subwidget('entry')->configure(-validate => 'key',
+										   -validatecommand => [\&quick_search, $self, \@hic_names_values, $hic_name_value, %P]
+  									);
+  $hic_id->Subwidget('entry')->configure(-validate => 'key',
+										   -validatecommand => [\&quick_search, $self, \@hic_ids_values, $hic_id_value, %P]
+									);
+
+  $hic_name->Subwidget('entry')->bind('<Return>', sub { $hic_name_value = $self->get_selected_item($hic_name); 
+														$hic_name->Callback('-browsecmd');
+
+														$hic_name->Subwidget('slistbox')->toplevel->withdraw if ($hic_name->Subwidget('slistbox')->ismapped); 
+  														$d->Subwidget("B_OK")->focus;
+														Tk->break();
+												});
   
-  my $focused_entry=($focused eq "ID" ? $hic_id : $hic_name);
-  my $dialog_return = SynSemClassHierarchy::Widget::ShowDialog($d, $focused_entry);
+  $d->bind('<Escape>', sub{ if ($hic_name->Subwidget('slistbox')->ismapped){
+			  					$hic_name->Subwidget('slistbox')->toplevel->withdraw;
+							}elsif($hic_id->Subwidget('slistbox')->ismapped){
+								$hic_id->Subwidget('slistbox')->toplevel->withdraw;
+							}else{
+								$d->Subwidget("B_Cancel")->invoke();
+							}
+						});
+my $focused_entry= ($focused eq "ID" ? $hic_id : $hic_name);
+$focused_entry->focus();
+#  print $focused_entry . "\n";
+# my $dialog_return = SynSemClassHierarchy::Widget::ShowDialog($d, $focused_entry);
+ my $dialog_return = SynSemClassHierarchy::Widget::ShowDialog($d);
+
   if ($dialog_return =~ /OK/){
    my @new_values;
    $new_values[0]=$self->data->main->trim($hic_id_value);
@@ -893,6 +1029,53 @@ sub show_choosing_hierarchy_concept_dialog{
   }
   $d->destroy();
   return (0, undef);
+}
+
+sub quick_search {
+	my ($self, $be_items, $hic_name_value, $value) = @_;
+	if ($self->focus_by_text($be_items,  $value, 1)){
+		return 1;
+	}
+	return 0;
+}
+
+sub focus_by_text {
+  my ($self, $be_items, $text,$caseinsensitive)=@_;  
+
+  my @items = @$be_items;
+  for (my $i=0; $i < scalar @items; $i++) {
+      if ((!$caseinsensitive and index($items[$i],$text)==0 or
+	  $caseinsensitive and index(lc($items[$i]),lc($text))==0)) {
+		return 1;
+      }
+  }
+  return 0;
+}
+
+sub be_update_choices{
+	my ($self, $be, $items) = @_;
+	my $input = $be->Subwidget('entry')->get();
+
+	my @filtered_items = grep { /^\Q$input\E/i } @$items;
+	my @a_items = @$items;
+	#	$be->configure(-choices => \@filtered_items);
+	
+	if (@filtered_items){
+		$be->PopupChoices unless ($be->Subwidget('slistbox')->ismapped); 
+
+		my ($index) = grep { $a_items[$_] eq $filtered_items[0] } 0 .. $#a_items;
+		$be->Subwidget('slistbox')->see($index);
+		$be->Subwidget('slistbox')->selectionClear(0, end);
+		$be->Subwidget('slistbox')->selectionSet($index);
+	}
+}
+
+sub get_selected_item{
+	my ($self, $be) = @_;
+	
+	my $item = $be->Subwidget('slistbox')->get($be->Subwidget('slistbox')->curselection->[0]) || ""; 
+	return $item;
+
 }
 
 sub show_note_editor_dialog{

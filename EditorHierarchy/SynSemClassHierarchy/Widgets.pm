@@ -128,25 +128,28 @@ sub openurl{
 }
 
 sub openTrEdForFileNodes{
-  my ($self, @nodes)=@_;
+  my ($self, $lang, @nodes)=@_;
   
-  my $nodesList = "";
-  foreach my $fileNode (@nodes){
-  	if ($fileNode =~ /^EnglishT/){
-	  $fileNode =~ s/^EnglishT-wsj_(....)(-.*)/..\/treex_files_with_substituted_frames\/wsj_\1.treex.gz#EnglishT-wsj_\1\2/;
-	}else{
-	  $fileNode =~ s/^T-wsj(....)(-.*)$/..\/treex_files_with_substituted_frames\/wsj_\1.treex.gz#T-wsj\1\2/;
-  	}  
-    $nodesList .= "$fileNode ";
-  }
-
   my $tred = SynSemClassHierarchy::Config->getTrEd();
   if ($tred eq ""){
   	SynSemClassHierarchy::Editor::warning_dialog($self,"There is not defined TrEdPath in config file!");
 	return 0;
   }
 
+  my $tredDataPath = SynSemClassHierarchy::Config->getTrEdDataPath($lang);
+  if ($tredDataPath eq ""){
+  	SynSemClassHierarchy::Editor::warning_dialog($self,"There is not defined TrEdDataPath_" . $lang . " in config file!");
+	return 0;
+  }
+
+  my $nodesList = "";
+  foreach my $fileNode (@nodes){
+	  $fileNode = $tredDataPath . "/" . $fileNode;
+    $nodesList .= "$fileNode ";
+  }
+
   print "opening TrEd from $tred for nodes ...\n"; 
+  print "\t$nodesList\n";
   my $platform = $^O;
  
   my $cmd;
@@ -536,8 +539,8 @@ sub focus_by_text {
   }
 
   foreach my $t (@scms) {
-      if ((!$caseinsensitive and index($h->itemCget($t,2,'-text'),$text)==0 or
-	  $caseinsensitive and index(lc($h->itemCget($t,2,'-text')),lc($text))==0)) {
+      if ((!$caseinsensitive and index($h->itemCget($t,3,'-text'),$text)==0 or
+	  $caseinsensitive and index(lc($h->itemCget($t,3,'-text')),lc($text))==0)) {
 		$h->anchorSet($t);
 		$h->selectionClear();
 		$h->selectionSet($t);
@@ -634,12 +637,14 @@ sub create_widget {
 	$search_by_value = "Class ID";
   }elsif ($classSearchBy eq "roles"){
 	$search_by_value = "Class roles";
+  }elsif ($classSearchBy eq "classmembers"){
+	$search_by_value = "ClassMembers";
   }else{
     $search_by_value= SynSemClassHierarchy::Config->getLangName($classSearchBy) . " class name";
   }
   my $sb_string=lc($search_by_value);
   $sb_string =~ s/ /_/g;
-  foreach (@lang_names_s, "Class ID", "Class roles"){
+  foreach (@lang_names_s, "Class ID", "Class roles", "ClassMembers"){
   	$be_sb->insert("end", $_);
   }
 
@@ -768,7 +773,7 @@ sub fetch_data {
   }
   $t->headerCreate(1,-itemtype=>'text', -text=>$header1_text);
   my $f_lang = $self->data->main->first_lang || "xxx";
-  my $header2_text = ($search_by !~ "(class_id|class_roles)"? "ID" : $f_lang . " name");
+  my $header2_text = ($search_by !~ "(class_id|class_roles|classmembers)"? "ID" : $f_lang . " name");
   $t->headerCreate(2,-itemtype=>'text', -text=>$header2_text);
   $t->columnWidth(0,'');
   $t->columnWidth(1,'');
@@ -791,14 +796,14 @@ sub fetch_data {
 		   -style => $class_style);
 	
 	my $text1_value=$entry->[3];
-	if ($search_csl_by =~ /(class_id|class_roles)/){
+	if ($search_csl_by =~ /(class_id|class_roles|classmembers)/){
 		$text1_value = $entry->[1];
 	}
     $t->itemCreate($e, 1, -itemtype=>'text',
 		   -text=> $text1_value ,
 		   -style => $self->style());
 
-	my $text2_value = ($search_csl_by =~ /(class_roles|class_id)/ ? $entry->[3] : $entry->[1]);
+	my $text2_value = ($search_csl_by =~ /(class_roles|class_id|classmembers)/ ? $entry->[3] : $entry->[1]);
     $t->itemCreate($e, 2, -itemtype=>'text',
 		   -text=> $text2_value ,
 		   -style => $self->style());
@@ -1688,7 +1693,7 @@ sub cm_mappingpaste_button_pressed{
  my @mapping_list=$self->data->getClassMemberMappingList($lang, $classmember);
  if (scalar(@mapping_list) > 0){
    my @buttons=("Merge", "Replace", "Nothing");
- 	my $answer = SynSemClassHierarchy::Editor::question_complex_dialog($self, "Mapping is not empty!\nWhat do you want to do?", \@buttons, "Merge");
+ 	my $answer = SynSemClassHierarchy::Editor::question_complex_dialog($self, "Mapping is not empty!\nWhat do you want to do?", \@buttons, "Merge", "Nothing");
 	my $succes="";
 	if ($answer eq "Nothing"){
 		return;
@@ -2324,12 +2329,29 @@ sub reload_examples{
      'varg',
      -foreground => "red",
 	 -offset=>"-2",
-	 -font => ['liberation serif','8','bold']
+	 -font => ['liberation serif','10','bold']
     );
 
   $t->tagConfigure
     (
      'varg_test',
+     -foreground => "red",
+	 -background => "light blue",
+	 -offset=>"-2",
+	 -font => ['liberation serif','10','bold italic']
+    );
+  
+  $t->tagConfigure
+    (
+     'vargaux',
+     -foreground => "red",
+	 -offset=>"-2",
+	 -font => ['liberation serif','8','bold']
+    );
+
+  $t->tagConfigure
+    (
+     'vargaux_test',
      -foreground => "red",
 	 -background => "light blue",
 	 -offset=>"-2",
@@ -2417,15 +2439,28 @@ sub all_tred_button_pressed{
   my $data_cms = $self->data->lang_cms($lang);
   my $examplespackage = "SynSemClassHierarchy::" . uc($lang) . "::Examples";
   my @example_nodes=();
-  foreach my $example ($examplespackage->getAllExamples($data_cms, $classmember)){
+  my @all_examples = ($examplespackage->getAllExamples($data_cms, $classmember));
+  my $ex_count = scalar @all_examples;
+  foreach my $example (@all_examples){
 	my ($ecorpref, $enodeID, $epair, $elang, $testData)=split("##", $example->[0]);
-	push @example_nodes, $enodeID if ($ecorpref eq "pcedt");
+	if ($lang ne $elang){
+		$ex_count--;
+		next;
+	}
+	my $enodeForTrEd = $examplespackage->getNodeForTrEdOpen($ecorpref, $enodeID);
+	if ($enodeForTrEd ne ""){
+		push @example_nodes, $enodeForTrEd if ($ecorpref eq "pcedt");
+		$ex_count--;
+	}
   }
 
   if (scalar @example_nodes == 0){
     SynSemClassHierarchy::Editor::warning_dialog($self,"No sentence to show!");
   }else{
-	$self->openTrEdForFileNodes(@example_nodes);
+	if ($ex_count > 0){
+    	SynSemClassHierarchy::Editor::warning_dialog($self,"Some sentences can not be shown (not in treex format)!");
+	}
+	$self->openTrEdForFileNodes($lang, @example_nodes);
   }
   return;
 }
@@ -2447,12 +2482,14 @@ sub one_tred_button_pressed{
 	return;
   }  
   
+  my $examplespackage = "SynSemClassHierarchy::" . uc($lang) . "::Examples";
   if ($selected=~/^[ *]{7}\t<([^>]*)>.*/){
-	  my ($ecorpref, $enodeID, $epair, $elang, $testData) = split("##", $1);
-	if ($ecorpref !~ /(pcedt|pedt)/){
-	    SynSemClassHierarchy::Editor::warning_dialog($self,"This sentence is from $ecorpref, so it can not be opened in TrEd!");
+	my ($ecorpref, $enodeID, $epair, $elang, $testData) = split("##", $1);
+	my $enodeForTrEd = $examplespackage->getNodeForTrEdOpen($ecorpref, $enodeID);
+	if ($enodeForTrEd eq ""){
+    	SynSemClassHierarchy::Editor::warning_dialog($self,"This sentence can not be shown (not in treex format)!");
 	}else{
-		$self->openTrEdForFileNodes($enodeID);
+		$self->openTrEdForFileNodes($lang, $enodeForTrEd);
 	}
   }else{
     SynSemClassHierarchy::Editor::warning_dialog($self,"Bad node ID for opening TrEd ($enodeID)!");

@@ -12,7 +12,7 @@ use strict;
 use locale;
 
 sub sort_links_for_type{
-	my ($type, $l1, $l2)=@_;
+	my ($self, $type, $l1, $l2)=@_;
 
 	if ($type eq "engvallex"){
 		return sort_engvallexlinks($l1, $l2);
@@ -84,7 +84,6 @@ sub sort_czengvallexlinks{
 	my ($enl1, $enl2)=($l1->[5],$l2->[5]);
 	my ($czid1, $czid2)=($l1->[6],$l2->[6]);
 	my ($czl1, $czl2)=($l1->[7],$l2->[7]);
-
 	return sort_by_lemmas($enl1, $enl2) if ($enl1 ne $enl2);
 	return sort_by_ids($enid1, $enid2) if ($enid1 ne $enid2);
 	return sort_by_czech_lemmas($czl1, $czl2) if ($czl1 ne $czl2);

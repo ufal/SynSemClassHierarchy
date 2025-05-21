@@ -1236,16 +1236,18 @@ sub question_dialog{
 }
 
 sub question_complex_dialog{
-  my ($self,$text,$buttons, $default)=@_;
+  my ($self,$text,$buttons, $default, $cancel_button)=@_;
   return 0 unless ref($self);
   my @button_labels=@$buttons;
   my $d=$self->widget()->toplevel->Dialog(-text=>$text,
 					-bitmap=> 'question',
 					-title=> 'Question',
 					-default_button=>$default,
+					-cancel_button=>$cancel_button, 
 					-buttons=>[@button_labels]);
   $d->bind('<Return>', \&SynSemClassHierarchy::Widget::dlgReturn);
   $d->bind('<KP_Enter>', \&SynSemClassHierarchy::Widget::dlgReturn);
+  $d->bind('<Escape>',\&SynSemClassHierarchy::Widget::dlgCancel);
   my $answer=$d->Show();
   $d->destroy();
   return $answer;

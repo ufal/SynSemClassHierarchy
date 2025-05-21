@@ -16,7 +16,7 @@ my %ext_lexicons_attr=(
 		"on" => ["verb", "sense"],  
 		"vn" => ["class", "subclass"],  
 		"pb" => ["predicate", "rolesetid", "filename"],  
-		"wn" => ["word", "sense"],  
+		"wn" => ["word", "sense", "synsetid"],  
 		"czengvallex" => ["idref", "enid", "enlemma", "csid", "cslemma"]  
 );
 my $auxiliary_mapping_label = "CzEngVallex Mapping";
@@ -44,7 +44,7 @@ sub create_widget {
   
   my $wordnet_frame=$w->Frame(-takefocus=>0);
   $wordnet_frame->pack(qw/-fill x -padx 4/);
-  my $wordnet_links = SynSemClassHierarchy::ENG::LexLink->new($data, undef, $wordnet_frame, "WordNet",
+  my $wordnet_links = SynSemClassHierarchy::ENG::LexLink->new($data, undef, $wordnet_frame, "Open English Wordnet",
 													qw/-height 3/);
   $wordnet_links->configure_links_widget("wn");
 
@@ -229,7 +229,7 @@ sub fetch_data{
 package SynSemClassHierarchy::ENG::LexLink;
 use base qw(SynSemClassHierarchy::FramedWidget);
 use base qw(SynSemClassHierarchy::LexLink_All);
-use vars qw($framenet_mapping);
+use vars qw($framenet_mapping, $oewn_mapping);
 use utf8;
 require Tk::HList;
 require Tk::ItemStyle;
@@ -246,9 +246,9 @@ sub getMapping{
 		return;
 	}
 
-	open(IN,"<:encoding(UTF-8)", $file);
+	open(my $fh,"<:encoding(UTF-8)", $file);
 	my %valid_mapping=();
-	while(<IN>){
+	while(<$fh>){
 		chomp($_);
 		if($lexicon eq "framenet"){
 			my ($frameName, $frameID,$luName,$luID)=split(/\t/,$_);
@@ -258,9 +258,17 @@ sub getMapping{
 			$luID=~s/luID="([^"]*)"/\1/;
 			$valid_mapping{$frameName}{validframe}=1;
 			$valid_mapping{$frameName}{$luName}=$luID;
+		
+		}elsif ($lexicon eq "oewn"){
+			my ($le, $word, $sense, $sense_no, $synsetid) = split(/\t/, $_);
+			$valid_mapping{$word}{sense}{$sense_no} = $sense;
+			$valid_mapping{$word}{sense_no}{$sense} = $sense_no;
+		
+			$valid_mapping{$word}{synsetid}{$sense_no} = $synsetid;
+			$valid_mapping{$word}{synsetid}{$sense} = $synsetid;
 		}
 	}
-	close(IN);
+	close($fh);
 	return \%valid_mapping;
 }
 
@@ -322,8 +330,9 @@ sub fetch_wordnetlinks{
   }
   foreach my $entry ($self->data()->getClassMemberLinksForType($classmember, 'wn')) {
 	$e= $t->addchild("",-data => $entry->[0]);
+	my $sense_no = $oewn_mapping->{$entry->[3]}->{sense_no}->{$entry->[4]};
     $t->itemCreate($e, 0, -itemtype=>'text',
-		   -text=> $entry->[3] . "#" . $entry->[4] );
+		   -text=> $entry->[3] . "#" . $sense_no );
   }
 }
 
@@ -469,7 +478,7 @@ sub getNewLink{
 			($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "enid", @new_value);
 			next;	
 		}
-		$cslemma=SynSemClassHierarchy::LibXMLVallex::getLemmaByFrameID("pdtvallex",$cs_id);
+		$cslemma=SynSemClassHierarchy::LibXMLVallex::getLemmaByFrameID("pdtvallex2_8",$cs_id);
 		$enlemma=SynSemClassHierarchy::LibXMLVallex::getLemmaByFrameID("engvallex",$en_id);
 		if ($new_value[2] ne "" and $enlemma ne $new_value[2]){
 			my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "Do you want to change english lemma? (English lemma for typed english frame is " . $enlemma . ")", "No");
@@ -595,17 +604,18 @@ sub getNewLink{
 			($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "word", @new_value);
 			next;
 		}
+
 		if ($new_value[1] eq ""){
-			my $answer=SynSemClassHierarchy::Editor::question_dialog($self, "Do you want to fill the sense?", "No");
-			if ($answer eq "Yes"){
-				($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "sense", @new_value);
-				next;
-			}
-		}elsif ($new_value[1] !~ /^[0-9]+$/){
-			SynSemClassHierarchy::Editor::warning_dialog($self, "Sense must be a number or empty string!");
+			SynSemClassHierarchy::Editor::warning_dialog($self, "Fill the sense!");
+			($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "sense", @new_value);
+			next;
+		}elsif (not defined $oewn_mapping->{$new_value[0]}->{sense_no}->{$new_value[1]}){
+			SynSemClassHierarchy::Editor::warning_dialog($self, "Sense " . $new_value[1] . " is not defined for the word " . $new_value[0] . " in Open English Wordnet! Please fill another sense or word.");
 			($ok, @new_value) = $self->show_link_editor_dialog($action, $link_type, "sense", @new_value);
 			next;
 		}
+		$new_value[2] = $oewn_mapping->{$new_value[0]}->{synsetid}->{$new_value[1]};
+		
 	}elsif($link_type eq "on"){
 		if ($new_value[0] eq ""){
 			SynSemClassHierarchy::Editor::warning_dialog($self, "Fill the verb!");
@@ -630,7 +640,7 @@ sub show_link_editor_dialog{
   my %lt_name=('fn' => 'FrameNet',
 		      'vn' => 'VerbNet',
 			  'pb' => 'PropBank',
-			  'wn' => 'WordNet',
+			  'wn' => 'Open English Wordnet',
 			  'on' => 'OntoNotes',
 			  'engvallex' => 'EngVallex',
 			  'czengvallex' => 'CzEngVallex');
@@ -803,10 +813,13 @@ sub show_wordnet_editor_dialog{
   		$text = $self->data()->getClassMemberAttribute($self->selectedClassMember(), 'lemma');
 		$text=~s/_/ /;
 	}
+	my $sense_val = $value[1];
+	$sense_val = $oewn_mapping->{$text}->{sense_no}->{$value[1]} if (defined $oewn_mapping->{$text}->{sense_no}->{$value[1]});
+
   	my $word_l=$d->Label(-text=>'Word')->grid(-row=>0, -column=>0,-sticky=>"w");
 	my $word=$d->Entry(qw/-width 50 -background white/,-text=>$text)->grid(-row=>0, -column=>1,-sticky=>"we");
   	my $sense_l=$d->Label(-text=>'Sense')->grid(-row=>1, -column=>0,-sticky=>"w");
-	my $sense=$d->Entry(qw/-width 50 -background white/,-text=>$value[1])->grid(-row=>1, -column=>1,-sticky=>"we");
+	my $sense=$d->Entry(qw/-width 50 -background white/,-text=>$sense_val)->grid(-row=>1, -column=>1,-sticky=>"we");
 	$d->Subwidget("B_Show")->configure(-command=>[\&test_link, $self, 'wn', $word, $sense]);
 
 	if ($focused eq "word"){
@@ -820,6 +833,7 @@ sub show_wordnet_editor_dialog{
 	  my @new_value;
 	  $new_value[0]=$self->data()->trim($word->get());
 	  $new_value[1]=$self->data()->trim($sense->get());
+	  $new_value[1] = $oewn_mapping->{$new_value[0]}->{sense}->{$new_value[1]} if (defined $oewn_mapping->{$new_value[0]}->{sense}->{$new_value[1]});
    	  $d->destroy();
 	  return (2, @new_value) if ($dialog_return =~/Next/);
 	  return (1, @new_value);
@@ -1104,6 +1118,11 @@ sub test_wordnet_link{
 		$values[0]->focusForce;
 		return -2;
 	}
+  	if ($sense eq ""){
+	  	SynSemClassHierarchy::Editor::warning_dialog($self, "Fill the sense!");
+		$values[1]->focusForce;
+		return -2;
+	}
   	
 	return $self->get_wordnet_address($word, $sense);
 }
@@ -1236,9 +1255,13 @@ sub get_wordnet_address{
   return if $address eq "";
 
   if ($word ne ""){
-  	$address .= '&s=' . $word;
+  	if (defined $oewn_mapping->{$word}->{synsetid}->{$sense}){
+	  	$address .= $oewn_mapping->{$word}->{synsetid}->{$sense};
+	}else{
+  		print "unknown oewn link $word#$sense\n";
+	}
   }else{
-  	print "undef WordNet link\n";
+  	print "undef oewn link\n";
 	return;
   }
   return $address;

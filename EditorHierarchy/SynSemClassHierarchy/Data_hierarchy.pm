@@ -255,6 +255,23 @@ sub isAncestor{
   return 0;
 }
 
+sub getAncestorsIDs{
+   my ($self, $node_id) = @_;
+   return unless($node_id);
+ 
+	my $n = $self->getHierarchyNodeByID($node_id);
+ 
+	my @ancestorsIDs = ();
+	while($n){
+  	  if ($n->nodeName() eq "hi_concept"){
+		last if ($n->getAttribute("id") eq "hic_0");
+		push @ancestorsIDs, $n->getAttribute("id");
+	  }
+	  $n=$n->parentNode();
+	}
+	return @ancestorsIDs;
+}
+
 sub isParentHierarchyConcept{
 	my ($self, $tested_id, $desc_id) = @_;
 	return unless $tested_id;

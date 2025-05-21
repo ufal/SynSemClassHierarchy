@@ -39,10 +39,10 @@ sub exportData{
   my $all=1;
 
   if ($selectedClass){
-	my @buttons=('All Lexicon', 'Only selected');
+	my @buttons=('All Lexicon', 'Only selected', 'Cancel');
 	my $answer = SynSemClassHierarchy::Editor::question_complex_dialog($self, 
 				"Export for all Lexicon or only for class " . $self->subwidget('classlist')->focused_class_id . "?", 
-				\@buttons, 'Only selected');
+				\@buttons, 'Only selected', 'Cancel');
 	$all=0 if ($answer eq "Only selected");  	
   }
 

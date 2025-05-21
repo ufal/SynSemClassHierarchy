@@ -29,6 +29,10 @@ sub read_resources{
 	my $fn_mapping_file = SynSemClassHierarchy::Config->getFromResources("ENG/framenet_mapping.txt");
 	die ("Can not read file framenet_mapping.xml") if ($fn_mapping_file eq "0");
 	$SynSemClassHierarchy::ENG::LexLink::framenet_mapping=SynSemClassHierarchy::ENG::LexLink->getMapping("framenet",$fn_mapping_file);
+
+	my $oewn_mapping_file = SynSemClassHierarchy::Config->getFromResources("ENG/oewn_mapping.txt");
+	die ("Can not read file oewn_mapping.xml") if ($oewn_mapping_file eq "0");
+	$SynSemClassHierarchy::ENG::LexLink::oewn_mapping=SynSemClassHierarchy::ENG::LexLink->getMapping("oewn",$oewn_mapping_file);
 }
 	
 1;

@@ -29,8 +29,10 @@ sub getAllExamples {
 	}
 	if (scalar @pairs == 0){
 		my $enid = $classmember->getAttribute("idref");
-		$enid =~ s/EngVallex-ID-//;
-		push @pairs, $enid . "#.*";
+		if ($enid =~ /EngVallex-ID-/){
+			$enid =~ s/EngVallex-ID-//;
+			push @pairs, $enid . "#.*";
+		}
 	}
   
 	foreach my $pair (@pairs){  #ugly hack for substituted frames (files with sentences are for active/reviewed frames, but in czengvallex can be pairs
@@ -59,31 +61,58 @@ sub getAllExamples {
 			}
 		}
 
-		if (not open (IN,"<:encoding(UTF-8)", $sentencesPath)){
+		if (open (my $fh,"<:encoding(UTF-8)", $sentencesPath)){
+			while(<$fh>){
+				chomp($_);
+				next if ($_!~/^(<train>|<test>|)<[^>#]*#([^>]*)><([^>]*)> (.*)$/);
+				my $data_type=$1;
+				my $nodeID=$2;
+		
+				my $frpair=$3;
+				my $text=$4;
+				next if ($corpref eq "pcedt" and $csid ne ".*" and $frpair !~ /^$enid\.$csid$/);
+	
+				my $testData=0;
+				if ($data_type eq "<test>" or ($data_type eq "" and $nodeID =~ /wsj_2/)){
+					$testData=1;
+				}
+	 			push @sents, [$corpref."##".$nodeID."##".$frpair."##eng##".$testData, $text]
+				#push @sents, [$_, $corpref."##".$nodeID."##".$frpair."##ces", $lexEx, $testData,  $text]
+			}
+			close $fh;
+		}else{
 			print "getAllExamples: Cann't open $sentencesPath file for $examplesFile\n";
 			next;
 		}
-
-		while(<IN>){
-			chomp($_);
-			next if ($_!~/^(<train>|<test>|)<[^>#]*#([^>]*)><([^>]*)> (.*)$/);
-			my $data_type=$1;
-			my $nodeID=$2;
-		
-			my $frpair=$3;
-			my $text=$4;
-			next if ($corpref eq "pcedt" and $csid ne ".*" and $frpair !~ /^$enid\.$csid$/);
-	
-			my $testData=0;
-			if ($data_type eq "<test>" or ($data_type eq "" and $nodeID =~ /wsj_2/)){
-				$testData=1;
-			}
-	 		push @sents, [$corpref."##".$nodeID."##".$frpair."##eng##".$testData, $text]
-			#push @sents, [$_, $corpref."##".$nodeID."##".$frpair."##ces", $lexEx, $testData,  $text]
-		}
-		close IN;
 	}
 
+	
+	#ssc sentences
+	$corpref = "ssc";
+	my $lemma = $classmember->getAttribute("lemma");
+	my $examplesFile = "ENG/example_sentences/Vtext_eng_SSC_" . $lemma . ".txt";
+		  
+	my $sentencesPath=SynSemClassHierarchy::Config->getFromResources($examplesFile);
+  	if ($sentencesPath){
+		if (open (my $fh,"<:encoding(UTF-8)", $sentencesPath)){
+			while(<$fh>){
+				chomp($_);
+				next if ($_!~/^<([^>]*)><([^>]*)> (.*)$/);
+				my $sentID=$1;
+				my $verb=$2;
+				my $text=$3;
+				
+				next if ($verb !~ /^$lemma$/);
+ 				push @sents, [$corpref."##".$sentID."##".$verb."##eng##0", $text]
+			}
+			close $fh;
+		}else{	
+			print "getAllExamples: Cann't open $sentencesPath file for $examplesFile\n";
+		}
+	}
+
+		
+		
 	#paracrawl_ge sentences
 	$corpref = "paracrawl_ge";
 	
@@ -103,25 +132,24 @@ sub getAllExamples {
 				next;
 		  	}
 	
-		 	if (not open (IN,"<:encoding(UTF-8)", $sentencesPath)){
+		 	if (open (my $fh,"<:encoding(UTF-8)", $sentencesPath)){
+			  	while(<$fh>){
+					chomp($_);
+					next if ($_!~/^<([^>]*)><([^>]*)><(de|en)> (.*)$/);
+					my $sentID=$1;
+		
+					my $lpair=$2;
+					my $lang=$3;
+					my $text=$4;
+					next if ($lpair !~ /^$enlemma\.$gelemma$/);
+	
+		 			push @sents, [$corpref."##".$sentID."##".$lpair."##". SynSemClassHierarchy::Config->getCode3($lang) . "##0", $text]
+				}
+				close $fh;
+			}else{
 				print "getAllExamples: Cann't open $sentencesPath file for $examplesFile\n";
 				next;
 			}
-
-		  	while(<IN>){
-				chomp($_);
-				next if ($_!~/^<([^>]*)><([^>]*)><(de|en)> (.*)$/);
-				my $sentID=$1;
-		
-				my $lpair=$2;
-				my $lang=$3;
-				my $text=$4;
-				next if ($lpair !~ /^$enlemma\.$gelemma$/);
-	
-		 		push @sents, [$corpref."##".$sentID."##".$lpair."##". SynSemClassHierarchy::Config->getCode3($lang) . "##0", $text]
-			}
-			close IN;
-
 	  	}
 	 
 	} #sentences from paracrawl_ge 
@@ -129,4 +157,11 @@ sub getAllExamples {
 	return @sents;
 }
 
+sub getNodeForTrEdOpen{
+	my ($self, $corp, $node)=@_;
+	return "" if ($corp ne "pcedt");
+
+	$node =~ s/EnglishT-wsj_(....)(-.*)/wsj_\1.treex.gz#EnglishT-wsj_\1\2/;
+	return $node;
+}
 1;

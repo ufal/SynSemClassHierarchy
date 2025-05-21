@@ -6,7 +6,7 @@ package SynSemClassHierarchy::LibXMLVallex;
 use strict;
 use XML::LibXML;
 use XML::LibXML::Iterator;
-use vars qw($pdtvallex_data $engvallex_data $substituted_pairs);
+use vars qw($pdtvallex_data $engvallex_data $substituted_pairs $pdtvallex2_8_data);
 
 sub new {
   my ($self, $file,$novalidation)=@_;
@@ -63,6 +63,8 @@ sub getLexiconFrameElementsByFrameID{
 		$data=$pdtvallex_data;
 	}elsif($lexicon eq "engvallex"){
 		$data=$engvallex_data;
+	}elsif($lexicon eq "pdtvallex2_8"){
+		$data=$pdtvallex2_8_data;
 	} else{
 		return;
 	}
@@ -78,6 +80,8 @@ sub getFrameElementsByFrameID{
 		$data=$pdtvallex_data;
 	}elsif($lexicon eq "engvallex"){
 		$data=$engvallex_data;
+	}elsif($lexicon eq "pdtvallex2_8"){
+		$data=$pdtvallex2_8_data;
 	}
 	my $frame=getFrameByID($data, $frameID);
 	return if (!$frame);
@@ -95,6 +99,8 @@ sub getVallexLemmas{
 		$data=$pdtvallex_data;
     }elsif($lexicon eq "engvallex"){
 		$data=$engvallex_data;
+	}elsif($lexicon eq "pdtvallex2_8"){
+		$data=$pdtvallex2_8_data;
     }
 
     my $doc=$data->doc();
@@ -121,6 +127,8 @@ sub getLemmaByFrameID{
 		$data = $pdtvallex_data;
 	}elsif($lexicon eq "engvallex"){
 		$data = $engvallex_data;
+	}elsif($lexicon eq "pdtvallex2_8"){
+		$data=$pdtvallex2_8_data;
 	}
 
 	my $word=getWordByFrameID($data,$frameID);
@@ -135,6 +143,8 @@ sub isValidLexiconFrameID{
 		$data=$pdtvallex_data;
 	}elsif($lexicon eq "engvallex"){
 		$data=$engvallex_data;
+	}elsif($lexicon eq "pdtvallex2_8"){
+		$data=$pdtvallex2_8_data;
 	}
 	my $frame = getFrameByID($data, $frameID);
 	return 0 if (!$frame);

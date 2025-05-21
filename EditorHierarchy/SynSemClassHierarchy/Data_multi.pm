@@ -141,8 +141,14 @@ sub getClassSubList {
   my @classes=();
   my ($milestone,$after,$before,$i);
   my $class_attr="2";
-  if ($search_csl_by eq "class_roles"){
+  if (($search_csl_by eq "class_roles") and ($item ne "")){
  	return $self->getClassList("$search_csl_by:$item");
+  }elsif($search_csl_by eq "classmembers"){
+		if ($item ne ""){
+		 	return $self->getClassList("$search_csl_by:$item");
+		}else{
+			$search_csl_by = "class_id";
+		}
   }
   my @all_classes=$self->getClassList($search_csl_by);
 
@@ -211,6 +217,8 @@ sub getClassList {
   my %roles=();
   my $sroles_count=0;
   my $hic_s = "";
+  my $cms_pattern = ""; 
+  my %cms_classes=();
   if ($sort_by =~ /^class_roles/){
   	my ($null, $roles_s) = split(":", $sort_by);
 	foreach my $role (split(";", $roles_s)){
@@ -221,6 +229,8 @@ sub getClassList {
 	}
   }elsif ($sort_by =~ /^hierarchy_concept/){
 	(my $null, $hic_s) = split(":", $sort_by);
+  }elsif ($sort_by =~ /^classmembers/){
+	(my $null, $cms_pattern) = split(":", $sort_by);
   }
 
   my $data_main = $self->main;
@@ -236,10 +246,36 @@ sub getClassList {
   	my $id = $lang_class->getAttribute("id");
 	my $lemma = $lang_class->getAttribute("lemma");
 	$lang_class_names{$id}=$lemma;
+	if ($cms_pattern ne ""){
+		foreach my $cm ($data_cms->getClassMembersNodes($lang_class)){
+			next if ($cm->getAttribute("status") !~ /yes/);
+			my $cm_name = $cm->getAttribute("lemma") . " (" . $cm->getAttribute("idref") . ")";
+			$cms_classes{$id} = 1 if (SynSemClassHierarchy::Sort_all::substring_lemmas($cms_pattern,$cm_name));
+		}	
+	}
 	$lang_class=$data_cms->getNextClassNode($lang_class);
   }
 
+  if ($cms_pattern ne ""){
+	  foreach my $lang (@{$data_main->languages}){
+		  next if ($lang eq $lang_for_name);
+		  my $data_cms = $self->lang_cms($lang);
+		  my $lang_class = $data_cms->getFirstClassNode();
+		  while ($lang_class){
+  		 	  my $id = $lang_class->getAttribute("id");
+			  foreach my $cm ($data_cms->getClassMembersNodes($lang_class)){
+				  next if ($cm->getAttribute("status") !~ /yes/);
+				  my $cm_name = $cm->getAttribute("lemma") . " (" . $cm->getAttribute("idref") . ")";
+				  $cms_classes{$id} = 1 if (SynSemClassHierarchy::Sort_all::substring_lemmas($cms_pattern,$cm_name));
+			  }
+			  $lang_class=$data_cms->getNextClassNode($lang_class);
+		  }
+	  }
+  }
+
   my @classes=();
+  my %allRolesSLs = $data_main->getAllRolesSLs();
+ 
   my $class = $data_main->getFirstClassNode();
   while ($class) {
     my $id = $class->getAttribute ("id");
@@ -247,10 +283,10 @@ sub getClassList {
     my $hic = $class->getAttribute ("hi_concept");
 	my $langname = $lang_class_names{$id} || "";
 	if ($sroles_count){
-		my @class_roles = $data_main->getCommonRolesSLs($class);
+		my @class_roles = map($_->getAttribute("idref"), $data_main->getCommonRoles($class));
 		my $fitted=0;
 		foreach my $r (@class_roles){
-			$fitted++ if ($roles{$r});
+			$fitted++ if ($roles{$allRolesSLs{$r}});
 		}
 		if ($fitted eq $sroles_count){
 			my $diff_r = scalar @class_roles - $fitted;
@@ -258,16 +294,18 @@ sub getClassList {
 		}
 	}elsif($hic_s ne ""){
 		push @classes, [$class,$id,$lang_for_name, $langname,$status, 0] if (($status !~ /(merged|deleted)/) and ($hic_s eq $hic));
+	}elsif($sort_by =~ /^classmembers/){
+		push @classes, [$class, $id, $lang_for_name, $langname, $status, 0] if ($cms_classes{$id});
 	}else{
 		push @classes, [$class,$id,$lang_for_name, $langname,$status, 0];
 	}
     $class=$data_main->getNextClassNode($class);
   }
 
-  if($sort_by eq "class_id"){
+  if(($sort_by eq "class_id") or ($sort_by =~ /^classmembers/)){
 	return sort SynSemClassHierarchy::Sort_all::sort_veclass_by_ID @classes;
   }elsif($sort_by =~/^class_roles/){
-	return sort SynSemClassHierarchy::Sort_all::sort_veclass_by_roles @classes;
+	 return sort SynSemClassHierarchy::Sort_all::sort_veclass_by_roles @classes;
   }else{
 	return sort SynSemClassHierarchy::Sort_all::sort_veclass_by_lang_name @classes;
   }

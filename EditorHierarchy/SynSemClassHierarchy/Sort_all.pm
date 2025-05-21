@@ -108,6 +108,24 @@ sub equal_lemmas{
 	}
 }
 
+sub substring_lemmas{
+	my $l1=shift;
+	my $l2=shift;
+	foreach ($l1, $l2){
+		$_=~s/([áéěíóúůýžščřďťňÁÉĚÍÓÚŮÝŽŠČŘĎŤŇäöüëËÄÖÜñÑ])/_\1/g;
+		$_=~tr/[áéěíóúůýžščřďťňÁÉĚÍÓÚŮÝŽŠČŘĎŤŇäëüöÄËÜÖñÑ]/[aeeiouuyzscrdtnAEEIOUUYZSCRDTNaeuoAEUOnN]/;
+		$_=~s/ß/_z/g;
+		$_=~s/SS/_Z/g;
+		$_=~s/\(/_lp_/g;
+		$_=~s/\)/_rp_/g;
+	}
+	if ($l2 =~ /^$l1/){
+		return 1;
+	}else{
+		return 0;
+	}
+}
+
 sub parse_vallex_id{
 	my $id = shift;
 	my ($prefix, $sense)=("","");
