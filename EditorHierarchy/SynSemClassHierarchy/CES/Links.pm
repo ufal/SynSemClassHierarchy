@@ -10,7 +10,7 @@ require Tk::HList;
 require Tk::ItemStyle;
 use utf8;
 
-my @ext_lexicons = ("pdtvallex", "vallex", "czechwn", "czengvallex");
+my @ext_lexicons = ("pdtvallex", "vallex", "czechwn", "czengvallex", "nomvallex");
 my %ext_lexicons_attr=(
 		"pdtvallex" => ["idref", "lemma"],
 		"vallex" => ["idref", "lemma", "filename"],

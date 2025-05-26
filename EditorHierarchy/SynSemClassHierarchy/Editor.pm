@@ -296,7 +296,7 @@ sub create_widget {
 												-variable =>\$classmemberslist->[$classmemberslist->SHOW_POS_V]);
   $mv_pos_v->pack(qw/-padx 5 -side left/);
 
-  my $mv_pos_n= $members_visibility_frame2->Checkbutton(-text => 'Nominatives',
+  my $mv_pos_n= $members_visibility_frame2->Checkbutton(-text => 'Nouns',
 					  		  					-command => [
 								  				       \&visibility_button_pressed,
 													   				   $self, 'POS_N'],
