@@ -101,6 +101,30 @@ sub getAllExamples {
 
 	}
 
+	#ssc sentences
+	$corpref = "ssc";
+	my $lemma = $classmember->getAttribute("lemma");
+	my $examplesFile = "CES/example_sentences/Vtext_ces_SSC_" . underline_string($lemma) . ".txt";
+		  
+	my $sentencesPath=SynSemClassHierarchy::Config->getFromResources($examplesFile);
+  	if ($sentencesPath){
+		if (open (my $fh,"<:encoding(UTF-8)", $sentencesPath)){
+			while(<$fh>){
+				chomp($_);
+				next if ($_!~/^<([^>]*)><([^>]*)> (.*)$/);
+				my $sentID=$1;
+				my $verb=$2;
+				my $text=$3;
+				
+				next if ($verb !~ /^$lemma$/);
+ 				push @sents, [$corpref."##".$sentID."##".$verb."##ces##0", $text]
+			}
+			close $fh;
+		}else{	
+			print "getAllExamples: Cann't open $sentencesPath file for $examplesFile\n";
+		}
+	}
+
 	return @sents;
 }
 
@@ -114,7 +138,7 @@ sub getNodeForTrEdOpen{
 
 sub underline_string{
 	my $string = shift;
-
+	$string =~ s/ /-/g;
     $string =~ s/([áéěíóúůýžščřďťňÁÉĚÍÓÚŮÝŽŠČŘĎŤŇ])/_\1/g;
     $string=~tr/[áéěíóúůýžščřďťňÁÉĚÍÓÚŮÝŽŠČŘĎŤŇ]/[aeeiouuyzscrdtnAEEIOUUYZSCRDTN]/;
 	return $string;

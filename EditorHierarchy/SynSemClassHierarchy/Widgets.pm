@@ -127,6 +127,36 @@ sub openurl{
    }
 }
 
+sub decode_text{
+  my ($self, $text) = @_;
+
+  my $platform = $^O;
+  use Encode qw/is_utf8 decode/;
+  my $decoded_text = "";
+  $text =~ s/[\R\x{00}-\x{1F}\x{7F}\x{2028}\{2029}\x{FEFF}]+$//g;
+  if ($platform eq "MSWin32" and is_utf8($text)){
+  	return $text;
+  }
+
+  my @encoding = $platform eq "MSWin32" ? qw/cp1250 utf8 utf16le cp1252 iso-8859-2/ : qw/utf8 cp1250 iso-8859-2/;
+  my $err = 0;
+  for my $enc (@encoding){
+	my $tested = $text;
+  	eval { 
+		$decoded_text = decode($enc, $tested, 1);
+	};
+	if ($@) {
+		next ;
+	}
+
+	if ($decoded_text !~ /\x{FFFD}/ && $decoded_text =~ /^[[:print:]\s]+$/){
+		return $decoded_text;
+	}
+  }
+  print "undefined encoding or bad characters in copied text\n";
+  return "";
+}
+
 sub openTrEdForFileNodes{
   my ($self, $lang, @nodes)=@_;
   
@@ -616,6 +646,7 @@ sub open_verb_info_link{
 
 package SynSemClassHierarchy::ClassList;
 use base qw(SynSemClassHierarchy::FramedWidget);
+use utf8;
 
 require Tk::HList;
 require Tk::ItemStyle;
@@ -656,7 +687,24 @@ sub create_widget {
   my $search_f = $frame->Frame(-takefocus => 0) ->pack(qw/-side top -fill x/);
   #  my $chb_search = $search_f->Checkbutton(-text => "Exact search", -variable => \$exact_searching)->pack(qw/-side left/); 
   my $b_search = $search_f->Button(-text => "Search",-underline=>4, -command => [\&search_class, $self])->pack(qw/-side right/);
+  my $b_clip = $search_f->Button(-text => "Copy clip",-underline=>2, -command => sub { 
+										my $raw_text = eval {
+											$top->SelectionGet(-selection => "CLIPBOARD", -type => "STRING");
+										};
+										if ($@) {
+											print "reading clipboard error: $@\n";
+											$raw_text = "";
+										}
+										if ($raw_text eq ""){
+											$search_string_value="";
+										}else{
+											my $decoded_text = $self->decode_text($raw_text);
+											$decoded_text =~ s/\\u([0-9a-fA-F]{4})/chr(hex($1))/eg;
+											$search_string_value = $decoded_text;
+										}
+	  								})->pack(qw/-side left/);
   $top->toplevel->bind('<Alt-c>',sub { $b_search->invoke(); Tk->break() });
+  $top->toplevel->bind('<Alt-p>',sub { $b_clip->invoke(); Tk->break() });
   	  
   # Class List
   my $w = $frame->Scrolled(qw/HList -columns 3 -background white

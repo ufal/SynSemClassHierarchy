@@ -90,24 +90,35 @@ sub getAllExamples {
 	#ssc sentences
 	$corpref = "ssc";
 	my $lemma = $classmember->getAttribute("lemma");
-	my $examplesFile = "ENG/example_sentences/Vtext_eng_SSC_" . $lemma . ".txt";
-		  
-	my $sentencesPath=SynSemClassHierarchy::Config->getFromResources($examplesFile);
-  	if ($sentencesPath){
-		if (open (my $fh,"<:encoding(UTF-8)", $sentencesPath)){
-			while(<$fh>){
-				chomp($_);
-				next if ($_!~/^<([^>]*)><([^>]*)> (.*)$/);
-				my $sentID=$1;
-				my $verb=$2;
-				my $text=$3;
+	my $idref = $classmember->getAttribute("idref");
+	my $frame = $idref;
+	$frame =~ s/EngVallex-ID-//;
+	my $examples_ssc_lemmas_file = "ENG/example_sentences/Vtext_eng_SSC_" . $lemma . ".txt";
+	my $examples_ssc_frames_file = ($idref =~ /EngVallex-ID-/ ? "ENG/example_sentences/Vtext_eng_ssc_" . $frame . ".txt" : "");
+	
+	foreach my $examplesFile ($examples_ssc_lemmas_file, $examples_ssc_frames_file){
+		next if ($examplesFile eq "");
+		my $sentencesPath=SynSemClassHierarchy::Config->getFromResources($examplesFile);
+  		if ($sentencesPath){
+			if (open (my $fh,"<:encoding(UTF-8)", $sentencesPath)){
+				while(<$fh>){
+					chomp($_);
+					next if ($_!~/^<([^>]*)><([^>]*)> (.*)$/);
+					my $sentID=$1;
+					my $frpair=$2;
+					my $text=$3;
 				
-				next if ($verb !~ /^$lemma$/);
- 				push @sents, [$corpref."##".$sentID."##".$verb."##eng##0", $text]
+					if ($examplesFile =~ /Vtext_eng_ssc_/){
+						next if ($frpair ne $frame);
+					}else{
+						next if ($frpair ne $lemma);
+					}
+	 				push @sents, [$corpref."##".$sentID."##".$frpair."##eng##0", $text]
+				}
+				close $fh;
+			}else{	
+				print "getAllExamples: Cann't open $sentencesPath file for $examplesFile\n";
 			}
-			close $fh;
-		}else{	
-			print "getAllExamples: Cann't open $sentencesPath file for $examplesFile\n";
 		}
 	}
 

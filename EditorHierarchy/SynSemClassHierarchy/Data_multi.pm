@@ -355,7 +355,6 @@ sub addClass {
   foreach my $ll (@lang_lemmas){
   	my ($lang, $lemma)=split("#", $ll);
 	$lemmas{$lang} = $lemma;
-	print "lemma pro $lang je $lemma\n";
   }
   my $new_id = $self->generateNewClassId();
   return 0 unless defined($new_id);

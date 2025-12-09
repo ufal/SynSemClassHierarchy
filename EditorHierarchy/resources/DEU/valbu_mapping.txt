@@ -3206,3 +3206,9 @@ braten	braten	400419	2	VA0	VA1_OPT
 braten	braten	400419	3	VA0	VA1	VA2		
 braten	braten	400419	4	VA0	VA1			
 braten	braten	400419	5	VA0	VA1			
+befinden	befinden über	404062 	1	VA0	VA1		
+befinden	befinden als/für	404062 	2	VA0	VA1	VA2	
+befinden	befinden	404062 	3	VA0	VA1		
+befinden, sich	sich [A] befinden	404121	1	VA0	VA1		
+befinden, sich	sich [A] befinden	404121	2	VA0	VA1		
+befinden, sich	sich [A] befinden unter	404121	3	VA0	VA1		

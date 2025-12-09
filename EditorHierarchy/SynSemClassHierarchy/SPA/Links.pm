@@ -1197,6 +1197,8 @@ sub get_sensem_address{
   $address=$self->data()->getLexBrowsing("sensem");
   return if $address eq "";
 
+  #sensem browser is not currently available
+=not available
   if ($verbo_es ne ""){
 	  $address .= "verbo_es=" . $verbo_es;
 	  if ($sense ne ""){
@@ -1205,6 +1207,7 @@ sub get_sensem_address{
 	  	$address .= "&type=verb";
 	  }
   }
+=cut
   return $address;
 }
 

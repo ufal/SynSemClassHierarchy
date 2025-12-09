@@ -6,6 +6,7 @@ package SynSemClassHierarchy::Config;
 
 use strict;
 use utf8;
+use vars qw($config_file);
 
 my %resourcePath;
 my %tredPath;
@@ -17,7 +18,7 @@ my %beFont;
 
 my $geometry;
    
-my $config_file="../Config/config_file_hierarchy";
+$config_file="../Config/config_file_hierarchy" unless $config_file;
     
 sub loadConfig{
    my ($self)=@_;
@@ -92,7 +93,8 @@ sub saveConfig{
   my $new_geometry=$top->geometry;
 													  
   return 1 if ($new_geometry eq $geometry);
-													  
+
+  $geometry = $new_geometry;													  
   my $renamed = 0;
   
   if (-e $config_file){
