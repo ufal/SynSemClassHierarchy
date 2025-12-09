@@ -11,7 +11,6 @@ use vars qw($config_file);
 my %resourcePath;
 my %tredPath;
 my %tredDataPath;
-my %tredDataPath;
 my %languages;
 my %searchBy;
 my %beFont;
